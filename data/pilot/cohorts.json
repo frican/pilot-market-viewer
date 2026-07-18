@@ -18,6 +18,12 @@
       ],
       "theilSen": null,
       "ols": null,
+      "scoringLine": {
+        "slope": 0.0,
+        "intercept": 31910.3,
+        "basis": "msrp_curve"
+      },
+      "basis": "msrp_curve",
       "parentKey": "LX|gas",
       "msrp": 38050
     },
@@ -38,6 +44,12 @@
         "slope": -0.1564,
         "intercept": 41133.55
       },
+      "scoringLine": {
+        "slope": -0.3323,
+        "intercept": 46482.33,
+        "basis": "pooled"
+      },
+      "basis": "pooled",
       "parentKey": "Sport|gas",
       "msrp": 41250
     },
@@ -58,6 +70,12 @@
         "slope": -0.0955,
         "intercept": 41749.61
       },
+      "scoringLine": {
+        "slope": -0.1104,
+        "intercept": 42248.73,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "EX-L|gas",
       "msrp": 44050
     },
@@ -78,6 +96,12 @@
         "slope": -0.116,
         "intercept": 43775.49
       },
+      "scoringLine": {
+        "slope": -0.1195,
+        "intercept": 44745.18,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "TrailSport|gas",
       "msrp": 48350
     },
@@ -98,6 +122,12 @@
         "slope": -0.0949,
         "intercept": 43844.1
       },
+      "scoringLine": {
+        "slope": -0.1076,
+        "intercept": 44281.64,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "Touring|gas",
       "msrp": 48550
     },
@@ -118,6 +148,12 @@
         "slope": -0.1305,
         "intercept": 47990.76
       },
+      "scoringLine": {
+        "slope": -0.1339,
+        "intercept": 47916.2,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "Elite|gas",
       "msrp": 52030
     },
@@ -138,6 +174,12 @@
         "slope": -0.0833,
         "intercept": 41853.63
       },
+      "scoringLine": {
+        "slope": -0.0759,
+        "intercept": 41630.97,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "EX-L|gas",
       "msrp": 44500
     },
@@ -158,6 +200,12 @@
         "slope": -0.0369,
         "intercept": 43095.25
       },
+      "scoringLine": {
+        "slope": -0.0411,
+        "intercept": 42791.16,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "TrailSport|gas",
       "msrp": 48800
     },
@@ -178,6 +226,12 @@
         "slope": -0.1259,
         "intercept": 47077.62
       },
+      "scoringLine": {
+        "slope": -0.091,
+        "intercept": 45583.85,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "Touring|gas",
       "msrp": 49000
     },
@@ -198,6 +252,12 @@
         "slope": -0.2237,
         "intercept": 52803.51
       },
+      "scoringLine": {
+        "slope": -0.3163,
+        "intercept": 55843.84,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "Elite|gas",
       "msrp": 52480
     },
@@ -218,6 +278,12 @@
         "slope": -0.0846,
         "intercept": 40828.84
       },
+      "scoringLine": {
+        "slope": -0.0736,
+        "intercept": 40686.57,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "Sport|gas",
       "msrp": 42300
     },
@@ -238,6 +304,12 @@
         "slope": -0.1329,
         "intercept": 45441.63
       },
+      "scoringLine": {
+        "slope": -0.1212,
+        "intercept": 44684.72,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "EX-L|gas",
       "msrp": 45600
     },
@@ -258,6 +330,12 @@
         "slope": -0.1735,
         "intercept": 48898.47
       },
+      "scoringLine": {
+        "slope": -0.1841,
+        "intercept": 48850.25,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "TrailSport|gas",
       "msrp": 49400
     },
@@ -278,6 +356,12 @@
         "slope": -0.2009,
         "intercept": 50338.67
       },
+      "scoringLine": {
+        "slope": -0.1731,
+        "intercept": 49112.06,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "Touring|gas",
       "msrp": 51500
     },
@@ -298,6 +382,12 @@
         "slope": -0.2177,
         "intercept": 53108.28
       },
+      "scoringLine": {
+        "slope": -0.1838,
+        "intercept": 51493.26,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "Elite|gas",
       "msrp": 53080
     },
@@ -318,6 +408,12 @@
         "slope": -0.1212,
         "intercept": 50990.65
       },
+      "scoringLine": {
+        "slope": -0.0844,
+        "intercept": 49303.69,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "Black Edition|gas",
       "msrp": 54580
     },
@@ -338,6 +434,12 @@
         "slope": -1.2434,
         "intercept": 46372.26
       },
+      "scoringLine": {
+        "slope": -1.202,
+        "intercept": 46576.07,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "Sport|gas",
       "msrp": 44495
     },
@@ -358,6 +460,12 @@
         "slope": -0.9961,
         "intercept": 49436.73
       },
+      "scoringLine": {
+        "slope": -0.9129,
+        "intercept": 49257.3,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "EX-L|gas",
       "msrp": 46795
     },
@@ -378,6 +486,12 @@
         "slope": 5.2747,
         "intercept": 53630.34
       },
+      "scoringLine": {
+        "slope": 2.4978,
+        "intercept": 53869.51,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "Touring|gas",
       "msrp": null
     },
@@ -398,6 +512,12 @@
         "slope": -1.2006,
         "intercept": 52480.52
       },
+      "scoringLine": {
+        "slope": -3.4826,
+        "intercept": 52912.41,
+        "basis": "cohort"
+      },
+      "basis": "cohort",
       "parentKey": "TrailSport|gas",
       "msrp": 50595
     },
@@ -412,6 +532,12 @@
       ],
       "theilSen": null,
       "ols": null,
+      "scoringLine": {
+        "slope": 0.0,
+        "intercept": 54003.23,
+        "basis": "msrp_curve"
+      },
+      "basis": "msrp_curve",
       "parentKey": "Touring Blackout|gas",
       "msrp": 52295
     },
@@ -429,6 +555,12 @@
         "slope": 92.4747,
         "intercept": 55649.65
       },
+      "scoringLine": {
+        "slope": -0.2838,
+        "intercept": 56175.14,
+        "basis": "pooled"
+      },
+      "basis": "pooled",
       "parentKey": "Elite|gas",
       "msrp": 53695
     },
@@ -446,6 +578,12 @@
         "slope": 6.0923,
         "intercept": 56616.84
       },
+      "scoringLine": {
+        "slope": -0.2763,
+        "intercept": 57147.76,
+        "basis": "pooled"
+      },
+      "basis": "pooled",
       "parentKey": "Black Edition|gas",
       "msrp": 55195
     }

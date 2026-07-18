@@ -555,20 +555,37 @@ function renderCohortChart(rec) {
   datasets.push({ label: "This car", data: [pt(rec)], pointRadius: 7, pointStyle: "rectRot",
     backgroundColor: "#fff", borderColor: "#7aa2ff", borderWidth: 2 });
   if (cdata) {
-    datasets.push({ label: "Theil-Sen (robust)", type: "line", data: lineSeg(cdata.theilSen, xMin, xMax),
-      borderColor: RATING_COLORS.great, borderWidth: 2, pointRadius: 0, fill: false });
+    // PRIMARY line = the one the rating is actually measured against (cdata.scoringLine, whatever
+    // basis the engine used). For a `cohort`-basis cohort it IS the Theil-Sen; for pooled/msrp_curve
+    // it's a different line, so we draw it and keep the cohort's own Theil-Sen as a dashed reference.
+    const basis = cdata.basis || (cdata.theilSen ? "cohort" : null);
+    const primaryFit = cdata.scoringLine || cdata.theilSen;   // scoringLine absent only for n<2/none
+    if (primaryFit) {
+      datasets.push({ label: basis === "cohort" ? "Theil-Sen (robust)" : `Market line (${basis})`,
+        type: "line", data: lineSeg(primaryFit, xMin, xMax),
+        borderColor: RATING_COLORS.great, borderWidth: 2, pointRadius: 0, fill: false });
+    }
+    if (cdata.theilSen && basis && basis !== "cohort") {
+      datasets.push({ label: "Cohort own fit (reference)", type: "line",
+        data: lineSeg(cdata.theilSen, xMin, xMax),
+        borderColor: hexA(RATING_COLORS.great, .4), borderWidth: 1.5, borderDash: [4, 4],
+        pointRadius: 0, fill: false });
+    }
     datasets.push({ label: "OLS (naive)", type: "line", data: lineSeg(cdata.ols, xMin, xMax),
       borderColor: RATING_COLORS.high, borderWidth: 1.5, borderDash: [6, 4], pointRadius: 0, fill: false,
       hidden: !chartToggles.ols });
   }
 
-  // Cohorts with no robust fit (common for low-volume/thin cohorts, but also a well-populated
-  // cohort whose comps share one mileage → null Theil-Sen) get an explanatory note so the empty
-  // deal-band area reads as intentional. Report the engine's cohort size (cohorts.json n = count of
-  // cohort-ready members), falling back to the plotted comps (excluding this car) when no viz entry.
-  if (note && (!cdata || !cdata.theilSen)) {
-    const n = (cdata && cdata.n != null) ? cdata.n : cohort.filter(r => r.vin !== rec.vin).length;
-    note.textContent = `No robust fit (n=${n}).`;
+  // No scoring line at all (n<2 with no MSRP, or one shared mileage) → explain the empty band area.
+  // Otherwise, when the basis isn't the cohort's own line, say so — the green line is what the rating
+  // uses and the dashed line is the cohort's own fit, kept as a reference so the two aren't conflated.
+  if (note) {
+    if (!cdata || !(cdata.scoringLine || cdata.theilSen)) {
+      const n = (cdata && cdata.n != null) ? cdata.n : cohort.filter(r => r.vin !== rec.vin).length;
+      note.textContent = `No robust fit (n=${n}).`;
+    } else if (cdata.basis && cdata.basis !== "cohort") {
+      note.textContent = `Scored on ${cdata.basis} basis — the green “Market line” is what the rating uses; the dashed line is this cohort's own fit (reference).`;
+    }
   }
 
   detailChart = new Chart(cv, {
@@ -583,8 +600,10 @@ function renderCohortChart(rec) {
     },
     plugins: [bandPlugin],
   });
-  detailChart.$bands = (cdata && cdata.theilSen && chartToggles.bands && COHORTS.bands)
-    ? { line: cdata.theilSen, bands: COHORTS.bands } : null;
+  // Bands hug the line the rating is measured against (the scoring line), falling back to the
+  // cohort's own Theil-Sen only when there is no scoring line.
+  detailChart.$bands = (cdata && (cdata.scoringLine || cdata.theilSen) && chartToggles.bands && COHORTS.bands)
+    ? { line: cdata.scoringLine || cdata.theilSen, bands: COHORTS.bands } : null;
   detailChart.update();
 }
 
