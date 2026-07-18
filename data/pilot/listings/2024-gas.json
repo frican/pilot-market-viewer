@@ -396,8 +396,19 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "basis": "none",
+      "marketValue": 36419,
+      "expected": 36417,
+      "adjustments": {
+        "distance": -2.25
+      },
+      "dealDelta": 3073,
+      "dealPct": 0.0844,
+      "rating": "high",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
       "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
       "signals": {
         "listedDays": 3,
         "cohortMedianDaysListed": 3,

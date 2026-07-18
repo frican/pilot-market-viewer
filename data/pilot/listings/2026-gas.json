@@ -14455,13 +14455,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 54495,
-      "expected": 55040,
+      "marketValue": 54498,
+      "expected": 55043,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -595,
-      "dealPct": -0.0108,
+      "dealDelta": -598,
+      "dealPct": -0.0109,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "msrp_curve",

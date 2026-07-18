@@ -65,14 +65,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 32081,
-      "expected": 32389,
+      "marketValue": 32097,
+      "expected": 32405,
       "adjustments": {
         "franchise": 0.01,
         "distance": -12.6
       },
-      "dealDelta": -720,
-      "dealPct": -0.0222,
+      "dealDelta": -736,
+      "dealPct": -0.0227,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "msrp_curve",

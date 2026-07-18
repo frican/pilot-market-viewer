@@ -153,7 +153,7 @@
       "theilSen": null,
       "ols": null,
       "parentKey": "Sport|gas",
-      "msrp": null
+      "msrp": 41700
     },
     "2024|TrailSport|gas": {
       "year": 2024,
@@ -496,9 +496,9 @@
         "year": 2023,
         "age": 3,
         "medianMileage": 36075,
-        "marketValue": 32081,
+        "marketValue": 32097,
         "msrp": 38050,
-        "retained": 0.843
+        "retained": 0.844
       }
     ],
     "Sport|gas": [
@@ -509,6 +509,14 @@
         "marketValue": 37036,
         "msrp": 41250,
         "retained": 0.898
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 36469,
+        "marketValue": 36419,
+        "msrp": 41700,
+        "retained": 0.873
       },
       {
         "year": 2025,
@@ -686,7 +694,7 @@
         "year": 2026,
         "age": 0,
         "medianMileage": 22,
-        "marketValue": 54495,
+        "marketValue": 54498,
         "msrp": 52295,
         "retained": 1.042
       }
