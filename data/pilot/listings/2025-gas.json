@@ -65,20 +65,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 41461,
-      "expected": 42284,
+      "marketValue": 40216,
+      "expected": 41014,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01,
         "distance": -5.8500000000000005
       },
-      "dealDelta": -1690,
-      "dealPct": -0.04,
+      "dealDelta": -420,
+      "dealPct": -0.0102,
       "rating": "fair",
-      "dealScore": 0.667,
+      "dealScore": 0.5,
       "basis": "cohort",
-      "cohortN": 12,
-      "confidence": 1.0,
+      "cohortN": 8,
+      "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
         "listedDays": 13,
@@ -342,20 +342,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 40363,
-      "expected": 38344,
+      "marketValue": 39420,
+      "expected": 37449,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": 2650,
-      "dealPct": 0.0691,
+      "dealDelta": 3545,
+      "dealPct": 0.0947,
       "rating": "high",
-      "dealScore": 0.417,
+      "dealScore": 0.125,
       "basis": "cohort",
-      "cohortN": 12,
-      "confidence": 1.0,
+      "cohortN": 8,
+      "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
         "listedDays": 3,
@@ -468,20 +468,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 39235,
-      "expected": 37274,
+      "marketValue": 38603,
+      "expected": 36673,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": 2220,
-      "dealPct": 0.0596,
+      "dealDelta": 2821,
+      "dealPct": 0.0769,
       "rating": "high",
-      "dealScore": 0.5,
+      "dealScore": 0.25,
       "basis": "cohort",
-      "cohortN": 12,
-      "confidence": 1.0,
+      "cohortN": 8,
+      "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
         "listedDays": 7,
@@ -605,20 +605,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 40694,
-      "expected": 41915,
+      "marketValue": 39660,
+      "expected": 40850,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -2633,
-      "dealPct": -0.0628,
-      "rating": "good",
-      "dealScore": 0.833,
+      "dealDelta": -1568,
+      "dealPct": -0.0384,
+      "rating": "fair",
+      "dealScore": 0.75,
       "basis": "cohort",
-      "cohortN": 12,
-      "confidence": 1.0,
+      "cohortN": 8,
+      "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
         "listedDays": 25,
@@ -732,19 +732,19 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 39953,
-      "expected": 40327,
+      "marketValue": 39123,
+      "expected": 39489,
       "adjustments": {
         "franchise": 0.01,
         "distance": -25.2
       },
-      "dealDelta": -633,
-      "dealPct": -0.0157,
+      "dealDelta": 205,
+      "dealPct": 0.0052,
       "rating": "fair",
-      "dealScore": 0.583,
+      "dealScore": 0.375,
       "basis": "cohort",
-      "cohortN": 12,
-      "confidence": 1.0,
+      "cohortN": 8,
+      "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
         "listedDays": 0,
@@ -869,18 +869,18 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 39708,
-      "expected": 40105,
+      "marketValue": 38945,
+      "expected": 39335,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -2747,
-      "dealPct": -0.0685,
+      "dealDelta": -1977,
+      "dealPct": -0.0503,
       "rating": "good",
-      "dealScore": 0.917,
+      "dealScore": 1.0,
       "basis": "cohort",
-      "cohortN": 12,
-      "confidence": 1.0,
+      "cohortN": 8,
+      "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
         "listedDays": 25,
@@ -995,19 +995,19 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 41571,
-      "expected": 42403,
+      "marketValue": 40296,
+      "expected": 41102,
       "adjustments": {
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -2908,
-      "dealPct": -0.0686,
-      "rating": "good",
-      "dealScore": 1.0,
+      "dealDelta": -1607,
+      "dealPct": -0.0391,
+      "rating": "fair",
+      "dealScore": 0.875,
       "basis": "cohort",
-      "cohortN": 12,
-      "confidence": 1.0,
+      "cohortN": 8,
+      "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
         "listedDays": 11,
@@ -1108,18 +1108,18 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 38907,
-      "expected": 39296,
+      "marketValue": 38364,
+      "expected": 38748,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -2074,
-      "dealPct": -0.0528,
-      "rating": "good",
-      "dealScore": 0.75,
+      "dealDelta": -1526,
+      "dealPct": -0.0394,
+      "rating": "fair",
+      "dealScore": 0.625,
       "basis": "cohort",
-      "cohortN": 12,
-      "confidence": 1.0,
+      "cohortN": 8,
+      "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
         "listedDays": 43,
@@ -11725,7 +11725,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "Sport",
+    "trim": "Elite",
     "trimFeed": "Elite",
     "powertrain": "gas",
     "powertrainFeed": "gas",
@@ -11759,7 +11759,7 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Lease",
-    "flagged": false,
+    "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
@@ -11778,48 +11778,19 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.9,
-    "trimVerifiedBy": "site",
-    "trimFlagged": false,
-    "trimConflict": true,
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": true,
+    "cohortReady": false,
     "valuation": {
-      "marketValue": 41399,
-      "expected": 42227,
-      "adjustments": {
-        "oneOwner": 0.01,
-        "franchise": 0.01
-      },
-      "dealDelta": 6180,
-      "dealPct": 0.1463,
-      "rating": "overpriced",
-      "dealScore": 0.333,
-      "basis": "cohort",
-      "cohortN": 12,
-      "confidence": 1.0,
-      "ratingConfident": true,
-      "signals": {
-        "listedDays": 52,
-        "cohortMedianDaysListed": 12,
-        "negotiability": "high"
-      }
+      "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18",
-    "trimSite": "Sport",
-    "verifyLog": [
-      {
-        "date": "2026-07-18",
-        "how": "search",
-        "tier": "site",
-        "host": "oceanhondahanover.com",
-        "trim": "Sport",
-        "powertrain": null,
-        "strength": "snippet",
-        "mileage": null,
-        "price": null
-      }
-    ]
+    "searchedAt": null,
+    "trimSite": null,
+    "verifyLog": [],
+    "trimSearch": null
   },
   {
     "id": "api-5fnyg1h81sb093503",
@@ -11887,14 +11858,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 53806,
-      "expected": 54883,
+      "marketValue": 53736,
+      "expected": 54811,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -6373,
-      "dealPct": -0.1161,
+      "dealDelta": -6301,
+      "dealPct": -0.115,
       "rating": "great",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -11954,7 +11925,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "Sport",
+    "trim": "Elite",
     "trimFeed": "Elite",
     "powertrain": "gas",
     "powertrainFeed": "gas",
@@ -11988,7 +11959,7 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Personal Use",
-    "flagged": false,
+    "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
@@ -12007,48 +11978,19 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.9,
-    "trimVerifiedBy": "site",
-    "trimFlagged": false,
-    "trimConflict": true,
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": true,
+    "cohortReady": false,
     "valuation": {
-      "marketValue": 40559,
-      "expected": 40962,
-      "adjustments": {
-        "oneOwner": 0.01,
-        "distance": -2.7
-      },
-      "dealDelta": 7721,
-      "dealPct": 0.1885,
-      "rating": "overpriced",
-      "dealScore": 0.167,
-      "basis": "cohort",
-      "cohortN": 12,
-      "confidence": 1.0,
-      "ratingConfident": true,
-      "signals": {
-        "listedDays": 8,
-        "cohortMedianDaysListed": 12,
-        "negotiability": "low"
-      }
+      "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18",
-    "trimSite": "Sport",
-    "verifyLog": [
-      {
-        "date": "2026-07-18",
-        "how": "search",
-        "tier": "site",
-        "host": "banksautosbuickgmc.com",
-        "trim": "Sport",
-        "powertrain": null,
-        "strength": "snippet",
-        "mileage": null,
-        "price": null
-      }
-    ]
+    "searchedAt": null,
+    "trimSite": null,
+    "verifyLog": [],
+    "trimSearch": null
   },
   {
     "id": "api-5fnyg1h83sb040107",
@@ -12056,7 +11998,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "Sport",
+    "trim": "Elite",
     "trimFeed": "Elite",
     "powertrain": "gas",
     "powertrainFeed": "gas",
@@ -12090,7 +12032,7 @@
     "ownerCount": null,
     "oneOwner": null,
     "usageType": null,
-    "flagged": false,
+    "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
@@ -12109,46 +12051,18 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.9,
-    "trimVerifiedBy": "site",
-    "trimFlagged": false,
-    "trimConflict": true,
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": true,
+    "cohortReady": false,
     "valuation": {
-      "marketValue": 40705,
-      "expected": 41113,
-      "adjustments": {
-        "franchise": 0.01
-      },
-      "dealDelta": 10389,
-      "dealPct": 0.2527,
-      "rating": "overpriced",
-      "dealScore": 0.083,
-      "basis": "cohort",
-      "cohortN": 12,
-      "confidence": 1.0,
-      "ratingConfident": true,
-      "signals": {
-        "listedDays": 0,
-        "cohortMedianDaysListed": 12,
-        "negotiability": "low"
-      }
+      "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18",
-    "trimSite": "Sport",
+    "searchedAt": null,
+    "trimSite": null,
     "verifyLog": [
-      {
-        "date": "2026-07-18",
-        "how": "search",
-        "tier": "site",
-        "host": "kelly-honda.com",
-        "trim": "Sport",
-        "powertrain": null,
-        "strength": "snippet",
-        "mileage": null,
-        "price": null
-      },
       {
         "date": "2026-07-18",
         "how": "search",
@@ -12161,7 +12075,7 @@
         "price": null
       }
     ],
-    "trimSearch": "Elite"
+    "trimSearch": null
   },
   {
     "id": "api-5fnyg1h84sb070927",
@@ -12169,7 +12083,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "Sport",
+    "trim": "Elite",
     "trimFeed": "Elite",
     "powertrain": "gas",
     "powertrainFeed": "gas",
@@ -12203,7 +12117,7 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Personal Use",
-    "flagged": false,
+    "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
@@ -12222,46 +12136,18 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.9,
-    "trimVerifiedBy": "site",
-    "trimFlagged": false,
-    "trimConflict": true,
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": true,
+    "cohortReady": false,
     "valuation": {
-      "marketValue": 38693,
-      "expected": 39080,
-      "adjustments": {
-        "oneOwner": 0.01
-      },
-      "dealDelta": 7217,
-      "dealPct": 0.1847,
-      "rating": "overpriced",
-      "dealScore": 0.25,
-      "basis": "cohort",
-      "cohortN": 12,
-      "confidence": 1.0,
-      "ratingConfident": true,
-      "signals": {
-        "listedDays": 17,
-        "cohortMedianDaysListed": 12,
-        "negotiability": "medium"
-      }
+      "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18",
-    "trimSite": "Sport",
+    "searchedAt": null,
+    "trimSite": null,
     "verifyLog": [
-      {
-        "date": "2026-07-18",
-        "how": "search",
-        "tier": "site",
-        "host": "tulleybmwmanchester.com",
-        "trim": "Sport",
-        "powertrain": null,
-        "strength": "snippet",
-        "mileage": null,
-        "price": null
-      },
       {
         "date": "2026-07-18",
         "how": "search",
@@ -12274,7 +12160,7 @@
         "price": null
       }
     ],
-    "trimSearch": "Elite"
+    "trimSearch": null
   },
   {
     "id": "api-5fnyg1h85sb140399",
@@ -12342,13 +12228,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56819,
-      "expected": 57387,
+      "marketValue": 56733,
+      "expected": 57300,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -183,
-      "dealPct": -0.0032,
+      "dealDelta": -96,
+      "dealPct": -0.0017,
       "rating": "fair",
       "dealScore": 0.667,
       "basis": "pooled",

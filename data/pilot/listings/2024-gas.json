@@ -336,7 +336,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "Sport",
+    "trim": "EX-L",
     "trimFeed": "EX-L",
     "powertrain": "gas",
     "powertrainFeed": "gas",
@@ -370,7 +370,7 @@
     "ownerCount": null,
     "oneOwner": null,
     "usageType": null,
-    "flagged": false,
+    "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
@@ -389,46 +389,18 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.9,
-    "trimVerifiedBy": "site",
-    "trimFlagged": false,
-    "trimConflict": true,
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": true,
+    "cohortReady": false,
     "valuation": {
-      "marketValue": 36419,
-      "expected": 36417,
-      "adjustments": {
-        "distance": -2.25
-      },
-      "dealDelta": 3073,
-      "dealPct": 0.0844,
-      "rating": "high",
-      "dealScore": 1.0,
-      "basis": "msrp_curve",
-      "cohortN": 1,
-      "confidence": 0.19,
-      "ratingConfident": false,
-      "signals": {
-        "listedDays": 3,
-        "cohortMedianDaysListed": 3,
-        "negotiability": "low"
-      }
+      "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18",
-    "trimSite": "Sport",
+    "searchedAt": null,
+    "trimSite": null,
     "verifyLog": [
-      {
-        "date": "2026-07-18",
-        "how": "search",
-        "tier": "site",
-        "host": "grapponehonda.com",
-        "trim": "Sport",
-        "powertrain": null,
-        "strength": "snippet",
-        "mileage": null,
-        "price": 39490
-      },
       {
         "date": "2026-07-18",
         "how": "search",
@@ -442,7 +414,7 @@
       }
     ],
     "stock": "Grappone",
-    "trimSearch": "EX-L"
+    "trimSearch": null
   },
   {
     "id": "api-5fnyg1h44rb014946",

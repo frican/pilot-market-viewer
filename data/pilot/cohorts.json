@@ -25,18 +25,18 @@
       "year": 2023,
       "trim": "Sport",
       "powertrain": "gas",
-      "n": 7,
+      "n": 3,
       "mileageRange": [
         20728,
-        81043
+        57921
       ],
       "theilSen": {
-        "slope": -0.087,
-        "intercept": 40635.53
+        "slope": -0.1609,
+        "intercept": 41834.38
       },
       "ols": {
-        "slope": -0.0819,
-        "intercept": 40186.34
+        "slope": -0.1564,
+        "intercept": 41133.55
       },
       "parentKey": "Sport|gas",
       "msrp": 41250
@@ -45,18 +45,18 @@
       "year": 2023,
       "trim": "EX-L",
       "powertrain": "gas",
-      "n": 19,
+      "n": 21,
       "mileageRange": [
         22635,
         89035
       ],
       "theilSen": {
-        "slope": -0.1099,
-        "intercept": 42220.72
+        "slope": -0.1113,
+        "intercept": 42285.22
       },
       "ols": {
-        "slope": -0.0927,
-        "intercept": 41659.8
+        "slope": -0.0931,
+        "intercept": 41659.92
       },
       "parentKey": "EX-L|gas",
       "msrp": 44050
@@ -105,18 +105,18 @@
       "year": 2023,
       "trim": "Elite",
       "powertrain": "gas",
-      "n": 27,
+      "n": 28,
       "mileageRange": [
         16397,
         91986
       ],
       "theilSen": {
-        "slope": -0.1285,
-        "intercept": 47724.74
+        "slope": -0.1339,
+        "intercept": 47916.2
       },
       "ols": {
-        "slope": -0.128,
-        "intercept": 47935.37
+        "slope": -0.1305,
+        "intercept": 47990.76
       },
       "parentKey": "Elite|gas",
       "msrp": 52030
@@ -140,20 +140,6 @@
       },
       "parentKey": "EX-L|gas",
       "msrp": 44500
-    },
-    "2024|Sport|gas": {
-      "year": 2024,
-      "trim": "Sport",
-      "powertrain": "gas",
-      "n": 1,
-      "mileageRange": [
-        36469,
-        36469
-      ],
-      "theilSen": null,
-      "ols": null,
-      "parentKey": "Sport|gas",
-      "msrp": 41700
     },
     "2024|TrailSport|gas": {
       "year": 2024,
@@ -219,18 +205,18 @@
       "year": 2025,
       "trim": "Sport",
       "powertrain": "gas",
-      "n": 12,
+      "n": 8,
       "mileageRange": [
         5311,
-        33679
+        31570
       ],
       "theilSen": {
-        "slope": -0.1015,
-        "intercept": 42110.34
+        "slope": -0.0736,
+        "intercept": 40686.57
       },
       "ols": {
-        "slope": -0.1215,
-        "intercept": 44620.84
+        "slope": -0.0846,
+        "intercept": 40828.84
       },
       "parentKey": "Sport|gas",
       "msrp": 42300
@@ -339,18 +325,18 @@
       "year": 2026,
       "trim": "Sport",
       "powertrain": "gas",
-      "n": 35,
+      "n": 24,
       "mileageRange": [
-        0,
+        1,
         1778
       ],
       "theilSen": {
-        "slope": -1.6554,
-        "intercept": 47052.28
+        "slope": -1.202,
+        "intercept": 46576.07
       },
       "ols": {
-        "slope": -2.3105,
-        "intercept": 48132.2
+        "slope": -1.2434,
+        "intercept": 46372.26
       },
       "parentKey": "Sport|gas",
       "msrp": 44495
@@ -466,12 +452,12 @@
   },
   "parents": {
     "Sport|gas": {
-      "slope": -0.2829,
-      "intercept": 46944.85
+      "slope": -0.3323,
+      "intercept": 46520.66
     },
     "EX-L|gas": {
-      "slope": -0.2394,
-      "intercept": 48930.45
+      "slope": -0.24,
+      "intercept": 48801.24
     },
     "TrailSport|gas": {
       "slope": -0.2853,
@@ -482,8 +468,8 @@
       "intercept": 53469.82
     },
     "Elite|gas": {
-      "slope": -0.2721,
-      "intercept": 54960.75
+      "slope": -0.2706,
+      "intercept": 54742.33
     },
     "Black Edition|gas": {
       "slope": -0.2763,
@@ -496,51 +482,43 @@
         "year": 2023,
         "age": 3,
         "medianMileage": 36075,
-        "marketValue": 32097,
+        "marketValue": 31930,
         "msrp": 38050,
-        "retained": 0.844
+        "retained": 0.839
       }
     ],
     "Sport|gas": [
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 41382,
-        "marketValue": 37036,
+        "medianMileage": 36397,
+        "marketValue": 34389,
         "msrp": 41250,
-        "retained": 0.898
-      },
-      {
-        "year": 2024,
-        "age": 2,
-        "medianMileage": 36469,
-        "marketValue": 36419,
-        "msrp": 41700,
-        "retained": 0.873
+        "retained": 0.834
       },
       {
         "year": 2025,
         "age": 1,
-        "medianMileage": 16256,
-        "marketValue": 40461,
+        "medianMileage": 19243,
+        "marketValue": 39272,
         "msrp": 42300,
-        "retained": 0.957
+        "retained": 0.928
       },
       {
         "year": 2026,
         "age": 0,
-        "medianMileage": 5,
-        "marketValue": 47044,
+        "medianMileage": 6,
+        "marketValue": 46569,
         "msrp": 44495,
-        "retained": 1.057
+        "retained": 1.047
       }
     ],
     "EX-L|gas": [
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 45926,
-        "marketValue": 37174,
+        "medianMileage": 45787,
+        "marketValue": 37190,
         "msrp": 44050,
         "retained": 0.844
       },
@@ -641,8 +619,8 @@
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 37252,
-        "marketValue": 42937,
+        "medianMileage": 37336,
+        "marketValue": 42916,
         "msrp": 52030,
         "retained": 0.825
       },
@@ -658,9 +636,9 @@
         "year": 2025,
         "age": 1,
         "medianMileage": 11073,
-        "marketValue": 53806,
+        "marketValue": 53736,
         "msrp": 53080,
-        "retained": 1.014
+        "retained": 1.012
       },
       {
         "year": 2026,
@@ -694,9 +672,9 @@
         "year": 2026,
         "age": 0,
         "medianMileage": 22,
-        "marketValue": 54498,
+        "marketValue": 53922,
         "msrp": 52295,
-        "retained": 1.042
+        "retained": 1.031
       }
     ]
   }
