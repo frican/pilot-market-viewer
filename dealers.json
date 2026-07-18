@@ -1,0 +1,364 @@
+[
+ {
+  "name": "McGovern Honda",
+  "distanceMi": 5,
+  "domain": "mcgovernauto.com",
+  "platform": "dealerdotcom"
+ },
+ {
+  "name": "Herb Chambers Honda of Burlington",
+  "distanceMi": 5,
+  "domain": "herbchambershondaofburlington.com"
+ },
+ {
+  "name": "Albrecht Buick GMC of Wakefield",
+  "distanceMi": 8,
+  "domain": "albrechtbuickgmcwakefield.com"
+ },
+ {
+  "name": "Liberty Chevrolet",
+  "distanceMi": 9,
+  "domain": "libertychevy.com"
+ },
+ {
+  "name": "Kelly Honda",
+  "distanceMi": 10,
+  "domain": "kellyauto.com"
+ },
+ {
+  "name": "Herb Chambers Honda",
+  "distanceMi": 10,
+  "domain": "herbchamberschevrolet.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "Parkway Honda of Boston",
+  "distanceMi": 10,
+  "domain": "parkwayhondaboston.com"
+ },
+ {
+  "name": "Bernardi Honda Natick",
+  "distanceMi": 13,
+  "domain": "bernardihondanatick.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "Ira Acura Westwood",
+  "distanceMi": 14,
+  "domain": "mbwestwood.com"
+ },
+ {
+  "name": "Kelly INFINITI",
+  "distanceMi": 14,
+  "domain": "kellyinfiniti.com"
+ },
+ {
+  "name": "Ira Toyota of Danvers",
+  "distanceMi": 14,
+  "domain": "toyotaofdanvers.com"
+ },
+ {
+  "name": "Central GMC of Norwood",
+  "distanceMi": 14,
+  "domain": "centralgmcnorwood.com"
+ },
+ {
+  "name": "New Atamian Honda VinSolutions Only",
+  "distanceMi": 15,
+  "domain": "hondaatamian.com"
+ },
+ {
+  "name": "Atamian Honda",
+  "distanceMi": 15,
+  "domain": "hondaatamian.com"
+ },
+ {
+  "name": "Honda North",
+  "distanceMi": 15,
+  "domain": "hondanorth.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "Nucar Honda of Norwood Frmly Boch Honda",
+  "distanceMi": 17,
+  "domain": "nucarhondanorwood.com"
+ },
+ {
+  "name": "Nucar Honda of Westford",
+  "distanceMi": 18,
+  "domain": "iphone.nucar.com"
+ },
+ {
+  "name": "Acton Toyota of Littleton",
+  "distanceMi": 18,
+  "domain": "actontoyota.com"
+ },
+ {
+  "name": "Commonwealth Motors",
+  "distanceMi": 20,
+  "domain": "commonwealthkia.com"
+ },
+ {
+  "name": "Canobie Lake Honda",
+  "distanceMi": 23,
+  "domain": "canobielaketoyota.com"
+ },
+ {
+  "name": "Canobie Lake Toyota",
+  "distanceMi": 23,
+  "domain": "canobielakehonda.com"
+ },
+ {
+  "name": "Ocean Honda of Hanover",
+  "distanceMi": 24,
+  "domain": "oceanhondabrockton.com"
+ },
+ {
+  "name": "Ocean Honda of Brockton",
+  "distanceMi": 26,
+  "domain": "oceanhondahanover.com"
+ },
+ {
+  "name": "Honda Westborough",
+  "distanceMi": 27,
+  "domain": "hondawestborough.com",
+  "platform": "dealerdotcom"
+ },
+ {
+  "name": "Ron Bouchard Honda",
+  "distanceMi": 28,
+  "domain": "ronbouchardsnissan.com"
+ },
+ {
+  "name": "The Honda Store Lancaster Ron Bouchard Auto Group",
+  "distanceMi": 28,
+  "domain": "ronbouchardhonda.com"
+ },
+ {
+  "name": "Carfive Plaistow NH",
+  "distanceMi": 29,
+  "domain": "carfive.com"
+ },
+ {
+  "name": "Balise Honda of North Attleboro",
+  "distanceMi": 33,
+  "domain": "baliseauto.com"
+ },
+ {
+  "name": "Herb Chambers Chrysler Dodge Jeep Ram FIAT of Millbury",
+  "distanceMi": 34,
+  "domain": "herbchamberschryslerofmillbury.com"
+ },
+ {
+  "name": "Sonias Auto Sales",
+  "distanceMi": 35,
+  "domain": "soniasautosales.com"
+ },
+ {
+  "name": "Silko Honda",
+  "distanceMi": 36,
+  "domain": "silkovwofeaston.com"
+ },
+ {
+  "name": "Lundgren Honda",
+  "distanceMi": 36,
+  "domain": "lundgrencars.com"
+ },
+ {
+  "name": "Courtesy Mitsubishi",
+  "distanceMi": 38,
+  "domain": "courtesymitsubishima.com"
+ },
+ {
+  "name": "Ira Toyota of Manchester",
+  "distanceMi": 39,
+  "domain": "manchestermb.com"
+ },
+ {
+  "name": "Tulley BMW of Manchester",
+  "distanceMi": 39,
+  "domain": "tulleybmwmanchester.com"
+ },
+ {
+  "name": "Mastria Hyundai of Plymouth",
+  "distanceMi": 39,
+  "domain": "mastriamotors.com"
+ },
+ {
+  "name": "AutoFair Honda in Manchester",
+  "distanceMi": 40,
+  "domain": "autofairhonda.com"
+ },
+ {
+  "name": "Honda of Plymouth",
+  "distanceMi": 42,
+  "domain": "hondaofplymouth.com"
+ },
+ {
+  "name": "Herb Chambers Honda of Seekonk",
+  "distanceMi": 42,
+  "domain": "herbchambershondaofburlington.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "Grieco Hyundai of Johnston",
+  "distanceMi": 45,
+  "domain": "griecohonda.com"
+ },
+ {
+  "name": "Grieco Honda",
+  "distanceMi": 45,
+  "domain": "griecohonda.com"
+ },
+ {
+  "name": "Bristol Toyota Scion",
+  "distanceMi": 45,
+  "domain": "bristoltoyota.com"
+ },
+ {
+  "name": "Balise Nissan of Warwick",
+  "distanceMi": 49,
+  "domain": "baliseauto.com"
+ },
+ {
+  "name": "Balise Toyota of Warwick Used",
+  "distanceMi": 49,
+  "domain": "baliseauto.com"
+ },
+ {
+  "name": "Balise Honda of West Warwick",
+  "distanceMi": 54,
+  "domain": "baliseauto.com"
+ },
+ {
+  "name": "Grappone Ford",
+  "distanceMi": 55,
+  "domain": "grapponeford.com"
+ },
+ {
+  "name": "Colonial Honda of Dartmouth",
+  "distanceMi": 55,
+  "domain": "buycolonialhonda.com"
+ },
+ {
+  "name": "Banks Chevrolet Buick GMC",
+  "distanceMi": 56,
+  "domain": "banksautosbuickgmc.com"
+ },
+ {
+  "name": "Granite Hyundai",
+  "distanceMi": 59,
+  "domain": "granitesubaru.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "SaccucciHonda VinSolutions Only New",
+  "distanceMi": 62,
+  "domain": "saccuccihonda.com"
+ },
+ {
+  "name": "Honda of Keene",
+  "distanceMi": 67,
+  "domain": "hondaofkeene.com"
+ },
+ {
+  "name": "Planet Honda Tilton",
+  "distanceMi": 73,
+  "domain": "planethondanh.com"
+ },
+ {
+  "name": "Curry Honda Chicopee",
+  "distanceMi": 74,
+  "domain": "curryhondamass.com"
+ },
+ {
+  "name": "Lundgren Honda of Greenfield",
+  "distanceMi": 74,
+  "domain": "lundgrenhondaofgreenfield.com"
+ },
+ {
+  "name": "Lia Honda Northampton",
+  "distanceMi": 76,
+  "domain": "liachryslerjeepdodgeramnorthampton.com"
+ },
+ {
+  "name": "Balise Honda Used",
+  "distanceMi": 78,
+  "domain": "baliseauto.com"
+ },
+ {
+  "name": "Balise Honda New",
+  "distanceMi": 78,
+  "domain": "baliseauto.com"
+ },
+ {
+  "name": "Manchester Honda",
+  "distanceMi": 83,
+  "domain": "manchesterhonda.com"
+ },
+ {
+  "name": "Ocean Honda Groton",
+  "distanceMi": 86,
+  "domain": "oceanhondabrockton.com"
+ },
+ {
+  "name": "Liberty Honda",
+  "distanceMi": 89,
+  "domain": "libertyhonda.com"
+ },
+ {
+  "name": "Berlin City Honda of Portland",
+  "distanceMi": 94,
+  "domain": "berlincityhondame.com"
+ },
+ {
+  "name": "Schaller Honda",
+  "distanceMi": 98,
+  "domain": "schallerauto.com"
+ },
+ {
+  "name": "Kia of Old Saybrook",
+  "distanceMi": 99,
+  "domain": "kiaofoldsaybrook.com"
+ },
+ {
+  "name": "Westbrook Honda",
+  "distanceMi": 102,
+  "domain": "westbrookhonda.com"
+ },
+ {
+  "name": "Bedard Bros",
+  "distanceMi": 103,
+  "domain": "bedardbroschryslerjeepdodge.com"
+ },
+ {
+  "name": "Upper Valley Honda New",
+  "distanceMi": 104,
+  "domain": "uppervalleyhonda.com"
+ },
+ {
+  "name": "Executive Honda",
+  "distanceMi": 106,
+  "domain": "executivehonda.com"
+ },
+ {
+  "name": "Coggins Honda of Bennington",
+  "distanceMi": 110,
+  "domain": "cogginsauto.com"
+ },
+ {
+  "name": "Acura by Executive",
+  "distanceMi": 111,
+  "domain": "executiveautogroup.com"
+ },
+ {
+  "name": "Honda of Watertown",
+  "distanceMi": 116,
+  "domain": "hondaofwatertown.com"
+ },
+ {
+  "name": "Brandfon Honda",
+  "distanceMi": 117,
+  "domain": "brandfonhonda.com"
+ }
+]

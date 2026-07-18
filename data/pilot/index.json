@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-07-18",
+  "total": 546,
+  "cohortReady": 366,
+  "flagged": 180,
+  "shards": [
+    {
+      "shard": "2023-gas",
+      "file": "listings/2023-gas.json",
+      "count": 110,
+      "cohortReady": 82,
+      "gone": 0
+    },
+    {
+      "shard": "2024-gas",
+      "file": "listings/2024-gas.json",
+      "count": 38,
+      "cohortReady": 28,
+      "gone": 0
+    },
+    {
+      "shard": "2025-gas",
+      "file": "listings/2025-gas.json",
+      "count": 124,
+      "cohortReady": 95,
+      "gone": 0
+    },
+    {
+      "shard": "2026-gas",
+      "file": "listings/2026-gas.json",
+      "count": 274,
+      "cohortReady": 161,
+      "gone": 0
+    }
+  ]
+}

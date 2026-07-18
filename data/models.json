@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-07-18",
+  "models": [
+    {
+      "id": "pilot",
+      "make": "Honda",
+      "model": "Pilot",
+      "label": "Honda Pilot",
+      "powertrains": [
+        {
+          "id": "gas",
+          "label": "Gas"
+        }
+      ],
+      "years": [
+        2023,
+        2026
+      ],
+      "targetPowertrain": "gas"
+    }
+  ]
+}
