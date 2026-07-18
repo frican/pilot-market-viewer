@@ -11749,7 +11749,7 @@
     "interiorColor": "Black Perforated leather",
     "vin": "5FNYG1H80SB177697",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://www.oceanhondahanover.com/inventory/used-2025-honda-pilot-elite-awd-4d-sport-utility-5fnyg1h80sb177697/",
+    "url": "http://www.oceanhondamilford.com/inventory/used-2025-honda-pilot-elite-awd-4d-sport-utility-5fnyg1h80sb177697/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H80SB177697&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5FNYG1H80SB177697-1.jpg",
     "photoCount": 45,
@@ -11759,7 +11759,7 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Lease",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
@@ -11778,19 +11778,71 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 50206,
+      "expected": 51210,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "franchise": 0.01
+      },
+      "dealDelta": -2803,
+      "dealPct": -0.0547,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 52,
+        "cohortMedianDaysListed": 22,
+        "negotiability": "high"
+      }
     },
-    "searchedAt": null,
-    "trimSite": null,
-    "verifyLog": [],
-    "trimSearch": null
+    "searchedAt": "2026-07-18",
+    "trimSite": "Elite",
+    "verifyLog": [
+      {
+        "date": "2026-07-18",
+        "how": "search",
+        "tier": "site",
+        "host": "oceanhondamilford.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-07-18",
+        "how": "search",
+        "tier": "search",
+        "host": "victoryautospecials.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-07-18",
+        "how": "search",
+        "tier": "search",
+        "host": "drivershub.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "trimSearch": "Elite"
   },
   {
     "id": "api-5fnyg1h81sb093503",
@@ -11858,23 +11910,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 53736,
-      "expected": 54811,
+      "marketValue": 49458,
+      "expected": 50447,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -6301,
-      "dealPct": -0.115,
-      "rating": "great",
-      "dealScore": 1.0,
-      "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
-      "ratingConfident": false,
+      "dealDelta": -1937,
+      "dealPct": -0.0384,
+      "rating": "fair",
+      "dealScore": 0.857,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 22,
-        "cohortMedianDaysListed": 23,
+        "cohortMedianDaysListed": 22,
         "negotiability": "medium"
       }
     },
@@ -11959,7 +12011,7 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Personal Use",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
@@ -11978,18 +12030,48 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 48683,
+      "expected": 49167,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -2.7
+      },
+      "dealDelta": -484,
+      "dealPct": -0.0098,
+      "rating": "fair",
+      "dealScore": 0.714,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 8,
+        "cohortMedianDaysListed": 22,
+        "negotiability": "low"
+      }
     },
-    "searchedAt": null,
-    "trimSite": null,
-    "verifyLog": [],
+    "searchedAt": "2026-07-18",
+    "trimSite": "Elite",
+    "verifyLog": [
+      {
+        "date": "2026-07-18",
+        "how": "search",
+        "tier": "site",
+        "host": "banksautosbuickgmc.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
     "trimSearch": null
   },
   {
@@ -12022,7 +12104,7 @@
     "interiorColor": "Black",
     "vin": "5FNYG1H83SB040107",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://www.kelly-honda.com/inventory/certified-used-2025-honda-pilot-elite-awd-sport-utility-5fnyg1h83sb040107/?srsltid=AfmBOormhuGmg94nMXE6LB-6o77IdchXynk5m4StSoga6bzWqHYDarC7",
+    "url": "https://www.kellyauto.com/inventory/certified-used-2025-honda-pilot-elite-awd-sport-utility-5fnyg1h83sb040107/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H83SB040107&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5FNYG1H83SB040107-1.jpg",
     "photoCount": 25,
@@ -12032,7 +12114,7 @@
     "ownerCount": null,
     "oneOwner": null,
     "usageType": null,
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
@@ -12051,17 +12133,34 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
-    "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 48949,
+      "expected": 49438,
+      "adjustments": {
+        "franchise": 0.01
+      },
+      "dealDelta": 2064,
+      "dealPct": 0.0417,
+      "rating": "fair",
+      "dealScore": 0.286,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 0,
+        "cohortMedianDaysListed": 22,
+        "negotiability": "low"
+      }
     },
-    "searchedAt": null,
-    "trimSite": null,
+    "searchedAt": "2026-07-18",
+    "trimSite": "Elite",
     "verifyLog": [
       {
         "date": "2026-07-18",
@@ -12073,9 +12172,21 @@
         "strength": "snippet",
         "mileage": null,
         "price": null
+      },
+      {
+        "date": "2026-07-18",
+        "how": "search",
+        "tier": "site",
+        "host": "kellyauto.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
       }
     ],
-    "trimSearch": null
+    "trimSearch": null,
+    "stock": "Engine"
   },
   {
     "id": "api-5fnyg1h84sb070927",
@@ -12107,7 +12218,7 @@
     "interiorColor": "Brown",
     "vin": "5FNYG1H84SB070927",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://www.tulleybmwmanchester.com/inventory/used-2025-honda-pilot-elite-awd-4d-sport-utility-5fnyg1h84sb070927/?srsltid=AfmBOoqkiw4iiJhjHS67Dm8SPEFnnjtbcucYLgfbLbkM8n2y5940HWEV",
+    "url": "https://www.tulleybmwmanchester.com/used-vehicles/used-suv-with-3rd-row/?srsltid=AfmBOoqNbEAoZjyiOyTvaU0g025fmlejOXpFqHvrCzr64pAyjSDhPF3N",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H84SB070927&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5FNYG1H84SB070927-1.jpg",
     "photoCount": 1,
@@ -12117,7 +12228,7 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Personal Use",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
@@ -12136,17 +12247,34 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
-    "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 45303,
+      "expected": 45756,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 541,
+      "dealPct": 0.0118,
+      "rating": "fair",
+      "dealScore": 0.571,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 17,
+        "cohortMedianDaysListed": 22,
+        "negotiability": "medium"
+      }
     },
-    "searchedAt": null,
-    "trimSite": null,
+    "searchedAt": "2026-07-18",
+    "trimSite": "Elite",
     "verifyLog": [
       {
         "date": "2026-07-18",
@@ -12158,9 +12286,43 @@
         "strength": "snippet",
         "mileage": 33679,
         "price": null
+      },
+      {
+        "date": "2026-07-18",
+        "how": "search",
+        "tier": "site",
+        "host": "tulleybmwmanchester.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 33679,
+        "price": null
+      },
+      {
+        "date": "2026-07-18",
+        "how": "search",
+        "tier": "search",
+        "host": "drivershub.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-07-18",
+        "how": "search",
+        "tier": "search",
+        "host": "cars.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
       }
     ],
-    "trimSearch": null
+    "trimSearch": "Elite",
+    "stock": "MPA6655A"
   },
   {
     "id": "api-5fnyg1h85sb140399",
@@ -12228,22 +12390,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56733,
-      "expected": 57300,
+      "marketValue": 51493,
+      "expected": 52008,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -96,
-      "dealPct": -0.0017,
-      "rating": "fair",
-      "dealScore": 0.667,
-      "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
-      "ratingConfident": false,
+      "dealDelta": 5196,
+      "dealPct": 0.0999,
+      "rating": "high",
+      "dealScore": 0.143,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 394,
-        "cohortMedianDaysListed": 23,
+        "cohortMedianDaysListed": 22,
         "negotiability": "high"
       }
     },
@@ -12529,14 +12691,14 @@
       "dealDelta": 1616,
       "dealPct": 0.0417,
       "rating": "fair",
-      "dealScore": 0.333,
-      "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
-      "ratingConfident": false,
+      "dealScore": 0.429,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 23,
-        "cohortMedianDaysListed": 23,
+        "cohortMedianDaysListed": 22,
         "negotiability": "medium"
       }
     },

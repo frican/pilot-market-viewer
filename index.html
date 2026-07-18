@@ -509,17 +509,23 @@ function renderCohortChart(rec) {
     // Both branches map over the full dep array so dep[c.dataIndex] stays aligned in the tooltip.
     const hasMsrp = dep.some(d => d.retained != null);
     const usd = v => "$" + (v / 1000).toFixed(0) + "k";
-    if (!hasMsrp && note) note.textContent = "No verified MSRP for this trim — showing market value vs. age.";
+    if (!hasMsrp && note) note.textContent = "No verified MSRP for this trim — showing market value vs. mileage.";
+    // X is MILEAGE, not age: a cohort is a single (year, trim, powertrain), so age is constant
+    // within it — the depreciation signal that actually varies here is mileage. Each point is a
+    // model year plotted at that year's median mileage (labelled by year in the tooltip), so the
+    // series still reads as depreciation over the fleet's life, just indexed by miles.
+    const mi$ = v => (v / 1000).toFixed(0) + "k";
     detailChart = new Chart(cv, {
       type: "line",
       data: { datasets: [
         { label: hasMsrp ? "% of MSRP retained" : "Market value (median)",
-          data: hasMsrp ? dep.map(d => ({ x: d.age, y: d.retained == null ? null : +(d.retained * 100).toFixed(1) }))
-                        : dep.map(d => ({ x: d.age, y: d.marketValue })),
+          data: hasMsrp ? dep.map(d => ({ x: d.medianMileage, y: d.retained == null ? null : +(d.retained * 100).toFixed(1) }))
+                        : dep.map(d => ({ x: d.medianMileage, y: d.marketValue })),
           borderColor: "#7aa2ff", backgroundColor: "#7aa2ff", tension: .25, pointRadius: 4 },
       ] },
       options: { responsive: true, maintainAspectRatio: false,
-        scales: { x: { title: { display: true, text: "Age (years)" }, reverse: true, ticks: { color: "#8a8a98" }, grid: { color: "#262633" } },
+        scales: { x: { type: "linear", title: { display: true, text: "Median mileage (per model year)" },
+                       ticks: { color: "#8a8a98", callback: v => mi$(v) }, grid: { color: "#262633" } },
                   y: { title: { display: true, text: hasMsrp ? "% of MSRP retained" : "Market value" },
                        ticks: { color: "#8a8a98", callback: hasMsrp ? undefined : (v => usd(v)) }, grid: { color: "#262633" } } },
         plugins: { legend: { labels: { color: "#d8d8e0" } },
