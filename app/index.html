@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market — deal finder</title>
+<!--
+  Viewer. Loads data/index.json, lazy-loads the cohort shards, and ranks listings by how far
+  under fair value they sit (valuation.dealPct). The model lives in the pipeline (valuation.py)
+  — this file only displays. Serve from the repo root:
+      python -m http.server 8000   ->   http://localhost:8000/viewer/
+
+  The Deal column is an ABSOLUTE rating (great/good/fair/high/over) — price vs the record's
+  condition-adjusted `expected`, on fixed bands — not a within-cohort rank. The Market column
+  carries timing signals (days on lot, price drops) that mean "negotiate", kept separate from
+  value. Two gates mute a juicy-looking deal: the Trust column (HOW trim+powertrain were
+  confirmed — a wrong powertrain poisons the cohort) and the rating's own confidence (a thin
+  pooled/msrp basis can't support an absolute call). Both must be solid for the bright color.
+
+  The Triage view (view=triage) flips the question: instead of the cleared deals, it ranks the
+  FLAGGED backlog by where verification effort pays off most — deal potential (price vs same
+  year+powertrain cohort-ready comps) × clearability (one step from clearing, dealer reachable)
+  — so the next verify pass can target the highest-upside records first. Reachability is read
+  from ../dealers.json (the dealer registry verify.py builds).
+-->
+<style>
+  :root { --bg:#0f0f15; --panel:#16161f; --line:#262633; --txt:#d8d8e0; --dim:#8a8a98;
+          --good:#2dd4aa; --bad:#f26b6b; --warn:#f5a623; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--txt); font:14px/1.5 system-ui,sans-serif; }
+  header { padding:16px 20px; border-bottom:1px solid var(--line); display:flex; gap:16px; align-items:center; flex-wrap:wrap; }
+  h1 { font-size:16px; margin:0; font-weight:600; }
+  .stats { color:var(--dim); font-size:12px; }
+  .controls { margin-left:auto; display:flex; gap:8px; align-items:center; }
+  select, input { background:var(--panel); color:var(--txt); border:1px solid var(--line); border-radius:6px; padding:5px 8px; font-size:13px; }
+  table { width:100%; border-collapse:collapse; }
+  th, td { text-align:left; padding:8px 12px; border-bottom:1px solid var(--line); font-size:13px; white-space:nowrap; }
+  th { color:var(--dim); font-weight:500; cursor:pointer; user-select:none; position:sticky; top:0; background:var(--bg); }
+  td.num { text-align:right; font-variant-numeric:tabular-nums; }
+  tr:hover td { background:#1b1b26; }
+  a { color:#7aa2ff; text-decoration:none; } a:hover { text-decoration:underline; }
+  .pct-good { color:var(--good); font-weight:600; } .pct-bad { color:var(--bad); }
+  .pct-tentative { color:var(--dim); font-weight:600; }   /* underpriced but trust is thin */
+  .badge { font-size:11px; padding:1px 6px; border-radius:4px; border:1px solid var(--line); color:var(--dim); cursor:default; }
+  .b-cohort { color:var(--good); border-color:var(--good); }
+  .b-pooled { color:var(--warn); border-color:var(--warn); }
+  .b-msrp_curve { color:var(--dim); }
+  /* absolute deal rating (the headline) — CarGurus-style bands */
+  .r-great { color:var(--good); border-color:var(--good); font-weight:600; }
+  .r-good  { color:var(--good); }
+  .r-fair  { color:var(--dim); }
+  .r-high  { color:var(--warn); border-color:var(--warn); }
+  .r-overpriced { color:var(--bad); border-color:var(--bad); }
+  .r-muted { color:var(--dim); border-color:var(--line); }   /* basis too thin to trust the band */
+  /* branded title (salvage/rebuilt/flood/lemon/junk) — a hard danger badge that REPLACES the deal
+     rating: a branded car is excluded from comps and must never read as a deal. */
+  .r-branded { color:#fff; background:var(--bad); border-color:var(--bad); font-weight:700; }
+  .neg-high { color:var(--warn); }                           /* stale / price-dropped => negotiable */
+  .b-cpo { color:var(--good); border-color:var(--good); }
+  .b-cpo-mfr { color:var(--good); border-color:var(--good); font-weight:600; }
+  .b-cpo-unknown { color:var(--dim); border-color:var(--line); }   /* feed says CPO, source unverified */
+  .carfax-link { color:var(--dim); margin-left:4px; }
+  .carfax-link:hover { color:#7aa2ff; }
+  /* trust = strength of the WEAKER of (trim, powertrain); both must clear for cohort-ready */
+  .t-strong { color:var(--good); border-color:var(--good); }   /* VIN / dealer site / manual */
+  .t-mid    { color:var(--warn); border-color:var(--warn); }   /* aggregators only */
+  .t-weak   { color:var(--bad);  border-color:var(--bad);  }   /* feed-only / unresolved */
+  /* triage blocker tags — what is keeping the record out of the cohort */
+  .blk-trim { color:#7aa2ff; border-color:#7aa2ff; }          /* trim sole blocker (cheapest) */
+  .blk-powertrain { color:var(--warn); border-color:var(--warn); }
+  .blk-both { color:var(--dim); }
+  .blk-combo { color:var(--bad); border-color:var(--bad); }   /* illegal pair — needs a fix, not a search */
+  .prio-bar { display:inline-block; height:8px; border-radius:4px; background:var(--good); vertical-align:middle; }
+  .yes { color:var(--good); } .no { color:var(--dim); }
+  .gone { opacity:.4; }
+  .empty { padding:40px; text-align:center; color:var(--dim); }
+  tbody tr { cursor:pointer; }
+  /* ---- drill-down detail modal ---- */
+  .backdrop { position:fixed; inset:0; background:rgba(0,0,0,.6); display:flex; justify-content:center;
+              align-items:flex-start; padding:32px 16px; overflow:auto; z-index:50; }
+  .modal { background:var(--panel); border:1px solid var(--line); border-radius:12px; width:min(960px,100%);
+           box-shadow:0 24px 64px rgba(0,0,0,.5); }
+  .modal-head { display:flex; align-items:baseline; gap:12px; padding:16px 20px; border-bottom:1px solid var(--line);
+                position:sticky; top:0; background:var(--panel); border-radius:12px 12px 0 0; }
+  .modal-head h2 { font-size:16px; margin:0; font-weight:600; }
+  .modal-head .sub { color:var(--dim); font-size:13px; }
+  .modal-x { margin-left:auto; background:none; border:1px solid var(--line); color:var(--dim); border-radius:6px;
+             width:30px; height:30px; cursor:pointer; font-size:16px; }
+  .modal-x:hover { color:var(--txt); border-color:var(--txt); }
+  .modal-body { padding:8px 20px 20px; }
+  .sect { border-top:1px solid var(--line); padding:14px 0; }
+  .sect:first-child { border-top:none; }
+  .sect h3 { font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--dim); margin:0 0 8px; font-weight:600; }
+  .chart-wrap { position:relative; height:340px; }
+  .chart-tools { display:flex; gap:8px; align-items:center; margin-bottom:8px; flex-wrap:wrap; }
+  .chart-tools button, .chart-tools label { font-size:12px; padding:3px 8px; border:1px solid var(--line);
+            border-radius:6px; background:var(--bg); color:var(--dim); cursor:pointer; }
+  .chart-tools button.on { color:var(--txt); border-color:var(--txt); }
+  .kv { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:6px 18px; }
+  .kv div { font-size:13px; } .kv .k { color:var(--dim); margin-right:6px; }
+  .chips span { display:inline-block; font-size:12px; padding:2px 8px; margin:0 6px 6px 0; border-radius:12px;
+                border:1px solid var(--line); color:var(--txt); }
+  .adj-row { display:flex; justify-content:space-between; max-width:340px; font-size:13px; padding:1px 0; }
+  .adj-row .neg { color:var(--bad); } .adj-row .pos { color:var(--good); }
+  .vlog { font-size:12px; color:var(--dim); }
+  .vlog li { margin:2px 0; }
+  .spark { width:100%; height:48px; }
+  [hidden] { display:none !important; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<header>
+  <h1 id="appTitle">Market</h1>
+  <span class="stats" id="stats">loading…</span>
+  <div class="controls">
+    <select id="model" title="vehicle model"></select>
+    <select id="view"><option value="deals">Deals</option><option value="triage">Triage backlog</option></select>
+    <select id="powertrain"></select>
+    <select id="basis"><option value="trust">Cohort + Pooled</option><option value="">Any basis</option></select>
+    <select id="year"><option value="">All years</option></select>
+    <label class="stats"><input type="checkbox" id="hideGone" checked> hide gone</label>
+  </div>
+</header>
+
+<!-- DEALS: cohort-ready listings ranked by how far under market they sit -->
+<table id="dealsTable">
+  <thead><tr>
+    <th data-k="valuation.dealPct">Deal</th><th data-k="year">Year</th><th data-k="trim">Trim</th>
+    <th data-k="powertrain">PT</th><th data-k="_trustConf">Trust</th><th data-k="mileage" class="num">Miles</th>
+    <th data-k="price" class="num">Price</th><th data-k="valuation.expected" class="num">Expected</th>
+    <th>Basis</th><th data-k="valuation.signals.listedDays" class="num">Market</th>
+    <th data-k="distanceMi" class="num">Dist</th><th data-k="dealer">Dealer</th>
+    <th>Condition</th><th>VIN</th>
+  </tr></thead>
+  <tbody id="rows"></tbody>
+</table>
+
+<!-- TRIAGE: flagged backlog ranked by upside-of-clearing, to aim the next verify pass -->
+<table id="triageTable" hidden>
+  <thead><tr>
+    <th data-k="_prio">Priority</th><th data-k="year">Year</th><th data-k="trim">Trim?</th>
+    <th data-k="powertrain">PT?</th><th data-k="_blocker">Blocker</th>
+    <th data-k="_blockConf" class="num">Blk conf</th><th data-k="price" class="num">Price</th>
+    <th data-k="_dealGap" class="num">vs cohort</th><th data-k="_reachable">Reach</th>
+    <th data-k="mileage" class="num">Miles</th><th data-k="dealer">Dealer</th>
+    <th>Condition</th><th>VIN</th>
+  </tr></thead>
+  <tbody id="triageRows"></tbody>
+</table>
+
+<div class="empty" id="empty" hidden></div>
+
+<!-- drill-down detail: full price history, cohort chart, carfax/provenance, trust, adjustments, specs -->
+<div class="backdrop" id="detail" hidden role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+  <div class="modal" role="document">
+    <div class="modal-head">
+      <h2 id="detailTitle">—</h2><span class="sub" id="detailSub"></span>
+      <button class="modal-x" id="detailClose" aria-label="Close detail">×</button>
+    </div>
+    <div class="modal-body" id="detailBody"></div>
+  </div>
+</div>
+
+<script>
+const ROOT = "data/";  // published: viewer at app/, data at app/data/ (was "../data/" in-repo)          // shared data root; each model lives under ROOT + id + "/"
+let MODELS = [], MODEL = null;    // models.json manifest + the selected model
+let DATA = ROOT;                  // per-model base path (ROOT + "<id>/"), set by selectModel
+let ALL = [], REACHABLE = new Set(), COHORTS = null;
+let detailChart = null;   // active Chart.js instance in the drill-down
+let sortKey = "valuation.dealPct", sortDir = 1;
+let triSortKey = "_prio", triSortDir = -1;          // triage defaults: highest priority first
+
+const get = (o, path) => path.split(".").reduce((v, k) => (v == null ? v : v[k]), o);
+const f$ = n => n == null ? "—" : "$" + Math.round(n).toLocaleString();
+const fPct = n => n == null ? "—" : (n > 0 ? "+" : "") + (n * 100).toFixed(1) + "%";
+const fConf = n => n == null ? "?" : n.toFixed(2);
+const view = () => document.getElementById("view").value;
+// HTML-escape: every record is third-party (auto.dev feed + scraped dealer pages), so dealer/
+// trim/vin/url strings are untrusted before they hit innerHTML — escape to fix stray '&' in
+// dealer names today and to close attribute-breakout in the href.
+const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g,
+  c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+// --- trust (Deals view) --------------------------------------------------------------------
+// How a field's value was confirmed, mapped to a strength. manual/vin/site are independently
+// trustworthy; "search" means aggregators only (one listing's echoes can't run away, but it's
+// weaker); feed/none never clear on their own. See confidence.py for the tiers.
+const TIER_STRENGTH = { manual: "strong", vin: "strong", site: "strong", search: "mid", feed: "weak", none: "weak" };
+const TIER_ABBR     = { manual: "man", vin: "VIN", site: "site", search: "agg", feed: "feed", none: "—" };
+
+// A record is only as trustworthy as its WEAKER field — a rock-solid VIN powertrain doesn't
+// help if the trim that completes the cohort key was a bare feed guess. Drive the badge off
+// whichever of (trim, powertrain) has the lower confidence.
+function trustOf(r) {
+  const pc = r.powertrainConfidence, tc = r.trimConfidence;
+  const weakPt = (pc == null ? -1 : pc) <= (tc == null ? -1 : tc);
+  const tier = (weakPt ? r.powertrainVerifiedBy : r.trimVerifiedBy) || "none";
+  return {
+    strength: TIER_STRENGTH[tier] || "weak",
+    label: (weakPt ? "P:" : "T:") + (TIER_ABBR[tier] || tier),
+    title: `powertrain: ${r.powertrainVerifiedBy || "none"} ${fConf(pc)}  ·  trim: ${r.trimVerifiedBy || "none"} ${fConf(tc)}`,
+  };
+}
+
+// --- condition signals (Deals + Triage) ------------------------------------------------------
+// Owner/accident history is an unverified pass-through from the feed (no confidence tier like
+// trim/powertrain), shown as plain info, not trust-gated. 559 records predate this data in the
+// feed and show "—". CPO is resolved server-side (confidence.resolve_cpo) into 4 states:
+// "manufacturer" (an OEM program phrase like "Toyota Certified" was mined off the dealer's own
+// VDP) / "dealer" (a generic certified mention on a VDP, no OEM program) / "unknown" (the feed
+// flags CPO but no VDP evidence attributes the source — most feed-CPO records, which clear via
+// snippet-only search and never get a VDP fetch) / "none".
+function conditionOf(r) {
+  const parts = [];
+  if (r.ownerCount != null) parts.push(`${r.ownerCount} owner${r.ownerCount === 1 ? "" : "s"}`);
+  else if (r.oneOwner === true) parts.push("1 owner");
+  if (r.accidentCount != null) parts.push(`${r.accidentCount} accident${r.accidentCount === 1 ? "" : "s"}`);
+  return parts.length ? parts.join(" · ") : "—";
+}
+function cpoBadge(r) {
+  if (r.cpo === "manufacturer") return `<span class="badge b-cpo-mfr" title="Manufacturer-certified (OEM program)">OEM CPO</span> `;
+  if (r.cpo === "dealer") return `<span class="badge b-cpo" title="Dealer-certified (no OEM program)">CPO·D</span> `;
+  if (r.cpo === "unknown") return `<span class="badge b-cpo-unknown" title="Certified per feed — source (dealer vs OEM) unverified">CPO?</span> `;
+  if (r.cpo == null) return `<span class="badge">—</span> `;
+  return "";  // "none" => no badge (absence reads as not-certified; keeps the table uncluttered)
+}
+function carfaxLink(r) {
+  const u = (typeof r.carfaxUrl === "string" && /^https?:/.test(r.carfaxUrl)) ? r.carfaxUrl : null;
+  return u ? `<a class="carfax-link" href="${esc(u)}" target="_blank" title="Carfax report">CF</a>` : "";
+}
+// `expected` is condition-adjusted off `marketValue` (accidents/owners/CPO/distance, see
+// valuation.py layer 2); this renders that breakdown so the adjustment is visible, not baked in.
+const ADJ_LABEL = { accidents: "Accidents", owners: "Owners", oneOwner: "1-owner", cpo: "CPO", distance: "Distance", optionLift: "Options" };
+const ADJ_DOLLARS = { distance: true, optionLift: true };   // dollar deltas, not pct
+function adjustmentTitle(v) {
+  const adj = v.adjustments;
+  if (!adj || !Object.keys(adj).length) return "";
+  const parts = Object.entries(adj).map(([k, d]) =>
+    `${ADJ_LABEL[k] || k}: ${ADJ_DOLLARS[k] ? f$(d) : fPct(d)}`);
+  return `title="${esc(`market ${f$(v.marketValue)} · ${parts.join(" · ")}`)}"`;
+}
+
+// --- deal rating + market-timing signals (Deals view, valuation.py layers 3-4) ---------------
+// The headline is an ABSOLUTE rating (price vs expected on fixed bands), not a within-cohort
+// rank — in an overpriced cohort the least-bad car still isn't a deal. The badge is muted when
+// `ratingConfident` is false (a thin pooled/msrp basis can't support an absolute call).
+const RATING_LABEL = { great: "Great", good: "Good", fair: "Fair", high: "High", overpriced: "Over" };
+function ratingBadge(v) {
+  // A branded title (from VDP text or an identity-guarded search snippet) OVERRIDES the deal
+  // rating with a hard danger badge — the car is excluded from comps and must never read as a deal.
+  if (v.titleBrand) {
+    const src = v.titleBrandSource || "vdp";
+    return `<span class="badge r-branded" title="Branded title (source: ${esc(src)}) — excluded from comps">${esc(String(v.titleBrand).toUpperCase())}</span>`;
+  }
+  const r = v.rating;
+  if (!r) return `<span class="badge">—</span>`;
+  const cls = v.ratingConfident === false ? "r-muted" : "r-" + r;
+  const conf = v.confidence == null ? "" : ` · conf ${v.confidence.toFixed(2)}`;
+  const title = `${RATING_LABEL[r] || r} · ${fPct(v.dealPct)} vs expected · ${v.basis}${v.cohortN ? " n=" + v.cohortN : ""}${conf}`;
+  return `<span class="badge ${cls}" title="${esc(title)}">${RATING_LABEL[r] || r}</span>`;
+}
+// Market-timing facts kept SEPARATE from value (vAuto's velocity idea): days on lot, price
+// drops, and a derived negotiability — the stale / dropped car is the one to negotiate.
+function signalsCell(v) {
+  const s = v.signals || {};
+  const hot = s.negotiability === "high";
+  const bits = [];
+  if (s.listedDays != null) {
+    const cm = s.cohortMedianDaysListed;
+    bits.push(`<span class="${hot ? "neg-high" : "stats"}" title="${esc(cm != null ? "cohort median " + cm + "d" : "")}">${s.listedDays}d</span>`);
+  }
+  if (s.priceDrop) bits.push(`<span class="neg-high" title="dropped over ${s.priceDrop.drops} step(s)">▼${f$(s.priceDrop.total)}</span>`);
+  if (!bits.length) return "—";
+  return `<span title="negotiability: ${s.negotiability || "—"}">${bits.join(" ")}</span>`;
+}
+
+// --- triage (Triage view) ------------------------------------------------------------------
+// What's keeping the record out of the cohort. Trim-only is the cheapest to clear (powertrain
+// already VIN-resolved → one corroboration does it); comboConflict is an illegal trim+powertrain
+// pair that a search can't fix (it needs a data correction), so it ranks at the bottom.
+function blockerOf(r) {
+  if (r.comboConflict) return "combo";
+  if (r.trimFlagged && r.powertrainFlagged) return "both";
+  if (r.powertrainFlagged) return "powertrain";
+  return "trim";
+}
+
+// Median asking price of CLEARED comps in the same (year, powertrain) — the reference a flagged
+// record's price is judged against. Trim is unknown while flagged, so year+powertrain is the
+// fair coarse cohort. Computed once over the cohort-ready set.
+let PEER_MED = {};
+function buildPeerMedians() {
+  const groups = {};
+  for (const r of ALL) {
+    if (!r.cohortReady || r.gone || r.price == null) continue;
+    (groups[`${r.year}|${r.powertrain}`] ||= []).push(r.price);
+  }
+  PEER_MED = {};
+  for (const k in groups) {
+    const a = groups[k].sort((x, y) => x - y), m = a.length >> 1;
+    PEER_MED[k] = a.length % 2 ? a[m] : (a[m - 1] + a[m]) / 2;   // true median for even cohorts
+  }
+}
+
+// Priority = deal potential × clearability × reachability, each in [0,1], deal-weighted so a
+// potentially-great deal that's merely stuck floats above a meh car that's easy to clear.
+function triageScore(r) {
+  const med = PEER_MED[`${r.year}|${r.powertrain}`];
+  const gap = (med && r.price != null) ? (med - r.price) / med : 0;   // +ve = cheaper than comps
+  const deal = Math.max(0, Math.min(1, gap / 0.15));                   // 15% under comps -> maxed
+  const blk = blockerOf(r);
+  const close = blk === "combo" ? 0 : blk === "trim" ? 0.9 : blk === "powertrain" ? 0.5 : 0.35;
+  const reach = REACHABLE.has(r.dealer) ? 1 : 0;
+  const score = 0.45 * deal + 0.35 * close + 0.20 * reach;
+  const bf = blk === "powertrain" ? r.powertrainConfidence
+           : blk === "both" ? Math.min(r.trimConfidence ?? 0, r.powertrainConfidence ?? 0)
+           : r.trimConfidence;
+  return { score, blocker: blk, dealGap: (med && r.price != null) ? gap : null, reach: reach === 1, blockConf: bf ?? null };
+}
+
+async function load() {
+  const idx = await fetch(DATA + "index.json").then(r => r.json());
+  const shards = await Promise.all(idx.shards.map(s => fetch(DATA + s.file).then(r => r.json())));
+  ALL = shards.flat();
+  // dealer registry (verify.py) — a record is "reachable" (clearable cheaply) if its dealer has
+  // a known domain. Optional: the viewer still works if dealers.json isn't served.
+  try {
+    const reg = await fetch("../dealers.json").then(r => r.json());
+    REACHABLE = new Set(reg.filter(d => d.domain).map(d => d.name));
+  } catch (e) { REACHABLE = new Set(); }
+
+  // per-cohort visualization data (engine-computed lines/bands/depreciation). Optional: the
+  // viewer still works without it — the drill-down just omits the chart.
+  try { COHORTS = await fetch(DATA + "cohorts.json").then(r => r.json()); } catch (e) { COHORTS = null; }
+
+  buildPeerMedians();
+  ALL.forEach(r => {
+    // precompute the weaker-field confidence so the Trust column is sortable like any other key.
+    r._trustConf = Math.min(r.trimConfidence == null ? 0 : r.trimConfidence,
+                            r.powertrainConfidence == null ? 0 : r.powertrainConfidence);
+    if (r.flagged) {
+      const t = triageScore(r);
+      r._prio = t.score; r._blocker = t.blocker; r._dealGap = t.dealGap;
+      r._reachable = t.reach ? 1 : 0; r._blockConf = t.blockConf;
+    }
+  });
+  document.getElementById("stats").textContent =
+    `${idx.total} listings · ${idx.cohortReady} cohort-ready · ${idx.flagged} flagged · as of ${idx.generatedAt}`;
+  const years = [...new Set(ALL.map(r => r.year))].sort();
+  // rebuilt from scratch each load so switching models doesn't append duplicate year options
+  document.getElementById("year").innerHTML =
+    `<option value="">All years</option>` + years.map(y => `<option>${y}</option>`).join("");
+  render();
+}
+
+function commonFilter(r) {
+  const pt = document.getElementById("powertrain").value;
+  const year = document.getElementById("year").value;
+  const hideGone = document.getElementById("hideGone").checked;
+  if (pt && r.powertrain !== pt) return false;
+  if (year && String(r.year) !== year) return false;
+  if (hideGone && r.gone) return false;
+  return true;
+}
+
+function sortBy(rows, key, dir) {
+  return rows.sort((a, b) => {
+    const x = get(a, key), y = get(b, key);
+    if (x == null) return 1; if (y == null) return -1;
+    return (x > y ? 1 : x < y ? -1 : 0) * dir;
+  });
+}
+
+function renderDeals() {
+  const basis = document.getElementById("basis").value;
+  let rows = ALL.filter(r => {
+    if (!commonFilter(r)) return false;
+    const b = get(r, "valuation.basis");
+    if (basis === "trust" && !["cohort", "pooled"].includes(b)) return false;
+    if (basis === "" && (b === "not-ready" || b == null)) return false;
+    return true;
+  });
+  sortBy(rows, sortKey, sortDir);
+  document.getElementById("rows").innerHTML = rows.map(r => {
+    const v = r.valuation || {}, dp = v.dealPct;
+    const tr = trustOf(r);
+    // an underpriced deal only earns the bright "good" color when BOTH the classification
+    // behind its cohort is solid AND the valuation basis is dense enough to trust the band;
+    // otherwise show it muted so a shaky clear or a thin fit can't masquerade as a steal.
+    const solid = tr.strength === "strong" && v.ratingConfident !== false;
+    const cls = dp == null ? ""
+      : dp < -0.03 ? (solid ? "pct-good" : "pct-tentative")
+      : dp > 0.03 ? "pct-bad" : "";
+    const url = (typeof r.url === "string" && /^https?:/.test(r.url)) ? r.url : null;
+    return `<tr class="${r.gone ? "gone" : ""}" data-vin="${esc(r.vin || "")}">
+      <td class="num">${ratingBadge(v)} <span class="${cls}">${fPct(dp)}</span></td>
+      <td>${r.year}</td><td>${esc(r.trim || "—")}</td>
+      <td>${r.powertrain || "—"}</td>
+      <td><span class="badge t-${tr.strength}" title="${tr.title}">${tr.label}</span></td>
+      <td class="num">${(r.mileage || 0).toLocaleString()}</td>
+      <td class="num">${f$(r.price)}</td><td class="num" ${adjustmentTitle(v)}>${f$(v.expected)}</td>
+      <td><span class="badge b-${v.basis}">${v.basis || "—"}${v.cohortN ? " · n=" + v.cohortN : ""}</span></td>
+      <td class="num">${signalsCell(v)}</td>
+      <td class="num">${r.distanceMi == null ? "—" : r.distanceMi + "mi"}</td>
+      <td>${esc(r.dealer || "—")}</td>
+      <td>${cpoBadge(r)}${esc(conditionOf(r))}</td>
+      <td>${url ? `<a href="${esc(url)}" target="_blank">${esc((r.vin || "").slice(-6))}</a>` : esc((r.vin || "").slice(-6))}${carfaxLink(r)}</td>
+    </tr>`;
+  }).join("");
+  return rows.length;
+}
+
+function renderTriage() {
+  let rows = ALL.filter(r => r.flagged && commonFilter(r));
+  sortBy(rows, triSortKey, triSortDir);
+  const maxP = Math.max(0.001, ...rows.map(r => r._prio || 0));
+  document.getElementById("triageRows").innerHTML = rows.map(r => {
+    const blk = r._blocker;
+    const url = (typeof r.url === "string" && /^https?:/.test(r.url)) ? r.url : null;
+    const gap = r._dealGap == null ? "—"
+      : `<span class="${r._dealGap > 0.03 ? "pct-good" : r._dealGap < -0.03 ? "pct-bad" : ""}">${fPct(-r._dealGap)}</span>`;
+    return `<tr class="${r.gone ? "gone" : ""}" data-vin="${esc(r.vin || "")}">
+      <td title="deal×clearability×reachability"><span class="prio-bar" style="width:${Math.round(46 * (r._prio || 0) / maxP)}px"></span>
+        <span class="stats"> ${Math.round(100 * (r._prio || 0))}</span></td>
+      <td>${r.year}</td><td>${esc(r.trim || "—")}</td><td>${r.powertrain || "—"}</td>
+      <td><span class="badge blk-${blk}">${blk}</span></td>
+      <td class="num">${fConf(r._blockConf)}</td>
+      <td class="num">${f$(r.price)}</td>
+      <td class="num">${gap}</td>
+      <td class="${r._reachable ? "yes" : "no"}">${r._reachable ? "✓" : "—"}</td>
+      <td class="num">${(r.mileage || 0).toLocaleString()}</td>
+      <td>${esc(r.dealer || "—")}</td>
+      <td>${cpoBadge(r)}${esc(conditionOf(r))}</td>
+      <td>${url ? `<a href="${esc(url)}" target="_blank">${esc((r.vin || "").slice(-6))}</a>` : esc((r.vin || "").slice(-6))}${carfaxLink(r)}</td>
+    </tr>`;
+  }).join("");
+  return rows.length;
+}
+
+function render() {
+  const triage = view() === "triage";
+  document.getElementById("dealsTable").hidden = triage;
+  document.getElementById("triageTable").hidden = !triage;
+  document.getElementById("basis").hidden = triage;        // basis is meaningless for flagged rows
+  const n = triage ? renderTriage() : renderDeals();
+  const empty = document.getElementById("empty");
+  empty.hidden = n > 0;
+  empty.textContent = triage ? "No flagged records match — backlog is clear for this filter."
+                             : "No cohort-ready deals match — run the verify worker to clear trims/powertrains.";
+}
+
+function wireSort(tableId, getKey, setKey) {
+  document.querySelectorAll(`#${tableId} th[data-k]`).forEach(th => th.onclick = () => {
+    const k = th.dataset.k;
+    setKey(k, getKey().key === k ? -getKey().dir : (tableId === "triageTable" ? -1 : 1));
+    render();
+  });
+}
+wireSort("dealsTable", () => ({ key: sortKey, dir: sortDir }), (k, d) => { sortKey = k; sortDir = d; });
+wireSort("triageTable", () => ({ key: triSortKey, dir: triSortDir }), (k, d) => { triSortKey = k; triSortDir = d; });
+
+// ============ drill-down detail =============================================================
+const RATING_COLORS = { great:"#2dd4aa", good:"#5fbf9b", fair:"#8a8a98", high:"#f5a623", overpriced:"#f26b6b" };
+const cohortKey = r => `${r.year}|${r.trim}|${r.powertrain}`;
+const medianOf = a => { const s = a.filter(x => x != null).sort((x, y) => x - y), n = s.length;
+  return n ? (n % 2 ? s[n >> 1] : (s[(n >> 1) - 1] + s[n >> 1]) / 2) : null; };
+const hexA = (hex, a) => { const n = parseInt(hex.slice(1), 16);
+  return `rgba(${n>>16&255},${n>>8&255},${n&255},${a})`; };
+const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
+
+// deal-rating bands shaded to FOLLOW the (sloped) Theil-Sen line, drawn behind the points so the
+// table's great/good/fair/high/over colors read straight off the chart.
+const bandPlugin = {
+  id: "cohortBands",
+  beforeDatasetsDraw(chart) {
+    const cfg = chart.$bands; if (!cfg || !cfg.line) return;
+    const { ctx, chartArea: ca, scales: { x, y } } = chart;
+    const L = cfg.line, b = cfg.bands;
+    const yp = (mi, m) => clamp(y.getPixelForValue((L.slope * mi + L.intercept) * m), ca.top, ca.bottom);
+    const mults = [1 + b.great, 1 + b.good, 1 + b.fair, 1 + b.high];   // 0.90 0.95 1.05 1.10
+    const cols = ["great", "good", "fair", "high", "overpriced"].map(k => RATING_COLORS[k]);
+    const eL = [ca.bottom, ...mults.map(m => yp(x.min, m)), ca.top];
+    const eR = [ca.bottom, ...mults.map(m => yp(x.max, m)), ca.top];
+    const xL = x.getPixelForValue(x.min), xR = x.getPixelForValue(x.max);
+    ctx.save();
+    for (let i = 0; i < 5; i++) {
+      ctx.beginPath();
+      ctx.moveTo(xL, eL[i]); ctx.lineTo(xR, eR[i]);
+      ctx.lineTo(xR, eR[i + 1]); ctx.lineTo(xL, eL[i + 1]); ctx.closePath();
+      ctx.fillStyle = hexA(cols[i], 0.10); ctx.fill();
+    }
+    ctx.restore();
+  },
+};
+if (window.Chart) Chart.register(bandPlugin);
+
+const chartToggles = { ols: false, parent: false, bands: true, mode: "scatter" };
+let CURRENT_REC = null;
+
+function lineSeg(fit, xMin, xMax) {
+  return fit ? [{ x: xMin, y: fit.slope * xMin + fit.intercept }, { x: xMax, y: fit.slope * xMax + fit.intercept }] : [];
+}
+
+function renderCohortChart(rec) {
+  const cv = document.getElementById("cohortChart");
+  if (!cv || !window.Chart) return;
+  if (detailChart) { detailChart.destroy(); detailChart = null; }
+  const note = document.getElementById("chartNote");
+  if (note) note.textContent = "";
+  const key = cohortKey(rec);
+  const cdata = (COHORTS && COHORTS.cohorts) ? COHORTS.cohorts[key] : null;
+
+  if (chartToggles.mode === "depreciation") {
+    const dep = (COHORTS && COHORTS.depreciation) ? COHORTS.depreciation[`${rec.trim}|${rec.powertrain}`] : null;
+    if (!dep || !dep.length) { if (note) note.textContent = "No depreciation series for this trim yet."; return; }
+    // MSRP is absent for some models (e.g. the feed mislabels the trim, so there's no verified base
+    // MSRP) — fall back to a market-value-vs-age series so the chart stays honest instead of blank.
+    // Both branches map over the full dep array so dep[c.dataIndex] stays aligned in the tooltip.
+    const hasMsrp = dep.some(d => d.retained != null);
+    const usd = v => "$" + (v / 1000).toFixed(0) + "k";
+    if (!hasMsrp && note) note.textContent = "No verified MSRP for this trim — showing market value vs. age.";
+    detailChart = new Chart(cv, {
+      type: "line",
+      data: { datasets: [
+        { label: hasMsrp ? "% of MSRP retained" : "Market value (median)",
+          data: hasMsrp ? dep.map(d => ({ x: d.age, y: d.retained == null ? null : +(d.retained * 100).toFixed(1) }))
+                        : dep.map(d => ({ x: d.age, y: d.marketValue })),
+          borderColor: "#7aa2ff", backgroundColor: "#7aa2ff", tension: .25, pointRadius: 4 },
+      ] },
+      options: { responsive: true, maintainAspectRatio: false,
+        scales: { x: { title: { display: true, text: "Age (years)" }, reverse: true, ticks: { color: "#8a8a98" }, grid: { color: "#262633" } },
+                  y: { title: { display: true, text: hasMsrp ? "% of MSRP retained" : "Market value" },
+                       ticks: { color: "#8a8a98", callback: hasMsrp ? undefined : (v => usd(v)) }, grid: { color: "#262633" } } },
+        plugins: { legend: { labels: { color: "#d8d8e0" } },
+          tooltip: { callbacks: { label: c => { const d = dep[c.dataIndex];
+            const mi = d.medianMileage != null ? ` @ ${d.medianMileage.toLocaleString()}mi` : "";
+            return hasMsrp
+              ? `${d.year}: ${c.parsed.y}% retained · mkt ${f$(d.marketValue)}${mi} · MSRP ${f$(d.msrp)}`
+              : `${d.year}: ${f$(d.marketValue)}${mi}`; } } } } },
+    });
+    return;
+  }
+
+  const inCohort = r => !r.gone && r.price != null && r.mileage != null && cohortKey(r) === key;
+  const inParent = r => !r.gone && r.price != null && r.mileage != null
+    && r.year === rec.year && r.powertrain === rec.powertrain && r.trim !== rec.trim;
+  const cohort = ALL.filter(inCohort);
+  const parent = ALL.filter(inParent);
+  const pt = r => ({ x: r.mileage, y: r.price, _r: r });
+  const miles = cohort.map(r => r.mileage).concat(rec.mileage || 0);
+  const xMin = Math.min(...miles), xMax = Math.max(...miles);
+
+  const datasets = [];
+  datasets.push({ label: "Other trims (same year)", data: parent.map(pt), pointRadius: 2.5,
+    backgroundColor: hexA("#8a8a98", .3), hidden: !chartToggles.parent });
+  datasets.push({ label: "Cohort comps", data: cohort.filter(r => r.vin !== rec.vin).map(pt),
+    pointRadius: 4, backgroundColor: hexA("#7aa2ff", .85) });
+  datasets.push({ label: "This car", data: [pt(rec)], pointRadius: 7, pointStyle: "rectRot",
+    backgroundColor: "#fff", borderColor: "#7aa2ff", borderWidth: 2 });
+  if (cdata) {
+    datasets.push({ label: "Theil-Sen (robust)", type: "line", data: lineSeg(cdata.theilSen, xMin, xMax),
+      borderColor: RATING_COLORS.great, borderWidth: 2, pointRadius: 0, fill: false });
+    datasets.push({ label: "OLS (naive)", type: "line", data: lineSeg(cdata.ols, xMin, xMax),
+      borderColor: RATING_COLORS.high, borderWidth: 1.5, borderDash: [6, 4], pointRadius: 0, fill: false,
+      hidden: !chartToggles.ols });
+  }
+
+  // Cohorts with no robust fit (common for low-volume models like Venza, but also a well-populated
+  // cohort whose comps share one mileage → null Theil-Sen) get an explanatory note so the empty
+  // deal-band area reads as intentional. Report the engine's cohort size (cohorts.json n = count of
+  // cohort-ready members), falling back to the plotted comps (excluding this car) when no viz entry.
+  if (note && (!cdata || !cdata.theilSen)) {
+    const n = (cdata && cdata.n != null) ? cdata.n : cohort.filter(r => r.vin !== rec.vin).length;
+    note.textContent = `No robust fit (n=${n}).`;
+  }
+
+  detailChart = new Chart(cv, {
+    type: "scatter",
+    data: { datasets },
+    options: { responsive: true, maintainAspectRatio: false, animation: false,
+      scales: { x: { title: { display: true, text: "Mileage" }, ticks: { color: "#8a8a98", callback: v => (v / 1000) + "k" }, grid: { color: "#262633" } },
+                y: { title: { display: true, text: "Price" }, ticks: { color: "#8a8a98", callback: v => "$" + (v / 1000).toFixed(0) + "k" }, grid: { color: "#262633" } } },
+      plugins: { legend: { labels: { color: "#d8d8e0", filter: i => i.text !== "OLS (naive)" || chartToggles.ols } },
+        tooltip: { callbacks: { label: c => { const r = c.raw && c.raw._r; if (!r) return c.dataset.label;
+          const v = r.valuation || {}; return `${r.trim} · ${(r.mileage||0).toLocaleString()}mi · ${f$(r.price)}${v.dealPct!=null ? " · "+fPct(v.dealPct)+" "+(v.rating||"") : ""}`; } } } },
+    },
+    plugins: [bandPlugin],
+  });
+  detailChart.$bands = (cdata && cdata.theilSen && chartToggles.bands && COHORTS.bands)
+    ? { line: cdata.theilSen, bands: COHORTS.bands } : null;
+  detailChart.update();
+}
+
+// animate each cohort point falling from its first listed price to its current price (price-drop
+// history), so a screen full of motivated sellers is visible at a glance.
+function replayPriceDrops() {
+  if (!detailChart || chartToggles.mode !== "scatter") return;
+  const ds = detailChart.data.datasets.filter(d => d.type !== "line");
+  const frames = [];
+  ds.forEach(d => d.data.forEach(p => {
+    const h = p._r && p._r.priceHistory;
+    if (h && h.length > 1) frames.push({ p, from: h[0].price, to: p.y });
+  }));
+  if (!frames.length) return;
+  const t0 = performance.now(), dur = 1400;
+  detailChart.$bands && (detailChart.$bands._save = detailChart.$bands, detailChart.$bands = null);
+  const step = now => {
+    const k = clamp((now - t0) / dur, 0, 1), e = 1 - Math.pow(1 - k, 3);
+    frames.forEach(f => f.p.y = f.from + (f.to - f.from) * e);
+    detailChart.update("none");
+    if (k < 1) requestAnimationFrame(step);
+    else renderCohortChart(CURRENT_REC);   // restore bands + final state
+  };
+  requestAnimationFrame(step);
+}
+
+function sparkline(history) {
+  if (!history || history.length < 2) return "";
+  const ps = history.map(h => h.price), n = ps.length;
+  const lo = Math.min(...ps), hi = Math.max(...ps), span = hi - lo || 1, W = 220, H = 44;
+  const pts = ps.map((p, i) => `${(i / (n - 1) * W).toFixed(1)},${(H - 4 - (p - lo) / span * (H - 8)).toFixed(1)}`).join(" ");
+  const drop = ps[n - 1] < ps[0];
+  return `<svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+    <polyline points="${pts}" fill="none" stroke="${drop ? "var(--good)" : "var(--dim)"}" stroke-width="2"/></svg>`;
+}
+
+function kv(k, v) { return v == null || v === "" ? "" : `<div><span class="k">${k}</span>${esc(v)}</div>`; }
+
+function openDetail(rec) {
+  CURRENT_REC = rec;
+  const v = rec.valuation || {}, tr = trustOf(rec);
+  document.getElementById("detailTitle").textContent = `${rec.year} ${MODEL ? MODEL.model : ""} ${rec.trim || ""} ${rec.powertrain || ""}`.replace(/\s+/g, " ").trim();
+  // Listing URL is third-party feed data, so scheme-check before it becomes an href (same
+  // guard the table rows and carfax link use).
+  const listingUrl = (typeof rec.url === "string" && /^https?:/.test(rec.url)) ? rec.url : null;
+  const dealerLink = listingUrl
+    ? `<a href="${esc(listingUrl)}" target="_blank">${esc(rec.dealer || "View listing")} ↗</a>`
+    : esc(rec.dealer || "—");
+  document.getElementById("detailSub").innerHTML =
+    `${ratingBadge(v)} &nbsp; ${(rec.mileage || 0).toLocaleString()} mi &nbsp;·&nbsp; ${f$(rec.price)}` +
+    (v.expected != null ? ` &nbsp;·&nbsp; expected ${f$(v.expected)} (${fPct(v.dealPct)})` : "") +
+    `<div style="margin-top:6px;font-size:13px">VIN <span style="font-family:monospace;user-select:all">${esc(rec.vin || "—")}</span> &nbsp;·&nbsp; ${dealerLink}</div>`;
+
+  const key = cohortKey(rec);
+  const cohort = ALL.filter(r => !r.gone && r.price != null && cohortKey(r) === key);
+  const cMedP = medianOf(cohort.map(r => r.price)), cMedM = medianOf(cohort.map(r => r.mileage || 0));
+
+  const adj = v.adjustments || {};
+  const adjRows = Object.entries(adj).map(([k, d]) =>
+    `<div class="adj-row"><span>${ADJ_LABEL[k] || k}</span><span class="${d < 0 ? "neg" : "pos"}">${ADJ_DOLLARS[k] ? f$(d) : fPct(d)}</span></div>`).join("")
+    || '<p class="vlog">No condition adjustments (cohort-average history).</p>';
+
+  const vlog = (rec.verifyLog || []).slice(-6).map(e =>
+    `<li>${esc(e.how || e.tier || "obs")} · ${esc(e.host || "")} → ${esc(e.trim || "")} ${esc(e.powertrain || "")} <span class="stats">(${esc(e.strength || "")})</span></li>`).join("");
+
+  const carfax = (typeof rec.carfaxUrl === "string" && /^https?:/.test(rec.carfaxUrl))
+    ? `<a href="${esc(rec.carfaxUrl)}" target="_blank">View Carfax report ↗</a>` : '<span class="vlog">No Carfax link in feed.</span>';
+
+  const opts = (rec.options && rec.options.length)
+    ? `<div class="chips">${rec.options.map(o => `<span>${esc(o)}</span>`).join("")}</div>`
+    : '<span class="vlog">No options mined from a dealer page yet.</span>';
+
+  const hasChart = !!window.Chart;
+  document.getElementById("detailBody").innerHTML = `
+    <div class="sect">
+      <h3>Cohort — price vs mileage</h3>
+      ${hasChart ? `<div class="chart-tools">
+        <button id="tgScatter" class="${chartToggles.mode === "scatter" ? "on" : ""}">Price vs mileage</button>
+        <button id="tgDep" class="${chartToggles.mode === "depreciation" ? "on" : ""}">Depreciation</button>
+        <span style="flex:1"></span>
+        <button id="tgBands" class="${chartToggles.bands ? "on" : ""}">Deal bands</button>
+        <button id="tgOls" class="${chartToggles.ols ? "on" : ""}">vs naive OLS</button>
+        <button id="tgParent" class="${chartToggles.parent ? "on" : ""}">Other trims</button>
+        <button id="tgReplay">▶ Replay price drops</button>
+      </div>
+      <div class="chart-wrap"><canvas id="cohortChart"></canvas></div>
+      <div id="chartNote" class="vlog"></div>`
+      : '<p class="vlog">Chart library unavailable offline.</p>'}
+    </div>
+    <div class="sect"><h3>Price history</h3>
+      ${sparkline(rec.priceHistory)}
+      <div class="vlog">${(rec.priceHistory || []).map(h => `${h.date}: ${f$(h.price)}`).join(" &nbsp;→&nbsp; ") || "Single observation."}</div>
+      ${signalsCell(v) !== "—" ? `<div style="margin-top:6px">Market: ${signalsCell(v)}</div>` : ""}
+    </div>
+    <div class="sect"><h3>Carfax &amp; provenance</h3>
+      <div>${carfax}</div>
+      ${vlog ? `<ul class="vlog">${vlog}</ul>` : '<p class="vlog">No verification log.</p>'}
+    </div>
+    <div class="sect"><h3>Cohort snapshot</h3>
+      <div class="kv">
+        ${kv("Cohort", `${rec.trim} ${rec.powertrain} ${rec.year}`)}
+        ${kv("Comps (n)", v.cohortN ?? cohort.length)}
+        ${kv("Basis", v.basis)}
+        ${kv("Median price", cMedP == null ? null : f$(cMedP))}
+        ${kv("Median miles", cMedM == null ? null : cMedM.toLocaleString())}
+        ${kv("Market value", v.marketValue == null ? null : f$(v.marketValue))}
+      </div>
+    </div>
+    <div class="sect"><h3>Trust signals</h3>
+      <div class="kv">
+        <div><span class="k">Trust</span><span class="badge t-${tr.strength}">${tr.label}</span> ${esc(tr.title)}</div>
+        ${kv("Rating confidence", v.confidence == null ? null : v.confidence.toFixed(2) + (v.ratingConfident === false ? " (muted)" : ""))}
+        ${kv("Trim conf", rec.trimConfidence == null ? null : fConf(rec.trimConfidence) + " via " + (rec.trimVerifiedBy || "—"))}
+        ${kv("Powertrain conf", rec.powertrainConfidence == null ? null : fConf(rec.powertrainConfidence) + " via " + (rec.powertrainVerifiedBy || "—"))}
+      </div>
+    </div>
+    <div class="sect"><h3>Condition adjustments</h3>${adjRows}</div>
+    <div class="sect"><h3>Specs</h3>
+      <div class="kv">
+        ${kv("Exterior", rec.exteriorColor)} ${kv("Interior", rec.interiorColor)}
+        ${kv("Engine", rec.engine)} ${kv("Transmission", rec.transmission)}
+        ${kv("Drivetrain", rec.drivetrain)} ${kv("Base MSRP", rec.baseMsrp == null ? null : f$(rec.baseMsrp))}
+        ${kv("Built", rec.plantCountry ? [rec.plantCity, rec.plantCountry].filter(Boolean).join(", ") : null)}
+        ${kv("CPO", rec.cpo === "manufacturer" ? "Yes (OEM)" : rec.cpo === "dealer" ? "Yes (Dealer)" : rec.cpo === "unknown" ? "Yes (source unverified)" : null)} ${kv("Condition", conditionOf(rec))}
+        ${rec.titleBrand ? `<div><span class="k">Title</span><span class="badge r-branded">${esc(String(rec.titleBrand).toUpperCase())}</span> <span class="stats">source: ${esc(rec.titleBrandSource || "vdp")} — excluded from comps</span></div>` : ""}
+      </div>
+      <div style="margin-top:8px"><span class="k" style="color:var(--dim)">Options </span>${opts}</div>
+    </div>`;
+
+  if (hasChart) {
+    const set = (id, fn) => { const el = document.getElementById(id); if (el) el.onclick = fn; };
+    const reflectAndRender = () => { ["tgBands","tgOls","tgParent","tgScatter","tgDep"].forEach(id => {
+      const el = document.getElementById(id); if (!el) return;
+      const on = id === "tgBands" ? chartToggles.bands : id === "tgOls" ? chartToggles.ols
+        : id === "tgParent" ? chartToggles.parent : id === "tgScatter" ? chartToggles.mode === "scatter"
+        : chartToggles.mode === "depreciation"; el.classList.toggle("on", on); });
+      renderCohortChart(rec); };
+    set("tgBands", () => { chartToggles.bands = !chartToggles.bands; reflectAndRender(); });
+    set("tgOls", () => { chartToggles.ols = !chartToggles.ols; reflectAndRender(); });
+    set("tgParent", () => { chartToggles.parent = !chartToggles.parent; reflectAndRender(); });
+    set("tgScatter", () => { chartToggles.mode = "scatter"; reflectAndRender(); });
+    set("tgDep", () => { chartToggles.mode = "depreciation"; reflectAndRender(); });
+    set("tgReplay", replayPriceDrops);
+    renderCohortChart(rec);
+  }
+
+  const modal = document.getElementById("detail");
+  modal.hidden = false;
+  document.getElementById("detailClose").focus();
+}
+
+function closeDetail() {
+  const modal = document.getElementById("detail");
+  modal.hidden = true;
+  if (detailChart) { detailChart.destroy(); detailChart = null; }
+  CURRENT_REC = null;
+}
+
+// open on row click (event delegation; rows carry data-vin), close on ×/backdrop/ESC
+function wireRowClicks(id) {
+  document.getElementById(id).addEventListener("click", e => {
+    const tr = e.target.closest("tr[data-vin]"); if (!tr) return;
+    if (e.target.closest("a")) return;            // let VIN/carfax links work normally
+    const rec = ALL.find(r => r.vin === tr.dataset.vin);
+    if (rec) openDetail(rec);
+  });
+}
+wireRowClicks("rows");
+wireRowClicks("triageRows");
+document.getElementById("detailClose").addEventListener("click", closeDetail);
+document.getElementById("detail").addEventListener("click", e => { if (e.target.id === "detail") closeDetail(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape" && !document.getElementById("detail").hidden) closeDetail(); });
+
+["view", "powertrain", "basis", "year", "hideGone"].forEach(id =>
+  document.getElementById(id).addEventListener("change", render));
+
+// Set the page chrome (title, powertrain options) for the selected model, then load its data.
+function applyModelChrome() {
+  const title = `${MODEL.label} Market`;
+  document.title = title;
+  document.getElementById("appTitle").textContent = title;
+  const pts = MODEL.powertrains || [];
+  document.getElementById("powertrain").innerHTML =
+    pts.map(p => `<option value="${p.id}">${p.label}</option>`).join("") +
+    `<option value="">All powertrains</option>`;
+  document.getElementById("powertrain").value = MODEL.targetPowertrain || "";   // "" = all
+}
+
+async function selectModel(id) {
+  MODEL = MODELS.find(m => m.id === id) || MODELS[0];
+  DATA = ROOT + MODEL.id + "/";
+  localStorage.setItem("model", MODEL.id);
+  applyModelChrome();
+  try {
+    await load();
+  } catch (e) {
+    // a failed switch must not leave the previous model's rows under the new model's chrome
+    ALL = []; COHORTS = null; render();
+    document.getElementById("stats").textContent = "load error: " + e;
+  }
+}
+
+// Load the manifest, fill the model selector, then show the saved (or first) model.
+async function init() {
+  try { MODELS = (await fetch(ROOT + "models.json").then(r => r.json())).models || []; }
+  catch (e) { MODELS = []; }
+  if (!MODELS.length) {
+    document.getElementById("stats").textContent = "no data/models.json — run fetch.py first";
+    return;
+  }
+  const sel = document.getElementById("model");
+  sel.innerHTML = MODELS.map(m => `<option value="${m.id}">${m.label}</option>`).join("");
+  sel.hidden = MODELS.length < 2;     // no point showing a one-option selector
+  const saved = localStorage.getItem("model");
+  const initial = MODELS.some(m => m.id === saved) ? saved : MODELS[0].id;
+  sel.value = initial;
+  sel.addEventListener("change", () => selectModel(sel.value));
+  await selectModel(initial);
+}
+
+init();
+</script>
+</body>
+</html>
