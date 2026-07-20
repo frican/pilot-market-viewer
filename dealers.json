@@ -73,6 +73,11 @@
   "domain": "kiaatlantasouth.com"
  },
  {
+  "name": "Kia South Atlanta",
+  "distanceMi": 11,
+  "domain": "kiaatlantasouth.com"
+ },
+ {
   "name": "World Toyota",
   "domain": "worldtoyota.com",
   "distanceMi": 12
@@ -161,6 +166,11 @@
   "domain": "wadeford.com"
  },
  {
+  "name": "Nalley Toyota Stonecrest",
+  "distanceMi": 14,
+  "domain": "nalleyinfinitiatlanta.com"
+ },
+ {
   "name": "Sandy Springs Toyota Scion",
   "domain": "rickhendricktoyotasandysprings.com",
   "distanceMi": 15
@@ -220,6 +230,11 @@
   "name": "Butler Lexus of South Atlanta",
   "distanceMi": 15,
   "domain": "butlercars.com"
+ },
+ {
+  "name": "Butler Lexus South Atlanta",
+  "distanceMi": 15,
+  "domain": "butlertoyota.com"
  },
  {
   "name": "1st Choice Autos",
@@ -355,6 +370,11 @@
   "domain": "atlantatoyota.com",
   "distanceMi": 20,
   "platform": "carscommerce"
+ },
+ {
+  "name": "EchoPark Automotive Atlanta",
+  "distanceMi": 20,
+  "domain": "echopark.com"
  },
  {
   "name": "BMW of Gwinnett Place",
@@ -574,6 +594,11 @@
   "name": "Star Motors",
   "domain": "starmotorsga.com",
   "distanceMi": 29
+ },
+ {
+  "name": "Cronic Inc",
+  "distanceMi": 29,
+  "domain": "cronicchryslerdodgejeepram.com"
  },
  {
   "name": "Elite Automotive LLC",
@@ -867,6 +892,11 @@
   "distanceMi": 60
  },
  {
+  "name": "Akins Chevrolet LLC",
+  "distanceMi": 60,
+  "domain": "akinschevrolet.com"
+ },
+ {
   "name": "Lagrange Toyota",
   "domain": "lagrangetoyota.com",
   "distanceMi": 61
@@ -896,6 +926,11 @@
   "name": "Butler Toyota",
   "domain": "butlercars.com",
   "distanceMi": 66
+ },
+ {
+  "name": "Jimmy Britt Chevrolet",
+  "distanceMi": 66,
+  "domain": "jimmybrittcjdr.com"
  },
  {
   "name": "Butler Lexus",
@@ -1074,6 +1109,11 @@
   "distanceMi": 95
  },
  {
+  "name": "Jacky Jones Ford of Hayesville",
+  "distanceMi": 95,
+  "domain": "jjfordhayesville.com"
+ },
+ {
   "name": "Ronnie Watkins Ford",
   "domain": "ronniewatkinsford.net",
   "distanceMi": 97
@@ -1202,6 +1242,11 @@
   "domain": "lexusofchattanooga.com"
  },
  {
+  "name": "Honda of Cleveland",
+  "distanceMi": 104,
+  "domain": "hondaofcleveland.com"
+ },
+ {
   "name": "Allen Turner Chevrolet of Auburn",
   "domain": "genesisofauburn.com",
   "distanceMi": 105
@@ -1251,6 +1296,11 @@
   "name": "Sunset Auto Sales and Classics",
   "distanceMi": 107,
   "domain": "sunsetautosalesandclassics.net"
+ },
+ {
+  "name": "Lake Keowee Ford",
+  "distanceMi": 107,
+  "domain": "lakekeoweechryslerdodge.com"
  },
  {
   "name": "CrownSubaru Used",
@@ -1314,6 +1364,11 @@
   "name": "Doster Motors",
   "distanceMi": 113,
   "domain": "dostermotors.com"
+ },
+ {
+  "name": "Auto Mercado, Best Buy Auto",
+  "distanceMi": 113,
+  "domain": "automercadobestbuyauto.com"
  },
  {
   "name": "Dublin GMC",
@@ -1541,6 +1596,11 @@
   "name": "Driver's Way Birmingham",
   "domain": "driversway.com",
   "distanceMi": 136
+ },
+ {
+  "name": "BirminghamMitsubishi Used",
+  "distanceMi": 136,
+  "domain": "birminghammitsubishi.com"
  },
  {
   "name": "Lexus of Greenville",
@@ -2003,6 +2063,11 @@
   "domain": "huntsvillepreowned.com"
  },
  {
+  "name": "AutoNation Honda Knoxville",
+  "distanceMi": 152,
+  "domain": "autonationhyundaicolumbus.com"
+ },
+ {
   "name": "Rice Buick-GMC Inc.",
   "domain": "ricegmc.com",
   "distanceMi": 153
@@ -2087,6 +2152,11 @@
   "distanceMi": 157
  },
  {
+  "name": "Apple Tree Honda Acura",
+  "distanceMi": 157,
+  "domain": "honda.appletreeautomobiles.com"
+ },
+ {
   "name": "Hunter Subaru",
   "domain": "huntervolvocarsasheville.com",
   "distanceMi": 158
@@ -2141,6 +2211,11 @@
   "name": "Secret City Chrysler Dodge Jeep Ram",
   "distanceMi": 159,
   "domain": "secretcitycdjr.com"
+ },
+ {
+  "name": "Just Auto & Leasing",
+  "distanceMi": 159,
+  "domain": "justautosales.com"
  },
  {
   "name": "Fred Anderson Toyota of Asheville",
@@ -2487,6 +2562,11 @@
   "domain": "goldenmotorsonline.com"
  },
  {
+  "name": "JT's Autoland of Lexington",
+  "distanceMi": 181,
+  "domain": "jtsautolandoflexington.com"
+ },
+ {
   "name": "Hyundai of Cookeville",
   "domain": "fordlincolnofcookeville.com",
   "distanceMi": 182
@@ -2710,6 +2790,11 @@
   "name": "Nelson Mazda Murfreesboro",
   "domain": "nelsoncars.com",
   "distanceMi": 191
+ },
+ {
+  "name": "Carville Chrysler Dodge Jeep Ram",
+  "distanceMi": 191,
+  "domain": "carvillechryslerdodgejeepram.com"
  },
  {
   "name": "Marburger Chrysler Dodge Jeep",

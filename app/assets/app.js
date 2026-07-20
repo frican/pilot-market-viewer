@@ -23,20 +23,22 @@ let viewState = "deals";   // "deals" | "triage" — driven by the header tabs (
 // Presets over the SAME data (no new fetch) that re-point the deals table for a different reader.
 // Picking a lens sets the default sort + an optional row filter and relabels a few columns so the
 // table reads to the intended audience; the user can still re-sort by clicking any header.
-//   shopper — today's behavior: under-market cars first (the buyer's view).
-//   profit  — a dealer's own margin view: cars priced ABOVE model value, biggest $ gap first.
-//   aging   — capital tied up: longest days-on-lot first, a stale (undropped) price flagged.
+//   shopper — the buyer's view: best % discount vs market first.
+//   profit  — the seller's margin view: cars priced BELOW market (money left on the table), biggest
+//             $ give-away first — the dealer can firm the price up toward market to capture it.
+//   aging   — capital tied up: longest days-on-lot first, a stale (undropped) price flagged; the
+//             sitting/over-priced metal that needs a CUT to move (the other side of the trade).
 const LENSES = {
   shopper: { label: "Best deals", sort: ["valuation.dealPct", 1],
-             hint: "Under-market cars first — the shopper's view." },
-  profit:  { label: "Profit opportunity", sort: ["valuation.dealDelta", -1],
-             filter: r => { const dp = get(r, "valuation.dealPct"); return dp != null && dp > 0; },
-             headers: { "valuation.dealPct": "vs. market", "valuation.expected": "Market value" },
-             hint: "Priced above model value, biggest $ gap first — margin being captured on the lot." },
+             hint: "Best % discount vs market first — the shopper's view." },
+  profit:  { label: "Profit opportunity", sort: ["valuation.dealDelta", 1],
+             filter: r => { const dp = get(r, "valuation.dealPct"); return dp != null && dp < 0; },
+             headers: { "valuation.dealPct": "Under market", "valuation.expected": "Market value" },
+             hint: "Priced BELOW market, biggest $ under first — margin left on the table; firm the price up to capture it." },
   aging:   { label: "Aging capital", sort: ["valuation.signals.listedDays", -1],
              headers: { "valuation.expected": "Market value", "valuation.signals.listedDays": "Days / cuts" },
              stale: true,
-             hint: "Longest time on lot first — a stale, un-cut price is the one to negotiate." },
+             hint: "Longest time on lot first — a stale, un-cut price is the one to cut to move it." },
 };
 let activeLens = "shopper";
 
