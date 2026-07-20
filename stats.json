@@ -1,0 +1,22 @@
+{
+  "region": "Greater Boston",
+  "metroMi": 50,
+  "totals": {
+    "listings": 546,
+    "live": 546,
+    "scored": 365,
+    "cohortReady": 365
+  },
+  "metro": {
+    "liveCount": 373,
+    "aggregateMispricing": 120546,
+    "medianLotMoneyOnTable": 3383,
+    "dealersScored": 15,
+    "medianListedDays": 23
+  },
+  "generatedAt": "2026-07-20",
+  "vignettes": {
+    "profit": [],
+    "aging": []
+  }
+}
