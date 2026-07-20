@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market — deal finder</title>
+<!--
+  Viewer. Loads data/index.json, lazy-loads the cohort shards, and ranks listings by how far
+  under fair value they sit (valuation.dealPct). The model lives in the pipeline (valuation.py)
+  — this file only displays. Serve from the repo root:
+      python -m http.server 8000   ->   http://localhost:8000/viewer/
+
+  Markup only: styles live in assets/style.css, logic in assets/app.js (Chart.js from the pinned
+  CDN below is the sole external dependency). The publisher (publish_viewer.py) copies this file
+  and assets/** to the public site and rewrites the ROOT constant that lives in assets/app.js.
+
+  The Deal column is an ABSOLUTE rating (great/good/fair/high/over) — price vs the record's
+  condition-adjusted `expected`, on fixed bands — not a within-cohort rank. The Market column
+  carries timing signals (days on lot, price drops) that mean "negotiate", kept separate from
+  value. Two gates mute a juicy-looking deal: the Trust column (HOW trim+powertrain were
+  confirmed — a wrong powertrain poisons the cohort) and the rating's own confidence (a thin
+  pooled/msrp basis can't support an absolute call). Both must be solid for the bright color.
+
+  The Triage view (view=triage) flips the question: instead of the cleared deals, it ranks the
+  FLAGGED backlog by where verification effort pays off most — deal potential (price vs same
+  year+powertrain cohort-ready comps) × clearability (one step from clearing, dealer reachable)
+  — so the next verify pass can target the highest-upside records first. Reachability is read
+  from ../dealers.json (the dealer registry verify.py builds).
+-->
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<header>
+  <div class="brand"><span class="dot"></span><h1 id="appTitle">Market</h1></div>
+  <nav class="tabs" id="viewTabs" role="tablist" aria-label="View">
+    <button class="tab on" data-view="deals" role="tab" aria-selected="true">Deals</button>
+    <button class="tab" data-view="triage" role="tab" aria-selected="false">Triage backlog</button>
+  </nav>
+  <!-- internal-only link below; the publisher strips this node from the public build. -->
+  
+  <div>
+    <span class="stats" id="stats">loading…</span>
+    <div class="freshness" id="freshness"></div>
+  </div>
+  <div class="controls">
+    <select id="model" title="vehicle model"></select>
+    <select id="powertrain"></select>
+    <select id="basis"><option value="trust">Cohort + Pooled</option><option value="">Any basis</option></select>
+    <select id="year"><option value="">All years</option></select>
+    <label class="stats"><input type="checkbox" id="hideGone" checked> hide gone</label>
+    <button class="icon-btn" id="themeToggle" title="Toggle light / dark" aria-label="Toggle theme">◐</button>
+  </div>
+</header>
+
+<!-- dealer lens selector (Deals view only) — presets over the same data, no new fetch. Populated
+     and un-hidden by the lens wiring (PR-5); hidden until then so an empty bar never shows. -->
+<div class="lens-bar" id="lensBar" hidden>
+  <span class="lens-label">Lens</span>
+  <div class="lens" id="lens" role="tablist" aria-label="Dealer lens"></div>
+  <span class="lens-hint" id="lensHint"></span>
+</div>
+
+<!-- DEALS: cohort-ready listings ranked by how far under market they sit -->
+<div class="table-wrap">
+<table id="dealsTable">
+  <thead><tr>
+    <th data-k="valuation.dealPct">Deal</th><th data-k="year">Year</th><th data-k="trim">Trim</th>
+    <th data-k="powertrain">PT</th><th data-k="_trustConf">Trust</th><th data-k="mileage" class="num">Miles</th>
+    <th data-k="price" class="num">Price</th><th data-k="valuation.expected" class="num">Expected</th>
+    <th>Basis</th><th data-k="valuation.signals.listedDays" class="num">Market</th>
+    <th data-k="distanceMi" class="num">Dist</th><th data-k="dealer">Dealer</th>
+    <th>Condition</th><th>VIN</th>
+  </tr></thead>
+  <tbody id="rows"></tbody>
+</table>
+</div>
+
+<!-- TRIAGE: flagged backlog ranked by upside-of-clearing, to aim the next verify pass -->
+<div class="table-wrap">
+<table id="triageTable" hidden>
+  <thead><tr>
+    <th data-k="_prio">Priority</th><th data-k="year">Year</th><th data-k="trim">Trim?</th>
+    <th data-k="powertrain">PT?</th><th data-k="_blocker">Blocker</th>
+    <th data-k="_blockConf" class="num">Blk conf</th><th data-k="price" class="num">Price</th>
+    <th data-k="_dealGap" class="num">vs cohort</th><th data-k="_reachable">Reach</th>
+    <th data-k="mileage" class="num">Miles</th><th data-k="dealer">Dealer</th>
+    <th>Condition</th><th>VIN</th>
+  </tr></thead>
+  <tbody id="triageRows"></tbody>
+</table>
+</div>
+
+<div class="empty" id="empty" hidden></div>
+
+<!-- drill-down detail: full price history, cohort chart, carfax/provenance, trust, adjustments, specs -->
+<div class="backdrop" id="detail" hidden role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+  <div class="modal" role="document">
+    <div class="modal-head">
+      <h2 id="detailTitle">—</h2><span class="sub" id="detailSub"></span>
+      <button class="modal-x" id="detailClose" aria-label="Close detail">×</button>
+    </div>
+    <div class="modal-body" id="detailBody"></div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
