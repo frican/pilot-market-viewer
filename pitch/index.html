@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stop leaving money on the lot — dealer pricing intelligence</title>
+<meta name="description" content="Per-unit pricing intelligence for used-car dealers: find the units you have underpriced, the aging metal tying up your capital, and price each one to margin or to move.">
+<link rel="stylesheet" href="pitch.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <span class="brand">
+      <svg width="22" height="22" viewbox="0 0 22 22" aria-hidden="true">
+        <rect x="1" y="1" width="20" height="20" rx="6" fill="var(--accent)"></rect>
+        <path d="M6 14 L9.5 8 L12.5 12 L16 6" fill="none" stroke="var(--accent-ink)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      Lot Signal
+    </span>
+    <a class="nav-cta" href="../app/">Open the live demo</a>
+  </div>
+</header>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="wrap">
+    <h1>Your lot is leaving money on the table.</h1>
+    <p class="lead" id="hero-region">Per-unit pricing intelligence for the used-car market.</p>
+
+    <div class="stat-row">
+      <div class="stat">
+        <div class="num" id="stat-median">—</div>
+        <div class="lbl">Median mispricing on a typical dealer lot</div>
+      </div>
+      <div class="stat">
+        <div class="num" id="stat-listings">—</div>
+        <div class="lbl">Live listings tracked</div>
+      </div>
+      <div class="stat">
+        <div class="num" id="stat-aggregate">—</div>
+        <div class="lbl">Aggregate mispricing across the metro</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ VIGNETTES ============================ -->
+<section>
+  <div class="wrap">
+    <p class="section-tag">Two ways money slips away</p>
+    <h2>Every unit is either priced to margin or priced to move — rarely both.</h2>
+    <p class="lead">These are real, anonymized examples from the tracked market. Figures rounded; no dealer, VIN, or address is ever shown.</p>
+
+    <div class="cards" style="margin-top:var(--s6)">
+
+      <!-- Money on the table: an underpriced unit that sold fast -->
+      <div class="card profit">
+        <div class="kicker">Money on the table</div>
+        <h3 id="profit-title">Underpriced, and gone before you noticed</h3>
+        <div id="profit-dynamic">
+          <p class="vignette-headline">
+            A <b id="profit-vehicle">unit</b> was listed
+            <b id="profit-under">—</b> under market value and sold in
+            <b id="profit-days">—</b> days.
+          </p>
+          <p class="muted">That gap is margin handed straight to the buyer — value you priced away without meaning to.</p>
+        </div>
+        <p id="profit-empty" class="muted hidden">
+          No fast-selling underpriced units in the current window — but the moment one appears, it surfaces here first.
+        </p>
+      </div>
+
+      <!-- Capital churn decay: an overpriced aging unit that keeps getting cut -->
+      <div class="card aging">
+        <div class="kicker">Capital churn decay</div>
+        <h3 id="aging-title">Priced high, aging, cut after cut</h3>
+        <div id="aging-dynamic">
+          <p class="vignette-headline">
+            A <b id="aging-vehicle">unit</b> has sat for
+            <b id="aging-days">—</b> days through
+            <b id="aging-cuts">—</b> price cuts totaling
+            <b id="aging-markdown">—</b> — and is still
+            <b id="aging-over">—</b> above market.
+          </p>
+          <div class="timeline" id="aging-timeline" aria-label="price-cut timeline"></div>
+        </div>
+        <p id="aging-empty" class="muted hidden">
+          No deeply-aged, repeatedly-cut units in the current window — the timeline lights up the moment one crosses the line.
+        </p>
+      </div>
+    </div>
+
+    <div class="arbitrate">
+      <p><b>These two strategies compete on every single unit.</b> Chase full margin and the car can sit,
+      tying up floor-plan capital while it depreciates. Price to move and you clear the metal but surrender margin.
+      The tool arbitrates <em>per unit</em> — not with a blanket rule — so you decide with the number in front of you:</p>
+      <div class="strat">
+        <div>
+          <h4>Price to margin</h4>
+          <p class="muted tiny">When a unit is genuinely underpriced against verified comps, hold the line and recover the gap.</p>
+        </div>
+        <div>
+          <h4>Price to move</h4>
+          <p class="muted tiny">When a unit is overpriced and aging, cut decisively before carry cost and depreciation eat the spread.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ TRADE-IN ============================ -->
+<section class="band">
+  <div class="wrap">
+    <span class="badge-soft">Early access</span>
+    <h2>Fast, accurate trade-in valuations.</h2>
+    <p class="lead">Decode a VIN, drop it into its real cohort, and get a defensible number in seconds —
+    then work it with either strategy: buy for margin, or buy to turn. This is in early access and we're
+    honest about it: the valuation engine is live and improving weekly, and we'd rather show you a real
+    number with its confidence than a confident-looking guess.</p>
+    <a class="cta-secondary" href="mailto:enpowerenergy@proton.me?subject=Lot%20Signal%20%E2%80%94%20trade-in%20early%20access">Ask about early access</a>
+  </div>
+</section>
+
+<!-- ============================ DEMO CTA ============================ -->
+<section>
+  <div class="wrap" style="text-align:center">
+    <p class="section-tag" style="text-align:center">See it on real inventory</p>
+    <h2>Open the live market viewer.</h2>
+    <p class="lead" style="margin:var(--s3) auto 0">Browse the tracked market yourself — every listing scored against its
+    verified cohort, with the trust and confidence behind each call shown in the open.</p>
+    <div><a class="cta-big" href="../app/">Open the live demo &rarr;</a></div>
+  </div>
+</section>
+
+<!-- ============================ HOW IT WORKS ============================ -->
+<section class="band">
+  <div class="wrap">
+    <p class="section-tag">How it works</p>
+    <h2>An honest pipeline, not a black box.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="n">1</div>
+        <h4>VIN-decoded cohorts</h4>
+        <p>Every listing is decoded to its true year, trim, and powertrain, then grouped with genuine like-for-like comps — a wrong powertrain never poisons a cohort.</p>
+      </div>
+      <div class="step">
+        <div class="n">2</div>
+        <h4>Robust fair-value fits</h4>
+        <p>Prices are fit with outlier-resistant Theil-Sen regressions, falling back to MSRP-retention curves where a cohort is thin — no single strange listing drags the line.</p>
+      </div>
+      <div class="step">
+        <div class="n">3</div>
+        <h4>Verified listings</h4>
+        <p>Trim and powertrain are confirmed against the dealer's own listing, and every record carries the provenance of how it was cleared — shown, not hidden.</p>
+      </div>
+      <div class="step">
+        <div class="n">4</div>
+        <h4>Continuous price history</h4>
+        <p>We track every listing over time — days on lot, each price cut, and when it finally sells — so aging and negotiability are measured, not guessed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CONTACT ============================ -->
+<section>
+  <div class="wrap contact">
+    <p class="section-tag" style="text-align:center">Get in touch</p>
+    <h2>See what your lot is leaving on the table.</h2>
+    <p class="lead">Send us your rooftop and metro — we'll show you the underpriced units, the aging metal, and the number on each.</p>
+    <div>
+      <a class="cta-big" href="mailto:enpowerenergy@proton.me?subject=Lot%20Signal%20%E2%80%94%20dealer%20pricing%20intelligence">Email us &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>Lot Signal — dealer pricing intelligence</span>
+    <span class="muted" id="foot-generated">Aggregate market figures; individual examples anonymized.</span>
+  </div>
+</footer>
+
+<script>
+// Zero external origins. Fetch the generated stats.json and fill placeholders. Any missing
+// figure degrades to an em dash; an empty vignette category hides its dynamic bits and shows
+// an honest fallback line. Nothing here talks to the network beyond same-origin stats.json.
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var money = function (n) {
+    if (n == null || isNaN(n)) return "—";
+    return "$" + Math.round(n).toLocaleString("en-US");
+  };
+  var num = function (n) { return (n == null || isNaN(n)) ? "—" : Math.round(n).toLocaleString("en-US"); };
+  var vehLabel = function (v) {
+    return [v.year, (v.trim || "").toString(), v.powertrain && v.powertrain !== "gas" ? v.powertrain : ""]
+      .filter(Boolean).join(" ").trim() || "unit";
+  };
+
+  fetch("../stats.json").then(function (r) { return r.json(); }).then(function (s) {
+    var metro = s.metro || {};
+    var totals = s.totals || {};
+
+    // hero
+    if (s.region) $("hero-region").textContent =
+      s.region + " — per-unit pricing intelligence for the used-car market.";
+    $("stat-median").textContent = money(metro.medianLotMoneyOnTable);
+    $("stat-listings").textContent = num(totals.listings);
+    $("stat-aggregate").textContent = money(metro.aggregateMispricing);
+    if (s.generatedAt) $("foot-generated").textContent =
+      "Aggregate market figures as of " + s.generatedAt + "; individual examples anonymized.";
+
+    var vg = s.vignettes || {};
+
+    // ---- profit vignette ----
+    var p = (vg.profit || [])[0];
+    if (p) {
+      $("profit-vehicle").textContent = vehLabel(p);
+      $("profit-under").textContent = money(p.underBy);
+      $("profit-days").textContent = num(p.daysToGone);
+    } else {
+      $("profit-dynamic").classList.add("hidden");
+      $("profit-empty").classList.remove("hidden");
+    }
+
+    // ---- aging vignette ----
+    var a = (vg.aging || [])[0];
+    if (a) {
+      $("aging-vehicle").textContent = vehLabel(a);
+      $("aging-days").textContent = num(a.listedDays);
+      $("aging-cuts").textContent = num(a.cuts);
+      $("aging-markdown").textContent = money(a.markdownTotal);
+      $("aging-over").textContent = money(a.stillOverBy);
+      drawTimeline($("aging-timeline"), a.dropSeries || []);
+    } else {
+      $("aging-dynamic").classList.add("hidden");
+      $("aging-empty").classList.remove("hidden");
+    }
+  }).catch(function () {
+    // stats.json missing/unreadable: leave em-dash placeholders, hide dynamic vignette bits.
+    $("profit-dynamic").classList.add("hidden");
+    $("profit-empty").classList.remove("hidden");
+    $("aging-dynamic").classList.add("hidden");
+    $("aging-empty").classList.remove("hidden");
+  });
+
+  // Build a tiny inline-SVG price-drop timeline from [{day, price}] — no libraries, no CDN.
+  function drawTimeline(host, series) {
+    if (!host || !series || series.length < 2) { if (host) host.remove(); return; }
+    var W = 460, H = 120, padL = 8, padR = 8, padT = 14, padB = 22;
+    var days = series.map(function (d) { return d.day; });
+    var prices = series.map(function (d) { return d.price; });
+    var dMin = Math.min.apply(null, days), dMax = Math.max.apply(null, days);
+    var pMin = Math.min.apply(null, prices), pMax = Math.max.apply(null, prices);
+    var dSpan = (dMax - dMin) || 1, pSpan = (pMax - pMin) || 1;
+    var x = function (d) { return padL + (d - dMin) / dSpan * (W - padL - padR); };
+    var y = function (p) { return padT + (1 - (p - pMin) / pSpan) * (H - padT - padB); };
+
+    var pts = series.map(function (d) { return x(d.day) + "," + y(d.price); }).join(" ");
+    var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img">';
+    svg += '<polyline points="' + pts + '" fill="none" stroke="var(--warn)" stroke-width="2" stroke-linejoin="round"/>';
+    series.forEach(function (d, i) {
+      var cx = x(d.day), cy = y(d.price);
+      svg += '<circle cx="' + cx + '" cy="' + cy + '" r="3.5" fill="var(--warn)"/>';
+      var anchor = i === 0 ? 'start' : (i === series.length - 1 ? 'end' : 'middle');
+      svg += '<text x="' + cx + '" y="' + (cy - 8) + '" text-anchor="' + anchor +
+             '" font-size="10" fill="var(--muted)">$' + Math.round(d.price / 1000) + 'k</text>';
+      svg += '<text x="' + cx + '" y="' + (H - 6) + '" text-anchor="' + anchor +
+             '" font-size="9" fill="var(--muted)">d' + d.day + '</text>';
+    });
+    svg += '</svg>';
+    host.innerHTML = svg;
+  }
+})();
+</script>
+
+</body>
+</html>
