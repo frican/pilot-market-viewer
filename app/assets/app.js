@@ -98,9 +98,19 @@ function conditionOf(r) {
 function cpoBadge(r) {
   if (r.cpo === "manufacturer") return `<span class="badge b-cpo-mfr" title="Manufacturer-certified (OEM program)">OEM CPO</span> `;
   if (r.cpo === "dealer") return `<span class="badge b-cpo" title="Dealer-certified (no OEM program)">CPO·D</span> `;
-  if (r.cpo === "unknown") return `<span class="badge b-cpo-unknown" title="Certified per feed — source (dealer vs OEM) unverified">CPO?</span> `;
-  if (r.cpo == null) return `<span class="badge">—</span> `;
-  return "";  // "none" => no badge (absence reads as not-certified; keeps the table uncluttered)
+  // "unknown" (feed says CPO, source unverified) and null show NO badge — a "CPO?" reads as doubt,
+  // which isn't confidence-inspiring. Only the two verified states earn a badge.
+  return "";
+}
+// Basis = how much like-for-like comp support the valuation had. cohort (median ~39 comps) is the
+// normal, trustworthy case and needs no flag. msrp_curve is the RAREST/thinnest spec (median 1 comp,
+// only ~10 records) — no direct comps, priced off the model's MSRP-retention curve, so it's the true
+// "Rare spec". pooled sits between (median ~4 comps, pooled across similar trims) — "Few comps".
+function basisBadge(v) {
+  const b = v && v.basis;
+  if (b === "msrp_curve") return `<span class="badge b-rare" title="Rare spec — no direct comps; priced off the model's MSRP-retention curve">Rare spec</span>`;
+  if (b === "pooled") return `<span class="badge b-thin" title="Few comps — pooled across similar trims for a fair-value fit">Few comps</span>`;
+  return "";
 }
 function carfaxLink(r) {
   const u = (typeof r.carfaxUrl === "string" && /^https?:/.test(r.carfaxUrl)) ? r.carfaxUrl : null;
@@ -261,13 +271,14 @@ function isStale(v) {
 }
 
 function renderDeals() {
-  const basis = document.getElementById("basis").value;
   const lens = LENSES[activeLens] || LENSES.shopper;
+  // Any (real) basis — an unscored record has nothing to rank. The old cohort/pooled trust filter
+  // and the Trust column were retired from the buyer-facing view (kept computing behind the scenes
+  // to gate the deal color).
   let rows = ALL.filter(r => {
     if (!commonFilter(r)) return false;
     const b = get(r, "valuation.basis");
-    if (basis === "trust" && !["cohort", "pooled"].includes(b)) return false;
-    if (basis === "" && (b === "not-ready" || b == null)) return false;
+    if (b === "not-ready" || b == null) return false;
     if (lens.filter && !lens.filter(r)) return false;   // lens row filter (e.g. profit = over-market only)
     return true;
   });
@@ -287,10 +298,9 @@ function renderDeals() {
       <td class="num">${ratingBadge(v)} <span class="${cls}">${fPct(dp)}</span></td>
       <td>${r.year}</td><td>${esc(r.trim || "—")}</td>
       <td>${r.powertrain || "—"}</td>
-      <td><span class="badge t-${tr.strength}" title="${tr.title}">${tr.label}</span></td>
       <td class="num">${(r.mileage || 0).toLocaleString()}</td>
       <td class="num">${f$(r.price)}</td><td class="num" ${adjustmentTitle(v)}>${f$(v.expected)}</td>
-      <td><span class="badge b-${v.basis}">${v.basis || "—"}${v.cohortN ? " · n=" + v.cohortN : ""}</span></td>
+      <td>${basisBadge(v)}</td>
       <td class="num">${signalsCell(v)}${lens.stale && isStale(v) ? ` <span class="chip-stale" title="≥60 days on lot with no price cut — negotiable">stale</span>` : ""}</td>
       <td class="num">${r.distanceMi == null ? "—" : r.distanceMi + "mi"}</td>
       <td>${esc(r.dealer || "—")}</td>
@@ -329,10 +339,9 @@ function renderTriage() {
 }
 
 function render() {
-  const triage = view() === "triage";
+  const triage = view() === "triage";       // triage view is retired from the UI; kept for internal use
   document.getElementById("dealsTable").hidden = triage;
   document.getElementById("triageTable").hidden = !triage;
-  document.getElementById("basis").hidden = triage;        // basis is meaningless for flagged rows
   document.getElementById("lensBar").hidden = triage;      // lenses re-point the Deals table only
   const n = triage ? renderTriage() : renderDeals();
   const empty = document.getElementById("empty");
@@ -390,11 +399,27 @@ const bandPlugin = {
 };
 if (window.Chart) Chart.register(bandPlugin);
 
-const chartToggles = { ols: false, parent: false, bands: true, mode: "scatter" };
+const chartToggles = { parent: false, bands: true, mode: "scatter" };
 let CURRENT_REC = null;
 
 function lineSeg(fit, xMin, xMax) {
   return fit ? [{ x: xMin, y: fit.slope * xMin + fit.intercept }, { x: xMax, y: fit.slope * xMax + fit.intercept }] : [];
+}
+
+// Fixed y-range for the price-vs-mileage scatter: spans every plotted point's CURRENT price AND,
+// for points carrying a price history, their first (usually higher) listed price. The resting
+// chart is pinned to this SAME range the "Price changes" replay animates within, so starting the
+// replay doesn't grow the axis and ending it doesn't shrink it — one range the whole time.
+function scatterYRange(datasets) {
+  const ys = [];
+  datasets.forEach(d => { if (d.type === "line") return; (d.data || []).forEach(p => {
+    if (typeof p.y === "number") ys.push(p.y);
+    const h = p._r && p._r.priceHistory;
+    if (h && h.length > 1 && typeof h[0].price === "number") ys.push(h[0].price);
+  }); });
+  if (!ys.length) return null;
+  const lo = Math.min(...ys), hi = Math.max(...ys), pad = (hi - lo) * 0.06 || 500;
+  return { min: lo - pad, max: hi + pad };
 }
 
 function renderCohortChart(rec) {
@@ -407,34 +432,50 @@ function renderCohortChart(rec) {
   const cdata = (COHORTS && COHORTS.cohorts) ? COHORTS.cohorts[key] : null;
 
   if (chartToggles.mode === "depreciation") {
-    const dep = (COHORTS && COHORTS.depreciation) ? COHORTS.depreciation[`${rec.trim}|${rec.powertrain}`] : null;
-    if (!dep || !dep.length) { if (note) note.textContent = "No depreciation series for this trim yet."; return; }
-    // MSRP is absent for some models (e.g. the feed mislabels the trim, so there's no verified base
-    // MSRP) — fall back to a market-value-vs-age series so the chart stays honest instead of blank.
-    // Both branches map over the full dep array so dep[c.dataIndex] stays aligned in the tooltip.
-    const hasMsrp = dep.some(d => d.retained != null);
+    // Depreciation across EVERY model year for this car's trim+powertrain, built from the full
+    // client-side record set (not the thin per-year medians we used to emit) so the curve rests on
+    // real sample size. Each live listing is a point plotted by vehicle age; a median-per-age line
+    // draws the trend. x is vehicle age ascending left→right, so the curve falls the way a
+    // depreciation curve should (the old chart reversed the axis, which read as "going backwards").
+    // y is the listed price in $ — the retained-% version read ABOVE 100% for recent years because
+    // in-demand near-new units list over base MSRP, so retention is a tooltip detail, not the axis.
+    const matches = ALL.filter(r => !r.gone && r.price != null && r.year != null
+      && r.trim === rec.trim && r.powertrain === rec.powertrain);
+    if (matches.length < 2) { if (note) note.textContent = "Not enough listings across model years for a depreciation curve yet."; return; }
+    // Age off the newest year present (falls back to the calendar year) so a stale calendar clock
+    // can't push every point off the "0" edge; clamp at 0 so a next-model-year unit reads as new.
+    const nowYear = Math.max(new Date().getFullYear(), ...matches.map(r => r.year));
+    const ageOf = r => Math.max(0, nowYear - r.year);
     const usd = v => "$" + (v / 1000).toFixed(0) + "k";
-    if (!hasMsrp && note) note.textContent = "No verified MSRP for this trim — showing market value vs. age.";
     const accent = cssVar("--accent", "#7aa2ff"), muted = cssVar("--text-muted", "#8a8a98"),
-      grid = cssVar("--border", "#262633"), txt = cssVar("--text", "#d8d8e0");
+      grid = cssVar("--border", "#262633"), txt = cssVar("--text", "#d8d8e0"),
+      surface = cssVar("--surface", "#fff");
+    const byAge = {};
+    matches.forEach(r => { const a = ageOf(r); (byAge[a] = byAge[a] || []).push(r.price); });
+    const trend = Object.keys(byAge).map(Number).sort((a, b) => a - b)
+      .map(a => ({ x: a, y: medianOf(byAge[a]) }));
+    const nMY = new Set(matches.map(r => r.year)).size;
+    if (note) note.textContent = `${matches.length} listings across ${nMY} model years.`;
     detailChart = new Chart(cv, {
-      type: "line",
+      type: "scatter",
       data: { datasets: [
-        { label: hasMsrp ? "% of MSRP retained" : "Market value (median)",
-          data: hasMsrp ? dep.map(d => ({ x: d.age, y: d.retained == null ? null : +(d.retained * 100).toFixed(1) }))
-                        : dep.map(d => ({ x: d.age, y: d.marketValue })),
-          borderColor: accent, backgroundColor: accent, tension: .25, pointRadius: 4 },
+        { label: "Median by age", type: "line", data: trend, borderColor: accent,
+          backgroundColor: accent, borderWidth: 2, pointRadius: 3, tension: .25, fill: false, order: 0 },
+        { label: "Listings", data: matches.filter(r => r.vin !== rec.vin).map(r => ({ x: ageOf(r), y: r.price, _r: r })),
+          pointRadius: 3, backgroundColor: hexA(muted, .45), order: 1 },
+        { label: "This car", data: [{ x: ageOf(rec), y: rec.price, _r: rec }], pointRadius: 7,
+          pointStyle: "rectRot", backgroundColor: surface, borderColor: accent, borderWidth: 2, order: 2 },
       ] },
       options: { responsive: true, maintainAspectRatio: false,
-        scales: { x: { title: { display: true, text: "Age (years)" }, reverse: true, ticks: { color: muted }, grid: { color: grid } },
-                  y: { title: { display: true, text: hasMsrp ? "% of MSRP retained" : "Market value" },
-                       ticks: { color: muted, callback: hasMsrp ? undefined : (v => usd(v)) }, grid: { color: grid } } },
+        scales: { x: { type: "linear", title: { display: true, text: "Vehicle age (years)" },
+                       ticks: { color: muted, stepSize: 1, precision: 0 }, grid: { color: grid } },
+                  y: { title: { display: true, text: "Listed price" },
+                       ticks: { color: muted, callback: v => usd(v) }, grid: { color: grid } } },
         plugins: { legend: { labels: { color: txt } },
-          tooltip: { callbacks: { label: c => { const d = dep[c.dataIndex];
-            const mi = d.medianMileage != null ? ` @ ${d.medianMileage.toLocaleString()}mi` : "";
-            return hasMsrp
-              ? `${d.year}: ${c.parsed.y}% retained · mkt ${f$(d.marketValue)}${mi} · MSRP ${f$(d.msrp)}`
-              : `${d.year}: ${f$(d.marketValue)}${mi}`; } } } } },
+          tooltip: { callbacks: { label: c => { const r = c.raw && c.raw._r;
+            if (!r) return `age ${c.parsed.x}: median ${f$(c.parsed.y)}`;
+            const ret = r.baseMsrp ? ` · ${Math.round(r.price / r.baseMsrp * 100)}% of MSRP` : "";
+            return `${r.year} · ${(r.mileage || 0).toLocaleString()}mi · ${f$(r.price)}${ret}`; } } } } },
     });
     return;
   }
@@ -459,29 +500,28 @@ function renderCohortChart(rec) {
   datasets.push({ label: "This car", data: [pt(rec)], pointRadius: 7, pointStyle: "rectRot",
     backgroundColor: surface, borderColor: accent, borderWidth: 2 });
   if (cdata) {
-    datasets.push({ label: "Theil-Sen (robust)", type: "line", data: lineSeg(cdata.theilSen, xMin, xMax),
+    datasets.push({ label: "Flow Line", type: "line", data: lineSeg(cdata.theilSen, xMin, xMax),
       borderColor: ratingColor("great"), borderWidth: 2, pointRadius: 0, fill: false });
-    datasets.push({ label: "OLS (naive)", type: "line", data: lineSeg(cdata.ols, xMin, xMax),
-      borderColor: ratingColor("high"), borderWidth: 1.5, borderDash: [6, 4], pointRadius: 0, fill: false,
-      hidden: !chartToggles.ols });
   }
 
-  // Cohorts with no robust fit (common for low-volume models like Venza, but also a well-populated
+  // Cohorts with no Flow Line (common for low-volume models like Venza, but also a well-populated
   // cohort whose comps share one mileage → null Theil-Sen) get an explanatory note so the empty
   // deal-band area reads as intentional. Report the engine's cohort size (cohorts.json n = count of
   // cohort-ready members), falling back to the plotted comps (excluding this car) when no viz entry.
   if (note && (!cdata || !cdata.theilSen)) {
     const n = (cdata && cdata.n != null) ? cdata.n : cohort.filter(r => r.vin !== rec.vin).length;
-    note.textContent = `No robust fit (n=${n}).`;
+    note.textContent = `No Flow Line — too few comps (n=${n}).`;
   }
 
+  // Pin the y-axis to the replay's range up front so it never moves when "Price changes" plays.
+  const yr = scatterYRange(datasets);
   detailChart = new Chart(cv, {
     type: "scatter",
     data: { datasets },
     options: { responsive: true, maintainAspectRatio: false, animation: false,
       scales: { x: { title: { display: true, text: "Mileage" }, ticks: { color: muted, callback: v => (v / 1000) + "k" }, grid: { color: grid } },
-                y: { title: { display: true, text: "Price" }, ticks: { color: muted, callback: v => "$" + (v / 1000).toFixed(0) + "k" }, grid: { color: grid } } },
-      plugins: { legend: { labels: { color: txt, filter: i => i.text !== "OLS (naive)" || chartToggles.ols } },
+                y: { ...(yr ? { min: yr.min, max: yr.max } : {}), title: { display: true, text: "Price" }, ticks: { color: muted, callback: v => "$" + (v / 1000).toFixed(0) + "k" }, grid: { color: grid } } },
+      plugins: { legend: { labels: { color: txt } },
         tooltip: { callbacks: { label: c => { const r = c.raw && c.raw._r; if (!r) return c.dataset.label;
           const v = r.valuation || {}; return `${r.trim} · ${(r.mileage||0).toLocaleString()}mi · ${f$(r.price)}${v.dealPct!=null ? " · "+fPct(v.dealPct)+" "+(v.rating||"") : ""}`; } } } },
     },
@@ -492,7 +532,7 @@ function renderCohortChart(rec) {
   detailChart.update();
 }
 
-// animate each cohort point falling from its first listed price to its current price (price-drop
+// animate each cohort point from its first listed price to its current price (price-change
 // history), so a screen full of motivated sellers is visible at a glance.
 function replayPriceDrops() {
   if (!detailChart || chartToggles.mode !== "scatter") return;
@@ -503,14 +543,24 @@ function replayPriceDrops() {
     if (h && h.length > 1) frames.push({ p, from: h[0].price, to: p.y });
   }));
   if (!frames.length) return;
+  // The axis is already pinned to this exact range at render time (scatterYRange), so the resting
+  // chart and the replay share ONE range — starting the replay doesn't grow the axis and ending it
+  // doesn't shrink it. Re-assert it here in case an earlier interaction cleared it; identical math.
+  const yr = scatterYRange(detailChart.data.datasets);
+  if (yr) { detailChart.options.scales.y.min = yr.min; detailChart.options.scales.y.max = yr.max; }
   const t0 = performance.now(), dur = 1400;
-  detailChart.$bands && (detailChart.$bands._save = detailChart.$bands, detailChart.$bands = null);
+  const savedBands = detailChart.$bands;                 // bands follow the fit line, not the
+  detailChart.$bands = null;                             // moving points → hide only during motion
   const step = now => {
     const k = clamp((now - t0) / dur, 0, 1), e = 1 - Math.pow(1 - k, 3);
     frames.forEach(f => f.p.y = f.from + (f.to - f.from) * e);
     detailChart.update("none");
     if (k < 1) requestAnimationFrame(step);
-    else renderCohortChart(CURRENT_REC);   // restore bands + final state
+    else {                                               // settle at final prices, restore the
+      frames.forEach(f => f.p.y = f.to);                 // bands, but KEEP the pinned axis so it
+      detailChart.$bands = savedBands;                   // doesn't snap back to auto-scale
+      detailChart.update("none");
+    }
   };
   requestAnimationFrame(step);
 }
@@ -570,9 +620,8 @@ function openDetail(rec) {
         <button id="tgDep" class="${chartToggles.mode === "depreciation" ? "on" : ""}">Depreciation</button>
         <span style="flex:1"></span>
         <button id="tgBands" class="${chartToggles.bands ? "on" : ""}">Deal bands</button>
-        <button id="tgOls" class="${chartToggles.ols ? "on" : ""}">vs naive OLS</button>
         <button id="tgParent" class="${chartToggles.parent ? "on" : ""}">Other trims</button>
-        <button id="tgReplay">▶ Replay price drops</button>
+        <button id="tgReplay">▶ Price changes</button>
       </div>
       <div class="chart-wrap"><canvas id="cohortChart"></canvas></div>
       <div id="chartNote" class="vlog"></div>`
@@ -597,14 +646,6 @@ function openDetail(rec) {
         ${kv("Market value", v.marketValue == null ? null : f$(v.marketValue))}
       </div>
     </div>
-    <div class="sect"><h3>Trust signals</h3>
-      <div class="kv">
-        <div><span class="k">Trust</span><span class="badge t-${tr.strength}">${tr.label}</span> ${esc(tr.title)}</div>
-        ${kv("Rating confidence", v.confidence == null ? null : v.confidence.toFixed(2) + (v.ratingConfident === false ? " (muted)" : ""))}
-        ${kv("Trim conf", rec.trimConfidence == null ? null : fConf(rec.trimConfidence) + " via " + (rec.trimVerifiedBy || "—"))}
-        ${kv("Powertrain conf", rec.powertrainConfidence == null ? null : fConf(rec.powertrainConfidence) + " via " + (rec.powertrainVerifiedBy || "—"))}
-      </div>
-    </div>
     <div class="sect"><h3>Condition adjustments</h3>${adjRows}</div>
     <div class="sect"><h3>Specs</h3>
       <div class="kv">
@@ -612,7 +653,7 @@ function openDetail(rec) {
         ${kv("Engine", rec.engine)} ${kv("Transmission", rec.transmission)}
         ${kv("Drivetrain", rec.drivetrain)} ${kv("Base MSRP", rec.baseMsrp == null ? null : f$(rec.baseMsrp))}
         ${kv("Built", rec.plantCountry ? [rec.plantCity, rec.plantCountry].filter(Boolean).join(", ") : null)}
-        ${kv("CPO", rec.cpo === "manufacturer" ? "Yes (OEM)" : rec.cpo === "dealer" ? "Yes (Dealer)" : rec.cpo === "unknown" ? "Yes (source unverified)" : null)} ${kv("Condition", conditionOf(rec))}
+        ${kv("CPO", rec.cpo === "manufacturer" ? "Yes (OEM)" : rec.cpo === "dealer" ? "Yes (Dealer)" : null)} ${kv("Condition", conditionOf(rec))}
         ${rec.titleBrand ? `<div><span class="k">Title</span><span class="badge r-branded">${esc(String(rec.titleBrand).toUpperCase())}</span> <span class="stats">source: ${esc(rec.titleBrandSource || "vdp")} — excluded from comps</span></div>` : ""}
       </div>
       <div style="margin-top:8px"><span class="k" style="color:var(--dim)">Options </span>${opts}</div>
@@ -620,14 +661,13 @@ function openDetail(rec) {
 
   if (hasChart) {
     const set = (id, fn) => { const el = document.getElementById(id); if (el) el.onclick = fn; };
-    const reflectAndRender = () => { ["tgBands","tgOls","tgParent","tgScatter","tgDep"].forEach(id => {
+    const reflectAndRender = () => { ["tgBands","tgParent","tgScatter","tgDep"].forEach(id => {
       const el = document.getElementById(id); if (!el) return;
-      const on = id === "tgBands" ? chartToggles.bands : id === "tgOls" ? chartToggles.ols
+      const on = id === "tgBands" ? chartToggles.bands
         : id === "tgParent" ? chartToggles.parent : id === "tgScatter" ? chartToggles.mode === "scatter"
         : chartToggles.mode === "depreciation"; el.classList.toggle("on", on); });
       renderCohortChart(rec); };
     set("tgBands", () => { chartToggles.bands = !chartToggles.bands; reflectAndRender(); });
-    set("tgOls", () => { chartToggles.ols = !chartToggles.ols; reflectAndRender(); });
     set("tgParent", () => { chartToggles.parent = !chartToggles.parent; reflectAndRender(); });
     set("tgScatter", () => { chartToggles.mode = "scatter"; reflectAndRender(); });
     set("tgDep", () => { chartToggles.mode = "depreciation"; reflectAndRender(); });
@@ -663,7 +703,7 @@ document.getElementById("detailClose").addEventListener("click", closeDetail);
 document.getElementById("detail").addEventListener("click", e => { if (e.target.id === "detail") closeDetail(); });
 document.addEventListener("keydown", e => { if (e.key === "Escape" && !document.getElementById("detail").hidden) closeDetail(); });
 
-["powertrain", "basis", "year", "hideGone"].forEach(id =>
+["powertrain", "year", "hideGone"].forEach(id =>
   document.getElementById(id).addEventListener("change", render));
 
 // view tabs — write viewState (the old <select id=view>) and reflect the active tab

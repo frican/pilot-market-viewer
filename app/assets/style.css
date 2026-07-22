@@ -195,6 +195,10 @@ a:hover { text-decoration: underline; }
 .b-cohort { color: var(--deal-great); border-color: var(--deal-great); }
 .b-pooled { color: var(--warn); border-color: var(--warn); }
 .b-msrp_curve { color: var(--text-muted); }
+/* basis caveats (deals view): b-rare = the rarest spec (msrp_curve, no comps → biggest caveat, amber);
+   b-thin = a handful of pooled comps (minor caveat, muted). */
+.b-rare { color: var(--warn); border-color: var(--warn); }
+.b-thin { color: var(--text-muted); border-color: var(--border); }
 /* absolute deal rating (the headline) — CarGurus-style bands */
 .r-great { color: var(--deal-great); border-color: var(--deal-great); font-weight: 650; }
 .r-good { color: var(--deal-good); }

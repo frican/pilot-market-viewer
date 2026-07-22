@@ -17,6 +17,31 @@
         2026
       ],
       "targetPowertrain": "gas"
+    },
+    {
+      "id": "grand_highlander",
+      "make": "Toyota",
+      "model": "Grand Highlander",
+      "label": "Toyota Grand Highlander",
+      "powertrains": [
+        {
+          "id": "gas",
+          "label": "Gas"
+        },
+        {
+          "id": "hybrid",
+          "label": "Hybrid"
+        },
+        {
+          "id": "hybrid_max",
+          "label": "Hybrid MAX"
+        }
+      ],
+      "years": [
+        2024,
+        2026
+      ],
+      "targetPowertrain": null
     }
   ]
 }

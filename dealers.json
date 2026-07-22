@@ -1,13 +1,38 @@
 [
  {
+  "name": "Tasca Toyota Boston",
+  "distanceMi": 5,
+  "domain": "tascakiasouthshore.com"
+ },
+ {
   "name": "Motorvation Atlanta",
   "domain": "motorvationatlanta.com",
   "distanceMi": 6
  },
  {
+  "name": "Parkway Toyota of Boston",
+  "distanceMi": 8,
+  "domain": "parkwaytoyotaboston.com"
+ },
+ {
+  "name": "Kelly Honda",
+  "distanceMi": 8,
+  "domain": "kelly-honda.com"
+ },
+ {
+  "name": "Atlantic Toyota",
+  "distanceMi": 8,
+  "domain": "atlantictoyota.com"
+ },
+ {
   "name": "DriveTime of Stone Mountain",
   "domain": "drivetime.com",
   "distanceMi": 9
+ },
+ {
+  "name": "Herb Chambers Ford Braintree",
+  "distanceMi": 9,
+  "domain": "herbchambersbmw.com"
  },
  {
   "name": "American Trucks Sales",
@@ -30,6 +55,21 @@
   "domain": "hertzcarsales.com",
   "distanceMi": 10,
   "platform": "carscommerce"
+ },
+ {
+  "name": "WOBURN TOYOTA",
+  "distanceMi": 10,
+  "domain": "woburntoyota.com"
+ },
+ {
+  "name": "Wellesley Toyota",
+  "distanceMi": 10,
+  "domain": "wellesleytoyota.com"
+ },
+ {
+  "name": "Albrecht Woburn Toyota",
+  "distanceMi": 10,
+  "domain": "woburntoyota.com"
  },
  {
   "name": "Peachtree Mitsubishi",
@@ -135,6 +175,11 @@
   "domain": "nalleyinfinitiatlanta.com"
  },
  {
+  "name": "Nucar Toyota of Norwood",
+  "distanceMi": 13,
+  "domain": "nucarnh.com"
+ },
+ {
   "name": "Nalley Lexus Galleria",
   "domain": "nalleyinfinitiatlanta.com",
   "distanceMi": 14
@@ -169,6 +214,11 @@
   "name": "Nalley Toyota Stonecrest",
   "distanceMi": 14,
   "domain": "nalleyinfinitiatlanta.com"
+ },
+ {
+  "name": "Ira Toyota of Danvers Group 1 Automotive",
+  "distanceMi": 14,
+  "domain": "toyotaofdanvers.com"
  },
  {
   "name": "Sandy Springs Toyota Scion",
@@ -377,6 +427,16 @@
   "domain": "echopark.com"
  },
  {
+  "name": "Copeland Toyota",
+  "distanceMi": 20,
+  "domain": "copelandtoyota.com"
+ },
+ {
+  "name": "McGee Toyota of Hanover",
+  "distanceMi": 20,
+  "domain": "mcgeecars.com"
+ },
+ {
   "name": "BMW of Gwinnett Place",
   "domain": "bmwofgwinnettplace.com",
   "distanceMi": 21
@@ -423,6 +483,11 @@
   "name": "Regal Nissan",
   "distanceMi": 21,
   "domain": "regalauto.com"
+ },
+ {
+  "name": "Copeland Toyota Syndication New",
+  "distanceMi": 21,
+  "domain": "copelandtoyota.com"
  },
  {
   "name": "Carriage Kia of Alpharetta",
@@ -548,6 +613,11 @@
   "domain": "carvilla.com"
  },
  {
+  "name": "Acton Toyota of Littleton",
+  "distanceMi": 24,
+  "domain": "actontoyota.com"
+ },
+ {
   "name": "Maxie Price Chevrolet",
   "domain": "maxieprice.com",
   "distanceMi": 26,
@@ -557,6 +627,11 @@
   "name": "Genesis of Kennesaw",
   "domain": "genesiskennesaw.com",
   "distanceMi": 26
+ },
+ {
+  "name": "Imperial Toyota",
+  "distanceMi": 26,
+  "domain": "imperialcars.com"
  },
  {
   "name": "Auto Gallery Lawrenceville",
@@ -591,6 +666,11 @@
   "domain": "hardyforddallas.com"
  },
  {
+  "name": "Canobie Lake Toyota",
+  "distanceMi": 28,
+  "domain": "canobielaketoyota.com"
+ },
+ {
   "name": "Star Motors",
   "domain": "starmotorsga.com",
   "distanceMi": 29
@@ -609,6 +689,11 @@
   "name": "Zynex Motors",
   "distanceMi": 30,
   "domain": "zynexmotors.com"
+ },
+ {
+  "name": "Westboro Toyota",
+  "distanceMi": 30,
+  "domain": "westborotoyota.com"
  },
  {
   "name": "Southtowne Hyundai of Newnan Genesis of Newnan",
@@ -642,6 +727,16 @@
   "domain": "carscatch.com",
   "distanceMi": 31,
   "platform": "dealerdotcom"
+ },
+ {
+  "name": "Sullivan Brothers Toyota",
+  "distanceMi": 31,
+  "domain": "sullivanbrotherstoyota.com"
+ },
+ {
+  "name": "Nucar Toyota of North Attleboro Frmly Boch Toyota South",
+  "distanceMi": 31,
+  "domain": "success.nucar.com"
  },
  {
   "name": "Rick Hendrick Chevrolet of Buford",
@@ -704,6 +799,11 @@
   "distanceMi": 33
  },
  {
+  "name": "Koch Rt. 2 Toyota",
+  "distanceMi": 33,
+  "domain": "kochrt2toyota.com"
+ },
+ {
   "name": "Lou Sobh Honda",
   "domain": "lousobhkia.com",
   "distanceMi": 34
@@ -717,6 +817,11 @@
   "name": "Honda Mall of Georgia",
   "distanceMi": 34,
   "domain": "hondamallofgeorgia.com"
+ },
+ {
+  "name": "Koch Route 2 Toyota",
+  "distanceMi": 34,
+  "domain": "kochrt2toyota.com"
  },
  {
   "name": "H and S Auto Group",
@@ -739,6 +844,16 @@
   "distanceMi": 37
  },
  {
+  "name": "Toyota of Smithfield New",
+  "distanceMi": 37,
+  "domain": "toyotaofsmithfield.com"
+ },
+ {
+  "name": "Toyota of Smithfield",
+  "distanceMi": 37,
+  "domain": "toyotaofsmithfield.com"
+ },
+ {
   "name": "Shottenkirk Chrysler Dodge Jeep Ram",
   "domain": "shottenkirkchrysler.com",
   "distanceMi": 38,
@@ -753,6 +868,16 @@
   "name": "Cherokee County Toyota",
   "domain": "cherokeecountytoyota.com",
   "distanceMi": 38
+ },
+ {
+  "name": "Harr Toyota",
+  "distanceMi": 38,
+  "domain": "harrtoyota.com"
+ },
+ {
+  "name": "Sunnyside Acura",
+  "distanceMi": 38,
+  "domain": "sunnysideacura.com"
  },
  {
   "name": "Scott Evans Chrysler Plymouth Dodge Jeep FCA",
@@ -776,6 +901,27 @@
   "platform": "dealervenom"
  },
  {
+  "name": "Grieco Toyota",
+  "distanceMi": 40,
+  "domain": "griecohyundai.com"
+ },
+ {
+  "name": "Bristol Toyota",
+  "distanceMi": 42,
+  "domain": "bristoltoyota.com"
+ },
+ {
+  "name": "Bristol Toyota Scion",
+  "distanceMi": 42,
+  "domain": "bristoltoyota.com"
+ },
+ {
+  "name": "Herb Chambers Toyota of Auburn",
+  "distanceMi": 43,
+  "domain": "herbchamberstoyotaofauburn.com",
+  "platform": "dealerdotcom"
+ },
+ {
   "name": "Krause Family Hyundai",
   "domain": "krausefamilyhyundai.com",
   "distanceMi": 44,
@@ -792,6 +938,16 @@
   "distanceMi": 44
  },
  {
+  "name": "Ira Toyota of Manchester Group 1 Automotive",
+  "distanceMi": 45,
+  "domain": "toyotaofmanchesternh.com"
+ },
+ {
+  "name": "Ira Toyota of Manchester",
+  "distanceMi": 45,
+  "domain": "toyotaofmanchesternh.com"
+ },
+ {
   "name": "Jim Shorkey Cadillac",
   "domain": "jimshorkeycadillac.com",
   "distanceMi": 46
@@ -800,6 +956,11 @@
   "name": "John Megel Chevrolet",
   "distanceMi": 46,
   "domain": "megelchevy.com"
+ },
+ {
+  "name": "Ira Subaru of Manchester",
+  "distanceMi": 46,
+  "domain": "toyotaofmanchesternh.com"
  },
  {
   "name": "Milton Martin Honda",
@@ -822,6 +983,16 @@
   "domain": "greeneford.net"
  },
  {
+  "name": "Balise Toyota of Warwick Used",
+  "distanceMi": 47,
+  "domain": "balisetoyotaofwarwick.com"
+ },
+ {
+  "name": "Balise Toyota of Warwick New",
+  "distanceMi": 47,
+  "domain": "baliseauto.com"
+ },
+ {
   "name": "Milton Martin Toyota Scion",
   "domain": "miltonmartintoyota.com",
   "distanceMi": 48
@@ -830,6 +1001,16 @@
   "name": "MiltonMartinToyota New",
   "distanceMi": 48,
   "domain": "miltonmartintoyota.com"
+ },
+ {
+  "name": "Empire Ford",
+  "distanceMi": 48,
+  "domain": "empirefordinc.com"
+ },
+ {
+  "name": "Toyota of Dartmouth",
+  "distanceMi": 50,
+  "domain": "toyotaofdartmouth.com"
  },
  {
   "name": "Athens Ford",
@@ -872,6 +1053,16 @@
   "domain": "peachstatefordcedartown.com"
  },
  {
+  "name": "Nucar Hyundai of North Kingstown",
+  "distanceMi": 57,
+  "domain": "nucartoyotanorthkingstown.com"
+ },
+ {
+  "name": "Nucar Toyota of North Kingstown",
+  "distanceMi": 57,
+  "domain": "nucar.com"
+ },
+ {
   "name": "Riverside Toyota Scion Used",
   "domain": "riversideautogroup.net",
   "distanceMi": 58
@@ -905,6 +1096,11 @@
   "name": "LaGrange Toyota Scion",
   "domain": "lagrangetoyota.com",
   "distanceMi": 61
+ },
+ {
+  "name": "Ira Toyota of Hyannis Group 1 Automotive",
+  "distanceMi": 61,
+  "domain": "iratoyotaofhyannis.com"
  },
  {
   "name": "Shottenkirk Hyundai Rome",
@@ -1008,6 +1204,16 @@
   "platform": "carscommerce"
  },
  {
+  "name": "Gale Toyota",
+  "distanceMi": 82,
+  "domain": "galetoyota.com"
+ },
+ {
+  "name": "Balise Toyota New",
+  "distanceMi": 82,
+  "domain": "baliseauto.com"
+ },
+ {
   "name": "Sunny King Toyota",
   "domain": "sunnykingtoyota.com",
   "distanceMi": 83
@@ -1033,6 +1239,31 @@
   "domain": "bentonnissan.com"
  },
  {
+  "name": "Irwin Toyota Ford Lincoln",
+  "distanceMi": 84,
+  "domain": "irwinzonelincoln.com"
+ },
+ {
+  "name": "LynchToyota New",
+  "distanceMi": 84,
+  "domain": "lynchtoyota.com"
+ },
+ {
+  "name": "The Irwin Zone Toyota Hyundai New",
+  "distanceMi": 84,
+  "domain": "irwinzonetoyota.com"
+ },
+ {
+  "name": "Toyota of Colchester",
+  "distanceMi": 85,
+  "domain": "toyotaofcolchester.com"
+ },
+ {
+  "name": "Toyota Scion of Colchester",
+  "distanceMi": 85,
+  "domain": "toyotaofcolchester.com"
+ },
+ {
   "name": "Cooper Hyundai",
   "domain": "cooperhyundai.com",
   "distanceMi": 86
@@ -1044,9 +1275,29 @@
   "platform": "dealervenom"
  },
  {
+  "name": "Ocean Honda Groton",
+  "distanceMi": 86,
+  "domain": "oceanhondabrockton.com"
+ },
+ {
   "name": "Five Star Chevrolet GMC",
   "domain": "fivestarnissan.com",
   "distanceMi": 87
+ },
+ {
+  "name": "Faith's Toyota Ford",
+  "distanceMi": 87,
+  "domain": "faithstoyota.com"
+ },
+ {
+  "name": "Faiths Toyota Ford",
+  "distanceMi": 87,
+  "domain": "faithsauto.com"
+ },
+ {
+  "name": "Ira Toyota Saco Group 1 Automotive",
+  "distanceMi": 87,
+  "domain": "iratoyotasaco.com"
  },
  {
   "name": "Hughes Honda",
@@ -1062,6 +1313,11 @@
   "name": "AutoNation Honda Columbus",
   "distanceMi": 88,
   "domain": "autonationhyundaimallofgeorgia.com"
+ },
+ {
+  "name": "Girard Toyota Scion",
+  "distanceMi": 88,
+  "domain": "girardtoyota.com"
  },
  {
   "name": "Group 1 Toyota Rivertown",
@@ -1087,6 +1343,11 @@
   "name": "Ed Murdock Superstore Used",
   "distanceMi": 92,
   "domain": "edmurdockford.com"
+ },
+ {
+  "name": "Hartford Toyota",
+  "distanceMi": 92,
+  "domain": "hartfordtoyota.com"
  },
  {
   "name": "Lifetime Kia",
@@ -1139,6 +1400,11 @@
   "distanceMi": 97
  },
  {
+  "name": "Hoffman Toyota",
+  "distanceMi": 98,
+  "domain": "hoffmantoyota.com"
+ },
+ {
   "name": "Family Auto Sales",
   "domain": "familyautosalesonline.com",
   "distanceMi": 99
@@ -1147,6 +1413,11 @@
   "name": "Bring Your Own Bids Retail",
   "domain": "drivebyob.com",
   "distanceMi": 99
+ },
+ {
+  "name": "Berlin City Toyota of Portland",
+  "distanceMi": 99,
+  "domain": "berlincitytoyotame.com"
  },
  {
   "name": "Team One Toyota",
@@ -1199,6 +1470,11 @@
   "name": "INFINITI of Chattanooga",
   "distanceMi": 103,
   "domain": "infinitichattanooga.com"
+ },
+ {
+  "name": "Westbrook Toyota",
+  "distanceMi": 103,
+  "domain": "westbrooktoyota.com"
  },
  {
   "name": "Kia of Chattanooga",
@@ -1325,6 +1601,11 @@
   "distanceMi": 109
  },
  {
+  "name": "White River Toyota",
+  "distanceMi": 109,
+  "domain": "whiterivertoyota.com"
+ },
+ {
   "name": "Richard Kay Superstore",
   "domain": "richardkaysuperstore.com",
   "distanceMi": 110
@@ -1351,6 +1632,22 @@
   "platform": "carscommerce"
  },
  {
+  "name": "Torrington Ford",
+  "distanceMi": 111,
+  "domain": "torringtonfordct.com"
+ },
+ {
+  "name": "Coggins of the Berkshires",
+  "distanceMi": 111,
+  "domain": "cogginsoftheberkshires.com"
+ },
+ {
+  "name": "Coggins Toyota of Bennington",
+  "distanceMi": 111,
+  "domain": "cogginstoyotaofbennington.com",
+  "platform": "dealervenom"
+ },
+ {
   "name": "Town & Country Ford of Pell City",
   "domain": "pellcityford.com",
   "distanceMi": 112
@@ -1361,6 +1658,11 @@
   "distanceMi": 112
  },
  {
+  "name": "Richard Chevrolet",
+  "distanceMi": 112,
+  "domain": "richardchevy.com"
+ },
+ {
   "name": "Doster Motors",
   "distanceMi": 113,
   "domain": "dostermotors.com"
@@ -1369,6 +1671,16 @@
   "name": "Auto Mercado, Best Buy Auto",
   "distanceMi": 113,
   "domain": "automercadobestbuyauto.com"
+ },
+ {
+  "name": "WhiteRiverToyota New",
+  "distanceMi": 113,
+  "domain": "whiterivertoyota.com"
+ },
+ {
+  "name": "WhiteRiverToyota In Transit",
+  "distanceMi": 113,
+  "domain": "whiterivertoyota.com"
  },
  {
   "name": "Dublin GMC",
@@ -1432,6 +1744,11 @@
   "distanceMi": 120
  },
  {
+  "name": "Bobby Crabtree Chevrolet",
+  "distanceMi": 120,
+  "domain": "crabtreelexus.com"
+ },
+ {
   "name": "Long Chevrolet Buick GMC",
   "domain": "longofathensbuickgmc.net",
   "distanceMi": 121,
@@ -1441,6 +1758,11 @@
   "name": "Tallassee Automotive Used",
   "domain": "tallasseechryslerdodgejeepram.com",
   "distanceMi": 122
+ },
+ {
+  "name": "Lexus of Southampton",
+  "distanceMi": 122,
+  "domain": "lexusofsouthampton.com"
  },
  {
   "name": "Southern Wholesale Automobiles",
@@ -1506,6 +1828,16 @@
   "domain": "taylorbmw.com"
  },
  {
+  "name": "Riverhead Toyota",
+  "distanceMi": 130,
+  "domain": "riverheadtoyota.com"
+ },
+ {
+  "name": "Colonial Toyota Inc",
+  "distanceMi": 130,
+  "domain": "colonialtoyotact.com"
+ },
+ {
   "name": "North Alabama Cars",
   "domain": "northcountryford.cars",
   "distanceMi": 131
@@ -1541,9 +1873,19 @@
   "domain": "geraldjonesford.com"
  },
  {
+  "name": "RiverheadToyota New",
+  "distanceMi": 131,
+  "domain": "riverheadtoyota.com"
+ },
+ {
   "name": "Super Auto Discounts",
   "domain": "superautodiscounts.com",
   "distanceMi": 132
+ },
+ {
+  "name": "Wiscasset Ford",
+  "distanceMi": 132,
+  "domain": "wiscassetford.com"
  },
  {
   "name": "Serra Hyundai",
@@ -1581,6 +1923,11 @@
   "name": "EchoPark Automotive Birmingham",
   "distanceMi": 135,
   "domain": "echopark.com"
+ },
+ {
+  "name": "Kinderhook Toyota",
+  "distanceMi": 135,
+  "domain": "kinderhooktoyota.com"
  },
  {
   "name": "Brannon Honda",
@@ -1646,6 +1993,11 @@
   "domain": "toyotaofgreenville.com"
  },
  {
+  "name": "Greentree Toyota",
+  "distanceMi": 138,
+  "domain": "greentreetoyota.com"
+ },
+ {
   "name": "Bob Richards Toyota of North Augusta",
   "domain": "miracletoyotaofnorthaugusta.com",
   "distanceMi": 139,
@@ -1667,6 +2019,11 @@
   "distanceMi": 141
  },
  {
+  "name": "Sunrise Toyota North",
+  "distanceMi": 141,
+  "domain": "sunrisetoyota.com"
+ },
+ {
   "name": "Volunteer Auto Group",
   "domain": "volauto.com",
   "distanceMi": 142,
@@ -1677,6 +2034,11 @@
   "domain": "serratrussvillekia.com",
   "distanceMi": 142,
   "platform": "dealerdotcom"
+ },
+ {
+  "name": "Ecodrive Auto Group",
+  "distanceMi": 142,
+  "domain": "ecodriveautomall.com"
  },
  {
   "name": "Sons Kia Used",
@@ -1709,6 +2071,11 @@
   "domain": "whiteheadautosales.com",
   "distanceMi": 143,
   "platform": "carscommerce"
+ },
+ {
+  "name": "Ecodrive Automall",
+  "distanceMi": 143,
+  "domain": "ecodrivetoyotaofgorham.com"
  },
  {
   "name": "Tameron Honda",
@@ -1799,6 +2166,11 @@
   "domain": "northsideautogreenville.com"
  },
  {
+  "name": "New Country Toyota of Saratoga Springs",
+  "distanceMi": 145,
+  "domain": "newcountry.com"
+ },
+ {
   "name": "Hoover Toyota",
   "domain": "hoovertoyota.com",
   "distanceMi": 146
@@ -1873,6 +2245,11 @@
   "name": "Rick McGill's Airport Toyota",
   "distanceMi": 147,
   "domain": "rickmcgillairporttoyota.com"
+ },
+ {
+  "name": "Romeo Toyota of Glens Falls",
+  "distanceMi": 147,
+  "domain": "romeoautogroup.com"
  },
  {
   "name": "Dick Brooks Honda",
@@ -1985,6 +2362,11 @@
   "domain": "woodyandersonmadison.com"
  },
  {
+  "name": "Mohawk Honda",
+  "distanceMi": 150,
+  "domain": "mohawkhonda.com"
+ },
+ {
   "name": "City Auto Sales Huntsville",
   "domain": "cityautomitsubishi.com",
   "distanceMi": 151,
@@ -2068,6 +2450,11 @@
   "domain": "autonationhyundaicolumbus.com"
  },
  {
+  "name": "Smithtown Toyota",
+  "distanceMi": 152,
+  "domain": "smithtowntoyota.com"
+ },
+ {
   "name": "Rice Buick-GMC Inc.",
   "domain": "ricegmc.com",
   "distanceMi": 153
@@ -2092,6 +2479,11 @@
   "name": "Boyd Chevrolet Inc.",
   "distanceMi": 153,
   "domain": "boydchevrolet.com"
+ },
+ {
+  "name": "Prestige Toyota Hyundai",
+  "distanceMi": 153,
+  "domain": "prestigetoyota-ny.com"
  },
  {
   "name": "Woody Folsom Chrysler Dodge Jeep Ram Vidalia",
@@ -2121,10 +2513,21 @@
   "platform": "dealerdotcom"
  },
  {
+  "name": "Charlie's Toyota",
+  "distanceMi": 154,
+  "domain": "charliesmm.com",
+  "platform": "carscommerce"
+ },
+ {
   "name": "Benton Nissan of Bessemer",
   "domain": "bentonnissanofbessemer.com",
   "distanceMi": 155,
   "platform": "carscommerce"
+ },
+ {
+  "name": "Sunrise Toyota",
+  "distanceMi": 155,
+  "domain": "sunrisetoyota.com"
  },
  {
   "name": "Auto Advantage by Discovery Auto Group",
@@ -2177,6 +2580,16 @@
   "distanceMi": 158
  },
  {
+  "name": "Habberstad Kia",
+  "distanceMi": 158,
+  "domain": "habberstadkia.com"
+ },
+ {
+  "name": "Rivera Toyota",
+  "distanceMi": 158,
+  "domain": "riveratoyota.com"
+ },
+ {
   "name": "Rusty Wallace Nissan",
   "domain": "rustywallacenissan.com",
   "distanceMi": 159
@@ -2216,6 +2629,11 @@
   "name": "Just Auto & Leasing",
   "distanceMi": 159,
   "domain": "justautosales.com"
+ },
+ {
+  "name": "Empire Toyota of Huntington",
+  "distanceMi": 159,
+  "domain": "shopempireauto.com"
  },
  {
   "name": "Fred Anderson Toyota of Asheville",
@@ -2285,6 +2703,11 @@
   "domain": "rustywallacehonda.com"
  },
  {
+  "name": "Toyota of Greenwich",
+  "distanceMi": 160,
+  "domain": "toyotaofgreenwich.com"
+ },
+ {
   "name": "Parks Chevrolet Spartanburg Parks Automotive Group Nc",
   "domain": "parksfordhendersonville.com",
   "distanceMi": 161
@@ -2343,6 +2766,12 @@
   "platform": "carscommerce"
  },
  {
+  "name": "Curry Toyota New",
+  "distanceMi": 162,
+  "domain": "currytoyota.com",
+  "platform": "dealereprocess"
+ },
+ {
   "name": "Metter Ford",
   "domain": "metterford.com",
   "distanceMi": 163
@@ -2394,6 +2823,21 @@
   "platform": "dealervenom"
  },
  {
+  "name": "Westbury Toyota",
+  "distanceMi": 170,
+  "domain": "westburytoyota.com"
+ },
+ {
+  "name": "Penn Toyota",
+  "distanceMi": 170,
+  "domain": "penntoyota.com"
+ },
+ {
+  "name": "Autoworld KIA",
+  "distanceMi": 171,
+  "domain": "autoworldkia.net"
+ },
+ {
   "name": "J.C. Lewis Ford Lincoln of Statesboro",
   "domain": "jclewisfordofhinesville.com",
   "distanceMi": 172
@@ -2415,6 +2859,16 @@
   "distanceMi": 172
  },
  {
+  "name": "Westchester Toyota",
+  "distanceMi": 172,
+  "domain": "westchestertoyota.com"
+ },
+ {
+  "name": "New Rochelle Toyota",
+  "distanceMi": 172,
+  "domain": "newrochelletoyota.com"
+ },
+ {
   "name": "Vaden Hyundai of Statesboro",
   "domain": "vadennissanofhiltonhead.com",
   "distanceMi": 173
@@ -2433,6 +2887,11 @@
   "name": "Franklin Chevrolet",
   "domain": "franklinchevrolet.com",
   "distanceMi": 173
+ },
+ {
+  "name": "Lia Toyota of Rockland",
+  "distanceMi": 173,
+  "domain": "liatoyotaofrockland.com"
  },
  {
   "name": "Franklin Automotive",
@@ -2458,6 +2917,11 @@
   "name": "Newton Ford South",
   "domain": "newtonfordsouth.com",
   "distanceMi": 175
+ },
+ {
+  "name": "Millennium Toyota",
+  "distanceMi": 175,
+  "domain": "millenniumtoyota.com"
  },
  {
   "name": "Anderson Buick GMC",
@@ -2486,6 +2950,11 @@
   "distanceMi": 178
  },
  {
+  "name": "InterstateToyota New",
+  "distanceMi": 178,
+  "domain": "interstatetoyota.net"
+ },
+ {
   "name": "Cookeville Honda",
   "domain": "cookevillehonda.com",
   "distanceMi": 179
@@ -2510,6 +2979,21 @@
   "name": "Burns Chevrolet",
   "domain": "burnschevyofgaffney.com",
   "distanceMi": 179
+ },
+ {
+  "name": "Star Toyota",
+  "distanceMi": 179,
+  "domain": "startoyota.com"
+ },
+ {
+  "name": "HeritageToyota In Transit",
+  "distanceMi": 179,
+  "domain": "heritagetoyotacars.com"
+ },
+ {
+  "name": "Heritage Toyota New",
+  "distanceMi": 179,
+  "domain": "heritagetoyotacars.com"
  },
  {
   "name": "Cumberland Toyota",
@@ -2552,6 +3036,26 @@
   "domain": "cumberlandtoyota.com"
  },
  {
+  "name": "Sunrise Volkswagen",
+  "distanceMi": 180,
+  "domain": "sunrisevolkswagen.com"
+ },
+ {
+  "name": "Luxury Auto Group",
+  "distanceMi": 180,
+  "domain": "luxuryautogroupny.com"
+ },
+ {
+  "name": "Fordham Toyota of the Bronx & NYC",
+  "distanceMi": 180,
+  "domain": "fordhamtoyota.com"
+ },
+ {
+  "name": "Fordham Toyota",
+  "distanceMi": 180,
+  "domain": "fordhamtoyota.com"
+ },
+ {
   "name": "Farris Ford",
   "domain": "farrismotor.com",
   "distanceMi": 181
@@ -2565,6 +3069,11 @@
   "name": "JT's Autoland of Lexington",
   "distanceMi": 181,
   "domain": "jtsautolandoflexington.com"
+ },
+ {
+  "name": "Advantage Toyota of Valley Stream",
+  "distanceMi": 181,
+  "domain": "advantagetoyotany.com"
  },
  {
   "name": "Hyundai of Cookeville",
@@ -2593,6 +3102,11 @@
   "distanceMi": 182
  },
  {
+  "name": "Lexus of Orange County",
+  "distanceMi": 182,
+  "domain": "lexusorangecounty.com"
+ },
+ {
   "name": "Rusty Wallace Cadillac GMC KIA",
   "domain": "rustywallacecars.com",
   "distanceMi": 183
@@ -2618,6 +3132,11 @@
   "domain": "lakemurraymitsubishi.com"
  },
  {
+  "name": "Hillside Toyota",
+  "distanceMi": 183,
+  "domain": "hillsidetoyota.nyc"
+ },
+ {
   "name": "Bondy's Nissan",
   "domain": "bondysnissan.com",
   "distanceMi": 184
@@ -2626,6 +3145,32 @@
   "name": "Honda of Columbia",
   "distanceMi": 184,
   "domain": "hondaofcolumbia.com"
+ },
+ {
+  "name": "Major World Chevy",
+  "distanceMi": 185,
+  "domain": "majorworldchryslerdodgejeepram.com"
+ },
+ {
+  "name": "Johnstons Toyota of Middletown",
+  "distanceMi": 185,
+  "domain": "johnstonstoyota.com",
+  "platform": "dealerdotcom"
+ },
+ {
+  "name": "Toyota of Hackensack",
+  "distanceMi": 185,
+  "domain": "toyotaofhackensack.com"
+ },
+ {
+  "name": "Empire Buick Cadillac GMC of Long Island City",
+  "distanceMi": 185,
+  "domain": "shopempiresubaru.com"
+ },
+ {
+  "name": "Silver Star Mercedes Benz",
+  "distanceMi": 185,
+  "domain": "silverstarny.com"
  },
  {
   "name": "Greenville Chrysler Dodge Jeep Ram",
@@ -2767,6 +3312,17 @@
   "domain": "jtsautoland.com"
  },
  {
+  "name": "East Coast Toyota",
+  "distanceMi": 188,
+  "domain": "eastcoasttoyota.com"
+ },
+ {
+  "name": "Toyota of Manhattan New",
+  "distanceMi": 188,
+  "domain": "toyotaofmanhattan.com",
+  "platform": "dealerdotcom"
+ },
+ {
   "name": "Gateway Ford Nissan",
   "domain": "gatewaynissangreeneville.com",
   "distanceMi": 189
@@ -2797,6 +3353,11 @@
   "domain": "carvillechryslerdodgejeepram.com"
  },
  {
+  "name": "Toyota Universe",
+  "distanceMi": 192,
+  "domain": "toyotauniverse.com"
+ },
+ {
   "name": "Marburger Chrysler Dodge Jeep",
   "domain": "marburgerchevy.net",
   "distanceMi": 193,
@@ -2808,9 +3369,30 @@
   "domain": "marlarauto.com"
  },
  {
+  "name": "Hudson Toyota",
+  "distanceMi": 193,
+  "domain": "hudsonnissan.com",
+  "platform": "dealerdotcom"
+ },
+ {
+  "name": "Crestmont Toyota New",
+  "distanceMi": 193,
+  "domain": "crestmonttoyota.com"
+ },
+ {
   "name": "Discovery Nissan",
   "domain": "discoverynissan.com",
   "distanceMi": 194
+ },
+ {
+  "name": "Hudson Nissan",
+  "distanceMi": 194,
+  "domain": "hudsonnissan.com"
+ },
+ {
+  "name": "Toyota of Bay Ridge Brooklyn",
+  "distanceMi": 194,
+  "domain": "toyotaofbayridge.com"
  },
  {
   "name": "Jim Hudson Lexus Columbia",
@@ -2872,6 +3454,16 @@
   "platform": "dealerdotcom"
  },
  {
+  "name": "Handy Toyota",
+  "distanceMi": 197,
+  "domain": "handycarswillistonroad.com"
+ },
+ {
+  "name": "PaulMillerToyota New",
+  "distanceMi": 198,
+  "domain": "paulmillertoyota.com"
+ },
+ {
   "name": "Thomasville Ford",
   "domain": "thomasvilleford.com",
   "distanceMi": 199
@@ -2880,5 +3472,10 @@
   "name": "Thomasville Toyota 1",
   "domain": "thomasvilletoyota.com",
   "distanceMi": 199
+ },
+ {
+  "name": "Paul Miller Toyota",
+  "distanceMi": 199,
+  "domain": "paulmillertoyota.com"
  }
 ]

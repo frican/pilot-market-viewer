@@ -33,10 +33,6 @@
 <body>
 <header>
   <div class="brand"><span class="dot"></span><h1 id="appTitle">Market</h1></div>
-  <nav class="tabs" id="viewTabs" role="tablist" aria-label="View">
-    <button class="tab on" data-view="deals" role="tab" aria-selected="true">Deals</button>
-    <button class="tab" data-view="triage" role="tab" aria-selected="false">Triage backlog</button>
-  </nav>
   <!-- internal-only link below; the publisher strips this node from the public build. -->
   
   <div>
@@ -46,7 +42,6 @@
   <div class="controls">
     <select id="model" title="vehicle model"></select>
     <select id="powertrain"></select>
-    <select id="basis"><option value="trust">Cohort + Pooled</option><option value="">Any basis</option></select>
     <select id="year"><option value="">All years</option></select>
     <label class="stats"><input type="checkbox" id="hideGone" checked> hide gone</label>
     <button class="icon-btn" id="themeToggle" title="Toggle light / dark" aria-label="Toggle theme">◐</button>
@@ -66,7 +61,7 @@
 <table id="dealsTable">
   <thead><tr>
     <th data-k="valuation.dealPct">Deal</th><th data-k="year">Year</th><th data-k="trim">Trim</th>
-    <th data-k="powertrain">PT</th><th data-k="_trustConf">Trust</th><th data-k="mileage" class="num">Miles</th>
+    <th data-k="powertrain">PT</th><th data-k="mileage" class="num">Miles</th>
     <th data-k="price" class="num">Price</th><th data-k="valuation.expected" class="num">Expected</th>
     <th>Basis</th><th data-k="valuation.signals.listedDays" class="num">Market</th>
     <th data-k="distanceMi" class="num">Dist</th><th data-k="dealer">Dealer</th>
