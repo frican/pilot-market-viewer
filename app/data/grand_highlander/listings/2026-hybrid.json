@@ -3123,7 +3123,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": null,
     "trimFeed": "LE",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -3178,8 +3178,8 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.0,
+    "trimVerifiedBy": "none",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -4245,7 +4245,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": null,
     "trimFeed": "LE",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -4300,8 +4300,8 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.0,
+    "trimVerifiedBy": "none",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -4951,7 +4951,7 @@
     "trimConfidence": 0.878,
     "trimVerifiedBy": "search",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": true,
     "cohortReady": false,
     "valuation": {
@@ -5074,7 +5074,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": null,
     "trimFeed": "LE",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -5129,8 +5129,8 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.0,
+    "trimVerifiedBy": "none",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -6116,7 +6116,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": null,
     "trimFeed": "LE",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -6171,8 +6171,8 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.0,
+    "trimVerifiedBy": "none",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -6305,7 +6305,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": "Nightshade",
     "trimFeed": "Nightshade",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -6360,11 +6360,11 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.65,
-    "trimVerifiedBy": "search",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
     "trimFlagged": true,
-    "trimConflict": true,
-    "comboConflict": false,
+    "trimConflict": false,
+    "comboConflict": true,
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
@@ -7536,7 +7536,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": null,
     "trimFeed": "LE",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -7591,8 +7591,8 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.0,
+    "trimVerifiedBy": "none",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -7810,7 +7810,7 @@
     "trimConfidence": 0.878,
     "trimVerifiedBy": "search",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": true,
     "cohortReady": false,
     "valuation": {
@@ -8375,7 +8375,7 @@
     "trimConfidence": 0.965,
     "trimVerifiedBy": "site",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": true,
     "cohortReady": false,
     "valuation": {
@@ -8706,7 +8706,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": null,
     "trimFeed": "LE",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -8761,8 +8761,8 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.0,
+    "trimVerifiedBy": "none",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -9989,7 +9989,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": "Nightshade",
     "trimFeed": "Nightshade",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -10044,11 +10044,11 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.65,
-    "trimVerifiedBy": "search",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
     "trimFlagged": true,
-    "trimConflict": true,
-    "comboConflict": false,
+    "trimConflict": false,
+    "comboConflict": true,
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
@@ -12982,7 +12982,7 @@
     "trimConfidence": 0.965,
     "trimVerifiedBy": "site",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": true,
     "cohortReady": false,
     "valuation": {
@@ -13685,7 +13685,7 @@
     "trimConfidence": 0.965,
     "trimVerifiedBy": "site",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": true,
     "cohortReady": false,
     "valuation": {
@@ -13800,7 +13800,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": null,
     "trimFeed": "LE",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -13855,8 +13855,8 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.0,
+    "trimVerifiedBy": "none",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -13872,7 +13872,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": "Nightshade",
     "trimFeed": "Nightshade",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -13927,11 +13927,11 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.65,
-    "trimVerifiedBy": "search",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
     "trimFlagged": true,
-    "trimConflict": true,
-    "comboConflict": false,
+    "trimConflict": false,
+    "comboConflict": true,
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
@@ -15197,7 +15197,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": null,
     "trimFeed": "LE",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -15252,8 +15252,8 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.0,
+    "trimVerifiedBy": "none",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -15543,7 +15543,7 @@
     "trimConfidence": 0.988,
     "trimVerifiedBy": "site",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": true,
     "cohortReady": false,
     "valuation": {
@@ -16184,7 +16184,7 @@
     "trimConfidence": 0.988,
     "trimVerifiedBy": "site",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": true,
     "cohortReady": false,
     "valuation": {
@@ -17792,7 +17792,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": null,
     "trimFeed": "LE",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -17847,8 +17847,8 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.0,
+    "trimVerifiedBy": "none",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -17922,7 +17922,7 @@
     "trimConfidence": 0.988,
     "trimVerifiedBy": "site",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": true,
     "cohortReady": false,
     "valuation": {
@@ -19197,7 +19197,7 @@
     "trimConfidence": 0.9,
     "trimVerifiedBy": "site",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": true,
     "cohortReady": false,
     "valuation": {
@@ -19564,7 +19564,7 @@
     "trimConfidence": 0.988,
     "trimVerifiedBy": "site",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": true,
     "cohortReady": false,
     "valuation": {
@@ -20199,7 +20199,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": "Nightshade",
     "trimFeed": "Nightshade",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -20233,7 +20233,7 @@
     "ownerCount": null,
     "oneOwner": null,
     "usageType": null,
-    "flagged": false,
+    "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-07-22",
@@ -20254,20 +20254,14 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.878,
-    "trimVerifiedBy": "search",
-    "trimFlagged": false,
-    "trimConflict": true,
-    "comboConflict": false,
-    "cohortReady": true,
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": true,
+    "cohortReady": false,
     "valuation": {
-      "basis": "none",
-      "cohortN": 1,
-      "signals": {
-        "listedDays": 18,
-        "cohortMedianDaysListed": 18,
-        "negotiability": "medium"
-      }
+      "basis": "not-ready"
     },
     "searchedAt": "2026-07-22",
     "trimSearch": "LE",

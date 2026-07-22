@@ -63,7 +63,7 @@
     "trimConfidence": 0.65,
     "trimVerifiedBy": "search",
     "trimFlagged": true,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {
@@ -149,7 +149,7 @@
     "trimConfidence": 0.878,
     "trimVerifiedBy": "search",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
@@ -216,7 +216,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": null,
     "trimFeed": "LE",
     "powertrain": "gas",
     "powertrainFeed": "gas",
@@ -271,8 +271,8 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.0,
+    "trimVerifiedBy": "none",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -346,7 +346,7 @@
     "trimConfidence": 0.878,
     "trimVerifiedBy": "search",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
@@ -460,7 +460,7 @@
     "trimConfidence": 0.9,
     "trimVerifiedBy": "site",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
@@ -561,7 +561,7 @@
     "trimConfidence": 0.878,
     "trimVerifiedBy": "search",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
@@ -618,7 +618,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": "XLE",
     "trimFeed": "XLE",
     "powertrain": "gas",
     "powertrainFeed": "gas",
@@ -652,7 +652,7 @@
     "ownerCount": null,
     "oneOwner": null,
     "usageType": null,
-    "flagged": false,
+    "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-07-22",
@@ -673,32 +673,14 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.9,
-    "trimVerifiedBy": "site",
-    "trimFlagged": false,
-    "trimConflict": true,
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": true,
+    "cohortReady": false,
     "valuation": {
-      "marketValue": 43670,
-      "expected": 44953,
-      "adjustments": {
-        "cpo": 0.03,
-        "distance": -27.45
-      },
-      "dealDelta": -1528,
-      "dealPct": -0.034,
-      "rating": "fair",
-      "dealScore": 1.0,
-      "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
-      "ratingConfident": false,
-      "signals": {
-        "listedDays": 8,
-        "cohortMedianDaysListed": 18,
-        "negotiability": "low"
-      }
+      "basis": "not-ready"
     },
     "searchedAt": "2026-07-22",
     "trimSite": "LE",
@@ -788,7 +770,7 @@
     "trimConfidence": 0.878,
     "trimVerifiedBy": "search",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
@@ -911,7 +893,7 @@
     "trimConfidence": 0.878,
     "trimVerifiedBy": "search",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
@@ -1110,7 +1092,7 @@
     "trimConfidence": 0.65,
     "trimVerifiedBy": "search",
     "trimFlagged": true,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {
@@ -1197,7 +1179,7 @@
     "trimConfidence": 0.988,
     "trimVerifiedBy": "site",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
@@ -1277,7 +1259,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": null,
     "trimFeed": "LE",
     "powertrain": "gas",
     "powertrainFeed": "gas",
@@ -1332,8 +1314,8 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.0,
+    "trimVerifiedBy": "none",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -1421,7 +1403,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": "Limited",
     "trimFeed": "Limited",
     "powertrain": "gas",
     "powertrainFeed": "gas",
@@ -1455,7 +1437,7 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Taxi Use",
-    "flagged": false,
+    "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-07-22",
@@ -1476,32 +1458,14 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.878,
-    "trimVerifiedBy": "search",
-    "trimFlagged": false,
-    "trimConflict": true,
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": true,
+    "cohortReady": false,
     "valuation": {
-      "marketValue": 40025,
-      "expected": 40363,
-      "adjustments": {
-        "oneOwner": 0.01,
-        "distance": -62.1
-      },
-      "dealDelta": -93,
-      "dealPct": -0.0023,
-      "rating": "fair",
-      "dealScore": 0.5,
-      "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
-      "ratingConfident": false,
-      "signals": {
-        "listedDays": 27,
-        "cohortMedianDaysListed": 18,
-        "negotiability": "high"
-      }
+      "basis": "not-ready"
     },
     "searchedAt": "2026-07-22",
     "trimSearch": "LE",
@@ -2443,7 +2407,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": "Limited",
     "trimFeed": "Limited",
     "powertrain": "gas",
     "powertrainFeed": "gas",
@@ -2498,10 +2462,10 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.65,
-    "trimVerifiedBy": "search",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
     "trimFlagged": true,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {
@@ -3071,7 +3035,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
+    "trim": "Limited",
     "trimFeed": "Limited",
     "powertrain": "gas",
     "powertrainFeed": "gas",
@@ -3126,10 +3090,10 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.65,
-    "trimVerifiedBy": "search",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
     "trimFlagged": true,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {

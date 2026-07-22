@@ -4,12 +4,12 @@
   "totals": {
     "listings": 1573,
     "live": 1573,
-    "scored": 760,
-    "cohortReady": 762
+    "scored": 756,
+    "cohortReady": 756
   },
   "metro": {
     "liveCount": 668,
-    "aggregateMispricing": 254238,
+    "aggregateMispricing": 253005,
     "medianLotMoneyOnTable": 4240,
     "dealersScored": 22,
     "medianListedDays": 18.0

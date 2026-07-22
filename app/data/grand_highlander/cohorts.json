@@ -11,18 +11,18 @@
       "year": 2024,
       "trim": "XLE",
       "powertrain": "gas",
-      "n": 44,
+      "n": 45,
       "mileageRange": [
         6614,
         66636
       ],
       "theilSen": {
-        "slope": -0.0727,
-        "intercept": 46483.31
+        "slope": -0.0739,
+        "intercept": 46620.7
       },
       "ols": {
-        "slope": -0.1056,
-        "intercept": 47534.49
+        "slope": -0.1058,
+        "intercept": 47546.72
       },
       "parentKey": "XLE|gas",
       "msrp": null
@@ -66,20 +66,6 @@
       },
       "parentKey": "Limited|gas",
       "msrp": 49710
-    },
-    "2024|LE|gas": {
-      "year": 2024,
-      "trim": "LE",
-      "powertrain": "gas",
-      "n": 1,
-      "mileageRange": [
-        28621,
-        28621
-      ],
-      "theilSen": null,
-      "ols": null,
-      "parentKey": "LE|gas",
-      "msrp": null
     },
     "2024|Limited|hybrid": {
       "year": 2024,
@@ -173,20 +159,6 @@
         "intercept": 50126.15
       },
       "parentKey": "XLE|gas",
-      "msrp": null
-    },
-    "2025|LE|gas": {
-      "year": 2025,
-      "trim": "LE",
-      "powertrain": "gas",
-      "n": 2,
-      "mileageRange": [
-        10156,
-        30778
-      ],
-      "theilSen": null,
-      "ols": null,
-      "parentKey": "LE|gas",
       "msrp": null
     },
     "2025|Limited|gas": {
@@ -357,26 +329,6 @@
       "parentKey": "Limited|gas",
       "msrp": null
     },
-    "2026|LE|gas": {
-      "year": 2026,
-      "trim": "LE",
-      "powertrain": "gas",
-      "n": 3,
-      "mileageRange": [
-        0,
-        11116
-      ],
-      "theilSen": {
-        "slope": -0.2033,
-        "intercept": 47258.0
-      },
-      "ols": {
-        "slope": -0.1755,
-        "intercept": 46637.84
-      },
-      "parentKey": "LE|gas",
-      "msrp": null
-    },
     "2026|XLE|hybrid": {
       "year": 2026,
       "trim": "XLE",
@@ -415,20 +367,6 @@
         "intercept": 58347.81
       },
       "parentKey": "Limited|hybrid",
-      "msrp": null
-    },
-    "2026|LE|hybrid": {
-      "year": 2026,
-      "trim": "LE",
-      "powertrain": "hybrid",
-      "n": 1,
-      "mileageRange": [
-        0,
-        0
-      ],
-      "theilSen": null,
-      "ols": null,
-      "parentKey": "LE|hybrid",
       "msrp": null
     },
     "2026|Platinum|hybrid_max": {
@@ -475,7 +413,7 @@
   "parents": {
     "XLE|gas": {
       "slope": -0.1595,
-      "intercept": 49681.96
+      "intercept": 49671.62
     },
     "Platinum|gas": {
       "slope": -0.2926,
@@ -484,10 +422,6 @@
     "Limited|gas": {
       "slope": -0.2795,
       "intercept": 57069.0
-    },
-    "LE|gas": {
-      "slope": -0.1768,
-      "intercept": 46337.36
     },
     "Limited|hybrid": {
       "slope": -0.1668,
@@ -511,8 +445,8 @@
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 31367,
-        "marketValue": 44202,
+        "medianMileage": 31305,
+        "marketValue": 44307,
         "msrp": null,
         "retained": null
       },
@@ -685,24 +619,6 @@
         "age": 0,
         "medianMileage": 0,
         "marketValue": 62900,
-        "msrp": null,
-        "retained": null
-      }
-    ],
-    "LE|gas": [
-      {
-        "year": 2025,
-        "age": 1,
-        "medianMileage": 20467,
-        "marketValue": 41848,
-        "msrp": null,
-        "retained": null
-      },
-      {
-        "year": 2026,
-        "age": 0,
-        "medianMileage": 3713,
-        "marketValue": 46307,
         "msrp": null,
         "retained": null
       }
