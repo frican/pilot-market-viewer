@@ -1,8 +1,8 @@
 {
   "generatedAt": "2026-07-22",
   "total": 1027,
-  "cohortReady": 397,
-  "flagged": 630,
+  "cohortReady": 391,
+  "flagged": 636,
   "shards": [
     {
       "shard": "2024-gas",
@@ -29,7 +29,7 @@
       "shard": "2025-gas",
       "file": "listings/2025-gas.json",
       "count": 56,
-      "cohortReady": 22,
+      "cohortReady": 20,
       "gone": 0
     },
     {
@@ -50,14 +50,14 @@
       "shard": "2026-gas",
       "file": "listings/2026-gas.json",
       "count": 431,
-      "cohortReady": 151,
+      "cohortReady": 148,
       "gone": 0
     },
     {
       "shard": "2026-hybrid",
       "file": "listings/2026-hybrid.json",
       "count": 228,
-      "cohortReady": 77,
+      "cohortReady": 76,
       "gone": 0
     },
     {
