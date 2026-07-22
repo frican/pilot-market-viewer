@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Stop leaving money on the lot — dealer pricing intelligence</title>
+<title>Stop leaving money on the lot | dealer pricing intelligence</title>
 <meta name="description" content="Per-unit pricing intelligence for used-car dealers: find the units you have underpriced, the aging metal tying up your capital, and price each one to margin or to move.">
 <link rel="stylesheet" href="pitch.css">
 </head>
@@ -16,9 +16,9 @@
         <rect x="1" y="1" width="20" height="20" rx="6" fill="var(--accent)"></rect>
         <path d="M6 14 L9.5 8 L12.5 12 L16 6" fill="none" stroke="var(--accent-ink)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
       </svg>
-      Lot Signal
+      Lot Flow
     </span>
-    <a class="nav-cta" href="../app/">Open the live demo</a>
+    <a class="nav-cta" href="../app/" target="_blank" rel="noopener">Open the live demo</a>
   </div>
 </header>
 
@@ -49,7 +49,7 @@
 <section>
   <div class="wrap">
     <p class="section-tag">Two ways money slips away</p>
-    <h2>Every unit is either priced to margin or priced to move — rarely both.</h2>
+    <h2>Every unit is either priced to margin or priced to move, and rarely both.</h2>
     <p class="lead">These are real, anonymized examples from the tracked market. Figures rounded; no dealer, VIN, or address is ever shown.</p>
 
     <div class="cards" style="margin-top:var(--s6)">
@@ -62,12 +62,12 @@
           <p class="vignette-headline">
             A <b id="profit-vehicle">unit</b> was listed
             <b id="profit-under">—</b> under market value and sold in
-            <b id="profit-days">—</b> days.
+            <b id="profit-days">—</b>.
           </p>
-          <p class="muted">That gap is margin handed straight to the buyer — value you priced away without meaning to.</p>
+          <p class="muted">That gap is margin handed straight to the buyer: value you priced away without meaning to.</p>
         </div>
         <p id="profit-empty" class="muted hidden">
-          No fast-selling underpriced units in the current window — but the moment one appears, it surfaces here first.
+          No fast-selling underpriced units in the current window. The moment one appears, it surfaces here first.
         </p>
       </div>
 
@@ -78,34 +78,95 @@
         <div id="aging-dynamic">
           <p class="vignette-headline">
             A <b id="aging-vehicle">unit</b> has sat for
-            <b id="aging-days">—</b> days through
-            <b id="aging-cuts">—</b> price cuts totaling
-            <b id="aging-markdown">—</b> — and is still
+            <b id="aging-days">—</b> through
+            <b id="aging-cuts">—</b> totaling
+            <b id="aging-markdown">—</b>, and is still
             <b id="aging-over">—</b> above market.
           </p>
           <div class="timeline" id="aging-timeline" aria-label="price-cut timeline"></div>
         </div>
         <p id="aging-empty" class="muted hidden">
-          No deeply-aged, repeatedly-cut units in the current window — the timeline lights up the moment one crosses the line.
+          No deeply-aged, repeatedly-cut units in the current window. The timeline lights up the moment one crosses the line.
         </p>
       </div>
     </div>
 
     <div class="arbitrate">
-      <p><b>These two strategies compete on every single unit.</b> Chase full margin and the car can sit,
-      tying up floor-plan capital while it depreciates. Price to move and you clear the metal but surrender margin.
-      The tool arbitrates <em>per unit</em> — not with a blanket rule — so you decide with the number in front of you:</p>
-      <div class="strat">
-        <div>
-          <h4>Price to margin</h4>
-          <p class="muted tiny">When a unit is genuinely underpriced against verified comps, hold the line and recover the gap.</p>
+      <p class="arb-intro"><b>Price the same car two ways and you lose two different ways.</b> One car, one number,
+      and both mistakes are already priced into your lot right now. Here is what each one costs you.</p>
+
+      <div class="leaks">
+
+        <!-- Leak 1: priced over market -> carry + markdown -->
+        <div class="leak over">
+          <div class="leak-head">
+            <span class="leak-tag">Priced over market</span>
+            <span class="leak-verdict">The car sits</span>
+          </div>
+          <p class="leak-mech">Floor-plan interest, reconditioning, and the space it takes up keep charging every
+          day it does not sell. So you cut the price to move it, and lose the spread you were holding out for anyway.</p>
+          <div class="leak-bar" aria-hidden="true">
+            <span class="seg carry" style="width:60%"><b>Carry cost</b></span>
+            <span class="seg markdown" style="width:40%"><b>Markdown</b></span>
+          </div>
+          <div class="leak-cost"><b>≈ $3,500</b> bleeds out of a single aged unit, in carry plus the markdown it takes to finally clear it.</div>
         </div>
-        <div>
-          <h4>Price to move</h4>
-          <p class="muted tiny">When a unit is overpriced and aging, cut decisively before carry cost and depreciation eat the spread.</p>
+
+        <!-- Leak 2: priced under market -> surrendered margin -->
+        <div class="leak under">
+          <div class="leak-head">
+            <span class="leak-tag">Priced under market</span>
+            <span class="leak-verdict">The car goes fast</span>
+          </div>
+          <p class="leak-mech">It sells in days, which feels like a win. But it sold for less than a real buyer would
+          have paid, and that margin walked out with the car. Nobody flags a fast sale, so the gap never shows up.</p>
+          <div class="leak-bar" aria-hidden="true">
+            <span class="seg kept"><b>What you charged</b></span>
+            <span class="seg given"><b>Margin given away</b></span>
+          </div>
+          <div class="leak-cost"><b>≈ $2,600</b> in margin surrendered on a single under-priced unit the day it drives off the lot.</div>
+        </div>
+
+      </div>
+
+      <p class="arb-verdict">Every unit on your lot is leaning toward one of these leaks. Lot Flow scores each one
+      against its verified comps and tells you which side it is on, so you set the price on purpose, one car at a time,
+      instead of guessing and hoping.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ OPTIMIZER ============================ -->
+<section>
+  <div class="wrap">
+    <p class="section-tag">Run your own lot</p>
+    <h2>What could you put back on the bottom line?</h2>
+    <p class="lead">Set the two leaks to your lot per quarter, then how much of it you'd act on. Every unit Lot Flow flags is a call you can make, and here's what capturing them compounds to over a year.</p>
+
+    <div class="optimizer">
+      <div class="opt-controls">
+        <div class="opt-slider">
+          <label>Units left to age <b class="over">over</b> market <span class="opt-v" id="opt-over-val">8</span> / qtr</label>
+          <input type="range" id="opt-over" min="0" max="30" value="8" aria-label="units aged over market per quarter">
+        </div>
+        <div class="opt-slider">
+          <label>Units given away <b class="under">under</b> market <span class="opt-v" id="opt-under-val">12</span> / qtr</label>
+          <input type="range" id="opt-under" min="0" max="30" value="12" aria-label="units given away under market per quarter">
+        </div>
+        <div class="opt-slider">
+          <label>How much of it you act on <span class="opt-v" id="opt-capture-val">60</span>%</label>
+          <input type="range" id="opt-capture" min="0" max="100" value="60" step="5" aria-label="share you reprice">
         </div>
       </div>
+      <div class="opt-readout">
+        <div class="opt-lab">Recoverable a year with Lot Flow</div>
+        <div class="opt-big" id="opt-year">$142,080</div>
+        <div class="opt-sub">of <b id="opt-leak">$59,200</b> / quarter leaking on gut pricing today</div>
+        <div class="opt-meter"><span id="opt-fill"></span></div>
+        <div class="opt-legend">the green share is what you'd capture; the rest keeps leaking</div>
+      </div>
     </div>
+    <p class="tiny muted">Per-unit costs from the tracked market: an aged over-market unit ≈ $3,500 in carry + markdown; an under-market sale ≈ $2,600 in surrendered margin. "Act on" is the share you reprice; the annual figure compounds one quarter &times;4.</p>
   </div>
 </section>
 
@@ -114,11 +175,10 @@
   <div class="wrap">
     <span class="badge-soft">Early access</span>
     <h2>Fast, accurate trade-in valuations.</h2>
-    <p class="lead">Decode a VIN, drop it into its real cohort, and get a defensible number in seconds —
-    then work it with either strategy: buy for margin, or buy to turn. This is in early access and we're
-    honest about it: the valuation engine is live and improving weekly, and we'd rather show you a real
-    number with its confidence than a confident-looking guess.</p>
-    <a class="cta-secondary" href="mailto:enpowerenergy@proton.me?subject=Lot%20Signal%20%E2%80%94%20trade-in%20early%20access">Ask about early access</a>
+    <p class="lead">Decode a VIN, drop it into its real cohort, and get a defensible number in seconds.
+    In early access now: the engine is live and improving weekly, and every number comes with the confidence
+    behind it, not a confident-looking guess.</p>
+    <a class="cta-secondary" href="mailto:enpowerenergy@proton.me?subject=Lot%20Flow%20%E2%80%94%20trade-in%20early%20access">Ask about early access</a>
   </div>
 </section>
 
@@ -127,9 +187,9 @@
   <div class="wrap" style="text-align:center">
     <p class="section-tag" style="text-align:center">See it on real inventory</p>
     <h2>Open the live market viewer.</h2>
-    <p class="lead" style="margin:var(--s3) auto 0">Browse the tracked market yourself — every listing scored against its
+    <p class="lead" style="margin:var(--s3) auto 0">Browse the tracked market yourself. Every listing is scored against its
     verified cohort, with the trust and confidence behind each call shown in the open.</p>
-    <div><a class="cta-big" href="../app/">Open the live demo &rarr;</a></div>
+    <div><a class="cta-big" href="../app/" target="_blank" rel="noopener">Open the live demo &rarr;</a></div>
   </div>
 </section>
 
@@ -142,22 +202,22 @@
       <div class="step">
         <div class="n">1</div>
         <h4>VIN-decoded cohorts</h4>
-        <p>Every listing is decoded to its true year, trim, and powertrain, then grouped with genuine like-for-like comps — a wrong powertrain never poisons a cohort.</p>
+        <p>Every listing is decoded to its true year, trim, and powertrain, then grouped with genuine like-for-like comps, so a wrong powertrain never poisons a cohort.</p>
       </div>
       <div class="step">
         <div class="n">2</div>
         <h4>Robust fair-value fits</h4>
-        <p>Prices are fit with outlier-resistant Theil-Sen regressions, falling back to MSRP-retention curves where a cohort is thin — no single strange listing drags the line.</p>
+        <p>Prices are fit with an outlier-resistant robust regression we call the "Flow Line," falling back to MSRP-retention curves where a cohort is thin, so no single strange listing drags the line.</p>
       </div>
       <div class="step">
         <div class="n">3</div>
         <h4>Verified listings</h4>
-        <p>Trim and powertrain are confirmed against the dealer's own listing, and every record carries the provenance of how it was cleared — shown, not hidden.</p>
+        <p>Trim and powertrain are confirmed against the dealer's own listing, and every record carries the provenance of how it was cleared, shown in the open rather than hidden.</p>
       </div>
       <div class="step">
         <div class="n">4</div>
         <h4>Continuous price history</h4>
-        <p>We track every listing over time — days on lot, each price cut, and when it finally sells — so aging and negotiability are measured, not guessed.</p>
+        <p>We track every listing over time: days on lot, each price cut, and when it finally sells, so aging and negotiability are measured, not guessed.</p>
       </div>
     </div>
   </div>
@@ -168,16 +228,16 @@
   <div class="wrap contact">
     <p class="section-tag" style="text-align:center">Get in touch</p>
     <h2>See what your lot is leaving on the table.</h2>
-    <p class="lead">Send us your rooftop and metro — we'll show you the underpriced units, the aging metal, and the number on each.</p>
+    <p class="lead">Send us your rooftop and metro, and we'll show you the underpriced units, the aging metal, and the number on each.</p>
     <div>
-      <a class="cta-big" href="mailto:enpowerenergy@proton.me?subject=Lot%20Signal%20%E2%80%94%20dealer%20pricing%20intelligence">Email us &rarr;</a>
+      <a class="cta-big" href="mailto:enpowerenergy@proton.me?subject=Lot%20Flow%20%E2%80%94%20dealer%20pricing%20intelligence">Email us &rarr;</a>
     </div>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
-    <span>Lot Signal — dealer pricing intelligence</span>
+    <span>Lot Flow · dealer pricing intelligence</span>
     <span class="muted" id="foot-generated">Aggregate market figures; individual examples anonymized.</span>
   </div>
 </footer>
@@ -204,7 +264,7 @@
 
     // hero
     if (s.region) $("hero-region").textContent =
-      s.region + " — per-unit pricing intelligence for the used-car market.";
+      s.region + ": per-unit pricing intelligence for the used-car market.";
     $("stat-median").textContent = money(metro.medianLotMoneyOnTable);
     $("stat-listings").textContent = num(totals.listings);
     $("stat-aggregate").textContent = money(metro.aggregateMispricing);
@@ -218,7 +278,7 @@
     if (p) {
       $("profit-vehicle").textContent = vehLabel(p);
       $("profit-under").textContent = money(p.underBy);
-      $("profit-days").textContent = num(p.daysToGone);
+      $("profit-days").textContent = num(p.daysToGone) + (p.daysToGone === 1 ? " day" : " days");
     } else {
       $("profit-dynamic").classList.add("hidden");
       $("profit-empty").classList.remove("hidden");
@@ -228,11 +288,11 @@
     var a = (vg.aging || [])[0];
     if (a) {
       $("aging-vehicle").textContent = vehLabel(a);
-      $("aging-days").textContent = num(a.listedDays);
-      $("aging-cuts").textContent = num(a.cuts);
+      $("aging-days").textContent = num(a.listedDays) + (a.listedDays === 1 ? " day" : " days");
+      $("aging-cuts").textContent = num(a.cuts) + (a.cuts === 1 ? " price cut" : " price cuts");
       $("aging-markdown").textContent = money(a.markdownTotal);
       $("aging-over").textContent = money(a.stillOverBy);
-      drawTimeline($("aging-timeline"), a.dropSeries || []);
+      drawTimeline($("aging-timeline"), a.dropSeries || [], a.listedDays);
     } else {
       $("aging-dynamic").classList.add("hidden");
       $("aging-empty").classList.remove("hidden");
@@ -245,32 +305,66 @@
     $("aging-empty").classList.remove("hidden");
   });
 
-  // Build a tiny inline-SVG price-drop timeline from [{day, price}] — no libraries, no CDN.
-  function drawTimeline(host, series) {
+  // Build a tiny inline-SVG price timeline over the FULL days-on-lot. Our tracked price points are
+  // anchored to when we first saw the car (0..~30d), but the unit has actually been listed
+  // `listedDays` total — so we offset the tracked points to sit at the END of a 0..listedDays axis
+  // (the recent window we observed) and dash in the earlier, untracked stretch. Without this the
+  // graph stopped at ~day 31 while the headline said "106 days" — the two now agree.
+  function drawTimeline(host, series, listedDays) {
     if (!host || !series || series.length < 2) { if (host) host.remove(); return; }
-    var W = 460, H = 120, padL = 8, padR = 8, padT = 14, padB = 22;
+    var W = 460, H = 120, padL = 8, padR = 8, padT = 16, padB = 22;
     var days = series.map(function (d) { return d.day; });
     var prices = series.map(function (d) { return d.price; });
-    var dMin = Math.min.apply(null, days), dMax = Math.max.apply(null, days);
+    var dMax = Math.max.apply(null, days);
+    var total = (listedDays && listedDays > dMax) ? listedDays : dMax;
+    var offset = total - dMax;                    // shift tracked points to the recent end
+    var onLot = series.map(function (d) { return d.day + offset; });
     var pMin = Math.min.apply(null, prices), pMax = Math.max.apply(null, prices);
-    var dSpan = (dMax - dMin) || 1, pSpan = (pMax - pMin) || 1;
-    var x = function (d) { return padL + (d - dMin) / dSpan * (W - padL - padR); };
+    var xSpan = total || 1, pSpan = (pMax - pMin) || 1;
+    var x = function (d) { return padL + d / xSpan * (W - padL - padR); };
     var y = function (p) { return padT + (1 - (p - pMin) / pSpan) * (H - padT - padB); };
+    var base = H - padB;
 
-    var pts = series.map(function (d) { return x(d.day) + "," + y(d.price); }).join(" ");
     var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img">';
+    // the stretch it sat before we started tracking — dashed, so 106 days reads as 106 days
+    if (offset > 0) {
+      svg += '<line x1="' + x(0) + '" y1="' + base + '" x2="' + x(onLot[0]) + '" y2="' + base +
+             '" stroke="var(--border)" stroke-width="2" stroke-dasharray="3 4"/>';
+    }
+    var pts = onLot.map(function (d, i) { return x(d) + "," + y(prices[i]); }).join(" ");
     svg += '<polyline points="' + pts + '" fill="none" stroke="var(--warn)" stroke-width="2" stroke-linejoin="round"/>';
-    series.forEach(function (d, i) {
-      var cx = x(d.day), cy = y(d.price);
+    onLot.forEach(function (d, i) {
+      var cx = x(d), cy = y(prices[i]);
       svg += '<circle cx="' + cx + '" cy="' + cy + '" r="3.5" fill="var(--warn)"/>';
-      var anchor = i === 0 ? 'start' : (i === series.length - 1 ? 'end' : 'middle');
-      svg += '<text x="' + cx + '" y="' + (cy - 8) + '" text-anchor="' + anchor +
-             '" font-size="10" fill="var(--muted)">$' + Math.round(d.price / 1000) + 'k</text>';
-      svg += '<text x="' + cx + '" y="' + (H - 6) + '" text-anchor="' + anchor +
-             '" font-size="9" fill="var(--muted)">d' + d.day + '</text>';
+      // label only the first + last tracked price so the clustered recent points stay legible
+      if (i === 0 || i === onLot.length - 1) {
+        svg += '<text x="' + cx + '" y="' + (cy - 8) + '" text-anchor="' + (i === 0 ? 'start' : 'end') +
+               '" font-size="10" fill="var(--muted)">$' + Math.round(prices[i] / 1000) + 'k</text>';
+      }
     });
+    svg += '<text x="' + x(0) + '" y="' + (H - 6) + '" text-anchor="start" font-size="9" fill="var(--muted)">listed</text>';
+    svg += '<text x="' + x(total) + '" y="' + (H - 6) + '" text-anchor="end" font-size="9" fill="var(--muted)">day ' + total + ' · today</text>';
     svg += '</svg>';
     host.innerHTML = svg;
+  }
+
+  // ---- optimizer: user-changeable levers → what capturing them compounds to ----
+  var OVER = 3500, UNDER = 2600;   // per-unit: aged over-market carry+markdown / under-market margin
+  var ov = $("opt-over"), un = $("opt-under"), cap = $("opt-capture");
+  if (ov && un && cap) {
+    var upd = function () {
+      var a = +ov.value, b = +un.value, c = +cap.value / 100;
+      $("opt-over-val").textContent = a;
+      $("opt-under-val").textContent = b;
+      $("opt-capture-val").textContent = +cap.value;
+      var leakQ = a * OVER + b * UNDER;
+      var recoverYr = leakQ * c * 4;                 // compound the quarter across the year
+      $("opt-leak").textContent = money(leakQ);
+      $("opt-year").textContent = money(recoverYr);
+      $("opt-fill").style.width = Math.round(c * 100) + "%";
+    };
+    ov.oninput = un.oninput = cap.oninput = upd;
+    upd();
   }
 })();
 </script>
