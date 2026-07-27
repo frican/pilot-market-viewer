@@ -23,13 +23,13 @@
     "distanceMi": 36,
     "state": "MA",
     "city": "Auburn",
-    "cpo": "none",
+    "cpo": "dealer",
     "cpoFeed": false,
-    "exteriorColor": "Red",
+    "exteriorColor": "Radiant Red Metallic II",
     "interiorColor": "Black",
     "vin": "5FNYG1H30TB034805",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de2a62b709eb0c88b97b0931c274d4d644a024f2a18a8bae58f057a443b3bad333203917374eaf4a2c488a04578e5db9752800bcf652b74e6dfba94f3f61195bc33de5f4389b1cc2c773ae6b28b499c8f0c7b6ad524e9eb26f1797633f545ec82dae17dfe46c2bf13d50b6d06975724cf63/?pl=38&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "url": "https://lundgrencars.com/vehicle/5FNYG1H30TB034805/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H30TB034805&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5FNYG1H30TB034805-1.jpg",
     "photoCount": 25,
@@ -39,7 +39,7 @@
     "ownerCount": null,
     "oneOwner": null,
     "usageType": null,
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-27",
@@ -58,16 +58,59 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 46740,
+      "expected": 47675,
+      "adjustments": {
+        "cpo": 0.01,
+        "franchise": 0.01
+      },
+      "dealDelta": -335,
+      "dealPct": -0.007,
+      "rating": "fair",
+      "dealScore": 0.407,
+      "basis": "cohort",
+      "cohortN": 27,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 32,
+        "cohortMedianDaysListed": 32,
+        "negotiability": "medium"
+      }
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0,
+    "trimSite": "Sport",
+    "powertrainSite": "gas",
+    "cpoSite": "dealer",
+    "verifyLog": [
+      {
+        "date": "2026-07-27",
+        "how": "constructed",
+        "tier": "site",
+        "host": "lundgrencars.com",
+        "trim": "Sport",
+        "powertrain": "gas",
+        "strength": "jsonld",
+        "mileage": 10,
+        "price": 47839
+      }
+    ],
+    "options": [
+      "Adaptive Cruise",
+      "Blind Spot Monitor",
+      "CabinTalk",
+      "Google Built-In",
+      "Navigation",
+      "Roof Rails"
+    ]
   },
   {
     "id": "api-5fnyg1h30tb039180",
@@ -135,23 +178,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46658,
-      "expected": 47101,
+      "marketValue": 46739,
+      "expected": 47182,
       "adjustments": {
         "franchise": 0.01,
         "distance": -24.3
       },
-      "dealDelta": -3007,
-      "dealPct": -0.0638,
+      "dealDelta": -3088,
+      "dealPct": -0.0654,
       "rating": "good",
-      "dealScore": 0.962,
+      "dealScore": 0.963,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 32,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -181,7 +224,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h31tb050169",
@@ -249,23 +293,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46665,
-      "expected": 47599,
+      "marketValue": 46746,
+      "expected": 47681,
       "adjustments": {
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -1014,
-      "dealPct": -0.0213,
+      "dealDelta": -1096,
+      "dealPct": -0.023,
       "rating": "fair",
-      "dealScore": 0.692,
+      "dealScore": 0.704,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 16,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -291,7 +335,8 @@
       "Heated Seats",
       "Navigation",
       "Power Liftgate"
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h31tb050186",
@@ -359,22 +404,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46671,
-      "expected": 46647,
+      "marketValue": 46752,
+      "expected": 46728,
       "adjustments": {
         "distance": -23.85
       },
-      "dealDelta": -657,
-      "dealPct": -0.0141,
+      "dealDelta": -738,
+      "dealPct": -0.0158,
       "rating": "fair",
-      "dealScore": 0.615,
+      "dealScore": 0.63,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 12,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "low"
       }
     },
@@ -404,7 +449,8 @@
         "price": 46445
       }
     ],
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h32tb016533",
@@ -474,7 +520,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h32tb035972",
@@ -544,7 +591,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h32tb039181",
@@ -612,23 +660,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46660,
-      "expected": 47110,
+      "marketValue": 46740,
+      "expected": 47191,
       "adjustments": {
         "franchise": 0.01,
         "distance": -16.2
       },
-      "dealDelta": -370,
-      "dealPct": -0.0079,
+      "dealDelta": -451,
+      "dealPct": -0.0096,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.519,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 34,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -668,7 +716,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h32tb040668",
@@ -711,7 +760,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -736,22 +785,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46665,
-      "expected": 47132,
+      "marketValue": 46746,
+      "expected": 47214,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -88,
-      "dealPct": -0.0019,
+      "dealDelta": -170,
+      "dealPct": -0.0036,
       "rating": "fair",
-      "dealScore": 0.269,
+      "dealScore": 0.259,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 23,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -780,7 +829,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h32tb040685",
@@ -823,7 +873,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 50,
@@ -848,22 +898,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46663,
-      "expected": 47130,
+      "marketValue": 46744,
+      "expected": 47211,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": 485,
-      "dealPct": 0.0103,
+      "dealDelta": 404,
+      "dealPct": 0.0086,
       "rating": "fair",
-      "dealScore": 0.115,
+      "dealScore": 0.111,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 50,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "high"
       }
     },
@@ -882,7 +932,8 @@
         "price": null
       }
     ],
-    "stock": "H67049"
+    "stock": "H67049",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h32tb047359",
@@ -952,7 +1003,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h33tb027444",
@@ -1024,22 +1076,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46637,
-      "expected": 47104,
+      "marketValue": 46717,
+      "expected": 47184,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -264,
-      "dealPct": -0.0056,
+      "dealDelta": -344,
+      "dealPct": -0.0073,
       "rating": "fair",
-      "dealScore": 0.423,
+      "dealScore": 0.444,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 87,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "high"
       }
     },
@@ -1079,7 +1131,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h33tb052070",
@@ -1147,23 +1200,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46660,
-      "expected": 47096,
+      "marketValue": 46740,
+      "expected": 47178,
       "adjustments": {
         "franchise": 0.01,
         "distance": -29.7
       },
-      "dealDelta": 228,
-      "dealPct": 0.0048,
+      "dealDelta": 146,
+      "dealPct": 0.0031,
       "rating": "fair",
-      "dealScore": 0.154,
+      "dealScore": 0.148,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 9,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "low"
       }
     },
@@ -1205,7 +1258,8 @@
       }
     ],
     "stock": "No",
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h34tb034791",
@@ -1273,22 +1327,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46665,
-      "expected": 47132,
+      "marketValue": 46746,
+      "expected": 47214,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -288,
-      "dealPct": -0.0061,
+      "dealDelta": -370,
+      "dealPct": -0.0078,
       "rating": "fair",
-      "dealScore": 0.462,
+      "dealScore": 0.481,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 32,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -1341,7 +1395,8 @@
       }
     ],
     "stock": "Number",
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h34tb043488",
@@ -1409,22 +1464,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46665,
-      "expected": 47132,
+      "marketValue": 46746,
+      "expected": 47214,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -247,
-      "dealPct": -0.0052,
+      "dealDelta": -329,
+      "dealPct": -0.007,
       "rating": "fair",
-      "dealScore": 0.385,
+      "dealScore": 0.37,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 12,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "low"
       }
     },
@@ -1442,7 +1497,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h34tb045001",
@@ -1512,7 +1568,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h34tb049064",
@@ -1584,22 +1641,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46663,
-      "expected": 47130,
+      "marketValue": 46744,
+      "expected": 47211,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -2202,
-      "dealPct": -0.0467,
+      "dealDelta": -2283,
+      "dealPct": -0.0484,
       "rating": "fair",
-      "dealScore": 0.923,
+      "dealScore": 0.926,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 19,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "priceDrop": {
           "total": 1591,
           "pct": -0.0342,
@@ -1656,7 +1713,8 @@
         "price": null
       }
     ],
-    "trimSearch": "TrailSport"
+    "trimSearch": "TrailSport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h36tb022996",
@@ -1699,7 +1757,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 114,
@@ -1724,22 +1782,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46468,
-      "expected": 46932,
+      "marketValue": 46541,
+      "expected": 47007,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -188,
-      "dealPct": -0.004,
+      "dealDelta": -263,
+      "dealPct": -0.0056,
       "rating": "fair",
-      "dealScore": 0.308,
+      "dealScore": 0.296,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 114,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "high"
       }
     },
@@ -1791,7 +1849,8 @@
         "price": 46245
       }
     ],
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h36tb031455",
@@ -1834,7 +1893,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -1859,22 +1918,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46665,
-      "expected": 47132,
+      "marketValue": 46746,
+      "expected": 47214,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": 512,
-      "dealPct": 0.0109,
+      "dealDelta": 430,
+      "dealPct": 0.0091,
       "rating": "fair",
-      "dealScore": 0.077,
+      "dealScore": 0.074,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 23,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -1926,7 +1985,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h36tb044237",
@@ -1969,7 +2029,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 22,
@@ -1994,22 +2054,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46648,
-      "expected": 47114,
+      "marketValue": 46728,
+      "expected": 47195,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": 130,
-      "dealPct": 0.0028,
+      "dealDelta": 49,
+      "dealPct": 0.001,
       "rating": "fair",
-      "dealScore": 0.231,
+      "dealScore": 0.222,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 22,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -2029,7 +2089,8 @@
         "price": null
       }
     ],
-    "stock": "5FNYG1H36TB044237"
+    "stock": "5FNYG1H36TB044237",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h37tb012512",
@@ -2113,7 +2174,8 @@
         "mileage": null,
         "price": 42127
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h37tb031450",
@@ -2181,22 +2243,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46640,
-      "expected": 47106,
+      "marketValue": 46719,
+      "expected": 47186,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -861,
-      "dealPct": -0.0183,
+      "dealDelta": -941,
+      "dealPct": -0.02,
       "rating": "fair",
-      "dealScore": 0.654,
+      "dealScore": 0.667,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 32,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -2248,7 +2310,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h37tb037250",
@@ -2291,7 +2354,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 25,
@@ -2316,23 +2379,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46660,
-      "expected": 47096,
+      "marketValue": 46740,
+      "expected": 47177,
       "adjustments": {
         "franchise": 0.01,
         "distance": -30.150000000000002
       },
-      "dealDelta": -651,
-      "dealPct": -0.0138,
+      "dealDelta": -732,
+      "dealPct": -0.0155,
       "rating": "fair",
-      "dealScore": 0.577,
+      "dealScore": 0.593,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 25,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -2374,7 +2437,8 @@
       }
     ],
     "stock": "Number",
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h37tb041217",
@@ -2442,23 +2506,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46648,
-      "expected": 47114,
+      "marketValue": 46728,
+      "expected": 47195,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": 130,
-      "dealPct": 0.0028,
+      "dealDelta": 49,
+      "dealPct": 0.001,
       "rating": "fair",
-      "dealScore": 0.231,
+      "dealScore": 0.222,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 46,
-        "cohortMedianDaysListed": 28,
-        "negotiability": "high"
+        "cohortMedianDaysListed": 32,
+        "negotiability": "medium"
       }
     },
     "searchedAt": "2026-07-18",
@@ -2487,7 +2551,8 @@
         "price": 45386
       }
     ],
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h37tb047356",
@@ -2530,7 +2595,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 24,
@@ -2557,7 +2622,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h37tb048054",
@@ -2625,22 +2691,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46668,
-      "expected": 47134,
+      "marketValue": 46749,
+      "expected": 47216,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -190,
-      "dealPct": -0.004,
+      "dealDelta": -272,
+      "dealPct": -0.0058,
       "rating": "fair",
-      "dealScore": 0.346,
+      "dealScore": 0.333,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 16,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -2692,7 +2758,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h38tb036852",
@@ -2760,22 +2827,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46601,
-      "expected": 47067,
+      "marketValue": 46679,
+      "expected": 47146,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -578,
-      "dealPct": -0.0123,
+      "dealDelta": -657,
+      "dealPct": -0.0139,
       "rating": "fair",
-      "dealScore": 0.538,
+      "dealScore": 0.556,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 32,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -2828,7 +2895,8 @@
       }
     ],
     "stock": "HHBTB036852",
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h38tb041842",
@@ -2896,23 +2964,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46670,
-      "expected": 47124,
+      "marketValue": 46751,
+      "expected": 47206,
       "adjustments": {
         "franchise": 0.01,
         "distance": -12.6
       },
-      "dealDelta": -1134,
-      "dealPct": -0.0241,
+      "dealDelta": -1216,
+      "dealPct": -0.0258,
       "rating": "fair",
-      "dealScore": 0.731,
+      "dealScore": 0.741,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 32,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -2955,7 +3023,8 @@
     ],
     "stock": "HL13272",
     "trimSearch": "Touring",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h38tb047351",
@@ -3027,22 +3096,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46665,
-      "expected": 47132,
+      "marketValue": 46746,
+      "expected": 47214,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -1142,
-      "dealPct": -0.0242,
+      "dealDelta": -1224,
+      "dealPct": -0.0259,
       "rating": "fair",
-      "dealScore": 0.808,
+      "dealScore": 0.815,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 19,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -3072,7 +3141,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h38tb050170",
@@ -3142,7 +3212,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h39tb021812",
@@ -3185,7 +3256,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 104,
@@ -3210,22 +3281,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46665,
-      "expected": 47132,
+      "marketValue": 46746,
+      "expected": 47214,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -1977,
-      "dealPct": -0.0419,
+      "dealDelta": -2059,
+      "dealPct": -0.0436,
       "rating": "fair",
-      "dealScore": 0.885,
+      "dealScore": 0.889,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 104,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "high"
       }
     },
@@ -3277,7 +3348,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h39tb037265",
@@ -3345,22 +3417,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46665,
-      "expected": 47132,
+      "marketValue": 46746,
+      "expected": 47214,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": 807,
-      "dealPct": 0.0171,
+      "dealDelta": 725,
+      "dealPct": 0.0154,
       "rating": "fair",
-      "dealScore": 0.038,
+      "dealScore": 0.037,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 32,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -3400,7 +3472,8 @@
         "mileage": 5,
         "price": 45845
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h39tb038402",
@@ -3523,7 +3596,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h39tb047360",
@@ -3591,22 +3665,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46665,
-      "expected": 47132,
+      "marketValue": 46746,
+      "expected": 47214,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -1142,
-      "dealPct": -0.0242,
+      "dealDelta": -1224,
+      "dealPct": -0.0259,
       "rating": "fair",
-      "dealScore": 0.808,
+      "dealScore": 0.815,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 9,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "low"
       }
     },
@@ -3624,7 +3698,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h3xtb013511",
@@ -3667,7 +3742,7 @@
     "oneOwner": false,
     "usageType": "Lease",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -3692,23 +3767,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 44580,
-      "expected": 45471,
+      "marketValue": 44583,
+      "expected": 45475,
       "adjustments": {
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -1362,
+      "dealDelta": -1366,
       "dealPct": -0.03,
       "rating": "fair",
-      "dealScore": 0.846,
+      "dealScore": 0.852,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 23,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -3761,7 +3836,8 @@
       }
     ],
     "stock": "Number",
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h40tb029287",
@@ -3886,7 +3962,8 @@
       }
     ],
     "stock": "Pearl",
-    "trimSearch": null
+    "trimSearch": null,
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h40tb038362",
@@ -4010,7 +4087,8 @@
         "price": null
       }
     ],
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h40tb043853",
@@ -4124,7 +4202,8 @@
       }
     ],
     "trimSearch": "EX-L",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h40tb045621",
@@ -4237,7 +4316,8 @@
         "price": 47281
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h40tb049023",
@@ -4280,7 +4360,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 16,
@@ -4349,7 +4429,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h40tb050141",
@@ -4419,7 +4500,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h40tb050902",
@@ -4530,7 +4612,8 @@
         "mileage": null,
         "price": 49544
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h41tb027337",
@@ -4645,7 +4728,8 @@
       }
     ],
     "stock": "HT1677",
-    "trimSearch": null
+    "trimSearch": null,
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h41tb037804",
@@ -4688,7 +4772,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 64,
@@ -4769,7 +4853,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h41tb043134",
@@ -4812,7 +4897,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -4883,7 +4968,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h41tb049726",
@@ -4926,7 +5012,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 9,
@@ -4953,7 +5039,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h41tb050553",
@@ -5023,7 +5110,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h41tb051301",
@@ -5137,7 +5225,8 @@
       }
     ],
     "stock": "Number",
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h42tb039884",
@@ -5180,7 +5269,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -5273,7 +5362,8 @@
       }
     ],
     "stock": "Number",
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h42tb041988",
@@ -5388,7 +5478,8 @@
       }
     ],
     "stock": "H71683",
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h42tb043868",
@@ -5512,7 +5603,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h42tb049797",
@@ -5596,7 +5688,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h43tb036816",
@@ -5639,7 +5732,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -5708,7 +5801,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h43tb043135",
@@ -5751,7 +5845,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -5822,7 +5916,8 @@
       }
     ],
     "stock": "HL13282",
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h43tb044172",
@@ -5935,7 +6030,8 @@
         "price": 46840
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h43tb044205",
@@ -5978,7 +6074,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 32,
@@ -6038,7 +6134,8 @@
         "price": null
       }
     ],
-    "stock": "HM262019"
+    "stock": "HM262019",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h43tb047279",
@@ -6140,7 +6237,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h43tb052045",
@@ -6210,7 +6308,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h43tb052420",
@@ -6295,7 +6394,8 @@
         "mileage": null,
         "price": 48745
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h44tb007714",
@@ -6442,7 +6542,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h44tb037814",
@@ -6554,7 +6655,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h44tb038381",
@@ -6656,7 +6758,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h44tb039112",
@@ -6781,7 +6884,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h44tb046304",
@@ -6824,7 +6928,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 28,
@@ -6882,7 +6986,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h44tb047002",
@@ -7007,7 +7112,8 @@
       }
     ],
     "stock": "Number",
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h44tb049400",
@@ -7050,7 +7156,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 8,
@@ -7119,7 +7225,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h44tb049803",
@@ -7162,7 +7269,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 8,
@@ -7189,7 +7296,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h45tb002697",
@@ -7232,7 +7340,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 5,
@@ -7273,7 +7381,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h45tb021427",
@@ -7396,7 +7505,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h45tb033531",
@@ -7439,7 +7549,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 80,
@@ -7509,7 +7619,8 @@
         "mileage": 3,
         "price": 48090
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h45tb036641",
@@ -7615,7 +7726,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h45tb037224",
@@ -7740,7 +7852,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h45tb044545",
@@ -7853,7 +7966,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h45tb047977",
@@ -7967,7 +8081,8 @@
       }
     ],
     "trimSite": "EX-L",
-    "stock": "Number"
+    "stock": "Number",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h45tb049387",
@@ -8037,7 +8152,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h45tb050880",
@@ -8150,7 +8266,8 @@
         "price": null
       }
     ],
-    "trimSite": "EX-L"
+    "trimSite": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h45tb051298",
@@ -8220,7 +8337,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h45tb051351",
@@ -8290,7 +8408,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h46tb018620",
@@ -8414,7 +8533,8 @@
         "price": 48545
       }
     ],
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h46tb025471",
@@ -8538,7 +8658,8 @@
         "price": null
       }
     ],
-    "trimSite": null
+    "trimSite": null,
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h46tb026412",
@@ -8581,7 +8702,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -8663,7 +8784,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h46tb044540",
@@ -8706,7 +8828,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -8758,7 +8880,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h46tb048006",
@@ -8893,7 +9016,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h46tb049415",
@@ -8988,7 +9112,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h46tb050130",
@@ -9089,7 +9214,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h47tb043848",
@@ -9132,7 +9258,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -9225,7 +9351,8 @@
     ],
     "stock": "H27778",
     "trimSearch": "Black Edition",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h47tb043851",
@@ -9268,7 +9395,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 32,
@@ -9361,7 +9488,8 @@
       }
     ],
     "stock": "Silver",
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h47tb046281",
@@ -9484,7 +9612,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h47tb049021",
@@ -9609,7 +9738,8 @@
       }
     ],
     "stock": "021",
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h47tb049763",
@@ -9753,7 +9883,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h47tb051349",
@@ -9867,7 +9998,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h48tb037556",
@@ -9991,7 +10123,8 @@
       "Navigation",
       "Power Liftgate",
       "Wireless Charging"
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h48tb042157",
@@ -10034,7 +10167,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -10105,7 +10238,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h48tb042854",
@@ -10148,7 +10282,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -10219,7 +10353,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h48tb044958",
@@ -10262,7 +10397,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 34,
@@ -10343,7 +10478,8 @@
         "price": 47281
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h48tb047990",
@@ -10457,7 +10593,8 @@
       }
     ],
     "stock": "Transmission",
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h48tb049416",
@@ -10569,7 +10706,8 @@
       "Navigation",
       "Power Liftgate",
       "Wireless Charging"
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h48tb053255",
@@ -10639,7 +10777,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h49tb027764",
@@ -10754,7 +10893,8 @@
       }
     ],
     "stock": "H28475A",
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h49tb038585",
@@ -10856,7 +10996,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h49tb038800",
@@ -10926,7 +11067,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h49tb041468",
@@ -11028,7 +11170,8 @@
         "price": null
       }
     ],
-    "trimSearch": null
+    "trimSearch": null,
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h49tb043124",
@@ -11071,7 +11214,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -11152,7 +11295,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h49tb043544",
@@ -11236,7 +11380,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h49tb043849",
@@ -11359,7 +11504,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h49tb046637",
@@ -11402,7 +11548,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 7,
@@ -11482,7 +11628,8 @@
       "Navigation",
       "Power Liftgate",
       "Wireless Charging"
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h49tb047657",
@@ -11618,7 +11765,8 @@
     ],
     "stock": "H27790",
     "trimSearch": "EX-L",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h49tb050154",
@@ -11732,7 +11880,8 @@
       }
     ],
     "stock": "0154",
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h49tb051627",
@@ -11856,7 +12005,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h49tb051658",
@@ -11970,7 +12120,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h49tb051661",
@@ -12083,7 +12234,8 @@
         "price": 48745
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h49tb052017",
@@ -12167,7 +12319,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h4xtb045898",
@@ -12210,7 +12363,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 29,
@@ -12280,7 +12433,8 @@
         "price": 46840
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h4xtb049787",
@@ -12350,7 +12504,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h4xtb050888",
@@ -12420,7 +12575,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h4xtb051636",
@@ -12490,7 +12646,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h4xtb052060",
@@ -12602,7 +12759,8 @@
       "Navigation",
       "Power Liftgate",
       "Wireless Charging"
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h60tb050397",
@@ -12686,7 +12844,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h61tb040204",
@@ -12812,7 +12971,8 @@
       }
     ],
     "stock": "H71587",
-    "trimSearch": "TrailSport"
+    "trimSearch": "TrailSport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h61tb044432",
@@ -12855,7 +13015,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -12882,7 +13042,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h61tb045239",
@@ -12925,7 +13086,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -13007,7 +13168,8 @@
         "price": null
       }
     ],
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h61tb045256",
@@ -13050,7 +13212,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -13077,7 +13239,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h61tb046133",
@@ -13120,7 +13283,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -13199,7 +13362,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h61tb047878",
@@ -13324,7 +13488,8 @@
       }
     ],
     "stock": "Number",
-    "trimSearch": "TrailSport"
+    "trimSearch": "TrailSport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h61tb048870",
@@ -13394,7 +13559,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h62tb044150",
@@ -13464,7 +13630,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h62tb048876",
@@ -13585,7 +13752,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h62tb050420",
@@ -13655,7 +13823,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h63tb040558",
@@ -13757,7 +13926,8 @@
         "price": null
       }
     ],
-    "stock": "Number"
+    "stock": "Number",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h63tb043380",
@@ -13800,7 +13970,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -13827,7 +13997,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h64tb047194",
@@ -13870,7 +14041,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 3,
@@ -13951,7 +14122,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h64tb048488",
@@ -13994,7 +14166,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 22,
@@ -14063,7 +14235,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h65tb042800",
@@ -14106,7 +14279,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 9,
@@ -14186,7 +14359,8 @@
         "mileage": null,
         "price": 15128
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h65tb043834",
@@ -14256,7 +14430,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h65tb045261",
@@ -14299,7 +14474,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 7,
@@ -14326,7 +14501,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h65tb045888",
@@ -14369,7 +14545,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -14396,7 +14572,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h65tb047155",
@@ -14521,7 +14698,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h65tb048516",
@@ -14595,7 +14773,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h66tb034611",
@@ -14720,7 +14899,8 @@
         "price": 52940
       }
     ],
-    "trimSearch": "TrailSport"
+    "trimSearch": "TrailSport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h66tb046158",
@@ -14823,7 +15003,8 @@
         "price": null
       }
     ],
-    "stock": "H3060"
+    "stock": "H3060",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h66tb048217",
@@ -14948,7 +15129,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h66tb048492",
@@ -15072,7 +15254,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h66tb051246",
@@ -15174,7 +15357,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h67tb034620",
@@ -15217,7 +15401,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -15244,7 +15428,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h67tb044046",
@@ -15314,7 +15499,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h67tb046492",
@@ -15438,7 +15624,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h67tb049683",
@@ -15508,7 +15695,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h67tb050722",
@@ -15578,7 +15766,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h67tb051210",
@@ -15690,7 +15879,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h68tb021276",
@@ -15785,7 +15975,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h68tb041060",
@@ -15911,7 +16102,8 @@
       }
     ],
     "stock": "H3014",
-    "trimSearch": "TrailSport"
+    "trimSearch": "TrailSport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h68tb044802",
@@ -16034,7 +16226,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h69tb027586",
@@ -16104,7 +16297,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h69tb031217",
@@ -16147,7 +16341,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -16230,7 +16424,8 @@
       }
     ],
     "stock": "H72249",
-    "trimSearch": "TrailSport"
+    "trimSearch": "TrailSport",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h69tb046509",
@@ -16273,7 +16468,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 0,
@@ -16345,7 +16540,8 @@
       }
     ],
     "stock": "H3052",
-    "trimSearch": "TrailSport"
+    "trimSearch": "TrailSport",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h69tb049667",
@@ -16469,7 +16665,8 @@
         "price": null
       }
     ],
-    "trimSearch": "TrailSport"
+    "trimSearch": "TrailSport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h6xtb008223",
@@ -16539,7 +16736,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h6xtb042131",
@@ -16683,7 +16881,8 @@
         "price": null
       }
     ],
-    "trimSearch": "TrailSport"
+    "trimSearch": "TrailSport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h6xtb044509",
@@ -16806,7 +17005,8 @@
         "price": null
       }
     ],
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h6xtb046860",
@@ -16939,7 +17139,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h6xtb047961",
@@ -17053,7 +17254,8 @@
         "price": null
       }
     ],
-    "trimSearch": "TrailSport"
+    "trimSearch": "TrailSport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h6xtb049662",
@@ -17096,7 +17298,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 8,
@@ -17177,7 +17379,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h6xtb049998",
@@ -17220,7 +17423,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 7,
@@ -17279,7 +17482,8 @@
         "price": null
       }
     ],
-    "stock": "Transmission"
+    "stock": "Transmission",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h6xtb053582",
@@ -17380,7 +17584,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h70tb033754",
@@ -17493,7 +17698,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h70tb034225",
@@ -17629,7 +17835,8 @@
     ],
     "stock": "H27759",
     "trimSearch": "Touring Blackout",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h70tb035455",
@@ -17753,7 +17960,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h70tb038288",
@@ -17823,7 +18031,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h70tb047217",
@@ -17866,7 +18075,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 0,
@@ -17893,7 +18102,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h70tb049310",
@@ -17963,7 +18173,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h70tb051946",
@@ -18033,7 +18244,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h70tb054037",
@@ -18103,7 +18315,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h71tb041426",
@@ -18171,13 +18384,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 54025,
-      "expected": 54565,
+      "marketValue": 53995,
+      "expected": 54535,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -120,
-      "dealPct": -0.0022,
+      "dealDelta": -90,
+      "dealPct": -0.0017,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -18227,7 +18440,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h71tb043063",
@@ -18360,7 +18574,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h71tb046206",
@@ -18403,7 +18618,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 14,
@@ -18474,7 +18689,8 @@
       }
     ],
     "trimSite": "Touring",
-    "stock": "H67079"
+    "stock": "H67079",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h71tb050482",
@@ -18544,7 +18760,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h71tb050823",
@@ -18645,7 +18862,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h71tb052829",
@@ -18747,7 +18965,8 @@
         "mileage": null,
         "price": 53844
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h72tb029124",
@@ -18871,7 +19090,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h72tb036591",
@@ -18941,7 +19161,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h72tb044464",
@@ -18984,7 +19205,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 16,
@@ -19055,7 +19276,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h72tb046893",
@@ -19098,7 +19320,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -19179,7 +19401,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h72tb049342",
@@ -19222,7 +19445,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 10,
@@ -19263,7 +19486,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h72tb050474",
@@ -19333,7 +19557,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h72tb050491",
@@ -19376,7 +19601,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 4,
@@ -19434,7 +19659,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h72tb050815",
@@ -19504,7 +19730,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h72tb051589",
@@ -19615,7 +19842,8 @@
         "mileage": null,
         "price": 54993
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h72tb053195",
@@ -19732,7 +19960,8 @@
       "Power Liftgate",
       "TrailWatch Camera",
       "Wireless Charging"
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h73tb020514",
@@ -19775,7 +20004,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -19846,7 +20075,8 @@
       }
     ],
     "stock": "H71195",
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h73tb024403",
@@ -19983,7 +20213,8 @@
       }
     ],
     "stock": "HTS1736",
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h73tb025387",
@@ -20119,7 +20350,8 @@
       }
     ],
     "stock": "HHB261749",
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h73tb036356",
@@ -20189,7 +20421,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h73tb044862",
@@ -20232,7 +20465,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-27",
     "listedDays": 14,
@@ -20295,7 +20528,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h73tb048524",
@@ -20365,7 +20599,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h74tb044465",
@@ -20435,7 +20670,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h74tb046880",
@@ -20505,7 +20741,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h74tb046894",
@@ -20548,7 +20785,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -20629,7 +20866,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h74tb048256",
@@ -20754,7 +20992,8 @@
       }
     ],
     "stock": "Black",
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h74tb048967",
@@ -20797,7 +21036,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 17,
@@ -20878,7 +21117,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h74tb050797",
@@ -20979,7 +21219,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h74tb051271",
@@ -21049,7 +21290,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h74tb051948",
@@ -21133,7 +21375,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h74tb052386",
@@ -21203,7 +21446,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h75tb030395",
@@ -21246,7 +21490,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -21326,7 +21570,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h75tb048248",
@@ -21369,7 +21614,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 20,
@@ -21396,7 +21641,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h75tb048959",
@@ -21439,7 +21685,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 7,
@@ -21519,7 +21765,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h75tb049268",
@@ -21589,7 +21836,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h75tb049318",
@@ -21659,7 +21907,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h75tb052770",
@@ -21729,7 +21978,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h76tb015064",
@@ -21799,7 +22049,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h76tb033323",
@@ -21936,7 +22187,8 @@
       }
     ],
     "trimSearch": "Touring",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h76tb033712",
@@ -21979,7 +22231,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 80,
@@ -22049,7 +22301,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h76tb038280",
@@ -22119,7 +22372,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h76tb043401",
@@ -22162,7 +22416,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -22235,7 +22489,8 @@
     ],
     "stock": "281",
     "trimSearch": "Touring",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h76tb046170",
@@ -22278,7 +22533,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 29,
@@ -22305,7 +22560,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h76tb051272",
@@ -22418,7 +22674,8 @@
         "price": null
       }
     ],
-    "trimSite": "Touring"
+    "trimSite": "Touring",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h77tb008561",
@@ -22488,7 +22745,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h77tb015039",
@@ -22558,7 +22816,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h77tb038742",
@@ -22601,7 +22860,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -22671,7 +22930,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h77tb041396",
@@ -22714,7 +22974,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 49,
@@ -22741,7 +23001,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h77tb044119",
@@ -22811,7 +23072,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h77tb047621",
@@ -22936,7 +23198,8 @@
     ],
     "stock": "41161-49",
     "trimSearch": "EX-L",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h77tb052821",
@@ -23006,7 +23269,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h77tb053600",
@@ -23090,7 +23354,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h77tb054438",
@@ -23201,7 +23466,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h78tb043786",
@@ -23244,7 +23510,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -23336,7 +23602,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring Blackout"
+    "trimSearch": "Touring Blackout",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h78tb044078",
@@ -23406,7 +23673,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h78tb048941",
@@ -23449,7 +23717,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 16,
@@ -23476,7 +23744,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h78tb048986",
@@ -23546,7 +23815,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h78tb050818",
@@ -23659,7 +23929,8 @@
         "price": 52790
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h78tb052813",
@@ -23743,7 +24014,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h79tb041156",
@@ -23786,7 +24058,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 31,
@@ -23879,7 +24151,8 @@
       }
     ],
     "stock": "Number",
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h79tb041397",
@@ -23922,7 +24195,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -24014,7 +24287,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h79tb041769",
@@ -24146,7 +24420,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h79tb042405",
@@ -24216,7 +24491,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h79tb043392",
@@ -24341,7 +24617,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h79tb044087",
@@ -24411,7 +24688,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h79tb044882",
@@ -24454,7 +24732,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 9,
@@ -24481,7 +24759,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h79tb045840",
@@ -24595,7 +24874,8 @@
       }
     ],
     "stock": "Radiant",
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h79tb046888",
@@ -24680,7 +24960,8 @@
         "price": null
       }
     ],
-    "trimSite": null
+    "trimSite": null,
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h79tb047216",
@@ -24723,7 +25004,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 6,
@@ -24794,7 +25075,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h79tb048964",
@@ -24864,7 +25146,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h79tb050021",
@@ -24979,7 +25262,8 @@
       }
     ],
     "stock": "N261333",
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h79tb050097",
@@ -25102,7 +25386,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h79tb051962",
@@ -25172,7 +25457,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h7xtb040291",
@@ -25215,7 +25501,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -25242,7 +25528,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h7xtb046530",
@@ -25285,7 +25572,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 22,
@@ -25366,7 +25653,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h7xtb046544",
@@ -25502,7 +25790,8 @@
       }
     ],
     "stock": "HHSTB046544",
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h80tb043614",
@@ -25545,7 +25834,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 39,
@@ -25586,7 +25875,8 @@
         "mileage": 10,
         "price": 55190
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h80tb044701",
@@ -25654,22 +25944,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56489,
-      "expected": 57053,
+      "marketValue": 56439,
+      "expected": 57003,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": 1676,
-      "dealPct": 0.0294,
+      "dealDelta": 1726,
+      "dealPct": 0.0303,
       "rating": "fair",
-      "dealScore": 0.121,
+      "dealScore": 0.118,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 25,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "high"
       }
     },
@@ -25711,7 +26001,8 @@
       }
     ],
     "stock": "HHUTB044701",
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h80tb049459",
@@ -25779,20 +26070,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56490,
-      "expected": 56490,
+      "marketValue": 56440,
+      "expected": 56440,
       "adjustments": {},
-      "dealDelta": -845,
-      "dealPct": -0.015,
+      "dealDelta": -795,
+      "dealPct": -0.0141,
       "rating": "fair",
-      "dealScore": 0.576,
+      "dealScore": 0.559,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 17,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "medium"
       }
     },
@@ -25847,7 +26138,8 @@
     ],
     "stock": "41162-08",
     "trimSearch": "Touring Blackout",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h80tb049512",
@@ -25915,24 +26207,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56490,
-      "expected": 57619,
+      "marketValue": 56440,
+      "expected": 57569,
       "adjustments": {
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -1575,
-      "dealPct": -0.0273,
+      "dealDelta": -1525,
+      "dealPct": -0.0265,
       "rating": "fair",
-      "dealScore": 0.818,
+      "dealScore": 0.794,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 19,
-        "cohortMedianDaysListed": 12,
-        "negotiability": "high"
+        "cohortMedianDaysListed": 13,
+        "negotiability": "medium"
       }
     },
     "searchedAt": null,
@@ -25977,7 +26269,8 @@
       "TrailWatch Camera",
       "Ventilated Seats",
       "Wireless Charging"
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h80tb051373",
@@ -26047,7 +26340,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h81tb046778",
@@ -26117,7 +26411,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h81tb051138",
@@ -26185,22 +26480,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56493,
-      "expected": 57058,
+      "marketValue": 56444,
+      "expected": 57009,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -1118,
-      "dealPct": -0.0196,
+      "dealDelta": -1069,
+      "dealPct": -0.0187,
       "rating": "fair",
-      "dealScore": 0.727,
+      "dealScore": 0.706,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 9,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -26230,7 +26525,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h81tb052130",
@@ -26300,7 +26596,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h82tb042240",
@@ -26368,22 +26665,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56493,
-      "expected": 57058,
+      "marketValue": 56444,
+      "expected": 57009,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -663,
-      "dealPct": -0.0116,
+      "dealDelta": -614,
+      "dealPct": -0.0108,
       "rating": "fair",
-      "dealScore": 0.485,
+      "dealScore": 0.471,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 32,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "high"
       }
     },
@@ -26414,7 +26711,8 @@
       }
     ],
     "trimSearch": "Elite",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h82tb045364",
@@ -26484,7 +26782,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h82tb049530",
@@ -26552,22 +26851,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56489,
-      "expected": 57053,
+      "marketValue": 56439,
+      "expected": 57003,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -614,
-      "dealPct": -0.0108,
+      "dealDelta": -564,
+      "dealPct": -0.0099,
       "rating": "fair",
-      "dealScore": 0.455,
+      "dealScore": 0.441,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 16,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "medium"
       }
     },
@@ -26609,7 +26908,8 @@
       }
     ],
     "stock": "HHUTB049530",
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h82tb049558",
@@ -26677,22 +26977,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56489,
-      "expected": 57054,
+      "marketValue": 56439,
+      "expected": 57004,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -1189,
-      "dealPct": -0.0208,
+      "dealDelta": -1139,
+      "dealPct": -0.02,
       "rating": "fair",
-      "dealScore": 0.758,
+      "dealScore": 0.735,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 16,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "medium"
       }
     },
@@ -26734,7 +27034,8 @@
       }
     ],
     "stock": "296",
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h82tb051777",
@@ -26804,7 +27105,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h83tb040979",
@@ -26872,23 +27174,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56491,
-      "expected": 57043,
+      "marketValue": 56441,
+      "expected": 56993,
       "adjustments": {
         "franchise": 0.01,
         "distance": -12.6
       },
-      "dealDelta": 997,
-      "dealPct": 0.0175,
+      "dealDelta": 1047,
+      "dealPct": 0.0184,
       "rating": "fair",
-      "dealScore": 0.212,
+      "dealScore": 0.206,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 34,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "high"
       }
     },
@@ -26918,7 +27220,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h83tb046684",
@@ -26961,7 +27264,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 2,
@@ -26988,7 +27291,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h83tb047074",
@@ -27031,7 +27335,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 0,
@@ -27058,7 +27362,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h83tb049892",
@@ -27126,23 +27431,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56491,
-      "expected": 57621,
+      "marketValue": 56442,
+      "expected": 57571,
       "adjustments": {
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -722,
-      "dealPct": -0.0125,
+      "dealDelta": -672,
+      "dealPct": -0.0117,
       "rating": "fair",
-      "dealScore": 0.515,
+      "dealScore": 0.5,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 12,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -27176,7 +27481,8 @@
       "TrailWatch Camera",
       "Ventilated Seats",
       "Wireless Charging"
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h83tb050962",
@@ -27246,7 +27552,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h83tb051447",
@@ -27314,23 +27621,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56491,
-      "expected": 58750,
+      "marketValue": 56441,
+      "expected": 58699,
       "adjustments": {
         "cpo": 0.03,
         "franchise": 0.01
       },
-      "dealDelta": -2806,
-      "dealPct": -0.0478,
+      "dealDelta": -2755,
+      "dealPct": -0.0469,
       "rating": "fair",
-      "dealScore": 0.939,
+      "dealScore": 0.941,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 11,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -27363,7 +27670,8 @@
       "TrailWatch Camera",
       "Ventilated Seats",
       "Wireless Charging"
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h84tb036200",
@@ -27406,7 +27714,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -27458,7 +27766,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h84tb041557",
@@ -27501,7 +27810,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -27526,22 +27835,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56490,
-      "expected": 57054,
+      "marketValue": 56440,
+      "expected": 57004,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -1864,
-      "dealPct": -0.0327,
+      "dealDelta": -1814,
+      "dealPct": -0.0318,
       "rating": "fair",
-      "dealScore": 0.879,
+      "dealScore": 0.853,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 23,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "high"
       }
     },
@@ -27593,7 +27902,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h84tb042885",
@@ -27636,7 +27946,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 36,
@@ -27661,22 +27971,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56489,
-      "expected": 57054,
+      "marketValue": 56440,
+      "expected": 57004,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -2329,
-      "dealPct": -0.0408,
+      "dealDelta": -2279,
+      "dealPct": -0.04,
       "rating": "fair",
-      "dealScore": 0.909,
+      "dealScore": 0.882,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 36,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "high"
       }
     },
@@ -27694,7 +28004,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h84tb045365",
@@ -27764,7 +28075,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h84tb047097",
@@ -27807,7 +28119,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 15,
@@ -27834,7 +28146,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h84tb047715",
@@ -27902,22 +28215,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56490,
-      "expected": 57054,
+      "marketValue": 56440,
+      "expected": 57004,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -515,
-      "dealPct": -0.009,
+      "dealDelta": -465,
+      "dealPct": -0.0082,
       "rating": "fair",
-      "dealScore": 0.394,
+      "dealScore": 0.382,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 7,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -27959,7 +28272,8 @@
       }
     ],
     "stock": "Number",
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h84tb051019",
@@ -28027,23 +28341,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56489,
-      "expected": 57030,
+      "marketValue": 56440,
+      "expected": 56980,
       "adjustments": {
         "franchise": 0.01,
         "distance": -24.3
       },
-      "dealDelta": -4468,
-      "dealPct": -0.0783,
+      "dealDelta": -4418,
+      "dealPct": -0.0775,
       "rating": "good",
-      "dealScore": 0.97,
+      "dealScore": 0.971,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 14,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -28073,7 +28387,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h84tb051120",
@@ -28141,20 +28456,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56488,
-      "expected": 56488,
+      "marketValue": 56439,
+      "expected": 56439,
       "adjustments": {},
-      "dealDelta": 1097,
-      "dealPct": 0.0194,
+      "dealDelta": 1146,
+      "dealPct": 0.0203,
       "rating": "fair",
-      "dealScore": 0.182,
+      "dealScore": 0.176,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 8,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -28174,7 +28489,8 @@
         "price": null
       }
     ],
-    "stock": "051120"
+    "stock": "051120",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h85tb039655",
@@ -28242,22 +28558,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56496,
-      "expected": 57061,
+      "marketValue": 56447,
+      "expected": 57011,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": 2123,
-      "dealPct": 0.0372,
+      "dealDelta": 2173,
+      "dealPct": 0.0381,
       "rating": "fair",
-      "dealScore": 0.061,
+      "dealScore": 0.059,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 37,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "high"
       }
     },
@@ -28297,7 +28613,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h85tb049831",
@@ -28340,7 +28657,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 9,
@@ -28365,23 +28682,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56490,
-      "expected": 57619,
+      "marketValue": 56440,
+      "expected": 57569,
       "adjustments": {
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -1575,
-      "dealPct": -0.0273,
+      "dealDelta": -1525,
+      "dealPct": -0.0265,
       "rating": "fair",
-      "dealScore": 0.818,
+      "dealScore": 0.794,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 9,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -28438,7 +28755,8 @@
       "TrailWatch Camera",
       "Ventilated Seats",
       "Wireless Charging"
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h86tb017695",
@@ -28512,7 +28830,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h86tb033184",
@@ -28555,7 +28874,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 58,
@@ -28582,7 +28901,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h86tb040720",
@@ -28625,7 +28945,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -28652,7 +28972,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h86tb043245",
@@ -28751,7 +29072,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h86tb044718",
@@ -28821,7 +29143,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h86tb045657",
@@ -28891,7 +29214,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h87tb018354",
@@ -28934,7 +29258,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 125,
@@ -28959,23 +29283,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56489,
-      "expected": 57032,
+      "marketValue": 56439,
+      "expected": 56982,
       "adjustments": {
         "franchise": 0.01,
         "distance": -21.6
       },
-      "dealDelta": -5446,
-      "dealPct": -0.0955,
+      "dealDelta": -5396,
+      "dealPct": -0.0947,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 125,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "high"
       }
     },
@@ -29015,7 +29339,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h87tb044338",
@@ -29058,7 +29383,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 20,
@@ -29085,7 +29410,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h87tb044694",
@@ -29128,7 +29454,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 9,
@@ -29155,7 +29481,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h87tb045098",
@@ -29223,22 +29550,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56491,
-      "expected": 57056,
+      "marketValue": 56442,
+      "expected": 57006,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": 1973,
-      "dealPct": 0.0346,
+      "dealDelta": 2023,
+      "dealPct": 0.0355,
       "rating": "fair",
-      "dealScore": 0.091,
+      "dealScore": 0.088,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 11,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -29291,7 +29618,8 @@
       }
     ],
     "stock": "5845098",
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h87tb045733",
@@ -29361,7 +29689,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h87tb046400",
@@ -29404,7 +29733,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -29429,22 +29758,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56489,
-      "expected": 57054,
+      "marketValue": 56440,
+      "expected": 57004,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -880,
-      "dealPct": -0.0154,
+      "dealDelta": -830,
+      "dealPct": -0.0146,
       "rating": "fair",
-      "dealScore": 0.606,
+      "dealScore": 0.588,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 23,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "high"
       }
     },
@@ -29486,7 +29815,8 @@
       }
     ],
     "trimSearch": "TrailSport",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h87tb047451",
@@ -29554,22 +29884,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56489,
-      "expected": 57053,
+      "marketValue": 56439,
+      "expected": 57003,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": 1377,
-      "dealPct": 0.0241,
+      "dealDelta": 1427,
+      "dealPct": 0.025,
       "rating": "fair",
-      "dealScore": 0.152,
+      "dealScore": 0.147,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 3,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -29600,7 +29930,8 @@
       }
     ],
     "stock": "HL13494",
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h87tb048289",
@@ -29643,7 +29974,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 22,
@@ -29668,22 +29999,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56493,
-      "expected": 57058,
+      "marketValue": 56444,
+      "expected": 57008,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -1069,
-      "dealPct": -0.0187,
+      "dealDelta": -1019,
+      "dealPct": -0.0179,
       "rating": "fair",
-      "dealScore": 0.667,
+      "dealScore": 0.647,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 22,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "high"
       }
     },
@@ -29713,7 +30044,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h87tb049474",
@@ -29783,7 +30115,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h87tb049586",
@@ -29851,23 +30184,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56491,
-      "expected": 57026,
+      "marketValue": 56441,
+      "expected": 56976,
       "adjustments": {
         "franchise": 0.01,
         "distance": -29.7
       },
-      "dealDelta": 183,
-      "dealPct": 0.0032,
+      "dealDelta": 233,
+      "dealPct": 0.0041,
       "rating": "fair",
-      "dealScore": 0.242,
+      "dealScore": 0.235,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 10,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -29896,7 +30229,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h87tb050978",
@@ -29966,7 +30300,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h87tb051712",
@@ -30040,7 +30375,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h87tb053346",
@@ -30108,23 +30444,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56491,
-      "expected": 57621,
+      "marketValue": 56441,
+      "expected": 57570,
       "adjustments": {
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -32,
-      "dealPct": -0.0005,
+      "dealDelta": 19,
+      "dealPct": 0.0003,
       "rating": "fair",
-      "dealScore": 0.273,
+      "dealScore": 0.265,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 2,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -30158,7 +30494,8 @@
       "TrailWatch Camera",
       "Ventilated Seats",
       "Wireless Charging"
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h87tb053430",
@@ -30226,23 +30563,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56490,
-      "expected": 57619,
+      "marketValue": 56440,
+      "expected": 57569,
       "adjustments": {
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -1080,
-      "dealPct": -0.0187,
+      "dealDelta": -1030,
+      "dealPct": -0.0179,
       "rating": "fair",
-      "dealScore": 0.697,
+      "dealScore": 0.676,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 6,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -30276,7 +30613,8 @@
       "TrailWatch Camera",
       "Ventilated Seats",
       "Wireless Charging"
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h88tb042517",
@@ -30319,7 +30657,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 29,
@@ -30346,7 +30684,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h88tb045014",
@@ -30389,7 +30728,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 9,
@@ -30414,23 +30753,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56491,
-      "expected": 57043,
+      "marketValue": 56442,
+      "expected": 56993,
       "adjustments": {
         "franchise": 0.01,
         "distance": -12.6
       },
-      "dealDelta": -393,
-      "dealPct": -0.0069,
+      "dealDelta": -343,
+      "dealPct": -0.006,
       "rating": "fair",
-      "dealScore": 0.333,
+      "dealScore": 0.324,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 9,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -30460,7 +30799,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h88tb045093",
@@ -30532,22 +30872,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56490,
-      "expected": 57055,
+      "marketValue": 56441,
+      "expected": 57005,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -1032,
-      "dealPct": -0.0181,
+      "dealDelta": -982,
+      "dealPct": -0.0172,
       "rating": "fair",
-      "dealScore": 0.636,
+      "dealScore": 0.618,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 19,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "priceDrop": {
           "total": 3191,
           "pct": -0.0539,
@@ -30605,7 +30945,8 @@
       }
     ],
     "trimSearch": "Elite",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h88tb046731",
@@ -30679,7 +31020,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h88tb048639",
@@ -30747,23 +31089,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56490,
-      "expected": 57044,
+      "marketValue": 56440,
+      "expected": 56994,
       "adjustments": {
         "franchise": 0.01,
         "distance": -10.8
       },
-      "dealDelta": -259,
-      "dealPct": -0.0045,
+      "dealDelta": -209,
+      "dealPct": -0.0037,
       "rating": "fair",
-      "dealScore": 0.303,
+      "dealScore": 0.294,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 1,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -30782,7 +31124,8 @@
         "price": null
       }
     ],
-    "stock": "HT1862"
+    "stock": "HT1862",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h89tb006951",
@@ -30852,7 +31195,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h89tb018310",
@@ -30929,14 +31273,14 @@
       "dealDelta": -550,
       "dealPct": -0.0095,
       "rating": "fair",
-      "dealScore": 0.424,
+      "dealScore": 0.412,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 142,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "high"
       }
     },
@@ -30977,7 +31321,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h89tb045720",
@@ -31047,7 +31392,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h89tb051100",
@@ -31117,7 +31463,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h89tb051369",
@@ -31185,22 +31532,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56488,
-      "expected": 57053,
+      "marketValue": 56439,
+      "expected": 57003,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": 2131,
-      "dealPct": 0.0373,
+      "dealDelta": 2181,
+      "dealPct": 0.0383,
       "rating": "fair",
-      "dealScore": 0.03,
+      "dealScore": 0.029,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 2,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -31219,7 +31566,8 @@
         "price": null
       }
     ],
-    "stock": "1369"
+    "stock": "1369",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h89tb053008",
@@ -31314,7 +31662,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h8xtb044303",
@@ -31357,7 +31706,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -31384,7 +31733,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h8xtb044737",
@@ -31410,13 +31760,13 @@
     "distanceMi": 36,
     "state": "MA",
     "city": "Auburn",
-    "cpo": "none",
+    "cpo": "dealer",
     "cpoFeed": false,
-    "exteriorColor": "Gray",
+    "exteriorColor": "Modern Steel Metallic",
     "interiorColor": "Black",
     "vin": "5FNYG1H8XTB044737",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de26ad52f8e65ddb32d7fc3c744f20eff69ddc517919833e0f89082e7d657c5f9bdd5bc811c08f9028079023c4e9140efe7077a0b9396c762ca6b68a35bc690f63d2c96afd4105ab14f0577db54df3cc0a9e592a92ce597bd7ebaf00d7bc86d808c645d657119c959ac3fdc4e0ec117c503/?pl=28&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "url": "https://lundgrencars.com/vehicle/5FNYG1H8XTB044737/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H8XTB044737&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5FNYG1H8XTB044737-1.jpg",
     "photoCount": 29,
@@ -31426,7 +31776,7 @@
     "ownerCount": null,
     "oneOwner": null,
     "usageType": null,
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-27",
@@ -31445,16 +31795,65 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 56441,
+      "expected": 57570,
+      "adjustments": {
+        "cpo": 0.01,
+        "franchise": 0.01
+      },
+      "dealDelta": -2380,
+      "dealPct": -0.0413,
+      "rating": "fair",
+      "dealScore": 0.912,
+      "basis": "cohort",
+      "cohortN": 34,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 20,
+        "cohortMedianDaysListed": 13,
+        "negotiability": "high"
+      }
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0,
+    "trimSite": "Elite",
+    "powertrainSite": "gas",
+    "cpoSite": "dealer",
+    "verifyLog": [
+      {
+        "date": "2026-07-27",
+        "how": "constructed",
+        "tier": "site",
+        "host": "lundgrencars.com",
+        "trim": "Elite",
+        "powertrain": "gas",
+        "strength": "jsonld",
+        "mileage": 10,
+        "price": 55689
+      }
+    ],
+    "options": [
+      "Adaptive Cruise",
+      "Blind Spot Monitor",
+      "Bose Premium Audio",
+      "CabinTalk",
+      "Google Built-In",
+      "Head-Up Display",
+      "Heated Seats",
+      "Heated Steering Wheel",
+      "Moonroof",
+      "Navigation",
+      "Roof Rails",
+      "TrailWatch Camera"
+    ]
   },
   {
     "id": "api-5fnyg1h8xtb048707",
@@ -31528,7 +31927,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h8xtb048741",
@@ -31598,7 +31998,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h8xtb051462",
@@ -31666,22 +32067,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56490,
-      "expected": 57054,
+      "marketValue": 56440,
+      "expected": 57004,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -515,
-      "dealPct": -0.009,
+      "dealDelta": -465,
+      "dealPct": -0.0082,
       "rating": "fair",
-      "dealScore": 0.394,
+      "dealScore": 0.382,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 12,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -31700,7 +32101,8 @@
         "price": null
       }
     ],
-    "stock": "Number"
+    "stock": "Number",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h8xtb052093",
@@ -31768,23 +32170,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56490,
-      "expected": 57039,
+      "marketValue": 56440,
+      "expected": 56989,
       "adjustments": {
         "franchise": 0.01,
         "distance": -15.75
       },
-      "dealDelta": -799,
-      "dealPct": -0.014,
+      "dealDelta": -749,
+      "dealPct": -0.0131,
       "rating": "fair",
-      "dealScore": 0.545,
+      "dealScore": 0.529,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 4,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -31815,7 +32217,8 @@
       }
     ],
     "stock": "TB052093",
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h8xtb053003",
@@ -31883,23 +32286,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56491,
-      "expected": 58750,
+      "marketValue": 56441,
+      "expected": 58699,
       "adjustments": {
         "cpo": 0.03,
         "franchise": 0.01
       },
-      "dealDelta": -1856,
-      "dealPct": -0.0316,
+      "dealDelta": -1805,
+      "dealPct": -0.0308,
       "rating": "fair",
-      "dealScore": 0.848,
+      "dealScore": 0.824,
       "basis": "cohort",
-      "cohortN": 33,
+      "cohortN": 34,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 2,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 13,
         "negotiability": "low"
       }
     },
@@ -31933,7 +32336,8 @@
       "TrailWatch Camera",
       "Ventilated Seats",
       "Wireless Charging"
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h8xtb053826",
@@ -32003,7 +32407,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h90tb045775",
@@ -32071,7 +32476,7 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57439,
+      "marketValue": 57438,
       "expected": 58013,
       "adjustments": {
         "franchise": 0.01
@@ -32079,14 +32484,14 @@
       "dealDelta": -868,
       "dealPct": -0.015,
       "rating": "fair",
-      "dealScore": 0.833,
+      "dealScore": 0.789,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 12,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "low"
       }
     },
@@ -32104,7 +32509,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h90tb046439",
@@ -32172,23 +32578,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57441,
-      "expected": 58015,
+      "marketValue": 57440,
+      "expected": 58014,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -371,
+      "dealDelta": -370,
       "dealPct": -0.0064,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.474,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 13,
-        "cohortMedianDaysListed": 8,
-        "negotiability": "high"
+        "cohortMedianDaysListed": 9,
+        "negotiability": "low"
       }
     },
     "searchedAt": "2026-07-18",
@@ -32206,7 +32612,8 @@
         "price": null
       }
     ],
-    "stock": "39"
+    "stock": "39",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h90tb047123",
@@ -32283,14 +32690,14 @@
       "dealDelta": 1034,
       "dealPct": 0.0178,
       "rating": "fair",
-      "dealScore": 0.167,
+      "dealScore": 0.158,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 2,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "low"
       }
     },
@@ -32308,7 +32715,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h91tb039306",
@@ -32376,23 +32784,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57439,
-      "expected": 57989,
+      "marketValue": 57438,
+      "expected": 57988,
       "adjustments": {
         "franchise": 0.01,
         "distance": -24.3
       },
-      "dealDelta": -3999,
-      "dealPct": -0.069,
+      "dealDelta": -3998,
+      "dealPct": -0.0689,
       "rating": "good",
-      "dealScore": 0.944,
+      "dealScore": 0.947,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 32,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "high"
       }
     },
@@ -32432,7 +32840,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h91tb046837",
@@ -32475,7 +32884,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 0,
@@ -32500,23 +32909,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57440,
+      "marketValue": 57439,
       "expected": 57987,
       "adjustments": {
         "franchise": 0.01,
         "distance": -27.0
       },
       "dealDelta": -5384,
-      "dealPct": -0.0929,
+      "dealPct": -0.0928,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 0,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "low"
       }
     },
@@ -32558,7 +32967,8 @@
       }
     ],
     "stock": "H3053",
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h91tb048846",
@@ -32601,7 +33011,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 17,
@@ -32626,20 +33036,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57408,
-      "expected": 57408,
+      "marketValue": 57407,
+      "expected": 57407,
       "adjustments": {},
-      "dealDelta": -263,
+      "dealDelta": -262,
       "dealPct": -0.0046,
       "rating": "fair",
-      "dealScore": 0.444,
+      "dealScore": 0.421,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 17,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "high"
       }
     },
@@ -32680,7 +33090,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h91tb049981",
@@ -32768,7 +33179,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h92tb042991",
@@ -32842,7 +33254,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h92tb043011",
@@ -32885,7 +33298,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -32911,22 +33324,22 @@
     "cohortReady": true,
     "valuation": {
       "marketValue": 57436,
-      "expected": 57998,
+      "expected": 57997,
       "adjustments": {
         "franchise": 0.01,
         "distance": -12.6
       },
-      "dealDelta": -853,
+      "dealDelta": -852,
       "dealPct": -0.0147,
       "rating": "fair",
-      "dealScore": 0.667,
+      "dealScore": 0.632,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 23,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "high"
       }
     },
@@ -32957,7 +33370,8 @@
       }
     ],
     "stock": "H71636",
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h92tb043722",
@@ -33000,7 +33414,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -33027,7 +33441,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h92tb054736",
@@ -33097,7 +33512,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h93tb045513",
@@ -33140,7 +33556,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 23,
@@ -33174,14 +33590,14 @@
       "dealDelta": -566,
       "dealPct": -0.0098,
       "rating": "fair",
-      "dealScore": 0.556,
+      "dealScore": 0.526,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 23,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "high"
       }
     },
@@ -33222,7 +33638,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h93tb046452",
@@ -33290,7 +33707,7 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57439,
+      "marketValue": 57438,
       "expected": 58013,
       "adjustments": {
         "franchise": 0.01
@@ -33298,14 +33715,14 @@
       "dealDelta": -868,
       "dealPct": -0.015,
       "rating": "fair",
-      "dealScore": 0.833,
+      "dealScore": 0.789,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 32,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "high"
       }
     },
@@ -33335,7 +33752,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h94tb046086",
@@ -33378,7 +33796,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 8,
@@ -33403,22 +33821,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57441,
-      "expected": 58015,
+      "marketValue": 57440,
+      "expected": 58014,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": 1519,
+      "dealDelta": 1520,
       "dealPct": 0.0262,
       "rating": "fair",
-      "dealScore": 0.111,
+      "dealScore": 0.105,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 8,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "low"
       }
     },
@@ -33437,7 +33855,8 @@
         "price": null
       }
     ],
-    "stock": "6086"
+    "stock": "6086",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h94tb047125",
@@ -33507,7 +33926,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h94tb048436",
@@ -33577,7 +33997,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h94tb048775",
@@ -33603,13 +34024,13 @@
     "distanceMi": 36,
     "state": "MA",
     "city": "Auburn",
-    "cpo": "none",
+    "cpo": "dealer",
     "cpoFeed": false,
-    "exteriorColor": "Silver",
+    "exteriorColor": "Solar Silver Metallic",
     "interiorColor": "Black",
     "vin": "5FNYG1H94TB048775",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de2770ba5171315fd10927d902317743657eb7d5ee783852b2a6cb502e734076b8ee2075322272a9c15d6bdc4445ce4f3e5077a0b9396c762ca6b68a35bc690f63d2c96afd4105ab14f0577db54df3cc0a9e592a92ce597bd7ebaf00d7bc86d808c645d657119c959ac3fdc4e0ec117c503/?pl=1&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "url": "https://lundgrencars.com/vehicle/5FNYG1H94TB048775/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H94TB048775&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5FNYG1H94TB048775-1.jpg",
     "photoCount": 29,
@@ -33619,7 +34040,7 @@
     "ownerCount": null,
     "oneOwner": null,
     "usageType": null,
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-27",
@@ -33638,16 +34059,65 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 57438,
+      "expected": 58587,
+      "adjustments": {
+        "cpo": 0.01,
+        "franchise": 0.01
+      },
+      "dealDelta": -1897,
+      "dealPct": -0.0324,
+      "rating": "fair",
+      "dealScore": 0.895,
+      "basis": "pooled",
+      "cohortN": 19,
+      "confidence": 0.6,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 9,
+        "cohortMedianDaysListed": 9,
+        "negotiability": "low"
+      }
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0,
+    "trimSite": "Black Edition",
+    "powertrainSite": "gas",
+    "cpoSite": "dealer",
+    "verifyLog": [
+      {
+        "date": "2026-07-27",
+        "how": "constructed",
+        "tier": "site",
+        "host": "lundgrencars.com",
+        "trim": "Black Edition",
+        "powertrain": "gas",
+        "strength": "jsonld",
+        "mileage": 5,
+        "price": 57189
+      }
+    ],
+    "options": [
+      "Adaptive Cruise",
+      "Blind Spot Monitor",
+      "Bose Premium Audio",
+      "CabinTalk",
+      "Google Built-In",
+      "Head-Up Display",
+      "Heated Seats",
+      "Heated Steering Wheel",
+      "Moonroof",
+      "Navigation",
+      "Roof Rails",
+      "TrailWatch Camera"
+    ]
   },
   {
     "id": "api-5fnyg1h95tb048820",
@@ -33690,7 +34160,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 8,
@@ -33731,7 +34201,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h95tb050342",
@@ -33801,7 +34272,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h95tb053502",
@@ -33869,23 +34341,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57437,
-      "expected": 58586,
+      "marketValue": 57436,
+      "expected": 58585,
       "adjustments": {
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -647,
+      "dealDelta": -646,
       "dealPct": -0.011,
       "rating": "fair",
-      "dealScore": 0.611,
+      "dealScore": 0.579,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 2,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "low"
       }
     },
@@ -33919,7 +34391,8 @@
       "TrailWatch Camera",
       "Ventilated Seats",
       "Wireless Charging"
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h96tb047806",
@@ -33989,7 +34462,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h96tb048406",
@@ -34032,7 +34506,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 17,
@@ -34059,7 +34533,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h96tb050379",
@@ -34143,7 +34618,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h97tb024292",
@@ -34213,7 +34689,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h97tb030707",
@@ -34287,7 +34764,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h97tb043666",
@@ -34357,7 +34835,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h97tb044395",
@@ -34425,7 +34904,7 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57437,
+      "marketValue": 57436,
       "expected": 57995,
       "adjustments": {
         "franchise": 0.01,
@@ -34434,14 +34913,14 @@
       "dealDelta": 495,
       "dealPct": 0.0085,
       "rating": "fair",
-      "dealScore": 0.222,
+      "dealScore": 0.211,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 4,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "low"
       }
     },
@@ -34482,7 +34961,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h97tb049225",
@@ -34552,7 +35032,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h97tb049970",
@@ -34620,23 +35101,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57437,
-      "expected": 57982,
+      "marketValue": 57436,
+      "expected": 57981,
       "adjustments": {
         "franchise": 0.01,
         "distance": -29.7
       },
-      "dealDelta": 1932,
+      "dealDelta": 1933,
       "dealPct": 0.0333,
       "rating": "fair",
-      "dealScore": 0.056,
+      "dealScore": 0.053,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 9,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "low"
       }
     },
@@ -34688,7 +35169,8 @@
         "price": 57089
       }
     ],
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h98tb039495",
@@ -34756,7 +35238,7 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57438,
+      "marketValue": 57437,
       "expected": 58001,
       "adjustments": {
         "franchise": 0.01,
@@ -34765,14 +35247,14 @@
       "dealDelta": -856,
       "dealPct": -0.0148,
       "rating": "fair",
-      "dealScore": 0.722,
+      "dealScore": 0.684,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 32,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "high"
       }
     },
@@ -34814,7 +35296,8 @@
       }
     ],
     "stock": "HT1785",
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h98tb051145",
@@ -34884,7 +35367,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h98tb052294",
@@ -34952,7 +35436,7 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57439,
+      "marketValue": 57438,
       "expected": 58013,
       "adjustments": {
         "franchise": 0.01
@@ -34960,14 +35444,14 @@
       "dealDelta": -1597,
       "dealPct": -0.0275,
       "rating": "fair",
-      "dealScore": 0.889,
+      "dealScore": 0.842,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 6,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "low"
       }
     },
@@ -34998,7 +35482,8 @@
       }
     ],
     "stock": "3rd",
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h99tb040025",
@@ -35041,7 +35526,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 52,
@@ -35068,7 +35553,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h99tb045144",
@@ -35138,7 +35624,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h99tb048805",
@@ -35181,7 +35668,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-18",
     "lastSeen": "2026-07-18",
     "listedDays": 21,
@@ -35208,7 +35695,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 2
   },
   {
     "id": "api-5fnyg1h99tb049968",
@@ -35276,23 +35764,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57437,
-      "expected": 57995,
+      "marketValue": 57436,
+      "expected": 57994,
       "adjustments": {
         "franchise": 0.01,
         "distance": -16.2
       },
-      "dealDelta": -100,
+      "dealDelta": -99,
       "dealPct": -0.0017,
       "rating": "fair",
-      "dealScore": 0.333,
+      "dealScore": 0.316,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 2,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "low"
       }
     },
@@ -35322,7 +35810,8 @@
         "price": 56249
       }
     ],
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h9xtb042348",
@@ -35392,7 +35881,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h9xtb045492",
@@ -35462,7 +35952,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h9xtb045783",
@@ -35536,7 +36027,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18"
+    "searchedAt": "2026-07-18",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h9xtb052670",
@@ -35604,7 +36096,7 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57439,
+      "marketValue": 57438,
       "expected": 58013,
       "adjustments": {
         "franchise": 0.01
@@ -35612,14 +36104,14 @@
       "dealDelta": -118,
       "dealPct": -0.002,
       "rating": "fair",
-      "dealScore": 0.389,
+      "dealScore": 0.368,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 6,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "low"
       }
     },
@@ -35650,7 +36142,8 @@
       }
     ],
     "stock": "call",
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h9xtb052684",
@@ -35720,7 +36213,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg1h9xtb054709",
@@ -35788,20 +36282,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57441,
-      "expected": 57441,
+      "marketValue": 57440,
+      "expected": 57440,
       "adjustments": {},
-      "dealDelta": -1,
-      "dealPct": -0.0,
+      "dealDelta": 0,
+      "dealPct": 0.0,
       "rating": "fair",
-      "dealScore": 0.278,
+      "dealScore": 0.263,
       "basis": "pooled",
-      "cohortN": 18,
+      "cohortN": 19,
       "confidence": 0.6,
       "ratingConfident": true,
       "signals": {
         "listedDays": 1,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 9,
         "negotiability": "low"
       }
     },
@@ -35842,7 +36336,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "missedRuns": 0
   },
   {
     "id": "api-5fnyg2h37tb009258",
@@ -35910,23 +36405,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46662,
-      "expected": 47103,
+      "marketValue": 46742,
+      "expected": 47185,
       "adjustments": {
         "franchise": 0.01,
         "distance": -25.2
       },
-      "dealDelta": -3545,
-      "dealPct": -0.0753,
+      "dealDelta": -3627,
+      "dealPct": -0.0769,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "cohort",
-      "cohortN": 26,
+      "cohortN": 27,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 66,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 32,
         "negotiability": "high"
       }
     },
@@ -35978,6 +36473,7 @@
         "price": null
       }
     ],
-    "trimSearch": "Sport"
+    "trimSearch": "Sport",
+    "missedRuns": 0
   }
 ]
