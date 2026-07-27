@@ -16,22 +16,7 @@
   },
   "generatedAt": "2026-07-27",
   "vignettes": {
-    "profit": [
-      {
-        "year": 2025,
-        "trim": "XLE",
-        "powertrain": "gas",
-        "underBy": 5100,
-        "daysToGone": 0
-      },
-      {
-        "year": 2026,
-        "trim": "XLE",
-        "powertrain": "gas",
-        "underBy": 4900,
-        "daysToGone": 0
-      }
-    ],
+    "profit": [],
     "aging": []
   }
 }
