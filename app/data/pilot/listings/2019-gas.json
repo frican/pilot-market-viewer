@@ -836,7 +836,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "Special Edition",
+    "trim": "LX",
     "trimFeed": "LX",
     "powertrain": "gas",
     "powertrainFeed": "gas",
@@ -890,10 +890,10 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.65,
-    "trimVerifiedBy": "search",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
     "trimFlagged": true,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {

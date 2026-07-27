@@ -155,8 +155,8 @@
         "intercept": 42917.56
       },
       "scoringLine": {
-        "slope": -0.3059,
-        "intercept": 51214.86,
+        "slope": -0.1127,
+        "intercept": 34492.87,
         "basis": "pooled"
       },
       "basis": "pooled",
@@ -293,8 +293,8 @@
       "theilSen": null,
       "ols": null,
       "scoringLine": {
-        "slope": -0.3059,
-        "intercept": 60625.66,
+        "slope": -0.1127,
+        "intercept": 36862.01,
         "basis": "pooled"
       },
       "basis": "pooled",
@@ -313,8 +313,8 @@
       "theilSen": null,
       "ols": null,
       "scoringLine": {
-        "slope": -0.1296,
-        "intercept": 31085.47,
+        "slope": -0.1053,
+        "intercept": 29557.42,
         "basis": "pooled"
       },
       "basis": "pooled",
@@ -437,8 +437,8 @@
       "theilSen": null,
       "ols": null,
       "scoringLine": {
-        "slope": -0.3722,
-        "intercept": 56317.0,
+        "slope": -0.1948,
+        "intercept": 45074.33,
         "basis": "pooled"
       },
       "basis": "pooled",
@@ -457,8 +457,8 @@
       "theilSen": null,
       "ols": null,
       "scoringLine": {
-        "slope": -0.2754,
-        "intercept": 49277.68,
+        "slope": -0.1254,
+        "intercept": 37464.65,
         "basis": "pooled"
       },
       "basis": "pooled",
@@ -477,8 +477,8 @@
       "theilSen": null,
       "ols": null,
       "scoringLine": {
-        "slope": -0.3059,
-        "intercept": 62553.14,
+        "slope": -0.1127,
+        "intercept": 40369.34,
         "basis": "pooled"
       },
       "basis": "pooled",
@@ -523,11 +523,11 @@
       "theilSen": null,
       "ols": null,
       "scoringLine": {
-        "slope": -0.3378,
-        "intercept": 34978.65,
-        "basis": "pooled"
+        "slope": -0.113,
+        "intercept": 35811.56,
+        "basis": "msrp_curve"
       },
-      "basis": "pooled",
+      "basis": "msrp_curve",
       "parentKey": "Sport|gas",
       "msrp": 40080
     },
@@ -569,8 +569,8 @@
       "theilSen": null,
       "ols": null,
       "scoringLine": {
-        "slope": -0.3722,
-        "intercept": 50152.45,
+        "slope": -0.1948,
+        "intercept": 42913.13,
         "basis": "pooled"
       },
       "basis": "pooled",
@@ -1172,7 +1172,7 @@
         "intercept": 57286.03
       },
       "scoringLine": {
-        "slope": -0.3722,
+        "slope": -0.3741,
         "intercept": 57440.0,
         "basis": "pooled"
       },
@@ -1182,41 +1182,57 @@
     }
   },
   "parents": {
-    "Elite|gas": {
-      "slope": -0.3059,
-      "intercept": 55947.06
+    "Elite|gas|3rd": {
+      "slope": -0.1127,
+      "intercept": 34346.3
     },
-    "LX|gas": {
-      "slope": -0.1296,
-      "intercept": 31625.88
+    "LX|gas|3rd": {
+      "slope": -0.1053,
+      "intercept": 29078.36
     },
-    "EX|gas": {
+    "EX|gas|3rd": {
       "slope": -0.1196,
       "intercept": 32861.41
     },
-    "EX-L|gas": {
-      "slope": -0.2754,
-      "intercept": 48803.21
+    "EX-L|gas|3rd": {
+      "slope": -0.1254,
+      "intercept": 34459.38
     },
-    "Touring|gas": {
-      "slope": -0.2786,
-      "intercept": 53176.76
+    "Touring|gas|3rd": {
+      "slope": -0.1116,
+      "intercept": 35144.07
     },
-    "Black Edition|gas": {
-      "slope": -0.3722,
-      "intercept": 57177.75
+    "Black Edition|gas|3rd": {
+      "slope": -0.1948,
+      "intercept": 44738.66
     },
-    "Special Edition|gas": {
+    "Special Edition|gas|3rd": {
       "slope": -0.1033,
       "intercept": 36204.44
     },
-    "Sport|gas": {
-      "slope": -0.3378,
-      "intercept": 46634.53
+    "Sport|gas|4th": {
+      "slope": -0.3201,
+      "intercept": 46507.55
     },
-    "TrailSport|gas": {
-      "slope": -0.2976,
-      "intercept": 52092.68
+    "EX-L|gas|4th": {
+      "slope": -0.2581,
+      "intercept": 48890.29
+    },
+    "TrailSport|gas|4th": {
+      "slope": -0.2938,
+      "intercept": 52091.76
+    },
+    "Touring|gas|4th": {
+      "slope": -0.2808,
+      "intercept": 53590.41
+    },
+    "Elite|gas|4th": {
+      "slope": -0.3135,
+      "intercept": 56035.38
+    },
+    "Black Edition|gas|4th": {
+      "slope": -0.3741,
+      "intercept": 57308.96
     }
   },
   "depreciation": {
@@ -1233,9 +1249,9 @@
         "year": 2020,
         "age": 6,
         "medianMileage": 87335,
-        "marketValue": 24500,
+        "marketValue": 24647,
         "msrp": 48120,
-        "retained": 0.509
+        "retained": 0.512
       },
       {
         "year": 2021,
@@ -1543,9 +1559,9 @@
         "year": 2022,
         "age": 4,
         "medianMileage": 19960,
-        "marketValue": 28237,
+        "marketValue": 33556,
         "msrp": 40080,
-        "retained": 0.705
+        "retained": 0.837
       },
       {
         "year": 2023,

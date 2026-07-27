@@ -66,17 +66,17 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 32285,
-      "expected": 30671,
+      "marketValue": 27516,
+      "expected": 26140,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -150,
-      "dealPct": -0.0049,
-      "rating": "fair",
-      "dealScore": 0.667,
+      "dealDelta": 4381,
+      "dealPct": 0.1676,
+      "rating": "overpriced",
+      "dealScore": 0.333,
       "basis": "pooled",
       "cohortN": 3,
       "confidence": 0.375,
@@ -204,15 +204,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21245,
-      "expected": 21458,
+      "marketValue": 23447,
+      "expected": 23681,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 1989,
-      "dealPct": 0.0927,
-      "rating": "high",
-      "dealScore": 0.333,
+      "dealDelta": -234,
+      "dealPct": -0.0099,
+      "rating": "fair",
+      "dealScore": 0.667,
       "basis": "pooled",
       "cohortN": 3,
       "confidence": 0.375,
@@ -317,13 +317,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24500,
-      "expected": 24745,
+      "marketValue": 24647,
+      "expected": 24893,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -245,
-      "dealPct": -0.0099,
+      "dealDelta": -393,
+      "dealPct": -0.0158,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
