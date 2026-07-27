@@ -2,21 +2,36 @@
   "region": "Greater Boston",
   "metroMi": 50,
   "totals": {
-    "listings": 1573,
-    "live": 1573,
-    "scored": 756,
-    "cohortReady": 756
+    "listings": 1814,
+    "live": 1280,
+    "scored": 858,
+    "cohortReady": 858
   },
   "metro": {
-    "liveCount": 668,
-    "aggregateMispricing": 253005,
-    "medianLotMoneyOnTable": 4240,
-    "dealersScored": 22,
-    "medianListedDays": 18.0
+    "liveCount": 614,
+    "aggregateMispricing": 227444,
+    "medianLotMoneyOnTable": 2284,
+    "dealersScored": 19,
+    "medianListedDays": 23.0
   },
-  "generatedAt": "2026-07-22",
+  "generatedAt": "2026-07-27",
   "vignettes": {
-    "profit": [],
+    "profit": [
+      {
+        "year": 2025,
+        "trim": "XLE",
+        "powertrain": "gas",
+        "underBy": 5100,
+        "daysToGone": 0
+      },
+      {
+        "year": 2026,
+        "trim": "XLE",
+        "powertrain": "gas",
+        "underBy": 4900,
+        "daysToGone": 0
+      }
+    ],
     "aging": []
   }
 }

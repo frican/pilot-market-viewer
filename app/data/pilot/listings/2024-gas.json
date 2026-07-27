@@ -42,8 +42,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 2,
+    "lastSeen": "2026-07-27",
+    "listedDays": 11,
     "priceHistory": [
       {
         "date": "2026-07-18",
@@ -65,22 +65,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 39192,
-      "expected": 39584,
+      "marketValue": 39062,
+      "expected": 39452,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -392,
-      "dealPct": -0.0099,
+      "dealDelta": -260,
+      "dealPct": -0.0066,
       "rating": "fair",
-      "dealScore": 0.444,
+      "dealScore": 0.429,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 2,
-        "cohortMedianDaysListed": 21,
+        "listedDays": 11,
+        "cohortMedianDaysListed": 23,
         "negotiability": "low"
       }
     },
@@ -159,8 +159,8 @@
     "distanceMi": 15,
     "state": "MA",
     "city": "Tewksbury",
-    "cpo": "none",
-    "cpoFeed": false,
+    "cpo": "unknown",
+    "cpoFeed": true,
     "exteriorColor": "Red",
     "interiorColor": "Black",
     "vin": "5FNYG1H40RB049743",
@@ -178,8 +178,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 17,
+    "lastSeen": "2026-07-27",
+    "listedDays": 26,
     "priceHistory": [
       {
         "date": "2026-07-18",
@@ -201,23 +201,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 38909,
-      "expected": 39687,
+      "marketValue": 38703,
+      "expected": 39864,
       "adjustments": {
         "oneOwner": 0.01,
+        "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -1095,
-      "dealPct": -0.0276,
+      "dealDelta": -1272,
+      "dealPct": -0.0319,
       "rating": "fair",
-      "dealScore": 0.778,
+      "dealScore": 0.857,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 17,
-        "cohortMedianDaysListed": 21,
+        "listedDays": 26,
+        "cohortMedianDaysListed": 23,
         "negotiability": "medium"
       }
     },
@@ -346,8 +347,8 @@
     "drivetrain": "AWD",
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
-    "mileage": 36469,
-    "price": 39490,
+    "mileage": 36479,
+    "price": 38661,
     "priceBasis": "listing",
     "dealer": "Grappone Ford",
     "dealerId": "d_9d87d31228901b34",
@@ -363,22 +364,26 @@
     "url": "https://www.grapponehonda.com/inventory/certified-used-2024-honda-pilot-ex-l-awd-4d-sport-utility-5fnyg1h43rb049896/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H43RB049896&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5FNYG1H43RB049896-1.jpg",
-    "photoCount": 4,
+    "photoCount": 23,
     "baseMsrp": 44500,
     "squishVin": "5FNYG1H4RB",
     "accidentCount": null,
     "ownerCount": null,
     "oneOwner": null,
     "usageType": null,
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 3,
+    "lastSeen": "2026-07-27",
+    "listedDays": 12,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 39490
+      },
+      {
+        "date": "2026-07-27",
+        "price": 38661
       }
     ],
     "sellerType": "independent",
@@ -389,17 +394,39 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
-    "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 38643,
+      "expected": 38640,
+      "adjustments": {
+        "distance": -2.25
+      },
+      "dealDelta": 21,
+      "dealPct": 0.0005,
+      "rating": "fair",
+      "dealScore": 0.357,
+      "basis": "cohort",
+      "cohortN": 14,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 12,
+        "cohortMedianDaysListed": 23,
+        "priceDrop": {
+          "total": 829,
+          "pct": -0.021,
+          "drops": 1
+        },
+        "negotiability": "high"
+      }
     },
-    "searchedAt": "2026-07-18",
-    "trimSite": null,
+    "searchedAt": "2026-07-27",
+    "trimSite": "EX-L",
     "verifyLog": [
       {
         "date": "2026-07-18",
@@ -411,10 +438,32 @@
         "strength": "snippet",
         "mileage": 36469,
         "price": 39490
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "site",
+        "host": "grapponehonda.com",
+        "trim": "EX-L",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "EX-L",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 36479,
+        "price": null
       }
     ],
     "stock": "Grappone",
-    "trimSearch": null
+    "trimSearch": "EX-L"
   },
   {
     "id": "api-5fnyg1h44rb014946",
@@ -433,7 +482,7 @@
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
     "mileage": 58492,
-    "price": 37484,
+    "price": 37487,
     "priceBasis": "listing",
     "dealer": "Colonial Honda of Dartmouth",
     "dealerId": "d_4f3a1bc667e21d3f",
@@ -459,12 +508,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 29,
+    "lastSeen": "2026-07-27",
+    "listedDays": 38,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 37484
+      },
+      {
+        "date": "2026-07-27",
+        "price": 37487
       }
     ],
     "sellerType": "franchise",
@@ -482,26 +535,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 37190,
-      "expected": 35328,
+      "marketValue": 36524,
+      "expected": 34696,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "franchise": 0.01,
         "distance": -2.25
       },
-      "dealDelta": 2156,
-      "dealPct": 0.061,
+      "dealDelta": 2791,
+      "dealPct": 0.0804,
       "rating": "high",
-      "dealScore": 0.111,
+      "dealScore": 0.071,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 29,
-        "cohortMedianDaysListed": 21,
-        "negotiability": "medium"
+        "listedDays": 38,
+        "cohortMedianDaysListed": 23,
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-18",
@@ -621,23 +674,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 39441,
-      "expected": 40230,
+      "marketValue": 39377,
+      "expected": 40165,
       "adjustments": {
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": 256,
-      "dealPct": 0.0064,
+      "dealDelta": 321,
+      "dealPct": 0.008,
       "rating": "fair",
-      "dealScore": 0.222,
+      "dealScore": 0.143,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 22,
-        "cohortMedianDaysListed": 21,
+        "cohortMedianDaysListed": 23,
         "negotiability": "medium"
       }
     },
@@ -732,11 +785,11 @@
     "ownerCount": null,
     "oneOwner": null,
     "usageType": null,
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 16,
+    "lastSeen": "2026-07-27",
+    "listedDays": 25,
     "priceHistory": [
       {
         "date": "2026-07-18",
@@ -751,16 +804,31 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
+    "trimConfidence": 0.92,
     "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 38484,
+      "expected": 38484,
+      "adjustments": {},
+      "dealDelta": -564,
+      "dealPct": -0.0147,
+      "rating": "fair",
+      "dealScore": 0.643,
+      "basis": "cohort",
+      "cohortN": 14,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 25,
+        "cohortMedianDaysListed": 23,
+        "negotiability": "medium"
+      }
     },
-    "searchedAt": "2026-07-18",
+    "searchedAt": "2026-07-27",
     "trimSearch": "EX-L",
     "verifyLog": [
       {
@@ -773,8 +841,146 @@
         "strength": "snippet",
         "mileage": null,
         "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "EX-L",
+        "powertrain": "gas",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "texasmakeandmodel.lightandchampion.com",
+        "trim": "EX-L",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
       }
-    ]
+    ],
+    "powertrainSearch": "gas"
+  },
+  {
+    "id": "api-5fnyg1h47rb000474",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "EX-L",
+    "trimFeed": "EX-L",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "EX-L 4dr SUV AWD (3.5L 6cyl 10A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 24758,
+    "price": 39651,
+    "priceBasis": "listing",
+    "dealer": "Executive Honda",
+    "dealerId": "d_cc58ff8dda7d94b6",
+    "distanceMi": 106,
+    "state": "CT",
+    "city": "Wallingford",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": null,
+    "vin": "5FNYG1H47RB000474",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.executivehonda.com/inventory/used-2024-honda-pilot-ex-l-awd-4d-sport-utility-5fnyg1h47rb000474/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H47RB000474&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYG1H47RB000474-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 44500,
+    "squishVin": "5FNYG1H4RB",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 39651
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 39770,
+      "expected": 40143,
+      "adjustments": {
+        "franchise": 0.01,
+        "distance": -25.2
+      },
+      "dealDelta": -492,
+      "dealPct": -0.0123,
+      "rating": "fair",
+      "dealScore": 0.571,
+      "basis": "cohort",
+      "cohortN": 14,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 4,
+        "cohortMedianDaysListed": 23,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-07-27",
+    "trimSite": "EX-L",
+    "verifyLog": [
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "site",
+        "host": "executivehonda.com",
+        "trim": "EX-L",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "EX-L",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "P5752",
+    "trimSearch": "EX-L"
   },
   {
     "id": "api-5fnyg1h47rb025214",
@@ -816,11 +1022,11 @@
     "ownerCount": null,
     "oneOwner": null,
     "usageType": null,
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 23,
+    "lastSeen": "2026-07-27",
+    "listedDays": 32,
     "priceHistory": [
       {
         "date": "2026-07-18",
@@ -835,16 +1041,34 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
+    "trimConfidence": 0.92,
     "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 39409,
+      "expected": 40198,
+      "adjustments": {
+        "cpo": 0.01,
+        "franchise": 0.01
+      },
+      "dealDelta": -1948,
+      "dealPct": -0.0485,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 14,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 32,
+        "cohortMedianDaysListed": 23,
+        "negotiability": "medium"
+      }
     },
-    "searchedAt": "2026-07-18",
+    "searchedAt": "2026-07-27",
     "trimSearch": "EX-L",
     "verifyLog": [
       {
@@ -857,8 +1081,168 @@
         "strength": "snippet",
         "mileage": null,
         "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "cars.com",
+        "trim": "TrailSport",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "EX-L",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
       }
     ]
+  },
+  {
+    "id": "api-5fnyg1h47rb030400",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "EX-L",
+    "trimFeed": "EX-L",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "EX-L 4dr SUV AWD (3.5L 6cyl 10A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 24602,
+    "price": 39754,
+    "priceBasis": "listing",
+    "dealer": "Honda of Watertown",
+    "dealerId": "d_7d60f646f6873352",
+    "distanceMi": 116,
+    "state": "CT",
+    "city": "Watertown",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "5FNYG1H47RB030400",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.hondaofwatertown.com/viewdetails/used/5fnyg1h47rb030400/2024-honda-pilot-sport-utility",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H47RB030400&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYG1H47RB030400-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 44500,
+    "squishVin": "5FNYG1H4RB",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 39754
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 39785,
+      "expected": 40154,
+      "adjustments": {
+        "franchise": 0.01,
+        "distance": -29.7
+      },
+      "dealDelta": -400,
+      "dealPct": -0.01,
+      "rating": "fair",
+      "dealScore": 0.5,
+      "basis": "cohort",
+      "cohortN": 14,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 6,
+        "cohortMedianDaysListed": 23,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-07-27",
+    "trimSite": "EX-L",
+    "verifyLog": [
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "site",
+        "host": "hondaofwatertown.com",
+        "trim": "EX-L",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 24602,
+        "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "westbrookhonda.com",
+        "trim": "EX-L",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 24602,
+        "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "westbrooktoyota.com",
+        "trim": "EX-L",
+        "powertrain": "gas",
+        "strength": "snippet",
+        "mileage": 24602,
+        "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "truecar.com",
+        "trim": "EX-L",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "26672",
+    "trimSearch": "EX-L",
+    "powertrainSearch": "gas"
   },
   {
     "id": "api-5fnyg1h4xrb046297",
@@ -877,7 +1261,7 @@
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
     "mileage": 12166,
-    "price": 40390,
+    "price": 41089,
     "priceBasis": "listing",
     "dealer": "Granite Hyundai",
     "dealerId": "d_6a9b59e8fba83cde",
@@ -897,18 +1281,22 @@
     "baseMsrp": 44500,
     "squishVin": "5FNYG1H4RB",
     "accidentCount": 0,
-    "ownerCount": 1,
-    "oneOwner": true,
+    "ownerCount": 2,
+    "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 15,
+    "lastSeen": "2026-07-27",
+    "listedDays": 24,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 40390
+      },
+      {
+        "date": "2026-07-27",
+        "price": 41089
       }
     ],
     "sellerType": "independent",
@@ -926,24 +1314,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 40707,
-      "expected": 41517,
+      "marketValue": 40982,
+      "expected": 40773,
       "adjustments": {
-        "oneOwner": 0.01,
+        "owners": -0.015,
         "cpo": 0.01,
         "distance": -4.05
       },
-      "dealDelta": -1127,
-      "dealPct": -0.0272,
+      "dealDelta": 316,
+      "dealPct": 0.0077,
       "rating": "fair",
-      "dealScore": 0.889,
+      "dealScore": 0.214,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 15,
-        "cohortMedianDaysListed": 21,
+        "listedDays": 24,
+        "cohortMedianDaysListed": 23,
         "negotiability": "medium"
       }
     },
@@ -1040,22 +1428,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 39442,
-      "expected": 39837,
+      "marketValue": 39379,
+      "expected": 39773,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": 140,
-      "dealPct": 0.0035,
+      "dealDelta": 204,
+      "dealPct": 0.0051,
       "rating": "fair",
-      "dealScore": 0.333,
+      "dealScore": 0.286,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 4,
-        "cohortMedianDaysListed": 21,
+        "cohortMedianDaysListed": 23,
         "negotiability": "low"
       }
     },
@@ -1141,23 +1529,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 39549,
-      "expected": 40340,
+      "marketValue": 39514,
+      "expected": 40305,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -844,
-      "dealPct": -0.0209,
+      "dealDelta": -809,
+      "dealPct": -0.0201,
       "rating": "fair",
-      "dealScore": 0.667,
+      "dealScore": 0.786,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 23,
-        "cohortMedianDaysListed": 21,
+        "cohortMedianDaysListed": 23,
         "negotiability": "medium"
       }
     },
@@ -1230,7 +1618,7 @@
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
     "mileage": 46071,
-    "price": 38502,
+    "price": 37802,
     "priceBasis": "listing",
     "dealer": "Honda Westborough",
     "dealerId": "d_773c5514ba85bf96",
@@ -1252,16 +1640,20 @@
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 21,
+    "lastSeen": "2026-07-27",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 38502
+      },
+      {
+        "date": "2026-07-27",
+        "price": 37802
       }
     ],
     "sellerType": "franchise",
@@ -1279,24 +1671,29 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 38133,
-      "expected": 38896,
+      "marketValue": 37720,
+      "expected": 38474,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -394,
-      "dealPct": -0.0101,
+      "dealDelta": -672,
+      "dealPct": -0.0175,
       "rating": "fair",
-      "dealScore": 0.556,
+      "dealScore": 0.714,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 21,
-        "cohortMedianDaysListed": 21,
-        "negotiability": "medium"
+        "listedDays": 30,
+        "cohortMedianDaysListed": 23,
+        "priceDrop": {
+          "total": 700,
+          "pct": -0.0182,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-18",
@@ -1405,23 +1802,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 38190,
-      "expected": 37999,
+      "marketValue": 37792,
+      "expected": 37603,
       "adjustments": {
         "owners": -0.015,
         "cpo": 0.01
       },
-      "dealDelta": -1675,
-      "dealPct": -0.0441,
+      "dealDelta": -1279,
+      "dealPct": -0.034,
       "rating": "fair",
-      "dealScore": 1.0,
+      "dealScore": 0.929,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 23,
-        "cohortMedianDaysListed": 21,
+        "cohortMedianDaysListed": 23,
         "negotiability": "medium"
       }
     },
@@ -1478,6 +1875,76 @@
     "trimSearch": "EX-L"
   },
   {
+    "id": "api-5fnyg1h5xrb014233",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "EX-L",
+    "trimFeed": "EX-L",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "EX-L 4dr SUV AWD w/Rear Captain's Chairs (3.5L 6cyl 10A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 30023,
+    "price": 37865,
+    "priceBasis": "listing",
+    "dealer": "Honda Village",
+    "dealerId": "d_19a1948999f31eba",
+    "distanceMi": 5,
+    "state": "MA",
+    "city": "Newton",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "5FNYG1H5XRB014233",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de28abc863a8f8ef6d8696e373fe8857b34745643f6b485b5bc1a578e34235c944e4f7d54f78201e229c17b1d9984c00e0929e929cd5e9a0cc1c615cbe07ee7fd23de5f4389b1cc2c773ae6b28b499c8f0c7b6ad524e9eb26f1797633f545ec82dae17dfe46c2bf13d50b6d06975724cf63/?pl=9&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H5XRB014233&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYG1H5XRB014233-1.jpg",
+    "photoCount": 27,
+    "baseMsrp": 44800,
+    "squishVin": "5FNYG1H5RB",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 1,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 37865
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-07-27"
+  },
+  {
     "id": "api-5fnyg1h61rb045041",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -1493,7 +1960,7 @@
     "drivetrain": "AWD",
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
-    "mileage": 40863,
+    "mileage": 40871,
     "price": 41433,
     "priceBasis": "listing",
     "dealer": "Mercedes-Benz of Manchester",
@@ -1520,8 +1987,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 4,
+    "lastSeen": "2026-07-27",
+    "listedDays": 13,
     "priceHistory": [
       {
         "date": "2026-07-18",
@@ -1548,6 +2015,107 @@
     "searchedAt": "2026-07-18"
   },
   {
+    "id": "api-5fnyg1h62rb028555",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "TrailSport",
+    "trimFeed": "TrailSport",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "TrailSport 4dr SUV AWD (3.5L 6cyl 10A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 22917,
+    "price": 41998,
+    "priceBasis": "listing",
+    "dealer": "New Atamian Honda VinSolutions Only",
+    "dealerId": "d_7c135fcdee9a32c3",
+    "distanceMi": 15,
+    "state": "MA",
+    "city": "Tewksbury",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "5FNYG1H62RB028555",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://hondaatamian.com/inventory/Used-2024-Honda-Pilot-TrailSport-5FNYG1H62RB028555",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H62RB028555&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYG1H62RB028555-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 48800,
+    "squishVin": "5FNYG1H6RB",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 1,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 41998
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 41998,
+      "expected": 42418,
+      "adjustments": {
+        "franchise": 0.01
+      },
+      "dealDelta": -420,
+      "dealPct": -0.0099,
+      "rating": "fair",
+      "dealScore": 0.571,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 1,
+        "cohortMedianDaysListed": 22,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-07-27",
+    "trimSite": "TrailSport",
+    "verifyLog": [
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "site",
+        "host": "hondaatamian.com",
+        "trim": "TrailSport",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 42592
+      }
+    ]
+  },
+  {
     "id": "api-5fnyg1h63rb012560",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -1564,7 +2132,7 @@
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
     "mileage": 25107,
-    "price": 43179,
+    "price": 42079,
     "priceBasis": "listing",
     "dealer": "Nucar Honda of Norwood",
     "dealerId": "d_0363d5ea06c20d8b",
@@ -1590,12 +2158,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 10,
+    "lastSeen": "2026-07-27",
+    "listedDays": 19,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 43179
+      },
+      {
+        "date": "2026-07-27",
+        "price": 42079
       }
     ],
     "sellerType": "franchise",
@@ -1660,8 +2232,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 10,
+    "lastSeen": "2026-07-27",
+    "listedDays": 19,
     "priceHistory": [
       {
         "date": "2026-07-18",
@@ -1683,24 +2255,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 41604,
-      "expected": 42436,
+      "marketValue": 41817,
+      "expected": 42654,
       "adjustments": {
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -832,
-      "dealPct": -0.0196,
+      "dealDelta": -1050,
+      "dealPct": -0.0246,
       "rating": "fair",
-      "dealScore": 0.6,
+      "dealScore": 0.714,
       "basis": "cohort",
-      "cohortN": 5,
-      "confidence": 0.708,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 10,
+        "listedDays": 19,
         "cohortMedianDaysListed": 22,
-        "negotiability": "low"
+        "negotiability": "medium"
       }
     },
     "searchedAt": "2026-07-18",
@@ -1773,8 +2345,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 28,
+    "lastSeen": "2026-07-27",
+    "listedDays": 37,
     "priceHistory": [
       {
         "date": "2026-07-18",
@@ -1796,24 +2368,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 40230,
-      "expected": 41034,
+      "marketValue": 40804,
+      "expected": 41620,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -1064,
-      "dealPct": -0.0259,
+      "dealDelta": -1650,
+      "dealPct": -0.0396,
       "rating": "fair",
-      "dealScore": 0.8,
+      "dealScore": 0.857,
       "basis": "cohort",
-      "cohortN": 5,
-      "confidence": 0.708,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 28,
+        "listedDays": 37,
         "cohortMedianDaysListed": 22,
-        "negotiability": "medium"
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-18",
@@ -1867,6 +2439,132 @@
     "trimSearch": "TrailSport"
   },
   {
+    "id": "api-5fnyg1h63rb049057",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "TrailSport",
+    "trimFeed": "TrailSport",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "TrailSport 4dr SUV AWD (3.5L 6cyl 10A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 24768,
+    "price": 43494,
+    "priceBasis": "listing",
+    "dealer": "Ocean Honda of Hanover",
+    "dealerId": "d_967a189dda3a93c8",
+    "distanceMi": 24,
+    "state": "MA",
+    "city": "Hanover",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Black",
+    "vin": "5FNYG1H63RB049057",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.oceanhondabrockton.com/inventory/2024-honda-pilot-trailsport-awd-4d-sport-utility-5fnyg1h63rb049057/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H63RB049057&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYG1H63RB049057-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 48800,
+    "squishVin": "5FNYG1H6RB",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 9,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 43494
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 41942,
+      "expected": 42781,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "franchise": 0.01
+      },
+      "dealDelta": 713,
+      "dealPct": 0.0167,
+      "rating": "fair",
+      "dealScore": 0.429,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 9,
+        "cohortMedianDaysListed": 22,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-07-27",
+    "trimSite": "TrailSport",
+    "verifyLog": [
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "site",
+        "host": "oceanhondabrockton.com",
+        "trim": "TrailSport",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "TrailSport",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 24768,
+        "price": 45316
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "TrailSport",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "58F07041",
+    "trimSearch": "TrailSport"
+  },
+  {
     "id": "api-5fnyg1h65rb021289",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -1883,10 +2581,10 @@
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
     "mileage": 15476,
-    "price": 42097,
+    "price": 41697,
     "priceBasis": "listing",
     "dealer": "Canobie Lake Honda",
-    "dealerId": "d_28d8abd27fe7b0d6",
+    "dealerId": "d_33225e89b5169306",
     "distanceMi": 23,
     "state": "NH",
     "city": "Salem",
@@ -1909,12 +2607,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 23,
+    "lastSeen": "2026-07-27",
+    "listedDays": 32,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 42097
+      },
+      {
+        "date": "2026-07-27",
+        "price": 41697
       }
     ],
     "sellerType": "franchise",
@@ -1932,25 +2634,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 42155,
-      "expected": 43419,
+      "marketValue": 42224,
+      "expected": 43490,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -1322,
-      "dealPct": -0.0305,
+      "dealDelta": -1793,
+      "dealPct": -0.0412,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "cohort",
-      "cohortN": 5,
-      "confidence": 0.708,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 23,
+        "listedDays": 32,
         "cohortMedianDaysListed": 22,
-        "negotiability": "medium"
+        "priceDrop": {
+          "total": 400,
+          "pct": -0.0095,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-18",
@@ -2046,8 +2753,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 22,
+    "lastSeen": "2026-07-27",
+    "listedDays": 31,
     "priceHistory": [
       {
         "date": "2026-07-18",
@@ -2069,23 +2776,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 40429,
-      "expected": 38408,
+      "marketValue": 40951,
+      "expected": 38903,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": 3000,
-      "dealPct": 0.0781,
+      "dealDelta": 2505,
+      "dealPct": 0.0644,
       "rating": "high",
-      "dealScore": 0.4,
+      "dealScore": 0.143,
       "basis": "cohort",
-      "cohortN": 5,
-      "confidence": 0.708,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 22,
+        "listedDays": 31,
         "cohortMedianDaysListed": 22,
         "negotiability": "medium"
       }
@@ -2141,6 +2848,76 @@
     "trimSearch": "TrailSport"
   },
   {
+    "id": "api-5fnyg1h67rb023528",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "TrailSport",
+    "trimFeed": "TrailSport",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "TrailSport 4dr SUV AWD (3.5L 6cyl 10A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 40123,
+    "price": 41707,
+    "priceBasis": "listing",
+    "dealer": "AutoFair Honda in Manchester",
+    "dealerId": "d_2c341909d5264173",
+    "distanceMi": 40,
+    "state": "NH",
+    "city": "Manchester",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": null,
+    "vin": "5FNYG1H67RB023528",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/honda-pilot#vin=5FNYG1H67RB023528",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H67RB023528&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYG1H67RB023528-1.jpg",
+    "photoCount": 2,
+    "baseMsrp": 48800,
+    "squishVin": "5FNYG1H6RB",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 1,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 41707
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-07-27"
+  },
+  {
     "id": "api-5fnyg1h69rb047930",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -2156,8 +2933,8 @@
     "drivetrain": "AWD",
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
-    "mileage": 36475,
-    "price": 42991,
+    "mileage": 36472,
+    "price": 41587,
     "priceBasis": "listing",
     "dealer": "Curry Honda Chicopee",
     "dealerId": "d_a3a4ab802d42d4ac",
@@ -2183,12 +2960,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 13,
+    "lastSeen": "2026-07-27",
+    "listedDays": 22,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 42991
+      },
+      {
+        "date": "2026-07-27",
+        "price": 41587
       }
     ],
     "sellerType": "franchise",
@@ -2206,26 +2987,31 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 41291,
-      "expected": 39216,
+      "marketValue": 41587,
+      "expected": 39497,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "franchise": 0.01,
         "distance": -10.8
       },
-      "dealDelta": 3775,
-      "dealPct": 0.0963,
+      "dealDelta": 2090,
+      "dealPct": 0.0529,
       "rating": "high",
-      "dealScore": 0.2,
+      "dealScore": 0.286,
       "basis": "cohort",
-      "cohortN": 5,
-      "confidence": 0.708,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 13,
+        "listedDays": 22,
         "cohortMedianDaysListed": 22,
-        "negotiability": "low"
+        "priceDrop": {
+          "total": 1404,
+          "pct": -0.0327,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-18",
@@ -2285,7 +3071,7 @@
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
     "mileage": 35373,
-    "price": 43590,
+    "price": 42587,
     "priceBasis": "listing",
     "dealer": "Colonial Honda of Dartmouth",
     "dealerId": "d_4f3a1bc667e21d3f",
@@ -2311,12 +3097,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 16,
+    "lastSeen": "2026-07-27",
+    "listedDays": 25,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 43590
+      },
+      {
+        "date": "2026-07-27",
+        "price": 42587
       }
     ],
     "sellerType": "franchise",
@@ -2334,25 +3124,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 42365,
-      "expected": 43210,
+      "marketValue": 42587,
+      "expected": 43436,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01,
         "distance": -2.25
       },
-      "dealDelta": 380,
-      "dealPct": 0.0088,
+      "dealDelta": -849,
+      "dealPct": -0.0196,
       "rating": "fair",
-      "dealScore": 0.444,
+      "dealScore": 0.778,
       "basis": "cohort",
       "cohortN": 9,
       "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 16,
-        "cohortMedianDaysListed": 16,
-        "negotiability": "medium"
+        "listedDays": 25,
+        "cohortMedianDaysListed": 25,
+        "priceDrop": {
+          "total": 1003,
+          "pct": -0.023,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-18",
@@ -2449,24 +3244,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 43487,
-      "expected": 44355,
+      "marketValue": 43886,
+      "expected": 44762,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01,
         "distance": -2.25
       },
-      "dealDelta": 235,
-      "dealPct": 0.0053,
+      "dealDelta": -172,
+      "dealPct": -0.0038,
       "rating": "fair",
-      "dealScore": 0.556,
+      "dealScore": 0.667,
       "basis": "cohort",
       "cohortN": 9,
       "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
         "listedDays": 16,
-        "cohortMedianDaysListed": 16,
+        "cohortMedianDaysListed": 25,
         "negotiability": "medium"
       }
     },
@@ -2513,14 +3308,14 @@
     "series": "Touring 4dr SUV AWD (3.5L 6cyl 10A)",
     "transmission": "Automatic",
     "drivetrain": "AWD",
-    "engine": "3.5L 6Cyl regular unleaded",
+    "engine": "3.5L 6Cyl Gasoline",
     "year": 2024,
-    "mileage": 34282,
-    "price": 43455,
+    "mileage": 34351,
+    "price": 44054,
     "priceBasis": "listing",
     "dealer": "Honda of Keene",
-    "dealerId": "d_9a7afbee29653c32",
-    "distanceMi": 67,
+    "dealerId": "d_8dc2431b07106685",
+    "distanceMi": 63,
     "state": "NH",
     "city": "Keene",
     "cpo": "none",
@@ -2532,7 +3327,7 @@
     "url": "https://www.hondaofkeene.com/viewdetails/used/5fnyg1h74rb007540/2024-honda-pilot-suv",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H74RB007540&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5FNYG1H74RB007540-1.jpg",
-    "photoCount": 35,
+    "photoCount": 28,
     "baseMsrp": 49000,
     "squishVin": "5FNYG1H7RB",
     "accidentCount": 0,
@@ -2542,12 +3337,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 4,
+    "lastSeen": "2026-07-27",
+    "listedDays": 13,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 43455
+      },
+      {
+        "date": "2026-07-27",
+        "price": 44054
       }
     ],
     "sellerType": "franchise",
@@ -2565,24 +3364,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 42464,
-      "expected": 43306,
+      "marketValue": 42695,
+      "expected": 43543,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01,
-        "distance": -7.65
+        "distance": -5.8500000000000005
       },
-      "dealDelta": 149,
-      "dealPct": 0.0035,
+      "dealDelta": 511,
+      "dealPct": 0.0117,
       "rating": "fair",
-      "dealScore": 0.667,
+      "dealScore": 0.444,
       "basis": "cohort",
       "cohortN": 9,
       "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 4,
-        "cohortMedianDaysListed": 16,
+        "listedDays": 13,
+        "cohortMedianDaysListed": 25,
         "negotiability": "low"
       }
     },
@@ -2603,6 +3402,76 @@
     ]
   },
   {
+    "id": "api-5fnyg1h74rb044457",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Touring",
+    "trimFeed": "Touring",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "Touring 4dr SUV AWD (3.5L 6cyl 10A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 43470,
+    "price": 42213,
+    "priceBasis": "listing",
+    "dealer": "Berlin City Honda of Portland",
+    "dealerId": "d_be1acd17949798de",
+    "distanceMi": 94,
+    "state": "ME",
+    "city": "South Portland",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "5FNYG1H74RB044457",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "#-6350650017148551632",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H74RB044457&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYG1H74RB044457-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 49000,
+    "squishVin": "5FNYG1H7RB",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 1,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 42213
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-07-27"
+  },
+  {
     "id": "api-5fnyg1h74rb045608",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -2619,7 +3488,7 @@
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
     "mileage": 32332,
-    "price": 40769,
+    "price": 43694,
     "priceBasis": "listing",
     "dealer": "Executive Honda",
     "dealerId": "d_cc58ff8dda7d94b6",
@@ -2635,7 +3504,7 @@
     "url": "https://www.executiveautogroup.com/inventory/used-2024-honda-pilot-touring-awd-4d-sport-utility-5fnyg1h74rb045608/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H74RB045608&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5FNYG1H74RB045608-1.jpg",
-    "photoCount": 18,
+    "photoCount": 1,
     "baseMsrp": 49000,
     "squishVin": "5FNYG1H7RB",
     "accidentCount": 0,
@@ -2645,12 +3514,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 23,
+    "lastSeen": "2026-07-27",
+    "listedDays": 32,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 40769
+      },
+      {
+        "date": "2026-07-27",
+        "price": 43694
       }
     ],
     "sellerType": "franchise",
@@ -2668,24 +3541,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 42641,
-      "expected": 43469,
+      "marketValue": 42907,
+      "expected": 43740,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01,
         "distance": -25.2
       },
-      "dealDelta": -2700,
-      "dealPct": -0.0621,
-      "rating": "good",
-      "dealScore": 1.0,
+      "dealDelta": -46,
+      "dealPct": -0.0011,
+      "rating": "fair",
+      "dealScore": 0.556,
       "basis": "cohort",
       "cohortN": 9,
       "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 23,
-        "cohortMedianDaysListed": 16,
+        "listedDays": 32,
+        "cohortMedianDaysListed": 25,
         "negotiability": "medium"
       }
     },
@@ -2772,7 +3645,7 @@
     "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de27b8cd40f72d72bfdbb1ce35d80255f85a7659f3f0cc1b4a5c9afd5f6fb7217a0928523dd89a9d131ea244a8b79a2733c24f6e406c5a4a5c99414c64f194d3181de5f4389b1cc2c773ae6b28b499c8f0c7b6ad524e9eb26f1797633f545ec82dae17dfe46c2bf13d50b6d06975724cf63/?pl=35&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H75RB013847&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5FNYG1H75RB013847-1.jpg",
-    "photoCount": 16,
+    "photoCount": 25,
     "baseMsrp": 49000,
     "squishVin": "5FNYG1H7RB",
     "accidentCount": 1,
@@ -2782,8 +3655,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 13,
+    "lastSeen": "2026-07-27",
+    "listedDays": 22,
     "priceHistory": [
       {
         "date": "2026-07-18",
@@ -2805,15 +3678,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 38658,
-      "expected": 35347,
+      "marketValue": 38298,
+      "expected": 35018,
       "adjustments": {
         "accidents": -0.07,
         "owners": -0.015,
         "distance": -24.75
       },
-      "dealDelta": 981,
-      "dealPct": 0.0277,
+      "dealDelta": 1310,
+      "dealPct": 0.0374,
       "rating": "fair",
       "dealScore": 0.333,
       "basis": "cohort",
@@ -2821,9 +3694,9 @@
       "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 13,
-        "cohortMedianDaysListed": 16,
-        "negotiability": "low"
+        "listedDays": 22,
+        "cohortMedianDaysListed": 25,
+        "negotiability": "medium"
       }
     },
     "searchedAt": "2026-07-18",
@@ -2897,8 +3770,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 23,
+    "lastSeen": "2026-07-27",
+    "listedDays": 32,
     "priceHistory": [
       {
         "date": "2026-07-18",
@@ -2920,23 +3793,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 41648,
-      "expected": 42480,
+      "marketValue": 41757,
+      "expected": 42592,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": 2007,
-      "dealPct": 0.0472,
+      "dealDelta": 1895,
+      "dealPct": 0.0445,
       "rating": "fair",
-      "dealScore": 0.222,
+      "dealScore": 0.111,
       "basis": "cohort",
       "cohortN": 9,
       "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 23,
-        "cohortMedianDaysListed": 16,
+        "listedDays": 32,
+        "cohortMedianDaysListed": 25,
         "negotiability": "medium"
       }
     },
@@ -3006,8 +3879,8 @@
     "drivetrain": "AWD",
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
-    "mileage": 79272,
-    "price": 37168,
+    "mileage": 79273,
+    "price": 36320,
     "priceBasis": "listing",
     "dealer": "AutoFair Honda in Manchester",
     "dealerId": "d_2c341909d5264173",
@@ -3033,12 +3906,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 21,
+    "lastSeen": "2026-07-27",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 37168
+      },
+      {
+        "date": "2026-07-27",
+        "price": 36320
       }
     ],
     "sellerType": "franchise",
@@ -3056,23 +3933,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 38370,
-      "expected": 38753,
+      "marketValue": 37964,
+      "expected": 38343,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -1585,
-      "dealPct": -0.0409,
-      "rating": "fair",
-      "dealScore": 0.889,
+      "dealDelta": -2023,
+      "dealPct": -0.0528,
+      "rating": "good",
+      "dealScore": 1.0,
       "basis": "cohort",
       "cohortN": 9,
       "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 21,
-        "cohortMedianDaysListed": 16,
-        "negotiability": "medium"
+        "listedDays": 30,
+        "cohortMedianDaysListed": 25,
+        "priceDrop": {
+          "total": 848,
+          "pct": -0.0228,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-18",
@@ -3106,10 +3988,10 @@
     "series": "Touring 4dr SUV AWD (3.5L 6cyl 10A)",
     "transmission": "Automatic",
     "drivetrain": "AWD",
-    "engine": "3.5L 6Cyl regular unleaded",
+    "engine": "3.5L 6Cyl Gasoline",
     "year": 2024,
-    "mileage": 45894,
-    "price": 39451,
+    "mileage": 46280,
+    "price": 40046,
     "priceBasis": "listing",
     "dealer": "Acura of Peabody",
     "dealerId": "d_720c0195eb3bbcf8",
@@ -3135,12 +4017,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 23,
+    "lastSeen": "2026-07-27",
+    "listedDays": 32,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 39451
+      },
+      {
+        "date": "2026-07-27",
+        "price": 40046
       }
     ],
     "sellerType": "independent",
@@ -3233,6 +4119,76 @@
     "searchedAt": "2026-07-18"
   },
   {
+    "id": "api-5fnyg1h79rb042543",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Touring",
+    "trimFeed": "Touring",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "Touring 4dr SUV AWD (3.5L 6cyl 10A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl Gasoline",
+    "year": 2024,
+    "mileage": 18067,
+    "price": 44490,
+    "priceBasis": "listing",
+    "dealer": "Ocean Honda of Brockton",
+    "dealerId": "d_37685abfde2bc6b9",
+    "distanceMi": 26,
+    "state": "MA",
+    "city": "Brockton",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "5FNYG1H79RB042543",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/honda-pilot#vin=5FNYG1H79RB042543",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H79RB042543&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYG1H79RB042543-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 49000,
+    "squishVin": "5FNYG1H7RB",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 44490
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-07-27"
+  },
+  {
     "id": "api-5fnyg1h7xrb039120",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -3249,7 +4205,7 @@
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
     "mileage": 27392,
-    "price": 43091,
+    "price": 42892,
     "priceBasis": "listing",
     "dealer": "Ron Bouchard Honda",
     "dealerId": "d_319644272225b1d7",
@@ -3275,12 +4231,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 21,
+    "lastSeen": "2026-07-27",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 43091
+      },
+      {
+        "date": "2026-07-27",
+        "price": 42892
       }
     ],
     "sellerType": "franchise",
@@ -3298,25 +4258,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 43091,
-      "expected": 40936,
+      "marketValue": 43428,
+      "expected": 41256,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": 2155,
-      "dealPct": 0.0526,
-      "rating": "high",
-      "dealScore": 0.111,
+      "dealDelta": 1636,
+      "dealPct": 0.0397,
+      "rating": "fair",
+      "dealScore": 0.222,
       "basis": "cohort",
       "cohortN": 9,
       "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 21,
-        "cohortMedianDaysListed": 16,
-        "negotiability": "medium"
+        "listedDays": 30,
+        "cohortMedianDaysListed": 25,
+        "priceDrop": {
+          "total": 199,
+          "pct": -0.0046,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-18",
@@ -3352,7 +4317,7 @@
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
     "mileage": 19962,
-    "price": 43495,
+    "price": 43095,
     "priceBasis": "listing",
     "dealer": "McGovern Honda of Boston",
     "dealerId": "d_08d27ca3a8d7c09d",
@@ -3378,12 +4343,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 12,
+    "lastSeen": "2026-07-27",
+    "listedDays": 21,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 43495
+      },
+      {
+        "date": "2026-07-27",
+        "price": 43095
       }
     ],
     "sellerType": "franchise",
@@ -3401,23 +4370,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 43767,
-      "expected": 44205,
+      "marketValue": 44210,
+      "expected": 44652,
       "adjustments": {
         "franchise": 0.01
       },
-      "dealDelta": -710,
-      "dealPct": -0.0161,
+      "dealDelta": -1557,
+      "dealPct": -0.0349,
       "rating": "fair",
-      "dealScore": 0.778,
+      "dealScore": 0.889,
       "basis": "cohort",
       "cohortN": 9,
       "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 12,
-        "cohortMedianDaysListed": 16,
-        "negotiability": "low"
+        "listedDays": 21,
+        "cohortMedianDaysListed": 25,
+        "priceDrop": {
+          "total": 400,
+          "pct": -0.0092,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-18",
@@ -3446,6 +4420,262 @@
         "price": null
       }
     ]
+  },
+  {
+    "id": "api-5fnyg1h82rb004581",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Elite",
+    "trimFeed": "Elite",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "Elite 4dr SUV AWD (3.5L 6cyl 10A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 17564,
+    "price": 44990,
+    "priceBasis": "listing",
+    "dealer": "Grappone Ford",
+    "dealerId": "d_9d87d31228901b34",
+    "distanceMi": 55,
+    "state": "NH",
+    "city": "Bow",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Silver",
+    "interiorColor": "Gray",
+    "vin": "5FNYG1H82RB004581",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de226be2ff0990ebf0d5b623016af21c178112b16712b54997a238dd200f356d3c33cba3f6d0b2070264401d66632609138f2b2f812ec9a1b8a21e7f6a32043be61de5f4389b1cc2c773ae6b28b499c8f0c7b6ad524e9eb26f1797633f545ec82dae17dfe46c2bf13d50b6d06975724cf63/?pl=22&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H82RB004581&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYG1H82RB004581-1.jpg",
+    "photoCount": 4,
+    "baseMsrp": 52480,
+    "squishVin": "5FNYG1H8RB",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 44990
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-07-27"
+  },
+  {
+    "id": "api-5fnyg1h82rb015063",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Elite",
+    "trimFeed": "Elite",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "Elite 4dr SUV AWD (3.5L 6cyl 10A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 21865,
+    "price": 44947,
+    "priceBasis": "listing",
+    "dealer": "Schaller Honda",
+    "dealerId": "d_62ef5279ebd0918f",
+    "distanceMi": 98,
+    "state": "CT",
+    "city": "New Britain",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "5FNYG1H82RB015063",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/honda-pilot#vin=5FNYG1H82RB015063",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H82RB015063&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYG1H82RB015063-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 52480,
+    "squishVin": "5FNYG1H8RB",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 3,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 44947
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-07-27"
+  },
+  {
+    "id": "api-5fnyg1h82rb034163",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Elite",
+    "trimFeed": "Elite",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "Elite 4dr SUV AWD (3.5L 6cyl 10A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 13889,
+    "price": 47879,
+    "priceBasis": "listing",
+    "dealer": "Westbrook Honda",
+    "dealerId": "d_cb5de840872d08ee",
+    "distanceMi": 102,
+    "state": "CT",
+    "city": "Westbrook",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "5FNYG1H82RB034163",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.westbrooktoyota.com/viewdetails/cpo/5fnyg1h82rb034163/2024-honda-pilot-sport-utility",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H82RB034163&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYG1H82RB034163-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 52480,
+    "squishVin": "5FNYG1H8RB",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 47879
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 48801,
+      "expected": 49266,
+      "adjustments": {
+        "franchise": 0.01,
+        "distance": -23.400000000000002
+      },
+      "dealDelta": -1387,
+      "dealPct": -0.0282,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 5,
+      "confidence": 0.708,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 2,
+        "cohortMedianDaysListed": 32,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-07-27",
+    "trimSite": "Elite",
+    "powertrainSite": "gas",
+    "verifyLog": [
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "site",
+        "host": "westbrooktoyota.com",
+        "trim": "Elite",
+        "powertrain": "gas",
+        "strength": "snippet",
+        "mileage": 13887,
+        "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "hondaofwatertown.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 13887,
+        "price": null
+      }
+    ],
+    "stock": "26717A",
+    "trimSearch": "Elite"
   },
   {
     "id": "api-5fnyg1h82rb049987",
@@ -3490,8 +4720,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 25,
+    "lastSeen": "2026-07-27",
+    "listedDays": 34,
     "priceHistory": [
       {
         "date": "2026-07-18",
@@ -3513,24 +4743,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46228,
-      "expected": 47135,
+      "marketValue": 45307,
+      "expected": 46196,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01,
         "distance": -17.55
       },
-      "dealDelta": -620,
-      "dealPct": -0.0131,
+      "dealDelta": 319,
+      "dealPct": 0.0069,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.6,
       "basis": "cohort",
-      "cohortN": 4,
-      "confidence": 0.667,
+      "cohortN": 5,
+      "confidence": 0.708,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 25,
-        "cohortMedianDaysListed": 24,
+        "listedDays": 34,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -3601,7 +4831,7 @@
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
     "mileage": 44576,
-    "price": 43092,
+    "price": 42502,
     "priceBasis": "listing",
     "dealer": "Honda Westborough",
     "dealerId": "d_773c5514ba85bf96",
@@ -3620,19 +4850,23 @@
     "photoCount": 35,
     "baseMsrp": 52480,
     "squishVin": "5FNYG1H8RB",
-    "accidentCount": 1,
+    "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 23,
+    "lastSeen": "2026-07-27",
+    "listedDays": 32,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 43092
+      },
+      {
+        "date": "2026-07-27",
+        "price": 42502
       }
     ],
     "sellerType": "franchise",
@@ -3671,7 +4905,7 @@
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
     "mileage": 38711,
-    "price": 45182,
+    "price": 44774,
     "priceBasis": "listing",
     "dealer": "Honda of Watertown",
     "dealerId": "d_7d60f646f6873352",
@@ -3697,12 +4931,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 23,
+    "lastSeen": "2026-07-27",
+    "listedDays": 32,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 45182
+      },
+      {
+        "date": "2026-07-27",
+        "price": 44774
       }
     ],
     "sellerType": "franchise",
@@ -3720,25 +4958,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 43599,
-      "expected": 44442,
+      "marketValue": 43549,
+      "expected": 44390,
       "adjustments": {
         "cpo": 0.01,
         "franchise": 0.01,
         "distance": -29.7
       },
-      "dealDelta": 740,
-      "dealPct": 0.0167,
+      "dealDelta": 384,
+      "dealPct": 0.0087,
       "rating": "fair",
-      "dealScore": 0.25,
+      "dealScore": 0.4,
       "basis": "cohort",
-      "cohortN": 4,
-      "confidence": 0.667,
+      "cohortN": 5,
+      "confidence": 0.708,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 23,
-        "cohortMedianDaysListed": 24,
-        "negotiability": "medium"
+        "listedDays": 32,
+        "cohortMedianDaysListed": 32,
+        "priceDrop": {
+          "total": 408,
+          "pct": -0.009,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-18",
@@ -3808,10 +5051,10 @@
     "engine": "3.5L 6Cyl regular unleaded",
     "year": 2024,
     "mileage": 39119,
-    "price": 43183,
+    "price": 42487,
     "priceBasis": "listing",
-    "dealer": "Banks Chevrolet Buick GMC",
-    "dealerId": "d_1f66a65913d121fd",
+    "dealer": "Banks Chevrolet Buick Cadillac GMC",
+    "dealerId": "d_006ef9fe89725d7f",
     "distanceMi": 56,
     "state": "NH",
     "city": "Concord",
@@ -3824,22 +5067,26 @@
     "url": "https://www.banksautosbuickgmc.com/inventory/used-2024-honda-pilot-elite-all-wheel-drive-utility-5fnyg1h84rb027943/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H84RB027943&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5FNYG1H84RB027943-1.jpg",
-    "photoCount": 1,
+    "photoCount": 30,
     "baseMsrp": 52480,
     "squishVin": "5FNYG1H8RB",
-    "accidentCount": 0,
+    "accidentCount": 1,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Lease",
+    "usageType": "Personal Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 29,
+    "lastSeen": "2026-07-27",
+    "listedDays": 38,
     "priceHistory": [
       {
         "date": "2026-07-18",
         "price": 43183
+      },
+      {
+        "date": "2026-07-27",
+        "price": 42487
       }
     ],
     "sellerType": "independent",
@@ -3857,25 +5104,31 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 43470,
-      "expected": 44337,
+      "marketValue": 43462,
+      "expected": 41287,
       "adjustments": {
+        "accidents": -0.07,
         "oneOwner": 0.01,
         "cpo": 0.01,
         "distance": -2.7
       },
-      "dealDelta": -1154,
-      "dealPct": -0.026,
+      "dealDelta": 1200,
+      "dealPct": 0.0291,
       "rating": "fair",
-      "dealScore": 0.75,
+      "dealScore": 0.2,
       "basis": "cohort",
-      "cohortN": 4,
-      "confidence": 0.667,
+      "cohortN": 5,
+      "confidence": 0.708,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 29,
-        "cohortMedianDaysListed": 24,
-        "negotiability": "medium"
+        "listedDays": 38,
+        "cohortMedianDaysListed": 32,
+        "priceDrop": {
+          "total": 696,
+          "pct": -0.0161,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-18",
@@ -3994,24 +5247,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 45748,
-      "expected": 47120,
+      "marketValue": 44986,
+      "expected": 46336,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": -2134,
-      "dealPct": -0.0453,
+      "dealDelta": -1350,
+      "dealPct": -0.0291,
       "rating": "fair",
-      "dealScore": 1.0,
+      "dealScore": 0.8,
       "basis": "cohort",
-      "cohortN": 4,
-      "confidence": 0.667,
+      "cohortN": 5,
+      "confidence": 0.708,
       "ratingConfident": true,
       "signals": {
         "listedDays": 16,
-        "cohortMedianDaysListed": 24,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -4085,8 +5338,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-18",
-    "lastSeen": "2026-07-18",
-    "listedDays": 23,
+    "lastSeen": "2026-07-27",
+    "listedDays": 32,
     "priceHistory": [
       {
         "date": "2026-07-18",
@@ -4110,7 +5363,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-18",
+    "searchedAt": "2026-07-27",
     "trimSearch": "Elite",
     "verifyLog": [
       {
@@ -4136,6 +5389,76 @@
         "price": null
       }
     ]
+  },
+  {
+    "id": "api-5fnyg1h89rb027601",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Elite",
+    "trimFeed": "Elite",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "Elite 4dr SUV AWD (3.5L 6cyl 10A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 64816,
+    "price": 38793,
+    "priceBasis": "listing",
+    "dealer": "J & M Automotive",
+    "dealerId": "d_859c5827b5afa7c7",
+    "distanceMi": 117,
+    "state": "CT",
+    "city": "Naugatuck",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Brown",
+    "vin": "5FNYG1H89RB027601",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "#6775236300804383846",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG1H89RB027601&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYG1H89RB027601-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 52480,
+    "squishVin": "5FNYG1H8RB",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 38793
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-07-27"
   },
   {
     "id": "api-5fnyg1h8xrb042401",
@@ -4206,5 +5529,75 @@
       "basis": "not-ready"
     },
     "searchedAt": "2026-07-18"
+  },
+  {
+    "id": "api-5fnyg2h43rb008755",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "EX-L",
+    "trimFeed": "EX-L",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "EX-L 4dr SUV (3.5L 6cyl 10A)",
+    "transmission": "Automatic",
+    "drivetrain": "FWD",
+    "engine": "3.5L 6Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 37717,
+    "price": 34700,
+    "priceBasis": "listing",
+    "dealer": "Autofair Hyundai",
+    "dealerId": "d_8a98a23b9eca8933",
+    "distanceMi": 40,
+    "state": "NH",
+    "city": "Manchester",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Gray",
+    "vin": "5FNYG2H43RB008755",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de23b8102ac0d5f3a11f78758c02daa50bab36f65c15428881d0312f811effe4a20ffcf79a9e1f678ab2629c76d6e9b41fadb1cb061f2671a1b0cb47e7ddc643533de5f4389b1cc2c773ae6b28b499c8f0c7b6ad524e9eb26f1797633f545ec82dae17dfe46c2bf13d50b6d06975724cf63/?pl=46&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYG2H43RB008755&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYG2H43RB008755-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 42400,
+    "squishVin": "5FNYG2H4RB",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 34700
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-07-27"
   }
 ]

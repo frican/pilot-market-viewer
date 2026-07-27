@@ -42,8 +42,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 18,
+    "lastSeen": "2026-07-27",
+    "listedDays": 23,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -67,11 +67,11 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 58837,
-      "expected": 58837,
+      "marketValue": 58845,
+      "expected": 58845,
       "adjustments": {},
-      "dealDelta": -2862,
-      "dealPct": -0.0486,
+      "dealDelta": -2870,
+      "dealPct": -0.0488,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -79,8 +79,8 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 18,
-        "cohortMedianDaysListed": 10,
+        "listedDays": 23,
+        "cohortMedianDaysListed": 14,
         "negotiability": "high"
       }
     },
@@ -140,7 +140,7 @@
     "engine": "2.5L 4Cyl regular unleaded",
     "year": 2025,
     "mileage": 25822,
-    "price": 48000,
+    "price": 47500,
     "priceBasis": "listing",
     "dealer": "Schumacher Chevrolet",
     "dealerId": "d_64e2c81c3c1f2b66",
@@ -166,12 +166,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 18,
+    "lastSeen": "2026-07-27",
+    "listedDays": 23,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 48000
+      },
+      {
+        "date": "2026-07-27",
+        "price": 47500
       }
     ],
     "sellerType": "independent",
@@ -236,7 +240,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-07-22",
     "listedDays": 18,
@@ -281,14 +285,14 @@
     "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
     "transmission": "Automatic",
     "drivetrain": "AWD",
-    "engine": "2.5L 4Cyl regular unleaded",
+    "engine": "2.5L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 47447,
-    "price": 51094,
+    "price": 50750,
     "priceBasis": "listing",
     "dealer": "Handy Toyota",
     "dealerId": "d_685a444d04ce2d4a",
-    "distanceMi": 197,
+    "distanceMi": 199,
     "state": "VT",
     "city": "Saint Albans",
     "cpo": "none",
@@ -300,7 +304,7 @@
     "url": "https://www.handytoyota.com/vehicle/5TDACAB51SS036306/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDACAB51SS036306&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5TDACAB51SS036306-1.jpg",
-    "photoCount": 1,
+    "photoCount": 48,
     "baseMsrp": 51710,
     "squishVin": "5TDACAB5SS",
     "accidentCount": 0,
@@ -310,12 +314,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 14,
+    "lastSeen": "2026-07-27",
+    "listedDays": 19,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 51094
+      },
+      {
+        "date": "2026-07-27",
+        "price": 50750
       }
     ],
     "sellerType": "franchise",
@@ -335,14 +343,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 51921,
-      "expected": 52374,
+      "marketValue": 51236,
+      "expected": 51681,
       "adjustments": {
         "oneOwner": 0.01,
-        "distance": -66.15
+        "distance": -67.05
       },
-      "dealDelta": -1280,
-      "dealPct": -0.0244,
+      "dealDelta": -931,
+      "dealPct": -0.018,
       "rating": "fair",
       "dealScore": 0.75,
       "basis": "pooled",
@@ -350,8 +358,13 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 14,
-        "cohortMedianDaysListed": 8,
+        "listedDays": 19,
+        "cohortMedianDaysListed": 14,
+        "priceDrop": {
+          "total": 344,
+          "pct": -0.0067,
+          "drops": 1
+        },
         "negotiability": "high"
       }
     },
@@ -444,15 +457,15 @@
     "photoCount": 21,
     "baseMsrp": 46980,
     "squishVin": "5TDACAB5SS",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 0,
+    "lastSeen": "2026-07-27",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -496,7 +509,7 @@
     "drivetrain": "AWD",
     "engine": "2.5L 4Cyl regular unleaded",
     "year": 2025,
-    "mileage": 27227,
+    "mileage": 27238,
     "price": 58465,
     "priceBasis": "listing",
     "dealer": "Wellesley Toyota",
@@ -523,8 +536,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 1,
+    "lastSeen": "2026-07-27",
+    "listedDays": 6,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -548,11 +561,11 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 55603,
-      "expected": 55603,
+      "marketValue": 55595,
+      "expected": 55595,
       "adjustments": {},
-      "dealDelta": 2862,
-      "dealPct": 0.0515,
+      "dealDelta": 2870,
+      "dealPct": 0.0516,
       "rating": "high",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -560,8 +573,8 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 1,
-        "cohortMedianDaysListed": 10,
+        "listedDays": 6,
+        "cohortMedianDaysListed": 14,
         "negotiability": "low"
       }
     },
@@ -637,8 +650,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 18,
+    "lastSeen": "2026-07-27",
+    "listedDays": 23,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -682,8 +695,8 @@
     "drivetrain": "AWD",
     "engine": "2.5L 4Cyl Gasoline",
     "year": 2025,
-    "mileage": 13405,
-    "price": 52170,
+    "mileage": 13424,
+    "price": 51670,
     "priceBasis": "listing",
     "dealer": "Sunrise Toyota North",
     "dealerId": "d_04e4360ce42a5af6",
@@ -709,12 +722,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 3,
+    "lastSeen": "2026-07-27",
+    "listedDays": 8,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 52170
+      },
+      {
+        "date": "2026-07-27",
+        "price": 51670
       }
     ],
     "sellerType": "franchise",
@@ -781,8 +798,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 29,
+    "lastSeen": "2026-07-27",
+    "listedDays": 34,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -827,7 +844,7 @@
     "engine": "2.5L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 30749,
-    "price": 52922,
+    "price": 52074,
     "priceBasis": "listing",
     "dealer": "Romeo Toyota of Glens Falls",
     "dealerId": "d_3d48d1f5205a3436",
@@ -843,7 +860,7 @@
     "url": "https://www.romeoautogroup.com/used-South+Glens+Falls-2025-Toyota-Grand+Highlander-Hybrid+XLE-5TDACAB54SS034789",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDACAB54SS034789&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5TDACAB54SS034789-1.jpg",
-    "photoCount": 9,
+    "photoCount": 40,
     "baseMsrp": 51710,
     "squishVin": "5TDACAB5SS",
     "accidentCount": 0,
@@ -853,12 +870,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 6,
+    "lastSeen": "2026-07-27",
+    "listedDays": 11,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 52922
+      },
+      {
+        "date": "2026-07-27",
+        "price": 52074
       }
     ],
     "sellerType": "franchise",
@@ -878,14 +899,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 52095,
-      "expected": 52573,
+      "marketValue": 51588,
+      "expected": 52061,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -43.65
       },
-      "dealDelta": 349,
-      "dealPct": 0.0066,
+      "dealDelta": 13,
+      "dealPct": 0.0003,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -893,9 +914,14 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 6,
-        "cohortMedianDaysListed": 8,
-        "negotiability": "low"
+        "listedDays": 11,
+        "cohortMedianDaysListed": 14,
+        "priceDrop": {
+          "total": 848,
+          "pct": -0.016,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-22",
@@ -971,7 +997,7 @@
     "price": 52173,
     "priceBasis": "listing",
     "dealer": "Haddad Toyota",
-    "dealerId": "d_88a8ac0ccd631443",
+    "dealerId": "d_713564df4303e3ce",
     "distanceMi": 111,
     "state": "MA",
     "city": "Pittsfield",
@@ -994,8 +1020,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 29,
+    "lastSeen": "2026-07-27",
+    "listedDays": 34,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1056,7 +1082,7 @@
     "url": "https://www.imperialcars.com/used/Toyota/2025-Toyota-Grand-Highlander-Hybrid-6200f779ac181bfc6c479fad60ef8145.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDACAB54SS051494&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5TDACAB54SS051494-1.jpg",
-    "photoCount": 12,
+    "photoCount": 37,
     "baseMsrp": 51710,
     "squishVin": "5TDACAB5SS",
     "accidentCount": 0,
@@ -1066,8 +1092,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 7,
+    "lastSeen": "2026-07-27",
+    "listedDays": 12,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1091,13 +1117,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 52164,
-      "expected": 52686,
+      "marketValue": 51729,
+      "expected": 52246,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 1281,
-      "dealPct": 0.0243,
+      "dealDelta": 1721,
+      "dealPct": 0.0329,
       "rating": "fair",
       "dealScore": 0.25,
       "basis": "pooled",
@@ -1105,8 +1131,8 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 7,
-        "cohortMedianDaysListed": 8,
+        "listedDays": 12,
+        "cohortMedianDaysListed": 14,
         "negotiability": "low"
       }
     },
@@ -1206,8 +1232,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 10,
+    "lastSeen": "2026-07-27",
+    "listedDays": 15,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1231,13 +1257,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 52177,
-      "expected": 52699,
+      "marketValue": 51754,
+      "expected": 52271,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -3209,
-      "dealPct": -0.0609,
+      "dealDelta": -2781,
+      "dealPct": -0.0532,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -1245,9 +1271,9 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 10,
-        "cohortMedianDaysListed": 8,
-        "negotiability": "low"
+        "listedDays": 15,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "medium"
       }
     },
     "searchedAt": "2026-07-22",
@@ -1324,8 +1350,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 15,
+    "lastSeen": "2026-07-27",
+    "listedDays": 20,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1411,8 +1437,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 9,
+    "lastSeen": "2026-07-27",
+    "listedDays": 14,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1483,8 +1509,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 15,
+    "lastSeen": "2026-07-27",
+    "listedDays": 20,
     "priceHistory": [
       {
         "date": "2026-07-22",

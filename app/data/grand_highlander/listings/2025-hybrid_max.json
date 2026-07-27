@@ -42,8 +42,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 11,
+    "lastSeen": "2026-07-27",
+    "listedDays": 16,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -67,14 +67,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 65990,
-      "expected": 66609,
+      "marketValue": 66005,
+      "expected": 66623,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -41.4
       },
-      "dealDelta": -7619,
-      "dealPct": -0.1144,
+      "dealDelta": -7633,
+      "dealPct": -0.1146,
       "rating": "great",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -82,9 +82,9 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 11,
-        "cohortMedianDaysListed": 27,
-        "negotiability": "low"
+        "listedDays": 16,
+        "cohortMedianDaysListed": 32,
+        "negotiability": "medium"
       }
     },
     "searchedAt": "2026-07-22",
@@ -172,8 +172,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 27,
+    "lastSeen": "2026-07-27",
+    "listedDays": 32,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -197,13 +197,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 55904,
-      "expected": 56463,
+      "marketValue": 55770,
+      "expected": 56328,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 71,
-      "dealPct": 0.0013,
+      "dealDelta": 206,
+      "dealPct": 0.0037,
       "rating": "fair",
       "dealScore": 0.333,
       "basis": "pooled",
@@ -211,8 +211,8 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 27,
-        "cohortMedianDaysListed": 27,
+        "listedDays": 32,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -277,7 +277,7 @@
     "price": 55877,
     "priceBasis": "listing",
     "dealer": "Toyota of Watertown",
-    "dealerId": "d_f5824e961282cd89",
+    "dealerId": "d_f0c8f0264a46878e",
     "distanceMi": 6,
     "state": "MA",
     "city": "Watertown",
@@ -300,8 +300,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 18,
+    "lastSeen": "2026-07-27",
+    "listedDays": 23,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -325,14 +325,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 55721,
-      "expected": 56835,
+      "marketValue": 55686,
+      "expected": 56800,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -958,
-      "dealPct": -0.0169,
+      "dealDelta": -923,
+      "dealPct": -0.0162,
       "rating": "fair",
       "dealScore": 0.75,
       "basis": "pooled",
@@ -340,8 +340,8 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 18,
-        "cohortMedianDaysListed": 24,
+        "listedDays": 23,
+        "cohortMedianDaysListed": 28,
         "negotiability": "medium"
       }
     },
@@ -427,8 +427,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 2,
+    "lastSeen": "2026-07-27",
+    "listedDays": 7,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -499,8 +499,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 18,
+    "lastSeen": "2026-07-27",
+    "listedDays": 23,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -571,8 +571,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 18,
+    "lastSeen": "2026-07-27",
+    "listedDays": 23,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -617,7 +617,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 12261,
-    "price": 54986,
+    "price": 54894,
     "priceBasis": "listing",
     "dealer": "Silver Star Mercedes Benz",
     "dealerId": "d_2e6e0ac137b03a84",
@@ -643,12 +643,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 29,
+    "lastSeen": "2026-07-27",
+    "listedDays": 34,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 54986
+      },
+      {
+        "date": "2026-07-27",
+        "price": 54894
       }
     ],
     "sellerType": "independent",
@@ -668,14 +672,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56098,
-      "expected": 56598,
+      "marketValue": 56069,
+      "expected": 56569,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -60.75
       },
-      "dealDelta": -1612,
-      "dealPct": -0.0285,
+      "dealDelta": -1675,
+      "dealPct": -0.0296,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -683,9 +687,14 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 29,
-        "cohortMedianDaysListed": 24,
-        "negotiability": "medium"
+        "listedDays": 34,
+        "cohortMedianDaysListed": 28,
+        "priceDrop": {
+          "total": 92,
+          "pct": -0.0017,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-22",
@@ -784,8 +793,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 29,
+    "lastSeen": "2026-07-27",
+    "listedDays": 34,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -809,14 +818,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 60198,
-      "expected": 60755,
+      "marketValue": 60227,
+      "expected": 60784,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -45.45
       },
-      "dealDelta": -585,
-      "dealPct": -0.0096,
+      "dealDelta": -614,
+      "dealPct": -0.0101,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -824,8 +833,8 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 29,
-        "cohortMedianDaysListed": 24,
+        "listedDays": 34,
+        "cohortMedianDaysListed": 28,
         "negotiability": "medium"
       }
     },
@@ -903,7 +912,7 @@
     "url": "#-6500548208956626775",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDADAB53SS023523&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5TDADAB53SS023523-1.jpg",
-    "photoCount": 8,
+    "photoCount": 36,
     "baseMsrp": 58775,
     "squishVin": "5TDADAB5SS",
     "accidentCount": 0,
@@ -913,8 +922,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 13,
+    "lastSeen": "2026-07-27",
+    "listedDays": 18,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -938,13 +947,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56116,
-      "expected": 56677,
+      "marketValue": 56087,
+      "expected": 56648,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -533,
-      "dealPct": -0.0094,
+      "dealDelta": -504,
+      "dealPct": -0.0089,
       "rating": "fair",
       "dealScore": 0.25,
       "basis": "pooled",
@@ -952,9 +961,9 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 13,
-        "cohortMedianDaysListed": 24,
-        "negotiability": "low"
+        "listedDays": 18,
+        "cohortMedianDaysListed": 28,
+        "negotiability": "medium"
       }
     },
     "searchedAt": "2026-07-22",
@@ -1013,7 +1022,7 @@
     "engine": "2.4L 4Cyl regular unleaded",
     "year": 2025,
     "mileage": 4680,
-    "price": 62995,
+    "price": 62236,
     "priceBasis": "listing",
     "dealer": "Bristol Toyota Scion",
     "dealerId": "d_ab621469b8195cac",
@@ -1029,7 +1038,7 @@
     "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de25b86b1deaa937ec6d0321944374cae6bb403de955a906dbd20c7d2be44a95e1966b7b33d8ceaa41bbcfd8d35ad1f7ec850ffda5b12011cff6b78393ae79070a3de5f4389b1cc2c773ae6b28b499c8f0c7b6ad524e9eb26f1797633f545ec82dae17dfe46c2bf13d50b6d06975724cf63/?pl=17&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDADAB55SS025029&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5TDADAB55SS025029-1.jpg",
-    "photoCount": 40,
+    "photoCount": 43,
     "baseMsrp": 54690,
     "squishVin": "5TDADAB5SS",
     "accidentCount": 0,
@@ -1039,12 +1048,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 4,
+    "lastSeen": "2026-07-27",
+    "listedDays": 9,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 62995
+      },
+      {
+        "date": "2026-07-27",
+        "price": 62236
       }
     ],
     "sellerType": "franchise",
@@ -1111,8 +1124,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 25,
+    "lastSeen": "2026-07-27",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1183,8 +1196,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 29,
+    "lastSeen": "2026-07-27",
+    "listedDays": 34,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1223,8 +1236,8 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 29,
-        "cohortMedianDaysListed": 27,
+        "listedDays": 34,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -1310,8 +1323,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 15,
+    "lastSeen": "2026-07-27",
+    "listedDays": 20,
     "priceHistory": [
       {
         "date": "2026-07-22",

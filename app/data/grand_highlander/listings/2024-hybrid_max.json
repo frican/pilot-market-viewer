@@ -19,7 +19,7 @@
     "price": 54000,
     "priceBasis": "listing",
     "dealer": "Richards Motorcars",
-    "dealerId": "d_3503c21c449c880b",
+    "dealerId": "d_a853cbbe325e5c66",
     "distanceMi": 6,
     "state": "MA",
     "city": "Malden",
@@ -42,8 +42,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 29,
+    "lastSeen": "2026-07-27",
+    "listedDays": 34,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -88,7 +88,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2024,
     "mileage": 26121,
-    "price": 54387,
+    "price": 54286,
     "priceBasis": "listing",
     "dealer": "Ira Toyota of Manchester",
     "dealerId": "d_4d33895ac5e29098",
@@ -114,12 +114,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 29,
+    "lastSeen": "2026-07-27",
+    "listedDays": 34,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 54387
+      },
+      {
+        "date": "2026-07-27",
+        "price": 54286
       }
     ],
     "sellerType": "franchise",
@@ -139,13 +143,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 55558,
-      "expected": 56114,
+      "marketValue": 55423,
+      "expected": 55977,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1727,
-      "dealPct": -0.0308,
+      "dealDelta": -1691,
+      "dealPct": -0.0302,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -153,9 +157,14 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 29,
-        "cohortMedianDaysListed": 21,
-        "negotiability": "medium"
+        "listedDays": 34,
+        "cohortMedianDaysListed": 26,
+        "priceDrop": {
+          "total": 101,
+          "pct": -0.0019,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-22",
@@ -254,8 +263,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 15,
+    "lastSeen": "2026-07-27",
+    "listedDays": 20,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -279,13 +288,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 51995,
-      "expected": 52515,
+      "marketValue": 51639,
+      "expected": 52155,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -466,
-      "dealPct": -0.0089,
+      "dealDelta": -106,
+      "dealPct": -0.002,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -293,8 +302,8 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 15,
-        "cohortMedianDaysListed": 16,
+        "listedDays": 20,
+        "cohortMedianDaysListed": 22,
         "negotiability": "medium"
       }
     },
@@ -343,7 +352,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2024,
     "mileage": 32720,
-    "price": 52298,
+    "price": 51590,
     "priceBasis": "listing",
     "dealer": "Paul Miller Toyota",
     "dealerId": "d_f56ede8d0fe8fcba",
@@ -369,12 +378,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 4,
+    "lastSeen": "2026-07-27",
+    "listedDays": 9,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 52298
+      },
+      {
+        "date": "2026-07-27",
+        "price": 51590
       }
     ],
     "sellerType": "franchise",
@@ -394,14 +407,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 52352,
-      "expected": 52808,
+      "marketValue": 52000,
+      "expected": 52453,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -67.05
       },
-      "dealDelta": -510,
-      "dealPct": -0.0097,
+      "dealDelta": -863,
+      "dealPct": -0.0165,
       "rating": "fair",
       "dealScore": 0.75,
       "basis": "pooled",
@@ -409,9 +422,14 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 4,
-        "cohortMedianDaysListed": 16,
-        "negotiability": "low"
+        "listedDays": 9,
+        "cohortMedianDaysListed": 22,
+        "priceDrop": {
+          "total": 708,
+          "pct": -0.0135,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-22",
@@ -488,8 +506,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 29,
+    "lastSeen": "2026-07-27",
+    "listedDays": 34,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -513,14 +531,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 41448,
-      "expected": 41822,
+      "marketValue": 40942,
+      "expected": 41311,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -39.6
       },
-      "dealDelta": 7472,
-      "dealPct": 0.1786,
+      "dealDelta": 7983,
+      "dealPct": 0.1932,
       "rating": "overpriced",
       "dealScore": 0.25,
       "basis": "pooled",
@@ -528,8 +546,8 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 29,
-        "cohortMedianDaysListed": 16,
+        "listedDays": 34,
+        "cohortMedianDaysListed": 22,
         "negotiability": "high"
       }
     },
@@ -567,7 +585,7 @@
     "engine": "2.4L 4Cyl regular unleaded",
     "year": 2024,
     "mileage": 28181,
-    "price": 50522,
+    "price": 49773,
     "priceBasis": "listing",
     "dealer": "Balise Toyota",
     "dealerId": "d_7fae420338344574",
@@ -593,12 +611,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 18,
+    "lastSeen": "2026-07-27",
+    "listedDays": 23,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 50522
+      },
+      {
+        "date": "2026-07-27",
+        "price": 49773
       }
     ],
     "sellerType": "franchise",
@@ -618,13 +640,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 53871,
-      "expected": 53856,
+      "marketValue": 53541,
+      "expected": 53526,
       "adjustments": {
         "distance": -14.4
       },
-      "dealDelta": -3334,
-      "dealPct": -0.0619,
+      "dealDelta": -3753,
+      "dealPct": -0.0701,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -632,9 +654,14 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 18,
-        "cohortMedianDaysListed": 16,
-        "negotiability": "medium"
+        "listedDays": 23,
+        "cohortMedianDaysListed": 22,
+        "priceDrop": {
+          "total": 749,
+          "pct": -0.0148,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-22",
@@ -682,7 +709,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2024,
     "mileage": 34232,
-    "price": 54994,
+    "price": 54799,
     "priceBasis": "listing",
     "dealer": "Handy Toyota",
     "dealerId": "d_685a444d04ce2d4a",
@@ -708,12 +735,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 13,
+    "lastSeen": "2026-07-27",
+    "listedDays": 18,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 54994
+      },
+      {
+        "date": "2026-07-27",
+        "price": 54799
       }
     ],
     "sellerType": "franchise",
@@ -733,14 +764,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 53823,
-      "expected": 54294,
+      "marketValue": 53662,
+      "expected": 54131,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -67.05
       },
-      "dealDelta": 700,
-      "dealPct": 0.0129,
+      "dealDelta": 668,
+      "dealPct": 0.0123,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -748,9 +779,14 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 13,
-        "cohortMedianDaysListed": 21,
-        "negotiability": "low"
+        "listedDays": 18,
+        "cohortMedianDaysListed": 26,
+        "priceDrop": {
+          "total": 195,
+          "pct": -0.0035,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-22",
@@ -791,7 +827,7 @@
     "price": 47428,
     "priceBasis": "listing",
     "dealer": "Salem Nissan",
-    "dealerId": "d_0bac026e75495779",
+    "dealerId": "d_aa8585aa7ef4839a",
     "distanceMi": 30,
     "state": "NH",
     "city": "Salem",
@@ -814,8 +850,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 27,
+    "lastSeen": "2026-07-27",
+    "listedDays": 32,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -842,5 +878,76 @@
       "basis": "not-ready"
     },
     "searchedAt": "2026-07-22"
+  },
+  {
+    "id": "api-5tdadab59rs003738",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid_max",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "MAX Limited 4dr SUV AWD (2.4L 4cyl Turbo gas/electric hybrid 6A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.4L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 28855,
+    "price": 55495,
+    "priceBasis": "listing",
+    "dealer": "Ira Toyota of Hyannis",
+    "dealerId": "d_94aa970028f37b3d",
+    "distanceMi": 61,
+    "state": "MA",
+    "city": "Hyannis",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Unspecified",
+    "vin": "5TDADAB59RS003738",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-grand+highlander+hybrid#vin=5TDADAB59RS003738",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDADAB59RS003738&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5TDADAB59RS003738-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 54390,
+    "squishVin": "5TDADAB5RS",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-07-27",
+    "listedDays": 5,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 55495
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid_max",
+    "powertrainConfidence": 0.8,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": true,
+    "powertrainConflict": true,
+    "plantCountry": "United States (Usa)",
+    "plantCity": "Princeton",
+    "plantSource": "vpic",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
   }
 ]
