@@ -16,7 +16,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 9452,
-    "price": 58990,
+    "price": 58740,
     "priceBasis": "listing",
     "dealer": "Ecodrive Auto Group",
     "dealerId": "d_4a92b197d2054d29",
@@ -42,12 +42,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 16,
+    "lastSeen": "2026-08-10",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 58990
+      },
+      {
+        "date": "2026-07-31",
+        "price": 58740
       }
     ],
     "sellerType": "independent",
@@ -67,14 +71,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 66005,
-      "expected": 66623,
+      "marketValue": 67192,
+      "expected": 67822,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -41.4
       },
-      "dealDelta": -7633,
-      "dealPct": -0.1146,
+      "dealDelta": -9082,
+      "dealPct": -0.1339,
       "rating": "great",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -82,9 +86,14 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 16,
-        "cohortMedianDaysListed": 32,
-        "negotiability": "medium"
+        "listedDays": 30,
+        "cohortMedianDaysListed": 46,
+        "priceDrop": {
+          "total": 250,
+          "pct": -0.0042,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-22",
@@ -146,7 +155,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 56579,
-    "price": 56534,
+    "price": 56944,
     "priceBasis": "listing",
     "dealer": "WOBURN TOYOTA",
     "dealerId": "d_4addaf21a9d4b7bb",
@@ -172,12 +181,24 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 32,
+    "lastSeen": "2026-08-10",
+    "listedDays": 46,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 56534
+      },
+      {
+        "date": "2026-07-31",
+        "price": 57498
+      },
+      {
+        "date": "2026-08-03",
+        "price": 56144
+      },
+      {
+        "date": "2026-08-10",
+        "price": 56944
       }
     ],
     "sellerType": "franchise",
@@ -197,13 +218,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 55770,
-      "expected": 56328,
+      "marketValue": 56452,
+      "expected": 57017,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 206,
-      "dealPct": 0.0037,
+      "dealDelta": -73,
+      "dealPct": -0.0013,
       "rating": "fair",
       "dealScore": 0.333,
       "basis": "pooled",
@@ -211,8 +232,8 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 32,
-        "cohortMedianDaysListed": 32,
+        "listedDays": 46,
+        "cohortMedianDaysListed": 46,
         "negotiability": "medium"
       }
     },
@@ -298,7 +319,7 @@
     "oneOwner": true,
     "usageType": "Lease",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-07-27",
     "listedDays": 23,
@@ -325,14 +346,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 55686,
-      "expected": 56800,
+      "marketValue": 55716,
+      "expected": 56830,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -923,
-      "dealPct": -0.0162,
+      "dealDelta": -953,
+      "dealPct": -0.0168,
       "rating": "fair",
       "dealScore": 0.75,
       "basis": "pooled",
@@ -341,7 +362,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 23,
-        "cohortMedianDaysListed": 28,
+        "cohortMedianDaysListed": 36,
         "negotiability": "medium"
       }
     },
@@ -401,7 +422,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 31907,
-    "price": 55990,
+    "price": 54990,
     "priceBasis": "listing",
     "dealer": "Bomnin Chevrolet Buick GMC Nanuet",
     "dealerId": "d_90602e7bd44340c6",
@@ -417,7 +438,7 @@
     "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de24635551685ebb10e94c53e5f513b8f1f866e6f8cad60d5daa50566cb37eff861c72ed7b1ba7b65493883bae6077f4be5dafd7703befe0164ec634285dbbb5114fb7f16011f22412ebedeee38685f0721f74c31246e538ff42db94d2ceb09e6950fb15e40f90d9a2a0fa486f173a58cc4/?pl=32&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDADAB50SS024306&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5TDADAB50SS024306-1.jpg",
-    "photoCount": 1,
+    "photoCount": 37,
     "baseMsrp": 58775,
     "squishVin": "5TDADAB5SS",
     "accidentCount": 1,
@@ -427,12 +448,20 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 7,
+    "lastSeen": "2026-08-10",
+    "listedDays": 21,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 55990
+      },
+      {
+        "date": "2026-07-31",
+        "price": 55490
+      },
+      {
+        "date": "2026-08-10",
+        "price": 54990
       }
     ],
     "sellerType": "independent",
@@ -499,8 +528,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 23,
+    "lastSeen": "2026-08-03",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -571,8 +600,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 23,
+    "lastSeen": "2026-08-03",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -617,7 +646,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 12261,
-    "price": 54894,
+    "price": 54592,
     "priceBasis": "listing",
     "dealer": "Silver Star Mercedes Benz",
     "dealerId": "d_2e6e0ac137b03a84",
@@ -643,8 +672,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 34,
+    "lastSeen": "2026-08-10",
+    "listedDays": 48,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -653,6 +682,14 @@
       {
         "date": "2026-07-27",
         "price": 54894
+      },
+      {
+        "date": "2026-07-31",
+        "price": 54700
+      },
+      {
+        "date": "2026-08-03",
+        "price": 54592
       }
     ],
     "sellerType": "independent",
@@ -672,14 +709,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56069,
-      "expected": 56569,
+      "marketValue": 56105,
+      "expected": 56605,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -60.75
       },
-      "dealDelta": -1675,
-      "dealPct": -0.0296,
+      "dealDelta": -2013,
+      "dealPct": -0.0356,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -687,12 +724,12 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 34,
-        "cohortMedianDaysListed": 28,
+        "listedDays": 48,
+        "cohortMedianDaysListed": 36,
         "priceDrop": {
-          "total": 92,
-          "pct": -0.0017,
-          "drops": 1
+          "total": 394,
+          "pct": -0.0072,
+          "drops": 3
         },
         "negotiability": "high"
       }
@@ -793,8 +830,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 34,
+    "lastSeen": "2026-08-10",
+    "listedDays": 48,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -818,14 +855,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 60227,
-      "expected": 60784,
+      "marketValue": 60331,
+      "expected": 60889,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -45.45
       },
-      "dealDelta": -614,
-      "dealPct": -0.0101,
+      "dealDelta": -719,
+      "dealPct": -0.0118,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -833,8 +870,8 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 34,
-        "cohortMedianDaysListed": 28,
+        "listedDays": 48,
+        "cohortMedianDaysListed": 36,
         "negotiability": "medium"
       }
     },
@@ -896,7 +933,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 12209,
-    "price": 56144,
+    "price": 56534,
     "priceBasis": "listing",
     "dealer": "WOBURN TOYOTA",
     "dealerId": "d_4addaf21a9d4b7bb",
@@ -922,12 +959,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 18,
+    "lastSeen": "2026-08-03",
+    "listedDays": 25,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 56144
+      },
+      {
+        "date": "2026-07-31",
+        "price": 56534
       }
     ],
     "sellerType": "franchise",
@@ -947,13 +988,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56087,
-      "expected": 56648,
+      "marketValue": 56123,
+      "expected": 56684,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -504,
-      "dealPct": -0.0089,
+      "dealDelta": -150,
+      "dealPct": -0.0026,
       "rating": "fair",
       "dealScore": 0.25,
       "basis": "pooled",
@@ -961,8 +1002,8 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 18,
-        "cohortMedianDaysListed": 28,
+        "listedDays": 25,
+        "cohortMedianDaysListed": 36,
         "negotiability": "medium"
       }
     },
@@ -1021,7 +1062,7 @@
     "drivetrain": "AWD",
     "engine": "2.4L 4Cyl regular unleaded",
     "year": 2025,
-    "mileage": 4680,
+    "mileage": 5171,
     "price": 62236,
     "priceBasis": "listing",
     "dealer": "Bristol Toyota Scion",
@@ -1048,8 +1089,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 9,
+    "lastSeen": "2026-08-03",
+    "listedDays": 16,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1098,7 +1139,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 8466,
-    "price": 57942,
+    "price": 57492,
     "priceBasis": "listing",
     "dealer": "Ira Toyota of Danvers",
     "dealerId": "d_5c00fd3d925b1300",
@@ -1124,12 +1165,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 30,
+    "lastSeen": "2026-08-10",
+    "listedDays": 44,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 57942
+      },
+      {
+        "date": "2026-08-03",
+        "price": 57492
       }
     ],
     "sellerType": "franchise",
@@ -1169,7 +1214,7 @@
     "drivetrain": "AWD",
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
-    "mileage": 14073,
+    "mileage": 19065,
     "price": 65001,
     "priceBasis": "listing",
     "dealer": "Westbury Toyota",
@@ -1196,8 +1241,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 34,
+    "lastSeen": "2026-08-10",
+    "listedDays": 48,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1236,8 +1281,8 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 34,
-        "cohortMedianDaysListed": 32,
+        "listedDays": 48,
+        "cohortMedianDaysListed": 46,
         "negotiability": "medium"
       }
     },
@@ -1323,8 +1368,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 20,
+    "lastSeen": "2026-08-03",
+    "listedDays": 27,
     "priceHistory": [
       {
         "date": "2026-07-22",

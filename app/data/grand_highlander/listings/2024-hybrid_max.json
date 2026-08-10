@@ -16,10 +16,10 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2024,
     "mileage": 25101,
-    "price": 54000,
+    "price": 53500,
     "priceBasis": "listing",
     "dealer": "Richards Motorcars",
-    "dealerId": "d_a853cbbe325e5c66",
+    "dealerId": "d_3503c21c449c880b",
     "distanceMi": 6,
     "state": "MA",
     "city": "Malden",
@@ -42,12 +42,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 34,
+    "lastSeen": "2026-08-10",
+    "listedDays": 48,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 54000
+      },
+      {
+        "date": "2026-07-31",
+        "price": 53500
       }
     ],
     "sellerType": "independent",
@@ -70,6 +74,77 @@
       "basis": "not-ready"
     },
     "searchedAt": "2026-07-22"
+  },
+  {
+    "id": "api-5tdadab51rs000459",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Platinum",
+    "trimFeed": "Platinum",
+    "powertrain": "hybrid_max",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "MAX Platinum 4dr SUV AWD (2.4L 4cyl Turbo gas/electric hybrid 6A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.4L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 32237,
+    "price": 52694,
+    "priceBasis": "listing",
+    "dealer": "Lynch Toyota",
+    "dealerId": "d_007b75aaede80480",
+    "distanceMi": 84,
+    "state": "CT",
+    "city": "Manchester",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "5TDADAB51RS000459",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-grand+highlander+hybrid#vin=5TDADAB51RS000459",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDADAB51RS000459&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5TDADAB51RS000459-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 58475,
+    "squishVin": "5TDADAB5RS",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-08-10",
+    "lastSeen": "2026-08-10",
+    "listedDays": 21,
+    "priceHistory": [
+      {
+        "date": "2026-08-10",
+        "price": 52694
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid_max",
+    "powertrainConfidence": 0.8,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": true,
+    "powertrainConflict": true,
+    "plantCountry": "United States (Usa)",
+    "plantCity": "Princeton",
+    "plantSource": "vpic",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
   },
   {
     "id": "api-5tdadab52rs002107",
@@ -112,7 +187,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-07-27",
     "listedDays": 34,
@@ -143,13 +218,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 55423,
-      "expected": 55977,
+      "marketValue": 55362,
+      "expected": 55915,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1691,
-      "dealPct": -0.0302,
+      "dealDelta": -1629,
+      "dealPct": -0.0291,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -158,7 +233,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 34,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 33,
         "priceDrop": {
           "total": 101,
           "pct": -0.0019,
@@ -261,7 +336,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-07-27",
     "listedDays": 20,
@@ -288,13 +363,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 51639,
-      "expected": 52155,
+      "marketValue": 51200,
+      "expected": 51712,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -106,
-      "dealPct": -0.002,
+      "dealDelta": 337,
+      "dealPct": 0.0065,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -303,7 +378,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 20,
-        "cohortMedianDaysListed": 22,
+        "cohortMedianDaysListed": 23,
         "negotiability": "medium"
       }
     },
@@ -351,8 +426,8 @@
     "drivetrain": "AWD",
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2024,
-    "mileage": 32720,
-    "price": 51590,
+    "mileage": 32722,
+    "price": 50717,
     "priceBasis": "listing",
     "dealer": "Paul Miller Toyota",
     "dealerId": "d_f56ede8d0fe8fcba",
@@ -368,7 +443,7 @@
     "url": "https://www.paulmillertoyota.com/viewdetails/cpo/5tdadab55rs009813/2024-toyota-grand-highlander-4d-sport-utility",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDADAB55RS009813&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5TDADAB55RS009813-1.jpg",
-    "photoCount": 6,
+    "photoCount": 32,
     "baseMsrp": 58475,
     "squishVin": "5TDADAB5RS",
     "accidentCount": 0,
@@ -378,8 +453,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 9,
+    "lastSeen": "2026-08-10",
+    "listedDays": 23,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -388,6 +463,10 @@
       {
         "date": "2026-07-27",
         "price": 51590
+      },
+      {
+        "date": "2026-07-31",
+        "price": 50717
       }
     ],
     "sellerType": "franchise",
@@ -407,14 +486,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 52000,
-      "expected": 52453,
+      "marketValue": 51566,
+      "expected": 52015,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -67.05
       },
-      "dealDelta": -863,
-      "dealPct": -0.0165,
+      "dealDelta": -1298,
+      "dealPct": -0.025,
       "rating": "fair",
       "dealScore": 0.75,
       "basis": "pooled",
@@ -422,12 +501,12 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 9,
-        "cohortMedianDaysListed": 22,
+        "listedDays": 23,
+        "cohortMedianDaysListed": 23,
         "priceDrop": {
-          "total": 708,
-          "pct": -0.0135,
-          "drops": 1
+          "total": 1581,
+          "pct": -0.0302,
+          "drops": 2
         },
         "negotiability": "high"
       }
@@ -480,7 +559,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2024,
     "mileage": 65301,
-    "price": 49294,
+    "price": 48594,
     "priceBasis": "listing",
     "dealer": "Greentree Toyota",
     "dealerId": "d_41e8cbace35817ad",
@@ -506,12 +585,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 34,
+    "lastSeen": "2026-08-10",
+    "listedDays": 48,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 49294
+      },
+      {
+        "date": "2026-08-10",
+        "price": 48594
       }
     ],
     "sellerType": "franchise",
@@ -531,14 +614,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 40942,
-      "expected": 41311,
+      "marketValue": 40327,
+      "expected": 40691,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -39.6
       },
-      "dealDelta": 7983,
-      "dealPct": 0.1932,
+      "dealDelta": 7903,
+      "dealPct": 0.1942,
       "rating": "overpriced",
       "dealScore": 0.25,
       "basis": "pooled",
@@ -546,8 +629,13 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 34,
-        "cohortMedianDaysListed": 22,
+        "listedDays": 48,
+        "cohortMedianDaysListed": 23,
+        "priceDrop": {
+          "total": 700,
+          "pct": -0.0142,
+          "drops": 1
+        },
         "negotiability": "high"
       }
     },
@@ -609,7 +697,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-07-27",
     "listedDays": 23,
@@ -640,13 +728,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 53541,
-      "expected": 53526,
+      "marketValue": 53133,
+      "expected": 53119,
       "adjustments": {
         "distance": -14.4
       },
-      "dealDelta": -3753,
-      "dealPct": -0.0701,
+      "dealDelta": -3346,
+      "dealPct": -0.063,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -655,7 +743,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 23,
-        "cohortMedianDaysListed": 22,
+        "cohortMedianDaysListed": 23,
         "priceDrop": {
           "total": 749,
           "pct": -0.0148,
@@ -709,7 +797,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2024,
     "mileage": 34232,
-    "price": 54799,
+    "price": 54589,
     "priceBasis": "listing",
     "dealer": "Handy Toyota",
     "dealerId": "d_685a444d04ce2d4a",
@@ -735,8 +823,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 18,
+    "lastSeen": "2026-08-10",
+    "listedDays": 32,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -745,6 +833,10 @@
       {
         "date": "2026-07-27",
         "price": 54799
+      },
+      {
+        "date": "2026-08-10",
+        "price": 54589
       }
     ],
     "sellerType": "franchise",
@@ -764,14 +856,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 53662,
-      "expected": 54131,
+      "marketValue": 53513,
+      "expected": 53981,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -67.05
       },
-      "dealDelta": 668,
-      "dealPct": 0.0123,
+      "dealDelta": 608,
+      "dealPct": 0.0113,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -779,12 +871,12 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 18,
-        "cohortMedianDaysListed": 26,
+        "listedDays": 32,
+        "cohortMedianDaysListed": 33,
         "priceDrop": {
-          "total": 195,
-          "pct": -0.0035,
-          "drops": 1
+          "total": 405,
+          "pct": -0.0074,
+          "drops": 2
         },
         "negotiability": "high"
       }
@@ -823,11 +915,11 @@
     "drivetrain": "AWD",
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2024,
-    "mileage": 38987,
+    "mileage": 39325,
     "price": 47428,
     "priceBasis": "listing",
     "dealer": "Salem Nissan",
-    "dealerId": "d_aa8585aa7ef4839a",
+    "dealerId": "d_0bac026e75495779",
     "distanceMi": 30,
     "state": "NH",
     "city": "Salem",
@@ -850,8 +942,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 32,
+    "lastSeen": "2026-08-10",
+    "listedDays": 46,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -895,7 +987,7 @@
     "drivetrain": "AWD",
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2024,
-    "mileage": 28855,
+    "mileage": 28889,
     "price": 55495,
     "priceBasis": "listing",
     "dealer": "Ira Toyota of Hyannis",
@@ -912,7 +1004,7 @@
     "url": "https://www.autolist.com/toyota-grand+highlander+hybrid#vin=5TDADAB59RS003738",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDADAB59RS003738&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5TDADAB59RS003738-1.jpg",
-    "photoCount": 1,
+    "photoCount": 31,
     "baseMsrp": 54390,
     "squishVin": "5TDADAB5RS",
     "accidentCount": 0,
@@ -922,8 +1014,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-27",
-    "lastSeen": "2026-07-27",
-    "listedDays": 5,
+    "lastSeen": "2026-08-03",
+    "listedDays": 12,
     "priceHistory": [
       {
         "date": "2026-07-27",

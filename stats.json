@@ -2,36 +2,60 @@
   "region": "Greater Boston",
   "metroMi": 50,
   "totals": {
-    "listings": 2005,
-    "live": 1304,
-    "scored": 999,
-    "cohortReady": 999
+    "listings": 2292,
+    "live": 1630,
+    "scored": 1324,
+    "cohortReady": 1326
   },
   "metro": {
-    "liveCount": 623,
-    "aggregateMispricing": 258136,
-    "medianLotMoneyOnTable": 1856,
-    "dealersScored": 18,
-    "medianListedDays": 23
+    "liveCount": 505,
+    "aggregateMispricing": 433075,
+    "medianLotMoneyOnTable": 7185,
+    "dealersScored": 25,
+    "medianListedDays": 21
   },
-  "generatedAt": "2026-07-27",
+  "generatedAt": "2026-08-10",
   "vignettes": {
     "profit": [
       {
         "year": 2026,
-        "trim": "Elite",
+        "trim": "Platinum",
         "powertrain": "gas",
-        "underBy": 5400,
+        "underBy": 4200,
         "daysToGone": 0
       },
       {
-        "year": 2026,
-        "trim": "Black Edition",
+        "year": 2025,
+        "trim": "XLE",
         "powertrain": "gas",
-        "underBy": 5400,
+        "underBy": 4100,
         "daysToGone": 0
       }
     ],
-    "aging": []
+    "aging": [
+      {
+        "year": 2024,
+        "trim": "XLE",
+        "powertrain": "gas",
+        "listedDays": 31,
+        "cuts": 2,
+        "markdownTotal": 2600,
+        "stillOverBy": 2000,
+        "dropSeries": [
+          {
+            "day": 0,
+            "price": 48500
+          },
+          {
+            "day": 9,
+            "price": 47000
+          },
+          {
+            "day": 19,
+            "price": 45900
+          }
+        ]
+      }
+    ]
   }
 }

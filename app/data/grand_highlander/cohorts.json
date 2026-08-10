@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27",
+  "generatedAt": "2026-08-10",
   "bands": {
     "great": -0.1,
     "good": -0.05,
@@ -11,38 +11,38 @@
       "year": 2024,
       "trim": "XLE",
       "powertrain": "gas",
-      "n": 49,
+      "n": 67,
       "mileageRange": [
-        6614,
-        66636
+        15945,
+        101805
       ],
       "theilSen": {
-        "slope": -0.0681,
-        "intercept": 46053.86
+        "slope": -0.0684,
+        "intercept": 45826.2
       },
       "ols": {
-        "slope": -0.0988,
-        "intercept": 46938.86
+        "slope": -0.0885,
+        "intercept": 46560.85
       },
       "parentKey": "XLE|gas",
-      "msrp": 44920
+      "msrp": 47315
     },
     "2024|Platinum|gas": {
       "year": 2024,
       "trim": "Platinum",
       "powertrain": "gas",
-      "n": 16,
+      "n": 26,
       "mileageRange": [
         6603,
         55389
       ],
       "theilSen": {
-        "slope": -0.152,
-        "intercept": 53111.98
+        "slope": -0.1634,
+        "intercept": 53748.39
       },
       "ols": {
-        "slope": -0.1477,
-        "intercept": 53253.06
+        "slope": -0.1545,
+        "intercept": 53695.43
       },
       "parentKey": "Platinum|gas",
       "msrp": 53795
@@ -51,18 +51,18 @@
       "year": 2024,
       "trim": "Limited",
       "powertrain": "gas",
-      "n": 22,
+      "n": 31,
       "mileageRange": [
         8313,
         61851
       ],
       "theilSen": {
-        "slope": -0.144,
-        "intercept": 51166.65
+        "slope": -0.1364,
+        "intercept": 50651.06
       },
       "ols": {
-        "slope": -0.1366,
-        "intercept": 51039.9
+        "slope": -0.1331,
+        "intercept": 50718.33
       },
       "parentKey": "Limited|gas",
       "msrp": 49710
@@ -71,18 +71,18 @@
       "year": 2024,
       "trim": "Limited",
       "powertrain": "hybrid",
-      "n": 9,
+      "n": 12,
       "mileageRange": [
-        21951,
+        15824,
         85420
       ],
       "theilSen": {
-        "slope": -0.1505,
-        "intercept": 57388.41
+        "slope": -0.1368,
+        "intercept": 56274.05
       },
       "ols": {
-        "slope": -0.1461,
-        "intercept": 57672.81
+        "slope": -0.1444,
+        "intercept": 56827.34
       },
       "parentKey": "Limited|hybrid",
       "msrp": null
@@ -91,18 +91,18 @@
       "year": 2024,
       "trim": "XLE",
       "powertrain": "hybrid",
-      "n": 4,
+      "n": 6,
       "mileageRange": [
-        21814,
+        23189,
         89857
       ],
       "theilSen": {
-        "slope": -0.1129,
-        "intercept": 53104.76
+        "slope": -0.0979,
+        "intercept": 52191.1
       },
       "ols": {
-        "slope": -0.1068,
-        "intercept": 52606.3
+        "slope": -0.0966,
+        "intercept": 52430.54
       },
       "parentKey": "XLE|hybrid",
       "msrp": 46620
@@ -131,12 +131,12 @@
         65301
       ],
       "theilSen": {
-        "slope": 0.1937,
-        "intercept": 44783.17
+        "slope": 0.0881,
+        "intercept": 47563.41
       },
       "ols": {
-        "slope": -0.0453,
-        "intercept": 52488.52
+        "slope": -0.0583,
+        "intercept": 52616.74
       },
       "parentKey": "Limited|hybrid_max",
       "msrp": null
@@ -145,53 +145,59 @@
       "year": 2025,
       "trim": "XLE",
       "powertrain": "gas",
-      "n": 15,
+      "n": 22,
       "mileageRange": [
         0,
-        43834
+        43836
       ],
       "theilSen": {
-        "slope": -0.1881,
-        "intercept": 51049.37
+        "slope": -0.1233,
+        "intercept": 49103.29
       },
       "ols": {
-        "slope": -0.1789,
-        "intercept": 50220.04
+        "slope": -0.1132,
+        "intercept": 48333.78
       },
       "parentKey": "XLE|gas",
-      "msrp": null
+      "msrp": 44430
     },
     "2025|Limited|gas": {
       "year": 2025,
       "trim": "Limited",
       "powertrain": "gas",
-      "n": 6,
+      "n": 7,
       "mileageRange": [
         3,
-        23543
+        37132
       ],
       "theilSen": {
-        "slope": -0.0789,
-        "intercept": 53713.24
+        "slope": -0.1001,
+        "intercept": 53713.3
       },
       "ols": {
-        "slope": 0.0879,
-        "intercept": 52153.08
+        "slope": -0.0506,
+        "intercept": 53489.44
       },
       "parentKey": "Limited|gas",
-      "msrp": 49160
+      "msrp": 48360
     },
     "2025|Platinum|gas": {
       "year": 2025,
       "trim": "Platinum",
       "powertrain": "gas",
-      "n": 2,
+      "n": 6,
       "mileageRange": [
-        555,
-        13098
+        0,
+        77622
       ],
-      "theilSen": null,
-      "ols": null,
+      "theilSen": {
+        "slope": -0.1166,
+        "intercept": 57577.76
+      },
+      "ols": {
+        "slope": -0.0642,
+        "intercept": 57383.69
+      },
       "parentKey": "Platinum|gas",
       "msrp": null
     },
@@ -199,13 +205,19 @@
       "year": 2025,
       "trim": "Limited",
       "powertrain": "hybrid",
-      "n": 2,
+      "n": 3,
       "mileageRange": [
         7839,
         27238
       ],
-      "theilSen": null,
-      "ols": null,
+      "theilSen": {
+        "slope": 0.1284,
+        "intercept": 54968.81
+      },
+      "ols": {
+        "slope": 0.1019,
+        "intercept": 54284.71
+      },
       "parentKey": "Limited|hybrid",
       "msrp": null
     },
@@ -213,18 +225,18 @@
       "year": 2025,
       "trim": "XLE",
       "powertrain": "hybrid",
-      "n": 4,
+      "n": 5,
       "mileageRange": [
-        22929,
+        8124,
         47447
       ],
       "theilSen": {
-        "slope": -0.014,
-        "intercept": 51957.42
+        "slope": 0.0495,
+        "intercept": 48960.74
       },
       "ols": {
-        "slope": -0.0348,
-        "intercept": 52659.64
+        "slope": 0.009,
+        "intercept": 50340.93
       },
       "parentKey": "XLE|hybrid",
       "msrp": null
@@ -239,12 +251,12 @@
         56579
       ],
       "theilSen": {
-        "slope": -0.0521,
-        "intercept": 59482.59
+        "slope": -0.0381,
+        "intercept": 59100.21
       },
       "ols": {
-        "slope": -0.1106,
-        "intercept": 63128.42
+        "slope": -0.0878,
+        "intercept": 62719.03
       },
       "parentKey": "Platinum|hybrid_max",
       "msrp": null
@@ -260,11 +272,11 @@
       ],
       "theilSen": {
         "slope": -0.3209,
-        "intercept": 60117.39
+        "intercept": 60173.21
       },
       "ols": {
-        "slope": -0.3547,
-        "intercept": 60129.27
+        "slope": -0.3528,
+        "intercept": 60133.5
       },
       "parentKey": "Limited|hybrid_max",
       "msrp": null
@@ -273,21 +285,21 @@
       "year": 2026,
       "trim": "XLE",
       "powertrain": "gas",
-      "n": 60,
+      "n": 61,
       "mileageRange": [
         0,
         30000
       ],
       "theilSen": {
-        "slope": 0.0314,
-        "intercept": 49792.5
+        "slope": -0.0213,
+        "intercept": 49778.0
       },
       "ols": {
-        "slope": -0.0798,
-        "intercept": 49844.86
+        "slope": -0.0935,
+        "intercept": 49863.78
       },
       "parentKey": "XLE|gas",
-      "msrp": null
+      "msrp": 43860
     },
     "2026|Platinum|gas": {
       "year": 2026,
@@ -339,12 +351,12 @@
         7828
       ],
       "theilSen": {
-        "slope": 0.7351,
+        "slope": 0.8029,
         "intercept": 51293.0
       },
       "ols": {
-        "slope": 0.1741,
-        "intercept": 52119.84
+        "slope": 0.1937,
+        "intercept": 52121.9
       },
       "parentKey": "XLE|hybrid",
       "msrp": 46780
@@ -359,12 +371,12 @@
         4481
       ],
       "theilSen": {
-        "slope": -2.9778,
+        "slope": -2.5987,
         "intercept": 58135.5
       },
       "ols": {
-        "slope": 0.2075,
-        "intercept": 58437.01
+        "slope": 0.2104,
+        "intercept": 58427.01
       },
       "parentKey": "Limited|hybrid",
       "msrp": null
@@ -379,12 +391,12 @@
         12114
       ],
       "theilSen": {
-        "slope": -0.0662,
-        "intercept": 64063.0
+        "slope": -0.1748,
+        "intercept": 63518.0
       },
       "ols": {
-        "slope": 0.0219,
-        "intercept": 63828.68
+        "slope": -0.128,
+        "intercept": 63822.31
       },
       "parentKey": "Platinum|hybrid_max",
       "msrp": null
@@ -399,12 +411,12 @@
         4186
       ],
       "theilSen": {
-        "slope": -0.9481,
-        "intercept": 62334.72
+        "slope": -1.0055,
+        "intercept": 62337.23
       },
       "ols": {
-        "slope": -0.8788,
-        "intercept": 62032.29
+        "slope": -0.9357,
+        "intercept": 62032.73
       },
       "parentKey": "Limited|hybrid_max",
       "msrp": null
@@ -412,31 +424,31 @@
   },
   "parents": {
     "XLE|gas": {
-      "slope": -0.1666,
-      "intercept": 49674.8
+      "slope": -0.1581,
+      "intercept": 49619.4
     },
     "Platinum|gas": {
-      "slope": -0.2955,
-      "intercept": 58075.16
+      "slope": -0.278,
+      "intercept": 58010.42
     },
     "Limited|gas": {
-      "slope": -0.2857,
-      "intercept": 57003.07
+      "slope": -0.2894,
+      "intercept": 56985.0
     },
     "Limited|hybrid": {
-      "slope": -0.1675,
-      "intercept": 58148.0
+      "slope": -0.1852,
+      "intercept": 58196.56
     },
     "XLE|hybrid": {
-      "slope": -0.0211,
-      "intercept": 51662.0
+      "slope": -0.0546,
+      "intercept": 51381.81
     },
     "Platinum|hybrid_max": {
-      "slope": -0.2172,
-      "intercept": 63617.5
+      "slope": -0.2279,
+      "intercept": 63345.0
     },
     "Limited|hybrid_max": {
-      "slope": -0.3394,
+      "slope": -0.345,
       "intercept": 61403.0
     }
   },
@@ -445,26 +457,26 @@
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 31430,
-        "marketValue": 43915,
-        "msrp": 44920,
-        "retained": 0.978
+        "medianMileage": 32543,
+        "marketValue": 43601,
+        "msrp": 47315,
+        "retained": 0.922
       },
       {
         "year": 2025,
         "age": 1,
-        "medianMileage": 19100,
-        "marketValue": 47456,
-        "msrp": null,
-        "retained": null
+        "medianMileage": 20531,
+        "marketValue": 46572,
+        "msrp": 44430,
+        "retained": 1.048
       },
       {
         "year": 2026,
         "age": 0,
         "medianMileage": 0,
-        "marketValue": 49792,
-        "msrp": null,
-        "retained": null
+        "marketValue": 49778,
+        "msrp": 43860,
+        "retained": 1.135
       }
     ],
     "Platinum|gas": [
@@ -472,15 +484,15 @@
         "year": 2024,
         "age": 2,
         "medianMileage": 28975,
-        "marketValue": 48708,
+        "marketValue": 49012,
         "msrp": 53795,
-        "retained": 0.905
+        "retained": 0.911
       },
       {
         "year": 2025,
         "age": 1,
-        "medianMileage": 6826,
-        "marketValue": 56360,
+        "medianMileage": 8740,
+        "marketValue": 56559,
         "msrp": null,
         "retained": null
       },
@@ -497,18 +509,18 @@
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 35014,
-        "marketValue": 46125,
+        "medianMileage": 35045,
+        "marketValue": 45871,
         "msrp": 49710,
-        "retained": 0.928
+        "retained": 0.923
       },
       {
         "year": 2025,
         "age": 1,
-        "medianMileage": 13511,
-        "marketValue": 52647,
-        "msrp": 49160,
-        "retained": 1.071
+        "medianMileage": 14385,
+        "marketValue": 52273,
+        "msrp": 48360,
+        "retained": 1.081
       },
       {
         "year": 2026,
@@ -523,16 +535,16 @@
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 28065,
-        "marketValue": 53165,
+        "medianMileage": 29604,
+        "marketValue": 52224,
         "msrp": null,
         "retained": null
       },
       {
         "year": 2025,
         "age": 1,
-        "medianMileage": 17538,
-        "marketValue": 57220,
+        "medianMileage": 19708,
+        "marketValue": 53995,
         "msrp": null,
         "retained": null
       },
@@ -549,16 +561,16 @@
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 30981,
-        "marketValue": 49110,
+        "medianMileage": 36991,
+        "marketValue": 48568,
         "msrp": 46620,
-        "retained": 1.053
+        "retained": 1.042
       },
       {
         "year": 2025,
         "age": 1,
-        "medianMileage": 27435,
-        "marketValue": 51658,
+        "medianMileage": 23395,
+        "marketValue": 50118,
         "msrp": null,
         "retained": null
       },
@@ -576,14 +588,14 @@
         "year": 2024,
         "age": 2,
         "medianMileage": 30176,
-        "marketValue": 54542,
+        "marketValue": 54438,
         "msrp": null,
         "retained": null
       },
       {
         "year": 2025,
         "age": 1,
-        "medianMileage": 14073,
+        "medianMileage": 19065,
         "marketValue": 65001,
         "msrp": null,
         "retained": null
@@ -592,7 +604,7 @@
         "year": 2026,
         "age": 0,
         "medianMileage": 0,
-        "marketValue": 64063,
+        "marketValue": 63518,
         "msrp": null,
         "retained": null
       }
@@ -601,8 +613,8 @@
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 33252,
-        "marketValue": 51820,
+        "medianMileage": 33253,
+        "marketValue": 51383,
         "msrp": null,
         "retained": null
       },
@@ -610,7 +622,7 @@
         "year": 2025,
         "age": 1,
         "medianMileage": 12235,
-        "marketValue": 56078,
+        "marketValue": 56114,
         "msrp": null,
         "retained": null
       },
@@ -618,7 +630,7 @@
         "year": 2026,
         "age": 0,
         "medianMileage": 0,
-        "marketValue": 62335,
+        "marketValue": 62337,
         "msrp": null,
         "retained": null
       }

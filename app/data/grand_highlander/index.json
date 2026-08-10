@@ -1,71 +1,71 @@
 {
-  "generatedAt": "2026-07-27",
-  "total": 1128,
-  "cohortReady": 411,
-  "flagged": 717,
+  "generatedAt": "2026-08-10",
+  "total": 1297,
+  "cohortReady": 468,
+  "flagged": 829,
   "shards": [
     {
       "shard": "2024-gas",
       "file": "listings/2024-gas.json",
-      "count": 170,
-      "cohortReady": 87,
-      "gone": 15
+      "count": 219,
+      "cohortReady": 124,
+      "gone": 37
     },
     {
       "shard": "2024-hybrid",
       "file": "listings/2024-hybrid.json",
-      "count": 23,
-      "cohortReady": 13,
-      "gone": 4
+      "count": 29,
+      "cohortReady": 18,
+      "gone": 10
     },
     {
       "shard": "2024-hybrid_max",
       "file": "listings/2024-hybrid_max.json",
-      "count": 9,
+      "count": 10,
       "cohortReady": 6,
-      "gone": 0
+      "gone": 3
     },
     {
       "shard": "2025-gas",
       "file": "listings/2025-gas.json",
-      "count": 60,
-      "cohortReady": 23,
-      "gone": 12
+      "count": 76,
+      "cohortReady": 35,
+      "gone": 17
     },
     {
       "shard": "2025-hybrid",
       "file": "listings/2025-hybrid.json",
-      "count": 16,
-      "cohortReady": 6,
-      "gone": 1
+      "count": 20,
+      "cohortReady": 8,
+      "gone": 4
     },
     {
       "shard": "2025-hybrid_max",
       "file": "listings/2025-hybrid_max.json",
       "count": 13,
       "cohortReady": 7,
-      "gone": 0
+      "gone": 1
     },
     {
       "shard": "2026-gas",
       "file": "listings/2026-gas.json",
-      "count": 433,
-      "cohortReady": 148,
+      "count": 442,
+      "cohortReady": 149,
       "gone": 402
     },
     {
       "shard": "2026-hybrid",
       "file": "listings/2026-hybrid.json",
-      "count": 275,
+      "count": 329,
       "cohortReady": 81,
-      "gone": 75
+      "gone": 131
     },
     {
       "shard": "2026-hybrid_max",
       "file": "listings/2026-hybrid_max.json",
-      "count": 129,
+      "count": 159,
       "cohortReady": 40,
-      "gone": 25
+      "gone": 57
     }
   ]
 }

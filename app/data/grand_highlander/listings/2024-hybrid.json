@@ -67,24 +67,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 47859,
-      "expected": 48792,
+      "marketValue": 47613,
+      "expected": 48542,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01,
         "distance": -23.85
       },
-      "dealDelta": -933,
-      "dealPct": -0.0191,
+      "dealDelta": -683,
+      "dealPct": -0.0141,
       "rating": "fair",
-      "dealScore": 0.778,
+      "dealScore": 0.583,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 18,
-        "cohortMedianDaysListed": 13,
+        "cohortMedianDaysListed": 14,
         "negotiability": "medium"
       }
     },
@@ -184,8 +184,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 23,
+    "lastSeen": "2026-08-03",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -256,8 +256,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-27",
-    "lastSeen": "2026-07-27",
-    "listedDays": 3,
+    "lastSeen": "2026-08-03",
+    "listedDays": 10,
     "priceHistory": [
       {
         "date": "2026-07-27",
@@ -299,14 +299,14 @@
     "series": "XLE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
     "transmission": "Automatic",
     "drivetrain": "AWD",
-    "engine": "2.5L 4Cyl regular unleaded",
+    "engine": "2.5L 4Cyl Gasoline",
     "year": 2024,
     "mileage": 85420,
     "price": 44095,
     "priceBasis": "listing",
     "dealer": "Handy Toyota",
     "dealerId": "d_685a444d04ce2d4a",
-    "distanceMi": 197,
+    "distanceMi": 199,
     "state": "VT",
     "city": "Saint Albans",
     "cpo": "none",
@@ -318,18 +318,18 @@
     "url": "https://www.handycarswillistonroad.com/vehicle/Used/2024/Toyota/Grand-Highlander-Hybrid/5TDACAB51RS005356/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDACAB51RS005356&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5TDACAB51RS005356-1.jpg",
-    "photoCount": 1,
+    "photoCount": 59,
     "baseMsrp": 46620,
     "squishVin": "5TDACAB5RS",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-27",
-    "lastSeen": "2026-07-27",
-    "listedDays": 0,
+    "lastSeen": "2026-08-10",
+    "listedDays": 14,
     "priceHistory": [
       {
         "date": "2026-07-27",
@@ -353,22 +353,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 44533,
-      "expected": 44467,
+      "marketValue": 44590,
+      "expected": 44969,
       "adjustments": {
-        "distance": -66.15
+        "oneOwner": 0.01,
+        "distance": -67.05
       },
-      "dealDelta": -372,
-      "dealPct": -0.0084,
+      "dealDelta": -874,
+      "dealPct": -0.0194,
       "rating": "fair",
-      "dealScore": 0.667,
+      "dealScore": 0.75,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 0,
-        "cohortMedianDaysListed": 13,
+        "listedDays": 14,
+        "cohortMedianDaysListed": 14,
         "negotiability": "low"
       }
     },
@@ -431,10 +432,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 7,
+    "lastSeen": "2026-07-31",
+    "listedDays": 11,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -458,23 +459,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 54085,
-      "expected": 54564,
+      "marketValue": 53272,
+      "expected": 53743,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -61.2
       },
-      "dealDelta": -214,
-      "dealPct": -0.0039,
+      "dealDelta": 607,
+      "dealPct": 0.0113,
       "rating": "fair",
-      "dealScore": 0.556,
+      "dealScore": 0.333,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 7,
-        "cohortMedianDaysListed": 13,
+        "listedDays": 11,
+        "cohortMedianDaysListed": 14,
         "negotiability": "low"
       }
     },
@@ -515,7 +516,8 @@
         "price": null
       }
     ],
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab51rs006183",
@@ -533,11 +535,11 @@
     "drivetrain": "AWD",
     "engine": "2.5L 4Cyl Gasoline",
     "year": 2024,
-    "mileage": 15593,
+    "mileage": 15599,
     "price": 54028,
     "priceBasis": "listing",
     "dealer": "Nucar Toyota of Norwood",
-    "dealerId": "d_86db626d73855239",
+    "dealerId": "d_111b826f58e7b145",
     "distanceMi": 13,
     "state": "MA",
     "city": "Norwood",
@@ -558,10 +560,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
-    "lastSeen": "2026-07-27",
-    "listedDays": 11,
+    "lastSeen": "2026-07-31",
+    "listedDays": 15,
     "priceHistory": [
       {
         "date": "2026-07-27",
@@ -587,7 +589,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab51rs027910",
@@ -605,7 +608,7 @@
     "drivetrain": "AWD",
     "engine": "2.5L 4Cyl Gasoline",
     "year": 2024,
-    "mileage": 21814,
+    "mileage": 23189,
     "price": 50697,
     "priceBasis": "listing",
     "dealer": "Faith's Toyota Ford",
@@ -618,7 +621,7 @@
     "exteriorColor": "Red",
     "interiorColor": "Gray",
     "vin": "5TDACAB51RS027910",
-    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. Relisted; back in feed.",
     "url": "https://www.faithsfordwestminster.net/viewdetails/used/5tdacab51rs027910/2024-toyota-grand-highlander-sport-utility",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDACAB51RS027910&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5TDACAB51RS027910-1.jpg",
@@ -630,10 +633,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": true,
+    "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-22",
-    "listedDays": 29,
+    "lastSeen": "2026-08-10",
+    "listedDays": 51,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -657,24 +660,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49304,
-      "expected": 49780,
+      "marketValue": 49920,
+      "expected": 50403,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -16.650000000000002
       },
-      "dealDelta": 917,
-      "dealPct": 0.0184,
+      "dealDelta": 294,
+      "dealPct": 0.0058,
       "rating": "fair",
-      "dealScore": 0.25,
-      "basis": "pooled",
-      "cohortN": 4,
-      "confidence": 0.4,
-      "ratingConfident": false,
+      "dealScore": 0.5,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 29,
-        "cohortMedianDaysListed": 26,
-        "negotiability": "medium"
+        "listedDays": 51,
+        "cohortMedianDaysListed": 31,
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-22",
@@ -706,6 +709,120 @@
     ],
     "trimSearch": "XLE",
     "powertrainSearch": "hybrid"
+  },
+  {
+    "id": "api-5tdacab52rs004233",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 61825,
+    "price": 47995,
+    "priceBasis": "listing",
+    "dealer": "Prestige Toyota of Ramsey",
+    "dealerId": "d_05ba401ee5091978",
+    "distanceMi": 183,
+    "state": "NJ",
+    "city": "Ramsey",
+    "cpo": "dealer",
+    "cpoFeed": false,
+    "exteriorColor": "Blueprint",
+    "interiorColor": "Black",
+    "vin": "5TDACAB52RS004233",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.lithia.com/catcher.esl?vin=5TDACAB52RS004233&utm_source=autolist&utm_medium=referral&utm_campaign=vdp_deep_link",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDACAB52RS004233&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5TDACAB52RS004233-1.jpg",
+    "photoCount": 9,
+    "baseMsrp": 51410,
+    "squishVin": "5TDACAB5RS",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-08-03",
+    "lastSeen": "2026-08-03",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-08-03",
+        "price": 47995
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.987,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States (Usa)",
+    "plantCity": "Princeton",
+    "plantSource": "vpic",
+    "trimConfidence": 0.9,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 46136,
+      "expected": 46538,
+      "adjustments": {
+        "cpo": 0.01,
+        "distance": -59.85
+      },
+      "dealDelta": 1457,
+      "dealPct": 0.0313,
+      "rating": "fair",
+      "dealScore": 0.167,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 2,
+        "cohortMedianDaysListed": 31,
+        "negotiability": "low"
+      }
+    },
+    "trimSite": "XLE",
+    "powertrainSite": "hybrid",
+    "cpoSite": "dealer",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "stored",
+        "tier": "site",
+        "host": "lithia.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "jsonld",
+        "mileage": 61,
+        "price": 48994
+      }
+    ],
+    "options": [
+      "Adaptive Cruise",
+      "Blind Spot Monitor",
+      "Heated Seats",
+      "Navigation",
+      "Power Liftgate",
+      "Second-Row Captain's Chairs",
+      "Wireless Charging"
+    ]
   },
   {
     "id": "api-5tdacab52rs007603",
@@ -750,8 +867,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 34,
+    "lastSeen": "2026-08-03",
+    "listedDays": 41,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -775,23 +892,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 53348,
-      "expected": 52531,
+      "marketValue": 52602,
+      "expected": 51797,
       "adjustments": {
         "owners": -0.015,
         "distance": -16.2
       },
-      "dealDelta": -935,
-      "dealPct": -0.0178,
+      "dealDelta": -201,
+      "dealPct": -0.0039,
       "rating": "fair",
-      "dealScore": 0.889,
+      "dealScore": 0.5,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 34,
-        "cohortMedianDaysListed": 13,
+        "listedDays": 41,
+        "cohortMedianDaysListed": 14,
         "negotiability": "high"
       }
     },
@@ -808,6 +925,269 @@
         "powertrain": "hybrid",
         "strength": "snippet",
         "mileage": 26848,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-5tdacab53rs005584",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 35780,
+    "price": 48362,
+    "priceBasis": "listing",
+    "dealer": "Nucar Toyota of Norwood",
+    "dealerId": "d_111b826f58e7b145",
+    "distanceMi": 13,
+    "state": "MA",
+    "city": "Norwood",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Beige",
+    "interiorColor": "Black",
+    "vin": "5TDACAB53RS005584",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.nucarhyundainorthkingstown.com/inventory/used-2024-toyota-grand-highlander-hybrid-xle-awd-4d-sport-utility-5tdacab53rs005584/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDACAB53RS005584&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5TDACAB53RS005584-1.jpg",
+    "photoCount": 10,
+    "baseMsrp": 51410,
+    "squishVin": "5TDACAB5RS",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-08-03",
+    "lastSeen": "2026-08-10",
+    "listedDays": 9,
+    "priceHistory": [
+      {
+        "date": "2026-08-03",
+        "price": 50526
+      },
+      {
+        "date": "2026-08-10",
+        "price": 48362
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.995,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States (Usa)",
+    "plantCity": "Princeton",
+    "plantSource": "vpic",
+    "trimConfidence": 0.988,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 48687,
+      "expected": 49174,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -812,
+      "dealPct": -0.0165,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 9,
+        "cohortMedianDaysListed": 31,
+        "priceDrop": {
+          "total": 2164,
+          "pct": -0.0428,
+          "drops": 1
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-03",
+    "trimSite": "XLE",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "site",
+        "host": "nucarhyundainorthkingstown.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "noyeschevrolet.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 35780,
+        "price": null
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 35780,
+        "price": 49997
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "cars.com",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "Engine",
+    "trimSearch": "XLE",
+    "powertrainSearch": "hybrid"
+  },
+  {
+    "id": "api-5tdacab53rs023695",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "XLE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XLE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 15824,
+    "price": 52700,
+    "priceBasis": "listing",
+    "dealer": "Balise Toyota",
+    "dealerId": "d_7fae420338344574",
+    "distanceMi": 82,
+    "state": "MA",
+    "city": "West Springfield",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "5TDACAB53RS023695",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-grand+highlander+hybrid#vin=5TDACAB53RS023695",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDACAB53RS023695&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5TDACAB53RS023695-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 46620,
+    "squishVin": "5TDACAB5RS",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-08-03",
+    "lastSeen": "2026-08-03",
+    "listedDays": 15,
+    "priceHistory": [
+      {
+        "date": "2026-08-03",
+        "price": 52700
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States (Usa)",
+    "plantCity": "Princeton",
+    "plantSource": "vpic",
+    "trimConfidence": 0.878,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 54110,
+      "expected": 54095,
+      "adjustments": {
+        "distance": -14.4
+      },
+      "dealDelta": -1395,
+      "dealPct": -0.0258,
+      "rating": "fair",
+      "dealScore": 0.917,
+      "basis": "cohort",
+      "cohortN": 12,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 15,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "medium"
+      }
+    },
+    "searchedAt": "2026-08-03",
+    "trimSearch": "Limited",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "cars.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
         "price": null
       }
     ]
@@ -855,8 +1235,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 23,
+    "lastSeen": "2026-08-03",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -884,20 +1264,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49263,
-      "expected": 49263,
+      "marketValue": 49864,
+      "expected": 49864,
       "adjustments": {},
-      "dealDelta": 182,
-      "dealPct": 0.0037,
+      "dealDelta": -419,
+      "dealPct": -0.0084,
       "rating": "fair",
-      "dealScore": 0.75,
-      "basis": "pooled",
-      "cohortN": 4,
-      "confidence": 0.4,
-      "ratingConfident": false,
+      "dealScore": 0.667,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 23,
-        "cohortMedianDaysListed": 26,
+        "listedDays": 30,
+        "cohortMedianDaysListed": 31,
         "priceDrop": {
           "total": 200,
           "pct": -0.004,
@@ -1001,8 +1381,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-27",
-    "lastSeen": "2026-07-27",
-    "listedDays": 2,
+    "lastSeen": "2026-08-10",
+    "listedDays": 16,
     "priceHistory": [
       {
         "date": "2026-07-27",
@@ -1119,7 +1499,7 @@
     "engine": "2.5L 4Cyl Gasoline",
     "year": 2024,
     "mileage": 47302,
-    "price": 52687,
+    "price": 52167,
     "priceBasis": "listing",
     "dealer": "McGee Toyota of Hanover",
     "dealerId": "d_2ab311a31ca1dcab",
@@ -1145,12 +1525,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 9,
+    "lastSeen": "2026-08-03",
+    "listedDays": 16,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 52687
+      },
+      {
+        "date": "2026-08-03",
+        "price": 52167
       }
     ],
     "sellerType": "franchise",
@@ -1215,10 +1599,10 @@
     "oneOwner": true,
     "usageType": "Taxi Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 32,
+    "lastSeen": "2026-07-31",
+    "listedDays": 36,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1246,23 +1630,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 47865,
-      "expected": 48284,
+      "marketValue": 43391,
+      "expected": 43765,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -59.85
       },
-      "dealDelta": -5312,
-      "dealPct": -0.11,
-      "rating": "great",
-      "dealScore": 1.0,
-      "basis": "pooled",
-      "cohortN": 4,
-      "confidence": 0.4,
-      "ratingConfident": false,
+      "dealDelta": -793,
+      "dealPct": -0.0181,
+      "rating": "fair",
+      "dealScore": 0.833,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 32,
-        "cohortMedianDaysListed": 26,
+        "listedDays": 36,
+        "cohortMedianDaysListed": 31,
         "priceDrop": {
           "total": 200,
           "pct": -0.0046,
@@ -1299,7 +1683,8 @@
       }
     ],
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab55rs021978",
@@ -1342,7 +1727,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-07-27",
     "listedDays": 7,
@@ -1414,7 +1799,7 @@
     "oneOwner": true,
     "usageType": "Lease",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-07-27",
     "listedDays": 13,
@@ -1441,23 +1826,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 53316,
-      "expected": 53794,
+      "marketValue": 52573,
+      "expected": 53044,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -54.9
       },
-      "dealDelta": -2796,
-      "dealPct": -0.052,
-      "rating": "good",
+      "dealDelta": -2046,
+      "dealPct": -0.0386,
+      "rating": "fair",
       "dealScore": 1.0,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 13,
-        "cohortMedianDaysListed": 13,
+        "cohortMedianDaysListed": 14,
         "negotiability": "low"
       }
     },
@@ -1517,7 +1902,7 @@
     "engine": "2.5L 4Cyl Gasoline",
     "year": 2024,
     "mileage": 52771,
-    "price": 53026,
+    "price": 49433,
     "priceBasis": "listing",
     "dealer": "Kelly Honda",
     "dealerId": "d_1add591d2fc5a0fc",
@@ -1543,12 +1928,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 16,
+    "lastSeen": "2026-08-10",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 53026
+      },
+      {
+        "date": "2026-07-31",
+        "price": 49433
       }
     ],
     "sellerType": "independent",
@@ -1568,23 +1957,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49446,
-      "expected": 48705,
+      "marketValue": 49056,
+      "expected": 48320,
       "adjustments": {
         "owners": -0.015
       },
-      "dealDelta": 4321,
-      "dealPct": 0.0887,
-      "rating": "high",
-      "dealScore": 0.111,
+      "dealDelta": 1113,
+      "dealPct": 0.023,
+      "rating": "fair",
+      "dealScore": 0.25,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 16,
-        "cohortMedianDaysListed": 13,
-        "negotiability": "medium"
+        "listedDays": 30,
+        "cohortMedianDaysListed": 14,
+        "priceDrop": {
+          "total": 3593,
+          "pct": -0.0678,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-22",
@@ -1685,23 +2079,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 52701,
-      "expected": 53192,
+      "marketValue": 52014,
+      "expected": 52498,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -36.0
       },
-      "dealDelta": 1798,
-      "dealPct": 0.0338,
+      "dealDelta": 2492,
+      "dealPct": 0.0475,
       "rating": "fair",
-      "dealScore": 0.333,
+      "dealScore": 0.167,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 3,
-        "cohortMedianDaysListed": 13,
+        "cohortMedianDaysListed": 14,
         "negotiability": "low"
       }
     },
@@ -1799,7 +2193,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-07-27",
     "listedDays": 34,
@@ -1877,8 +2271,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 18,
+    "lastSeen": "2026-08-10",
+    "listedDays": 32,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1902,23 +2296,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 48957,
-      "expected": 48220,
+      "marketValue": 48450,
+      "expected": 47720,
       "adjustments": {
         "owners": -0.015,
         "distance": -3.15
       },
-      "dealDelta": 555,
-      "dealPct": 0.0115,
+      "dealDelta": 1055,
+      "dealPct": 0.0221,
       "rating": "fair",
-      "dealScore": 0.5,
-      "basis": "pooled",
-      "cohortN": 4,
-      "confidence": 0.4,
-      "ratingConfident": false,
+      "dealScore": 0.333,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 18,
-        "cohortMedianDaysListed": 26,
+        "listedDays": 32,
+        "cohortMedianDaysListed": 31,
         "negotiability": "medium"
       }
     },
@@ -1995,8 +2389,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 23,
+    "lastSeen": "2026-08-03",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -2024,22 +2418,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 53165,
-      "expected": 53132,
+      "marketValue": 52435,
+      "expected": 52403,
       "adjustments": {
         "distance": -32.4
       },
-      "dealDelta": -134,
-      "dealPct": -0.0025,
+      "dealDelta": 595,
+      "dealPct": 0.0114,
       "rating": "fair",
-      "dealScore": 0.444,
+      "dealScore": 0.417,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 23,
-        "cohortMedianDaysListed": 13,
+        "listedDays": 30,
+        "cohortMedianDaysListed": 14,
         "priceDrop": {
           "total": 690,
           "pct": -0.0129,
@@ -2090,12 +2484,12 @@
     "powertrainSearch": "hybrid"
   },
   {
-    "id": "api-5tdacab58rs026155",
+    "id": "api-5tdacab58rs023997",
     "discoveredBy": "auto.dev",
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "XLE",
+    "trim": "Limited",
     "trimFeed": "XLE",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
@@ -2103,10 +2497,145 @@
     "series": "XLE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
     "transmission": "Automatic",
     "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 32421,
+    "price": 50997,
+    "priceBasis": "listing",
+    "dealer": "Herb Chambers Lexus Sharon",
+    "dealerId": "d_13ad40ab02e030fb",
+    "distanceMi": 18,
+    "state": "MA",
+    "city": "Sharon",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "5TDACAB58RS023997",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-grand+highlander+hybrid#vin=5TDACAB58RS023997",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDACAB58RS023997&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5TDACAB58RS023997-1.jpg",
+    "photoCount": 36,
+    "baseMsrp": 46620,
+    "squishVin": "5TDACAB5RS",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-07-31",
+    "lastSeen": "2026-08-10",
+    "listedDays": 14,
+    "priceHistory": [
+      {
+        "date": "2026-07-31",
+        "price": 51497
+      },
+      {
+        "date": "2026-08-10",
+        "price": 50997
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.984,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States (Usa)",
+    "plantCity": "Princeton",
+    "plantSource": "vpic",
+    "trimConfidence": 0.878,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 51839,
+      "expected": 52358,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -1361,
+      "dealPct": -0.026,
+      "rating": "fair",
+      "dealScore": 0.833,
+      "basis": "cohort",
+      "cohortN": 12,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 14,
+        "cohortMedianDaysListed": 14,
+        "priceDrop": {
+          "total": 500,
+          "pct": -0.0097,
+          "drops": 1
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-03",
+    "trimSearch": "Limited",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "powertrainSearch": "hybrid"
+  },
+  {
+    "id": "api-5tdacab58rs026155",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
     "engine": "2.5L 4Cyl regular unleaded",
     "year": 2024,
     "mileage": 2,
-    "price": 58027,
+    "price": 58202,
     "priceBasis": "listing",
     "dealer": "Westbury Toyota",
     "dealerId": "d_1153fadd8b5cd34e",
@@ -2115,7 +2644,7 @@
     "city": "Westbury",
     "cpo": "none",
     "cpoFeed": false,
-    "exteriorColor": null,
+    "exteriorColor": "White",
     "interiorColor": "Black",
     "vin": "5TDACAB58RS026155",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
@@ -2123,7 +2652,7 @@
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDACAB58RS026155&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5TDACAB58RS026155-1.jpg",
     "photoCount": 1,
-    "baseMsrp": 46620,
+    "baseMsrp": 51410,
     "squishVin": "5TDACAB5RS",
     "accidentCount": null,
     "ownerCount": null,
@@ -2132,12 +2661,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-07-27",
-    "listedDays": 23,
+    "lastSeen": "2026-08-10",
+    "listedDays": 479,
     "priceHistory": [
       {
         "date": "2026-07-22",
         "price": 58027
+      },
+      {
+        "date": "2026-08-10",
+        "price": 58202
       }
     ],
     "sellerType": "franchise",
@@ -2202,7 +2735,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-07-27",
     "listedDays": 23,
@@ -2232,6 +2765,124 @@
       "basis": "not-ready"
     },
     "searchedAt": "2026-07-22"
+  },
+  {
+    "id": "api-5tdacab59rs003323",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "XLE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XLE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 47362,
+    "price": 49550,
+    "priceBasis": "listing",
+    "dealer": "Hoffman Lexus",
+    "dealerId": "d_7d302fdd71ebb5ec",
+    "distanceMi": 92,
+    "state": "CT",
+    "city": "East Hartford",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Unspecified",
+    "interiorColor": "Gray",
+    "vin": "5TDACAB59RS003323",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.hoffmanlexus.com/used/Toyota/2024-Toyota-Grand-Highlander-ba0ef1a8ac1809a22d74242339d99ab1.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDACAB59RS003323&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5TDACAB59RS003323-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 46620,
+    "squishVin": "5TDACAB5RS",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-08-03",
+    "lastSeen": "2026-08-10",
+    "listedDays": 10,
+    "priceHistory": [
+      {
+        "date": "2026-08-03",
+        "price": 49550
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.995,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States (Usa)",
+    "plantCity": "Princeton",
+    "plantSource": "vpic",
+    "trimConfidence": 0.965,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 49796,
+      "expected": 50275,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -18.900000000000002
+      },
+      "dealDelta": -725,
+      "dealPct": -0.0144,
+      "rating": "fair",
+      "dealScore": 0.667,
+      "basis": "cohort",
+      "cohortN": 12,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 10,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-08-03",
+    "trimSite": "Limited",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "site",
+        "host": "hoffmanlexus.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": 48651
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "trimSearch": "Limited",
+    "powertrainSearch": "hybrid"
   },
   {
     "id": "api-5tdacab5xrs012581",
@@ -2276,8 +2927,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-27",
-    "lastSeen": "2026-07-27",
-    "listedDays": 8,
+    "lastSeen": "2026-08-03",
+    "listedDays": 15,
     "priceHistory": [
       {
         "date": "2026-07-27",
@@ -2301,24 +2952,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 53450,
-      "expected": 53953,
+      "marketValue": 52695,
+      "expected": 53190,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -31.5
       },
-      "dealDelta": 2206,
-      "dealPct": 0.0409,
-      "rating": "fair",
-      "dealScore": 0.222,
+      "dealDelta": 2969,
+      "dealPct": 0.0558,
+      "rating": "high",
+      "dealScore": 0.083,
       "basis": "cohort",
-      "cohortN": 9,
-      "confidence": 0.875,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 8,
-        "cohortMedianDaysListed": 13,
-        "negotiability": "low"
+        "listedDays": 15,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "medium"
       }
     },
     "searchedAt": "2026-07-27",
@@ -2359,5 +3010,92 @@
       }
     ],
     "powertrainSearch": "hybrid"
+  },
+  {
+    "id": "api-5tdacab5xrs019546",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 45057,
+    "price": 50483,
+    "priceBasis": "listing",
+    "dealer": "Toyota of Nashua",
+    "dealerId": "d_a704dc93ad5e67c1",
+    "distanceMi": 32,
+    "state": "NH",
+    "city": "Nashua",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Gray",
+    "vin": "5TDACAB5XRS019546",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-grand+highlander+hybrid#vin=5TDACAB5XRS019546",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDACAB5XRS019546&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5TDACAB5XRS019546-1.jpg",
+    "photoCount": 34,
+    "baseMsrp": 51410,
+    "squishVin": "5TDACAB5RS",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-08-03",
+    "lastSeen": "2026-08-03",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-08-03",
+        "price": 50483
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.955,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States (Usa)",
+    "plantCity": "Princeton",
+    "plantSource": "vpic",
+    "trimConfidence": 0.65,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-08-03",
+    "trimSearch": "XLE",
+    "powertrainSearch": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   }
 ]
