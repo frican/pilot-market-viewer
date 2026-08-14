@@ -42,8 +42,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-08-10",
-    "listedDays": 48,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -116,7 +116,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 21,
@@ -124,6 +124,78 @@
       {
         "date": "2026-08-10",
         "price": 52694
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid_max",
+    "powertrainConfidence": 0.8,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": true,
+    "powertrainConflict": true,
+    "plantCountry": "United States (Usa)",
+    "plantCity": "Princeton",
+    "plantSource": "vpic",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "exitReason": "out-of-scope"
+  },
+  {
+    "id": "api-5tdadab52rs002043",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid_max",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "MAX Limited 4dr SUV AWD (2.4L 4cyl Turbo gas/electric hybrid 6A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.4L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 43055,
+    "price": 55476,
+    "priceBasis": "listing",
+    "dealer": "Ira Toyota of Manchester",
+    "dealerId": "d_4d33895ac5e29098",
+    "distanceMi": 45,
+    "state": "NH",
+    "city": "Manchester",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Unspecified",
+    "vin": "5TDADAB52RS002043",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-grand+highlander+hybrid#vin=5TDADAB52RS002043",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDADAB52RS002043&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5TDADAB52RS002043-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 54390,
+    "squishVin": "5TDADAB5RS",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-08-14",
+    "lastSeen": "2026-08-14",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-08-14",
+        "price": 55476
       }
     ],
     "sellerType": "franchise",
@@ -451,7 +523,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 23,
@@ -540,7 +612,8 @@
     ],
     "stock": "I6245",
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid_max"
+    "powertrainSearch": "hybrid_max",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdadab56rs000392",
@@ -583,7 +656,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 48,
@@ -654,7 +727,8 @@
         "mileage": null,
         "price": 48695
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdadab56rs000442",
@@ -821,7 +895,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 32,
@@ -897,7 +971,8 @@
         "price": null
       }
     ],
-    "stock": "48392A"
+    "stock": "48392A",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdadab58rs004850",
@@ -942,8 +1017,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-08-10",
-    "listedDays": 46,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1012,7 +1087,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 12,
@@ -1040,6 +1115,7 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   }
 ]

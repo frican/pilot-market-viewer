@@ -113,7 +113,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 26,
@@ -209,7 +209,8 @@
       }
     ],
     "trimSearch": "Nightshade",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdabaa50ts35e900",
@@ -252,7 +253,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 15,
@@ -325,7 +326,8 @@
     ],
     "stock": "Sales",
     "trimSearch": "XLE",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdabaa52ts33e664",
@@ -368,7 +370,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -397,7 +399,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdabaa53ts33g214",
@@ -440,7 +443,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -512,7 +515,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdabaa53ts34e880",
@@ -555,7 +559,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 15,
@@ -588,7 +592,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdabaa53ts34e958",
@@ -631,7 +636,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 15,
@@ -696,7 +701,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdabaa53ts35g575",
@@ -739,7 +745,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 18,
@@ -800,7 +806,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdabaa54ts32g341",
@@ -843,7 +850,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 27,
@@ -872,7 +879,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdabaa55ts34g162",
@@ -915,7 +923,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 15,
@@ -959,7 +967,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdabaa56ts32f434",
@@ -1002,7 +1011,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -1076,7 +1085,8 @@
       }
     ],
     "trimSearch": "XLE",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdabaa56ts33e988",
@@ -1119,7 +1129,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -1148,7 +1158,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdabaa57ts34h295",
@@ -1191,7 +1202,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 17,
@@ -1219,7 +1230,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdabaa58ts33e636",
@@ -1262,7 +1274,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 23,
@@ -1291,7 +1303,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts076166",
@@ -1334,7 +1347,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -1363,7 +1376,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts076426",
@@ -1406,7 +1420,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-10",
     "listedDays": 14,
@@ -1438,7 +1452,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts104077",
@@ -1481,7 +1496,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 100,
@@ -1576,7 +1591,8 @@
     ],
     "stock": "267811",
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab50ts109263",
@@ -1966,7 +1982,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 9,
@@ -2010,7 +2026,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts115631",
@@ -2378,7 +2395,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -2406,7 +2423,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts118383",
@@ -2449,7 +2467,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 9,
@@ -2478,7 +2496,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts118528",
@@ -2521,7 +2540,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 8,
@@ -2549,7 +2568,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts118531",
@@ -2710,7 +2730,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 7,
@@ -2739,7 +2759,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts119176",
@@ -2782,7 +2803,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -2810,7 +2831,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts12g312",
@@ -2853,7 +2875,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -2896,7 +2918,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts27p405",
@@ -2939,7 +2962,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -3022,7 +3045,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts30p468",
@@ -3065,7 +3089,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -3137,7 +3161,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts31g062",
@@ -3180,7 +3205,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 22,
@@ -3209,7 +3234,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts31g823",
@@ -3252,7 +3278,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 22,
@@ -3337,7 +3363,8 @@
       }
     ],
     "trimSearch": "LE",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts31h275",
@@ -3380,7 +3407,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -3424,7 +3451,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts32e761",
@@ -3467,7 +3495,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 31,
@@ -3528,7 +3556,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts32e789",
@@ -3571,7 +3600,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -3646,7 +3675,8 @@
     ],
     "stock": "VIN",
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts32g610",
@@ -3689,7 +3719,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 31,
@@ -3733,7 +3763,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts33g117",
@@ -3776,7 +3807,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 15,
@@ -3841,7 +3872,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab50ts34f514",
@@ -3956,7 +3988,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -3985,7 +4017,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts02h160",
@@ -4028,7 +4061,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -4057,7 +4090,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts104041",
@@ -4172,7 +4206,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -4201,7 +4235,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts113144",
@@ -4348,7 +4383,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -4376,7 +4411,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts113841",
@@ -5005,7 +5041,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 11,
@@ -5033,7 +5069,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab51ts116982",
@@ -5220,7 +5257,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 11,
@@ -5294,7 +5331,8 @@
       }
     ],
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts118120",
@@ -5337,7 +5375,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 10,
@@ -5399,7 +5437,8 @@
         "price": null
       }
     ],
-    "stock": "TS118120"
+    "stock": "TS118120",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts118909",
@@ -5442,7 +5481,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 5,
@@ -5470,7 +5509,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts119042",
@@ -5513,7 +5553,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -5545,7 +5585,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts119137",
@@ -5588,7 +5629,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -5616,7 +5657,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab51ts119249",
@@ -5659,7 +5701,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -5687,7 +5729,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts29m925",
@@ -5928,7 +5971,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 27,
@@ -6000,7 +6043,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts32h152",
@@ -6115,7 +6159,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 16,
@@ -6159,7 +6203,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts33e800",
@@ -6202,7 +6247,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 31,
@@ -6263,7 +6308,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts33g921",
@@ -6415,7 +6461,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 13,
@@ -6444,7 +6490,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts34f554",
@@ -6559,7 +6606,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 18,
@@ -6642,7 +6689,8 @@
       }
     ],
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts35f405",
@@ -6685,7 +6733,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 18,
@@ -6714,7 +6762,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab51ts35h350",
@@ -6757,7 +6806,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -6785,7 +6834,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab52ts074094",
@@ -6828,7 +6878,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -6857,7 +6907,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab52ts082146",
@@ -6900,7 +6951,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -6929,7 +6980,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab52ts093986",
@@ -6972,7 +7024,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 2,
@@ -7000,7 +7052,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab52ts109894",
@@ -7041,12 +7094,12 @@
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Vehicle Use",
+    "usageType": "Personal Use",
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-31",
-    "lastSeen": "2026-08-10",
-    "listedDays": 14,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-07-31",
@@ -7190,7 +7243,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 24,
@@ -7219,7 +7272,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab52ts116666",
@@ -7494,7 +7548,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 11,
@@ -7567,7 +7621,8 @@
     ],
     "stock": "Sales",
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab52ts117705",
@@ -7610,7 +7665,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 11,
@@ -7639,7 +7694,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab52ts117817",
@@ -7682,7 +7738,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 10,
@@ -7710,7 +7766,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab52ts118868",
@@ -7753,7 +7810,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 6,
@@ -7781,7 +7838,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab52ts119227",
@@ -7824,7 +7882,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -7852,7 +7910,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab52ts119308",
@@ -7895,7 +7954,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -7923,7 +7982,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab52ts29n937",
@@ -8143,7 +8203,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 31,
@@ -8228,7 +8288,8 @@
       }
     ],
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab52ts32h337",
@@ -8271,7 +8332,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -8300,7 +8361,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab52ts33e479",
@@ -8415,7 +8477,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -8489,7 +8551,8 @@
       }
     ],
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab53ts066330",
@@ -8508,7 +8571,7 @@
     "engine": "2.5L 4Cyl regular unleaded",
     "year": 2026,
     "mileage": 6314,
-    "price": 53183,
+    "price": 52483,
     "priceBasis": "listing",
     "dealer": "McGovern Chevrolet of Plymouth",
     "dealerId": "d_27fb6e1dc1664698",
@@ -8534,8 +8597,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-08-03",
-    "listedDays": 14,
+    "lastSeen": "2026-08-14",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -8544,6 +8607,10 @@
       {
         "date": "2026-07-31",
         "price": 53183
+      },
+      {
+        "date": "2026-08-14",
+        "price": 52483
       }
     ],
     "sellerType": "independent",
@@ -8737,7 +8804,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 34,
@@ -8765,7 +8832,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab53ts114473",
@@ -8808,7 +8876,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 38,
@@ -8852,7 +8920,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab53ts114490",
@@ -9171,7 +9240,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 29,
@@ -9244,7 +9313,8 @@
     ],
     "stock": "TW552596",
     "trimSearch": "XLE",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab53ts115798",
@@ -9679,7 +9749,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 22,
@@ -9712,7 +9782,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab53ts117096",
@@ -9899,7 +9970,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 11,
@@ -9927,7 +9998,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab53ts117891",
@@ -9970,7 +10042,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -9998,7 +10070,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab53ts117924",
@@ -10041,7 +10114,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 10,
@@ -10069,7 +10142,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab53ts118068",
@@ -10112,7 +10186,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 9,
@@ -10144,7 +10218,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab53ts118118",
@@ -10187,7 +10262,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -10215,7 +10290,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab53ts118278",
@@ -10258,7 +10334,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 6,
@@ -10286,7 +10362,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab53ts118619",
@@ -10329,7 +10406,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -10357,7 +10434,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab53ts119138",
@@ -10400,7 +10478,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -10428,7 +10506,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab53ts119365",
@@ -10471,7 +10550,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 3,
@@ -10499,7 +10578,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab53ts119415",
@@ -10542,7 +10622,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 3,
@@ -10570,7 +10650,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab53ts29n915",
@@ -10930,7 +11011,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 27,
@@ -10959,7 +11040,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab53ts34f085",
@@ -11002,7 +11084,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 15,
@@ -11035,7 +11117,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab53ts51f977",
@@ -11176,7 +11259,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -11220,7 +11303,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts106687",
@@ -11263,7 +11347,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 24,
@@ -11292,7 +11376,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts111050",
@@ -11335,7 +11420,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 5,
@@ -11363,7 +11448,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts113266",
@@ -11887,7 +11973,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 39,
@@ -11916,7 +12002,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts115602",
@@ -12484,7 +12571,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 10,
@@ -12512,7 +12599,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts118306",
@@ -12555,7 +12643,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 9,
@@ -12583,7 +12671,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts118421",
@@ -12626,7 +12715,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 9,
@@ -12654,7 +12743,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab54ts118449",
@@ -12697,7 +12787,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 7,
@@ -12725,7 +12815,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts118922",
@@ -12768,7 +12859,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 5,
@@ -12796,7 +12887,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab54ts18e763",
@@ -12839,7 +12931,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -12913,7 +13005,8 @@
       }
     ],
     "trimSearch": "XLE",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts29n521",
@@ -13071,7 +13164,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 23,
@@ -13100,7 +13193,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts31h988",
@@ -13286,7 +13380,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -13315,7 +13409,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab54ts32g271",
@@ -13474,7 +13569,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 11,
@@ -13502,7 +13597,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts33f956",
@@ -13666,7 +13762,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 7,
@@ -13698,7 +13794,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab54ts34f077",
@@ -13741,7 +13838,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 15,
@@ -13770,7 +13867,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts34f130",
@@ -13813,7 +13911,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -13841,7 +13939,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts34h007",
@@ -13884,7 +13983,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -13912,7 +14011,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts35h262",
@@ -13955,7 +14055,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 17,
@@ -13999,7 +14099,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab54ts51f423",
@@ -14042,7 +14143,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -14071,7 +14172,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab55ts080259",
@@ -14114,7 +14216,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -14158,7 +14260,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab55ts082769",
@@ -14201,7 +14304,7 @@
     "oneOwner": true,
     "usageType": "Vehicle Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 41,
@@ -14288,7 +14391,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab55ts094646",
@@ -14331,7 +14435,7 @@
     "oneOwner": false,
     "usageType": "Vehicle Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 13,
@@ -14360,7 +14464,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab55ts113535",
@@ -15403,7 +15508,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -15431,7 +15536,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab55ts119285",
@@ -15474,7 +15580,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -15502,7 +15608,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab55ts31f554",
@@ -15545,7 +15652,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 18,
@@ -15574,7 +15681,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab55ts31g994",
@@ -15617,7 +15725,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -15672,7 +15780,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab55ts33f416",
@@ -15715,7 +15824,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -15744,7 +15853,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab55ts33f903",
@@ -15787,7 +15897,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 15,
@@ -15816,7 +15926,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab55ts33g503",
@@ -15859,7 +15970,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 27,
@@ -15887,7 +15998,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab55ts34f184",
@@ -15930,7 +16042,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 17,
@@ -15959,7 +16071,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab55ts34g187",
@@ -16002,7 +16115,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 7,
@@ -16030,7 +16143,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab55ts34g500",
@@ -16160,7 +16274,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -16188,7 +16302,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab55ts35f200",
@@ -16305,8 +16420,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-08-03",
-    "listedDays": 30,
+    "lastSeen": "2026-08-14",
+    "listedDays": 2,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -16350,9 +16465,9 @@
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 30,
+        "listedDays": 2,
         "cohortMedianDaysListed": 18,
-        "negotiability": "high"
+        "negotiability": "low"
       }
     },
     "searchedAt": "2026-07-22",
@@ -16538,7 +16653,7 @@
     "engine": "2.5L 4Cyl Gasoline",
     "year": 2026,
     "mileage": 4067,
-    "price": 59628,
+    "price": 58925,
     "priceBasis": "listing",
     "dealer": "North Shore Mazda",
     "dealerId": "d_3825d1606790db45",
@@ -16564,8 +16679,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-08-10",
-    "listedDays": 32,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -16574,6 +16689,10 @@
       {
         "date": "2026-07-31",
         "price": 59628
+      },
+      {
+        "date": "2026-08-14",
+        "price": 58925
       }
     ],
     "sellerType": "independent",
@@ -16653,7 +16772,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -16682,7 +16801,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab56ts112359",
@@ -16725,7 +16845,7 @@
     "oneOwner": true,
     "usageType": "Vehicle Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 13,
@@ -16757,7 +16877,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab56ts113625",
@@ -16800,7 +16921,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 19,
@@ -16872,7 +16993,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab56ts114158",
@@ -16915,7 +17037,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 40,
@@ -16944,7 +17066,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab56ts115214",
@@ -17308,7 +17431,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 25,
@@ -17382,7 +17505,8 @@
       }
     ],
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab56ts116721",
@@ -17573,7 +17697,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 9,
@@ -17601,7 +17725,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab56ts118114",
@@ -17644,7 +17769,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 6,
@@ -17672,7 +17797,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab56ts118503",
@@ -17715,7 +17841,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 6,
@@ -17743,7 +17869,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab56ts118601",
@@ -17786,7 +17913,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 6,
@@ -17814,7 +17941,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab56ts25f901",
@@ -17857,7 +17985,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -17886,7 +18014,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab56ts30n904",
@@ -18029,7 +18158,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -18058,7 +18187,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab56ts30p829",
@@ -18173,7 +18303,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 22,
@@ -18256,7 +18386,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab56ts31h278",
@@ -18417,7 +18548,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 22,
@@ -18446,7 +18577,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab56ts32f980",
@@ -18489,7 +18621,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 16,
@@ -18518,7 +18650,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab56ts32g109",
@@ -18561,7 +18694,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -18590,7 +18723,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab56ts33f666",
@@ -18734,7 +18868,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 17,
@@ -18763,7 +18897,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab56ts35f772",
@@ -18878,7 +19013,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 9,
@@ -18906,7 +19041,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab56ts52c275",
@@ -18949,7 +19085,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -18993,7 +19129,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts076083",
@@ -19036,7 +19173,7 @@
     "oneOwner": true,
     "usageType": "Commercial Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-10",
     "listedDays": 18,
@@ -19068,7 +19205,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts080635",
@@ -19111,7 +19249,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -19140,7 +19278,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts102875",
@@ -19183,7 +19322,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 25,
@@ -19227,7 +19366,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab57ts113326",
@@ -19270,7 +19410,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 19,
@@ -19336,7 +19476,8 @@
       "Blind Spot Monitor",
       "Power Liftgate",
       "Second-Row Captain's Chairs"
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts114086",
@@ -19379,7 +19520,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 40,
@@ -19408,7 +19549,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts115657",
@@ -19858,7 +20000,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 11,
@@ -19890,7 +20032,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts117148",
@@ -20004,7 +20147,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 12,
@@ -20032,7 +20175,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab57ts117392",
@@ -20075,7 +20219,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 12,
@@ -20103,7 +20247,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts117778",
@@ -20146,7 +20291,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 10,
@@ -20174,7 +20319,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts118154",
@@ -20217,7 +20363,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 10,
@@ -20245,7 +20391,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts118283",
@@ -20288,7 +20435,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 6,
@@ -20316,7 +20463,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts118767",
@@ -20359,7 +20507,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -20387,7 +20535,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts118896",
@@ -20430,7 +20579,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -20458,7 +20607,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts13g058",
@@ -20501,7 +20651,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -20530,7 +20680,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts29n156",
@@ -20677,7 +20828,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -20762,7 +20913,8 @@
       }
     ],
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts31h340",
@@ -20805,7 +20957,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 24,
@@ -20877,7 +21029,8 @@
       }
     ],
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab57ts32e949",
@@ -21065,7 +21218,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -21094,7 +21247,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts33f966",
@@ -21137,7 +21291,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 27,
@@ -21166,7 +21320,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab57ts35g218",
@@ -21281,7 +21436,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 11,
@@ -21309,7 +21464,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab58ts105140",
@@ -21474,7 +21630,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 14,
@@ -21507,7 +21663,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab58ts113710",
@@ -21995,7 +22152,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 11,
@@ -22023,7 +22180,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab58ts118485",
@@ -22066,7 +22224,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 6,
@@ -22094,7 +22252,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab58ts119068",
@@ -22137,7 +22296,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -22165,7 +22324,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab58ts29n215",
@@ -22535,7 +22695,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 25,
@@ -22620,7 +22780,8 @@
       }
     ],
     "trimSearch": "LE",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab58ts33g267",
@@ -22735,7 +22896,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -22779,7 +22940,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab58ts33g530",
@@ -22822,7 +22984,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 2,
@@ -22850,7 +23012,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab58ts33h225",
@@ -22893,7 +23056,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -22976,7 +23139,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab58ts50f199",
@@ -23019,7 +23183,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -23048,7 +23212,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab58ts50f364",
@@ -23091,7 +23256,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -23120,7 +23285,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab58ts50f719",
@@ -23163,7 +23329,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -23192,7 +23358,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts079504",
@@ -23235,7 +23402,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -23264,7 +23431,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts079888",
@@ -23307,7 +23475,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -23336,7 +23504,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts083343",
@@ -23379,7 +23548,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 209,
@@ -23408,7 +23577,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts106765",
@@ -23451,7 +23621,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -23495,7 +23665,8 @@
         "mileage": null,
         "price": 56643
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts109021",
@@ -23538,7 +23709,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 22,
@@ -23614,7 +23785,8 @@
         "price": null
       }
     ],
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts113666",
@@ -24491,7 +24663,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 7,
@@ -24519,7 +24691,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts117216",
@@ -24562,7 +24735,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 3,
@@ -24590,7 +24763,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts117782",
@@ -24633,7 +24807,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 12,
@@ -24661,7 +24835,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts118043",
@@ -24704,7 +24879,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 9,
@@ -24732,7 +24907,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab59ts119631",
@@ -24775,7 +24951,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 2,
@@ -24803,7 +24979,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts19h122",
@@ -24846,7 +25023,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -24889,7 +25066,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts29m784",
@@ -25231,7 +25409,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 6,
@@ -25259,7 +25437,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts32f987",
@@ -25302,7 +25481,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 22,
@@ -25387,7 +25566,8 @@
       }
     ],
     "trimSearch": "LE",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts32h416",
@@ -25430,7 +25610,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -25459,7 +25639,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab59ts33f189",
@@ -25502,7 +25683,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 24,
@@ -25598,7 +25779,8 @@
       }
     ],
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts33f340",
@@ -25641,7 +25823,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 22,
@@ -25724,7 +25906,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts34e989",
@@ -25767,7 +25950,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 17,
@@ -25832,7 +26015,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts34f611",
@@ -26034,7 +26218,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 18,
@@ -26104,7 +26288,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab59ts35h287",
@@ -26147,7 +26332,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 18,
@@ -26208,7 +26393,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab5xts076630",
@@ -26649,7 +26835,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 21,
@@ -26678,7 +26864,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab5xts116706",
@@ -26721,7 +26908,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 11,
@@ -26749,7 +26936,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab5xts117256",
@@ -26792,7 +26980,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 12,
@@ -26821,7 +27009,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab5xts117371",
@@ -26864,7 +27053,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 11,
@@ -26892,7 +27081,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab5xts117600",
@@ -26935,7 +27125,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 12,
@@ -26963,7 +27153,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab5xts117807",
@@ -27006,7 +27197,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 11,
@@ -27034,7 +27225,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab5xts118536",
@@ -27077,7 +27269,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 7,
@@ -27105,7 +27297,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab5xts119122",
@@ -27148,7 +27341,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -27176,7 +27369,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab5xts119198",
@@ -27219,7 +27413,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -27247,7 +27441,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab5xts29n992",
@@ -27657,7 +27852,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -27712,7 +27907,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab5xts32f884",
@@ -27755,7 +27951,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -27829,7 +28025,8 @@
       }
     ],
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab5xts33e780",
@@ -27872,7 +28069,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 25,
@@ -27945,7 +28142,8 @@
     ],
     "stock": "TCT8764",
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid"
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdacab5xts34g590",
@@ -27988,7 +28186,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -28016,7 +28214,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab5xts35f368",
@@ -28059,7 +28258,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 15,
@@ -28088,7 +28287,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab5xts35g097",
@@ -28131,7 +28331,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 12,
@@ -28159,7 +28359,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdacab5xts35g522",
@@ -28202,7 +28403,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 17,
@@ -28231,6 +28432,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   }
 ]

@@ -40,7 +40,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 55,
@@ -122,7 +122,8 @@
         "price": null
       }
     ],
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h01mb041429",
@@ -138,7 +139,7 @@
     "series": "Elite 4dr SUV AWD (3.5L 6cyl 9A)",
     "transmission": "Automatic",
     "drivetrain": "AWD",
-    "engine": "3.5L 6Cyl regular unleaded",
+    "engine": "3.5L 6Cyl Gasoline",
     "year": 2021,
     "mileage": 60545,
     "price": 31419,
@@ -160,15 +161,15 @@
     "photoCount": 2,
     "baseMsrp": 48720,
     "squishVin": "5FNYF6H0MB",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 2,
+    "lastSeen": "2026-08-14",
+    "listedDays": 6,
     "priceHistory": [
       {
         "date": "2026-08-10",
@@ -192,10 +193,12 @@
     "cohortReady": true,
     "valuation": {
       "marketValue": 31448,
-      "expected": 31448,
-      "adjustments": {},
-      "dealDelta": -29,
-      "dealPct": -0.0009,
+      "expected": 30977,
+      "adjustments": {
+        "owners": -0.015
+      },
+      "dealDelta": 442,
+      "dealPct": 0.0143,
       "rating": "fair",
       "dealScore": 0.833,
       "basis": "cohort",
@@ -203,8 +206,8 @@
       "confidence": 0.75,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 2,
-        "cohortMedianDaysListed": 27,
+        "listedDays": 6,
+        "cohortMedianDaysListed": 6,
         "negotiability": "low"
       }
     },
@@ -288,7 +291,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 123,
@@ -329,7 +332,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 123,
-        "cohortMedianDaysListed": 27,
+        "cohortMedianDaysListed": 6,
         "negotiability": "high"
       }
     },
@@ -359,7 +362,78 @@
         "price": null
       }
     ],
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "exitReason": "out-of-scope"
+  },
+  {
+    "id": "api-5fnyf6h01mb051667",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Elite",
+    "trimFeed": "Elite",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "Elite 4dr SUV AWD (3.5L 6cyl 9A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl Gasoline",
+    "year": 2021,
+    "mileage": 151529,
+    "price": 18267,
+    "priceBasis": "listing",
+    "dealer": "Herb Chambers Honda Seekonk",
+    "dealerId": null,
+    "distanceMi": 40,
+    "state": "MA",
+    "city": "Seekonk",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Gray",
+    "vin": "5FNYF6H01MB051667",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carfax.com/vehicle/5FNYF6H01MB051667",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYF6H01MB051667&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYF6H01MB051667-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 48720,
+    "squishVin": "5FNYF6H0MB",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-08-14",
+    "lastSeen": "2026-08-14",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-08-14",
+        "price": 18267
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
   },
   {
     "id": "api-5fnyf6h02mb023859",
@@ -404,8 +478,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 48,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-08-10",
@@ -443,9 +517,9 @@
       "confidence": 0.75,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 48,
-        "cohortMedianDaysListed": 27,
-        "negotiability": "high"
+        "listedDays": 5,
+        "cohortMedianDaysListed": 6,
+        "negotiability": "low"
       }
     },
     "searchedAt": "2026-08-10",
@@ -528,7 +602,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 2,
@@ -570,7 +644,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 2,
-        "cohortMedianDaysListed": 27,
+        "cohortMedianDaysListed": 6,
         "negotiability": "low"
       }
     },
@@ -589,7 +663,8 @@
         "price": null
       }
     ],
-    "stock": "B37093T"
+    "stock": "B37093T",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h08mb082236",
@@ -610,8 +685,8 @@
     "mileage": 83155,
     "price": 28995,
     "priceBasis": "listing",
-    "dealer": "Elmwood Auto Group Inc",
-    "dealerId": "d_5b0ffd03240ecc42",
+    "dealer": "Elmwood Chrysler Dodge Jeep Ram",
+    "dealerId": "d_42a63d1f61785a7c",
     "distanceMi": 40,
     "state": "RI",
     "city": "East Providence",
@@ -630,12 +705,12 @@
     "accidentCount": 0,
     "ownerCount": 2,
     "oneOwner": false,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 6,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-08-10",
@@ -672,8 +747,8 @@
       "confidence": 0.75,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 6,
-        "cohortMedianDaysListed": 27,
+        "listedDays": 5,
+        "cohortMedianDaysListed": 6,
         "negotiability": "low"
       }
     },
@@ -745,7 +820,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 328,
@@ -786,7 +861,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 328,
-        "cohortMedianDaysListed": 27,
+        "cohortMedianDaysListed": 6,
         "negotiability": "high"
       }
     },
@@ -826,7 +901,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h13mb011485",
@@ -842,13 +918,13 @@
     "series": null,
     "transmission": "9-speed Automatic",
     "drivetrain": "AWD",
-    "engine": "3.5L V-6 cyl",
+    "engine": "3.5L V-6",
     "year": 2021,
     "mileage": 45832,
-    "price": 26467,
+    "price": 29977,
     "priceBasis": "listing",
-    "dealer": "imperial subaru",
-    "dealerId": "d_6201b993cd6fc970",
+    "dealer": "imperial chrysler jeep dodge",
+    "dealerId": "d_23761bdb3c872f63",
     "distanceMi": 31,
     "state": "MA",
     "city": "North Attleboro",
@@ -871,12 +947,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 46,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-08-10",
         "price": 26467
+      },
+      {
+        "date": "2026-08-14",
+        "price": 29977
       }
     ],
     "sellerType": "independent",
@@ -898,9 +978,9 @@
       "basis": "none",
       "cohortN": 1,
       "signals": {
-        "listedDays": 46,
-        "cohortMedianDaysListed": 46,
-        "negotiability": "medium"
+        "listedDays": 5,
+        "cohortMedianDaysListed": 5,
+        "negotiability": "low"
       }
     },
     "trimSite": "LX",
@@ -963,7 +1043,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 17,
@@ -989,15 +1069,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 5838,
-      "expected": 5425,
+      "marketValue": 5865,
+      "expected": 5450,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "distance": -62.550000000000004
       },
-      "dealDelta": 11070,
-      "dealPct": 2.0406,
+      "dealDelta": 11045,
+      "dealPct": 2.0264,
       "rating": "overpriced",
       "dealScore": 0.333,
       "basis": "pooled",
@@ -1046,7 +1126,78 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
+  },
+  {
+    "id": "api-5fnyf6h22mb023989",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Special Edition",
+    "trimFeed": "Special Edition",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": null,
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L V-6 cyl",
+    "year": 2021,
+    "mileage": 122451,
+    "price": 20797,
+    "priceBasis": "listing",
+    "dealer": "ira subaru",
+    "dealerId": "d_08ee3bf706326dfd",
+    "distanceMi": 14,
+    "state": "MA",
+    "city": "Danvers",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Lunar Silver Metallic",
+    "interiorColor": "Gray",
+    "vin": "5FNYF6H22MB023989",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://irasubaru.com/used/Honda/2021-Honda-Pilot-e8611549ac18341fab2e75cb508b4005.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYF6H22MB023989&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYF6H22MB023989-1.jpg",
+    "photoCount": 37,
+    "baseMsrp": null,
+    "squishVin": "5FNYF6H2MB",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-08-14",
+    "lastSeen": "2026-08-14",
+    "listedDays": 3,
+    "priceHistory": [
+      {
+        "date": "2026-08-14",
+        "price": 20797
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
   },
   {
     "id": "api-5fnyf6h31mb087126",
@@ -1089,7 +1240,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -1183,7 +1334,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX"
+    "trimSearch": "EX",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h33mb018003",
@@ -1226,7 +1378,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 4,
@@ -1268,7 +1420,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h33mb033987",
@@ -1311,7 +1464,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 34,
@@ -1392,7 +1545,8 @@
         "mileage": 64772,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h35mb032470",
@@ -1435,7 +1589,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 33,
@@ -1519,7 +1673,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX"
+    "trimSearch": "EX",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h35mb054002",
@@ -1562,7 +1717,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -1633,7 +1788,8 @@
         "mileage": 76234,
         "price": 23995
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h36mb093388",
@@ -1676,7 +1832,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -1772,7 +1928,8 @@
       }
     ],
     "stock": "ID",
-    "trimSearch": "EX"
+    "trimSearch": "EX",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h39mb027322",
@@ -1815,7 +1972,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 102,
@@ -1885,7 +2042,78 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
+  },
+  {
+    "id": "api-5fnyf6h50mb032619",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "EX-L",
+    "trimFeed": "EX-L",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "EX-L 4dr SUV AWD (3.5L 6cyl 9A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl Gasoline",
+    "year": 2021,
+    "mileage": 55611,
+    "price": 29490,
+    "priceBasis": "listing",
+    "dealer": "Mercedes-Benz of Hanover",
+    "dealerId": null,
+    "distanceMi": 18,
+    "state": "MA",
+    "city": "Hanover",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Tan",
+    "vin": "5FNYF6H50MB032619",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carfax.com/vehicle/5FNYF6H50MB032619",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYF6H50MB032619&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYF6H50MB032619-1.jpg",
+    "photoCount": 31,
+    "baseMsrp": 40660,
+    "squishVin": "5FNYF6H5MB",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-08-14",
+    "lastSeen": "2026-08-14",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-08-14",
+        "price": 29490
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
   },
   {
     "id": "api-5fnyf6h50mb073820",
@@ -1928,7 +2156,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 1,
@@ -1956,7 +2184,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-08-10"
+    "searchedAt": "2026-08-10",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h51mb065404",
@@ -1999,7 +2228,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 12,
@@ -2042,7 +2271,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 12,
-        "cohortMedianDaysListed": 15,
+        "cohortMedianDaysListed": 12,
         "negotiability": "low"
       }
     },
@@ -2072,7 +2301,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h53mb025650",
@@ -2115,7 +2345,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -2157,7 +2387,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 46,
-        "cohortMedianDaysListed": 15,
+        "cohortMedianDaysListed": 12,
         "negotiability": "high"
       }
     },
@@ -2187,7 +2417,8 @@
         "price": null
       }
     ],
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5fnyf6h54mb010168",
@@ -2230,7 +2461,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -2272,7 +2503,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h54mb059533",
@@ -2315,7 +2547,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 48,
@@ -2357,7 +2589,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 48,
-        "cohortMedianDaysListed": 15,
+        "cohortMedianDaysListed": 12,
         "negotiability": "high"
       }
     },
@@ -2410,7 +2642,8 @@
       }
     ],
     "stock": "262734B",
-    "trimSearch": "Elite"
+    "trimSearch": "Elite",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h54mb063162",
@@ -2453,7 +2686,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 7,
@@ -2489,14 +2722,14 @@
       "dealDelta": 2542,
       "dealPct": 0.0992,
       "rating": "high",
-      "dealScore": 0.286,
+      "dealScore": 0.143,
       "basis": "cohort",
       "cohortN": 7,
       "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
         "listedDays": 7,
-        "cohortMedianDaysListed": 15,
+        "cohortMedianDaysListed": 12,
         "negotiability": "low"
       }
     },
@@ -2538,7 +2771,148 @@
       }
     ],
     "stock": "U2147A",
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "exitReason": "out-of-scope"
+  },
+  {
+    "id": "api-5fnyf6h55mb096302",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "EX-L",
+    "trimFeed": "EX-L",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "EX-L 4dr SUV AWD (3.5L 6cyl 9A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl Gasoline",
+    "year": 2021,
+    "mileage": 91438,
+    "price": 25585,
+    "priceBasis": "listing",
+    "dealer": "McGovern Chevrolet of Arlington",
+    "dealerId": "d_2dc90370238b32a4",
+    "distanceMi": 7,
+    "state": "MA",
+    "city": "Arlington",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Deep Scarlet Pearl",
+    "interiorColor": "Beige leather",
+    "vin": "5FNYF6H55MB096302",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/honda-pilot#vin=5FNYF6H55MB096302",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYF6H55MB096302&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYF6H55MB096302-1.jpg",
+    "photoCount": 31,
+    "baseMsrp": 40660,
+    "squishVin": "5FNYF6H5MB",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Lease",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-08-14",
+    "lastSeen": "2026-08-14",
+    "listedDays": 23,
+    "priceHistory": [
+      {
+        "date": "2026-08-14",
+        "price": 25585
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
+  },
+  {
+    "id": "api-5fnyf6h55mb102812",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "EX-L",
+    "trimFeed": "EX-L",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "EX-L 4dr SUV AWD (3.5L 6cyl 9A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "3.5L 6Cyl Gasoline",
+    "year": 2021,
+    "mileage": 57991,
+    "price": 28472,
+    "priceBasis": "listing",
+    "dealer": "1st International Auto Group",
+    "dealerId": "d_09b6aff7e9eb49d9",
+    "distanceMi": 33,
+    "state": "NH",
+    "city": "Merrimack",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Crystal Black Pearl",
+    "interiorColor": "Black leather",
+    "vin": "5FNYF6H55MB102812",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/honda-pilot#vin=5FNYF6H55MB102812",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYF6H55MB102812&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5FNYF6H55MB102812-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 40660,
+    "squishVin": "5FNYF6H5MB",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Lease",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-08-14",
+    "lastSeen": "2026-08-14",
+    "listedDays": 51,
+    "priceHistory": [
+      {
+        "date": "2026-08-14",
+        "price": 28472
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
   },
   {
     "id": "api-5fnyf6h56mb044497",
@@ -2581,7 +2955,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 20,
@@ -2623,7 +2997,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h58mb014174",
@@ -2666,7 +3041,7 @@
     "oneOwner": false,
     "usageType": "Multiple Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 10,
@@ -2694,7 +3069,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-08-10"
+    "searchedAt": "2026-08-10",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h5xmb026195",
@@ -2737,7 +3113,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 2,
@@ -2779,7 +3155,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 2,
-        "cohortMedianDaysListed": 15,
+        "cohortMedianDaysListed": 12,
         "negotiability": "low"
       }
     },
@@ -2810,7 +3186,8 @@
       }
     ],
     "stock": "39833",
-    "trimSearch": "EX-L"
+    "trimSearch": "EX-L",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h5xmb032854",
@@ -2853,7 +3230,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 16,
@@ -2879,14 +3256,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 31431,
-      "expected": 31687,
+      "marketValue": 31423,
+      "expected": 31679,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -58.050000000000004
       },
-      "dealDelta": -5213,
-      "dealPct": -0.1645,
+      "dealDelta": -5205,
+      "dealPct": -0.1643,
       "rating": "great",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -2914,7 +3291,8 @@
         "price": null
       }
     ],
-    "stock": "BY70578"
+    "stock": "BY70578",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h5xmb058094",
@@ -2933,10 +3311,10 @@
     "engine": "3.5L 6Cyl Gasoline",
     "year": 2021,
     "mileage": 89450,
-    "price": 25979,
+    "price": 25179,
     "priceBasis": "listing",
-    "dealer": "Nucar Honda of Norwood",
-    "dealerId": "d_0363d5ea06c20d8b",
+    "dealer": "Nucar Honda Norwood",
+    "dealerId": "d_cfdc03cfbacb35ee",
     "distanceMi": 13,
     "state": "MA",
     "city": "Norwood",
@@ -2953,18 +3331,22 @@
     "baseMsrp": 40660,
     "squishVin": "5FNYF6H5MB",
     "accidentCount": 1,
-    "ownerCount": 2,
-    "oneOwner": false,
-    "usageType": "Personal Use",
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 17,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-08-10",
         "price": 25979
+      },
+      {
+        "date": "2026-08-14",
+        "price": 25179
       }
     ],
     "sellerType": "franchise",
@@ -2984,23 +3366,28 @@
     "cohortReady": true,
     "valuation": {
       "marketValue": 24482,
-      "expected": 22401,
+      "expected": 23013,
       "adjustments": {
         "accidents": -0.07,
-        "owners": -0.015
+        "oneOwner": 0.01
       },
-      "dealDelta": 3578,
-      "dealPct": 0.1597,
-      "rating": "overpriced",
-      "dealScore": 0.143,
+      "dealDelta": 2166,
+      "dealPct": 0.0941,
+      "rating": "high",
+      "dealScore": 0.286,
       "basis": "cohort",
       "cohortN": 7,
       "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 17,
-        "cohortMedianDaysListed": 15,
-        "negotiability": "medium"
+        "listedDays": 5,
+        "cohortMedianDaysListed": 12,
+        "priceDrop": {
+          "total": 800,
+          "pct": -0.0308,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-08-10",
@@ -3094,7 +3481,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 15,
@@ -3137,7 +3524,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 15,
-        "cohortMedianDaysListed": 15,
+        "cohortMedianDaysListed": 12,
         "negotiability": "medium"
       }
     },
@@ -3180,7 +3567,8 @@
     ],
     "stock": "TL006575A",
     "trimSearch": "EX-L",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h5xmb098854",
@@ -3225,8 +3613,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 15,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-08-10",
@@ -3264,9 +3652,9 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 15,
+        "listedDays": 5,
         "cohortMedianDaysListed": 16,
-        "negotiability": "medium"
+        "negotiability": "low"
       }
     },
     "searchedAt": "2026-08-10",
@@ -3348,7 +3736,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 15,
@@ -3419,7 +3807,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h61mb092742",
@@ -3462,7 +3851,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 44,
@@ -3504,7 +3893,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h62mb026488",
@@ -3547,7 +3937,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 42,
@@ -3642,7 +4032,8 @@
       }
     ],
     "stock": "Number",
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h66mb064189",
@@ -3658,14 +4049,14 @@
     "series": "Touring 4dr SUV AWD w/Rear Captain's Chairs (3.5L 6cyl 9A)",
     "transmission": "Automatic",
     "drivetrain": "AWD",
-    "engine": "3.5L 6Cyl regular unleaded",
+    "engine": "3.5L 6Cyl Gasoline",
     "year": 2021,
     "mileage": 41009,
     "price": 32997,
     "priceBasis": "listing",
     "dealer": "Auto Gals, Inc.",
-    "dealerId": "d_aa2613345d807dd0",
-    "distanceMi": 48,
+    "dealerId": "d_8cd0b51dfe6e6d2b",
+    "distanceMi": 43,
     "state": "MA",
     "city": "Fall River",
     "cpo": "none",
@@ -3680,15 +4071,15 @@
     "photoCount": 27,
     "baseMsrp": 45520,
     "squishVin": "5FNYF6H6MB",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 2,
+    "lastSeen": "2026-08-14",
+    "listedDays": 6,
     "priceHistory": [
       {
         "date": "2026-08-10",
@@ -3770,7 +4161,7 @@
     "oneOwner": false,
     "usageType": "Multiple Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 38,
@@ -3812,7 +4203,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h74mb064426",
@@ -3831,7 +4223,7 @@
     "engine": "3.5L 6Cyl Gasoline",
     "year": 2021,
     "mileage": 51078,
-    "price": 34995,
+    "price": 35459,
     "priceBasis": "listing",
     "dealer": "Nashua Kia",
     "dealerId": "d_e530630b5f8baf01",
@@ -3847,7 +4239,7 @@
     "url": "https://www.nashuahyundai.com/viewdetails/used/5fnyf6h74mb064426/2021-honda-pilot-sport-utility",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5FNYF6H74MB064426&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5FNYF6H74MB064426-1.jpg",
-    "photoCount": 16,
+    "photoCount": 42,
     "baseMsrp": 50220,
     "squishVin": "5FNYF6H7MB",
     "accidentCount": 1,
@@ -3857,12 +4249,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 26,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-08-10",
         "price": 34995
+      },
+      {
+        "date": "2026-08-14",
+        "price": 35459
       }
     ],
     "sellerType": "independent",
@@ -3881,14 +4277,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 34446,
-      "expected": 31518,
+      "marketValue": 34678,
+      "expected": 31730,
       "adjustments": {
         "accidents": -0.07,
         "owners": -0.015
       },
-      "dealDelta": 3477,
-      "dealPct": 0.1103,
+      "dealDelta": 3729,
+      "dealPct": 0.1175,
       "rating": "overpriced",
       "dealScore": 0.25,
       "basis": "pooled",
@@ -3896,9 +4292,9 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 26,
-        "cohortMedianDaysListed": 36,
-        "negotiability": "medium"
+        "listedDays": 5,
+        "cohortMedianDaysListed": 32,
+        "negotiability": "low"
       }
     },
     "searchedAt": "2026-08-10",
@@ -3970,7 +4366,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 48,
@@ -3996,15 +4392,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 32044,
-      "expected": 29260,
+      "marketValue": 32276,
+      "expected": 29473,
       "adjustments": {
         "accidents": -0.07,
         "owners": -0.015,
         "distance": -59.4
       },
-      "dealDelta": 2235,
-      "dealPct": 0.0764,
+      "dealDelta": 2022,
+      "dealPct": 0.0686,
       "rating": "high",
       "dealScore": 0.75,
       "basis": "pooled",
@@ -4013,7 +4409,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 48,
-        "cohortMedianDaysListed": 36,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -4055,7 +4451,8 @@
       }
     ],
     "stock": "T5490VIN",
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h79mb022818",
@@ -4098,7 +4495,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 19,
@@ -4124,13 +4521,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21397,
-      "expected": 21340,
+      "marketValue": 21633,
+      "expected": 21576,
       "adjustments": {
         "distance": -56.7
       },
-      "dealDelta": 2455,
-      "dealPct": 0.115,
+      "dealDelta": 2219,
+      "dealPct": 0.1028,
       "rating": "overpriced",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -4139,7 +4536,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 19,
-        "cohortMedianDaysListed": 36,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -4181,7 +4578,8 @@
       }
     ],
     "stock": "Number",
-    "trimSearch": "Special Edition"
+    "trimSearch": "Special Edition",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h79mb023824",
@@ -4224,7 +4622,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 6,
@@ -4267,7 +4665,8 @@
         "mileage": 87417,
         "price": 27990
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h7xmb065564",
@@ -4310,7 +4709,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 45,
@@ -4336,15 +4735,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 40448,
-      "expected": 37986,
+      "marketValue": 40678,
+      "expected": 38201,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "distance": -36.0
       },
-      "dealDelta": -3043,
-      "dealPct": -0.0801,
+      "dealDelta": -3258,
+      "dealPct": -0.0853,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -4353,7 +4752,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 45,
-        "cohortMedianDaysListed": 36,
+        "cohortMedianDaysListed": 32,
         "negotiability": "medium"
       }
     },
@@ -4405,7 +4804,8 @@
         "price": 24675
       }
     ],
-    "trimSearch": "Black Edition"
+    "trimSearch": "Black Edition",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h90mb045261",
@@ -4450,8 +4850,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 245,
+    "lastSeen": "2026-08-14",
+    "listedDays": 249,
     "priceHistory": [
       {
         "date": "2026-08-10",
@@ -4486,7 +4886,7 @@
       "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 245,
+        "listedDays": 249,
         "cohortMedianDaysListed": 44,
         "negotiability": "high"
       }
@@ -4570,7 +4970,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -4653,7 +5053,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h93mb004820",
@@ -4696,7 +5097,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 13,
@@ -4756,7 +5157,8 @@
         "mileage": 93765,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h94mb033078",
@@ -4799,7 +5201,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -4884,7 +5286,8 @@
       }
     ],
     "stock": "units",
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5fnyf6h99mb048501",
@@ -4927,7 +5330,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 32,
@@ -5023,6 +5426,7 @@
       }
     ],
     "stock": "I10920",
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "exitReason": "out-of-scope"
   }
 ]

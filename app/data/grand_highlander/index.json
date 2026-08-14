@@ -1,71 +1,71 @@
 {
-  "generatedAt": "2026-08-10",
-  "total": 1297,
+  "generatedAt": "2026-08-14",
+  "total": 1306,
   "cohortReady": 468,
-  "flagged": 829,
+  "flagged": 838,
   "shards": [
     {
       "shard": "2024-gas",
       "file": "listings/2024-gas.json",
-      "count": 219,
+      "count": 223,
       "cohortReady": 124,
-      "gone": 37
+      "gone": 172
     },
     {
       "shard": "2024-hybrid",
       "file": "listings/2024-hybrid.json",
-      "count": 29,
+      "count": 30,
       "cohortReady": 18,
-      "gone": 10
+      "gone": 24
     },
     {
       "shard": "2024-hybrid_max",
       "file": "listings/2024-hybrid_max.json",
-      "count": 10,
+      "count": 11,
       "cohortReady": 6,
-      "gone": 3
+      "gone": 8
     },
     {
       "shard": "2025-gas",
       "file": "listings/2025-gas.json",
-      "count": 76,
+      "count": 77,
       "cohortReady": 35,
-      "gone": 17
+      "gone": 64
     },
     {
       "shard": "2025-hybrid",
       "file": "listings/2025-hybrid.json",
-      "count": 20,
+      "count": 21,
       "cohortReady": 8,
-      "gone": 4
+      "gone": 17
     },
     {
       "shard": "2025-hybrid_max",
       "file": "listings/2025-hybrid_max.json",
       "count": 13,
       "cohortReady": 7,
-      "gone": 1
+      "gone": 11
     },
     {
       "shard": "2026-gas",
       "file": "listings/2026-gas.json",
-      "count": 442,
+      "count": 443,
       "cohortReady": 149,
-      "gone": 402
+      "gone": 439
     },
     {
       "shard": "2026-hybrid",
       "file": "listings/2026-hybrid.json",
       "count": 329,
       "cohortReady": 81,
-      "gone": 131
+      "gone": 325
     },
     {
       "shard": "2026-hybrid_max",
       "file": "listings/2026-hybrid_max.json",
       "count": 159,
       "cohortReady": 40,
-      "gone": 57
+      "gone": 157
     }
   ]
 }

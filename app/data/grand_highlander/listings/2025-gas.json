@@ -153,13 +153,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46292,
-      "expected": 46245,
+      "marketValue": 46305,
+      "expected": 46258,
       "adjustments": {
         "distance": -46.800000000000004
       },
-      "dealDelta": -3596,
-      "dealPct": -0.0778,
+      "dealDelta": -3609,
+      "dealPct": -0.078,
       "rating": "good",
       "dealScore": 0.864,
       "basis": "cohort",
@@ -168,7 +168,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 18,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "negotiability": "medium"
       }
     },
@@ -253,8 +253,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 6,
+    "lastSeen": "2026-08-14",
+    "listedDays": 10,
     "priceHistory": [
       {
         "date": "2026-08-10",
@@ -278,14 +278,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 48610,
-      "expected": 45693,
+      "marketValue": 48655,
+      "expected": 45736,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": -2793,
-      "dealPct": -0.0611,
+      "dealDelta": -2836,
+      "dealPct": -0.062,
       "rating": "good",
       "dealScore": 0.773,
       "basis": "cohort",
@@ -293,8 +293,8 @@
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 6,
-        "cohortMedianDaysListed": 26,
+        "listedDays": 10,
+        "cohortMedianDaysListed": 19,
         "negotiability": "low"
       }
     },
@@ -465,13 +465,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49103,
-      "expected": 49041,
+      "marketValue": 49155,
+      "expected": 49093,
       "adjustments": {
         "distance": -62.1
       },
-      "dealDelta": -3168,
-      "dealPct": -0.0646,
+      "dealDelta": -3220,
+      "dealPct": -0.0656,
       "rating": "good",
       "dealScore": 0.818,
       "basis": "cohort",
@@ -480,7 +480,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 15,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "negotiability": "medium"
       }
     },
@@ -579,20 +579,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 47261,
-      "expected": 47261,
+      "marketValue": 47287,
+      "expected": 47287,
       "adjustments": {},
-      "dealDelta": 334,
-      "dealPct": 0.0071,
+      "dealDelta": 308,
+      "dealPct": 0.0065,
       "rating": "fair",
-      "dealScore": 0.409,
+      "dealScore": 0.364,
       "basis": "cohort",
       "cohortN": 22,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 18,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "negotiability": "medium"
       }
     },
@@ -680,14 +680,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46860,
-      "expected": 47282,
+      "marketValue": 46881,
+      "expected": 47303,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -46.800000000000004
       },
-      "dealDelta": -4015,
-      "dealPct": -0.0849,
+      "dealDelta": -4036,
+      "dealPct": -0.0853,
       "rating": "good",
       "dealScore": 0.909,
       "basis": "cohort",
@@ -696,8 +696,8 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 29,
-        "cohortMedianDaysListed": 26,
-        "negotiability": "medium"
+        "cohortMedianDaysListed": 19,
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-22",
@@ -768,7 +768,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 27,
@@ -827,7 +827,8 @@
       "Blind Spot Monitor",
       "Navigation",
       "Power Liftgate"
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaaa55ss031522",
@@ -1023,15 +1024,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 44875,
-      "expected": 42124,
+      "marketValue": 44868,
+      "expected": 42118,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "distance": -58.5
       },
-      "dealDelta": -4136,
-      "dealPct": -0.0982,
+      "dealDelta": -4130,
+      "dealPct": -0.0981,
       "rating": "good",
       "dealScore": 0.955,
       "basis": "cohort",
@@ -1040,7 +1041,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 22,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "negotiability": "medium"
       }
     },
@@ -1497,7 +1498,7 @@
     "oneOwner": true,
     "usageType": "Rental Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 41,
@@ -1534,7 +1535,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdaaab50ss087186",
@@ -1577,7 +1579,7 @@
     "oneOwner": true,
     "usageType": "Taxi Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -1635,7 +1637,8 @@
         "mileage": 30776,
         "price": 40476
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab50ss089116",
@@ -1654,7 +1657,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 16692,
-    "price": 47684,
+    "price": 47497,
     "priceBasis": "listing",
     "dealer": "Herb Chambers Toyota Auburn",
     "dealerId": "d_21b244dc35e4ad31",
@@ -1680,8 +1683,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-08-10",
-    "listedDays": 48,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1690,6 +1693,10 @@
       {
         "date": "2026-08-10",
         "price": 47684
+      },
+      {
+        "date": "2026-08-14",
+        "price": 47497
       }
     ],
     "sellerType": "franchise",
@@ -1709,27 +1716,27 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 47045,
-      "expected": 44222,
+      "marketValue": 47068,
+      "expected": 44244,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 3462,
-      "dealPct": 0.0783,
+      "dealDelta": 3253,
+      "dealPct": 0.0735,
       "rating": "high",
-      "dealScore": 0.182,
+      "dealScore": 0.227,
       "basis": "cohort",
       "cohortN": 22,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 48,
-        "cohortMedianDaysListed": 26,
+        "listedDays": 5,
+        "cohortMedianDaysListed": 19,
         "priceDrop": {
-          "total": 2314,
-          "pct": -0.0463,
-          "drops": 1
+          "total": 2501,
+          "pct": -0.05,
+          "drops": 2
         },
         "negotiability": "high"
       }
@@ -1814,7 +1821,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 27,
@@ -1843,7 +1850,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab50ss096860",
@@ -1886,7 +1894,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 33,
@@ -1917,14 +1925,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 47022,
-      "expected": 47477,
+      "marketValue": 47045,
+      "expected": 47500,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -15.3
       },
-      "dealDelta": -567,
-      "dealPct": -0.0119,
+      "dealDelta": -590,
+      "dealPct": -0.0124,
       "rating": "fair",
       "dealScore": 0.727,
       "basis": "cohort",
@@ -1933,7 +1941,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 33,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "priceDrop": {
           "total": 1286,
           "pct": -0.0267,
@@ -1969,7 +1977,8 @@
       }
     ],
     "stock": "TLT050A",
-    "trimSearch": "XLE"
+    "trimSearch": "XLE",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab50ss101359",
@@ -2012,7 +2021,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 22,
@@ -2041,7 +2050,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab50ss102866",
@@ -2084,7 +2094,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 333,
@@ -2117,7 +2127,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab51ss073605",
@@ -2160,7 +2171,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 13,
@@ -2189,7 +2200,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab51ss079372",
@@ -2232,7 +2244,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 39,
@@ -2261,7 +2273,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-08-03"
+    "searchedAt": "2026-08-03",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab51ss082501",
@@ -2304,7 +2317,7 @@
     "oneOwner": true,
     "usageType": "Rental Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -2333,7 +2346,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab51ss092669",
@@ -2376,7 +2390,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-10",
     "listedDays": 12,
@@ -2403,14 +2417,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 54749,
-      "expected": 55231,
+      "marketValue": 54999,
+      "expected": 55484,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -65.25
       },
-      "dealDelta": -823,
-      "dealPct": -0.0149,
+      "dealDelta": -1076,
+      "dealPct": -0.0194,
       "rating": "fair",
       "dealScore": 0.667,
       "basis": "cohort",
@@ -2419,7 +2433,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 12,
-        "cohortMedianDaysListed": 9,
+        "cohortMedianDaysListed": 8,
         "negotiability": "low"
       }
     },
@@ -2451,7 +2465,8 @@
     ],
     "stock": "B16967",
     "trimSearch": "Platinum",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab51ss17g396",
@@ -2494,7 +2509,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 27,
@@ -2538,7 +2553,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab52ss071264",
@@ -2581,7 +2597,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 21,
@@ -2614,7 +2630,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab52ss074455",
@@ -2633,7 +2650,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 14865,
-    "price": 50208,
+    "price": 49408,
     "priceBasis": "listing",
     "dealer": "Grieco Toyota",
     "dealerId": "d_5f0fea6c41be3d31",
@@ -2659,8 +2676,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-27",
-    "lastSeen": "2026-08-10",
-    "listedDays": 16,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-07-27",
@@ -2669,6 +2686,10 @@
       {
         "date": "2026-08-10",
         "price": 50208
+      },
+      {
+        "date": "2026-08-14",
+        "price": 49408
       }
     ],
     "sellerType": "franchise",
@@ -2693,21 +2714,21 @@
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -2539,
-      "dealPct": -0.0481,
-      "rating": "fair",
+      "dealDelta": -3339,
+      "dealPct": -0.0633,
+      "rating": "good",
       "dealScore": 0.857,
       "basis": "cohort",
       "cohortN": 7,
       "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 16,
+        "listedDays": 5,
         "cohortMedianDaysListed": 28,
         "priceDrop": {
-          "total": 200,
-          "pct": -0.004,
-          "drops": 1
+          "total": 1000,
+          "pct": -0.0198,
+          "drops": 2
         },
         "negotiability": "high"
       }
@@ -2771,7 +2792,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 39,
@@ -2800,7 +2821,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab52ss079011",
@@ -2843,7 +2865,7 @@
     "oneOwner": true,
     "usageType": "Taxi Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-10",
     "listedDays": 28,
@@ -2928,7 +2950,8 @@
       }
     ],
     "trimSearch": "Limited",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab52ss085133",
@@ -2971,7 +2994,7 @@
     "oneOwner": true,
     "usageType": "Corporate Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 6,
@@ -2998,14 +3021,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 44720,
-      "expected": 45111,
+      "marketValue": 44712,
+      "expected": 45102,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -56.25
       },
-      "dealDelta": -6923,
-      "dealPct": -0.1535,
+      "dealDelta": -6914,
+      "dealPct": -0.1533,
       "rating": "great",
       "dealScore": 1.0,
       "basis": "cohort",
@@ -3014,7 +3037,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 6,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "negotiability": "low"
       }
     },
@@ -3043,7 +3066,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab52ss086668",
@@ -3059,18 +3083,18 @@
     "series": "Limited 4dr SUV AWD (2.4L 4cyl Turbo 8A)",
     "transmission": "Automatic",
     "drivetrain": "AWD",
-    "engine": "2.4L 4Cyl regular unleaded",
+    "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
-    "mileage": 31331,
-    "price": 47494,
+    "mileage": 31335,
+    "price": 47199,
     "priceBasis": "listing",
     "dealer": "Bernardi Toyota",
     "dealerId": "d_432f77ce8ca7a9d2",
-    "distanceMi": 22,
+    "distanceMi": 21,
     "state": "MA",
     "city": "Framingham",
-    "cpo": "unknown",
-    "cpoFeed": true,
+    "cpo": "none",
+    "cpoFeed": false,
     "exteriorColor": "Gray",
     "interiorColor": "Black",
     "vin": "5TDAAAB52SS086668",
@@ -3081,19 +3105,23 @@
     "photoCount": 30,
     "baseMsrp": 49960,
     "squishVin": "5TDAAAB5SS",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Rental Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 4,
+    "lastSeen": "2026-08-14",
+    "listedDays": 8,
     "priceHistory": [
       {
         "date": "2026-08-10",
         "price": 47494
+      },
+      {
+        "date": "2026-08-14",
+        "price": 47199
       }
     ],
     "sellerType": "franchise",
@@ -3113,13 +3141,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 45240,
-      "expected": 45693,
+      "marketValue": 45238,
+      "expected": 45691,
       "adjustments": {
-        "cpo": 0.01
+        "oneOwner": 0.01
       },
-      "dealDelta": 1801,
-      "dealPct": 0.0394,
+      "dealDelta": 1508,
+      "dealPct": 0.033,
       "rating": "fair",
       "dealScore": 0.273,
       "basis": "cohort",
@@ -3127,9 +3155,14 @@
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 4,
-        "cohortMedianDaysListed": 26,
-        "negotiability": "low"
+        "listedDays": 8,
+        "cohortMedianDaysListed": 19,
+        "priceDrop": {
+          "total": 295,
+          "pct": -0.0062,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-08-10",
@@ -3201,7 +3234,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 29,
@@ -3230,7 +3263,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab52ss099436",
@@ -3273,7 +3307,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -3317,7 +3351,8 @@
         "mileage": null,
         "price": 45948
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab52ss099842",
@@ -3360,7 +3395,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 27,
@@ -3389,7 +3424,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab52ss100911",
@@ -3432,7 +3468,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 48,
@@ -3469,7 +3505,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab52ss103615",
@@ -3584,7 +3621,7 @@
     "oneOwner": false,
     "usageType": "Multiple Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-10",
     "listedDays": 59,
@@ -3611,14 +3648,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 48977,
-      "expected": 46978,
+      "marketValue": 49027,
+      "expected": 47026,
       "adjustments": {
         "owners": -0.04,
         "distance": -39.6
       },
-      "dealDelta": -481,
-      "dealPct": -0.0102,
+      "dealDelta": -529,
+      "dealPct": -0.0113,
       "rating": "fair",
       "dealScore": 0.682,
       "basis": "cohort",
@@ -3627,7 +3664,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 59,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "negotiability": "high"
       }
     },
@@ -3669,7 +3706,8 @@
       }
     ],
     "stock": "A103906",
-    "trimSearch": "XLE"
+    "trimSearch": "XLE",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab53ss072603",
@@ -3712,7 +3750,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-10",
     "listedDays": 20,
@@ -3747,13 +3785,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46288,
-      "expected": 46244,
+      "marketValue": 46301,
+      "expected": 46256,
       "adjustments": {
         "distance": -44.550000000000004
       },
-      "dealDelta": -68,
-      "dealPct": -0.0015,
+      "dealDelta": -80,
+      "dealPct": -0.0017,
       "rating": "fair",
       "dealScore": 0.545,
       "basis": "cohort",
@@ -3762,7 +3800,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 20,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "priceDrop": {
           "total": 499,
           "pct": -0.0107,
@@ -3808,7 +3846,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab53ss076263",
@@ -3826,8 +3865,8 @@
     "drivetrain": "AWD",
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
-    "mileage": 77622,
-    "price": 52994,
+    "mileage": 77625,
+    "price": 52494,
     "priceBasis": "listing",
     "dealer": "Bernardi Toyota",
     "dealerId": "d_432f77ce8ca7a9d2",
@@ -3853,12 +3892,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 6,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-08-10",
         "price": 52994
+      },
+      {
+        "date": "2026-08-14",
+        "price": 52494
       }
     ],
     "sellerType": "franchise",
@@ -3878,23 +3921,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 48531,
-      "expected": 49016,
+      "marketValue": 48781,
+      "expected": 49268,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 3978,
-      "dealPct": 0.0812,
+      "dealDelta": 3226,
+      "dealPct": 0.0655,
       "rating": "high",
-      "dealScore": 0.167,
+      "dealScore": 0.333,
       "basis": "cohort",
       "cohortN": 6,
       "confidence": 0.75,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 6,
-        "cohortMedianDaysListed": 9,
-        "negotiability": "low"
+        "listedDays": 5,
+        "cohortMedianDaysListed": 8,
+        "priceDrop": {
+          "total": 500,
+          "pct": -0.0094,
+          "drops": 1
+        },
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-08-10",
@@ -3965,7 +4013,7 @@
     "oneOwner": true,
     "usageType": "Rental Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -4000,23 +4048,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 43698,
-      "expected": 44077,
+      "marketValue": 43676,
+      "expected": 44054,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -58.5
       },
-      "dealDelta": -103,
-      "dealPct": -0.0023,
+      "dealDelta": -80,
+      "dealPct": -0.0018,
       "rating": "fair",
-      "dealScore": 0.591,
+      "dealScore": 0.5,
       "basis": "cohort",
       "cohortN": 22,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 46,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "priceDrop": {
           "total": 714,
           "pct": -0.016,
@@ -4076,7 +4124,8 @@
     ],
     "stock": "FU9675",
     "trimSearch": "XLE",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab53ss085500",
@@ -4119,7 +4168,7 @@
     "oneOwner": true,
     "usageType": "Rental Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -4152,7 +4201,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab53ss088316",
@@ -4195,7 +4245,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -4264,7 +4314,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdaaab53ss098196",
@@ -4307,7 +4358,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -4350,7 +4401,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab53ss17e746",
@@ -4393,7 +4445,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 27,
@@ -4422,7 +4474,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab54ss072691",
@@ -4465,7 +4518,7 @@
     "oneOwner": true,
     "usageType": "Corporate Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 12,
@@ -4494,7 +4547,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab54ss095324",
@@ -4537,7 +4591,7 @@
     "oneOwner": false,
     "usageType": "Multiple Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -4591,7 +4645,8 @@
         "mileage": null,
         "price": 14562
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab55ss083716",
@@ -4600,7 +4655,7 @@
       "auto.dev"
     ],
     "trim": "Limited",
-    "trimFeed": "XLE",
+    "trimFeed": "Limited",
     "powertrain": "gas",
     "powertrainFeed": "gas",
     "fuel": "Gasoline",
@@ -4610,15 +4665,15 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 18786,
-    "price": 52670,
+    "price": 51971,
     "priceBasis": "listing",
-    "dealer": "McGee Toyota of Hanover",
+    "dealer": "mcgee toyota of hanover",
     "dealerId": "d_2ab311a31ca1dcab",
     "distanceMi": 20,
     "state": "MA",
     "city": "Hanover",
-    "cpo": "none",
-    "cpoFeed": false,
+    "cpo": "unknown",
+    "cpoFeed": true,
     "exteriorColor": "Gray",
     "interiorColor": "Black",
     "vin": "5TDAAAB55SS083716",
@@ -4636,8 +4691,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-27",
-    "lastSeen": "2026-08-10",
-    "listedDays": 19,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-07-27",
@@ -4646,6 +4701,10 @@
       {
         "date": "2026-08-03",
         "price": 52670
+      },
+      {
+        "date": "2026-08-14",
+        "price": 51971
       }
     ],
     "sellerType": "franchise",
@@ -4658,10 +4717,10 @@
     "plantCountry": "United States (Usa)",
     "plantCity": "Princeton",
     "plantSource": "vpic",
-    "trimConfidence": 0.65,
+    "trimConfidence": 0.772,
     "trimVerifiedBy": "search",
     "trimFlagged": true,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {
@@ -4751,14 +4810,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57513,
-      "expected": 58028,
+      "marketValue": 57763,
+      "expected": 58281,
       "adjustments": {
         "cpo": 0.01,
         "distance": -59.85
       },
-      "dealDelta": -856,
-      "dealPct": -0.0148,
+      "dealDelta": -1109,
+      "dealPct": -0.019,
       "rating": "fair",
       "dealScore": 0.833,
       "basis": "cohort",
@@ -4767,7 +4826,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 25,
-        "cohortMedianDaysListed": 9,
+        "cohortMedianDaysListed": 8,
         "negotiability": "high"
       }
     },
@@ -4862,7 +4921,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 2,
@@ -4889,13 +4948,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57578,
-      "expected": 57511,
+      "marketValue": 57828,
+      "expected": 57761,
       "adjustments": {
         "distance": -67.05
       },
-      "dealDelta": 1559,
-      "dealPct": 0.0271,
+      "dealDelta": 1309,
+      "dealPct": 0.0227,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "cohort",
@@ -4904,7 +4963,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 2,
-        "cohortMedianDaysListed": 9,
+        "cohortMedianDaysListed": 8,
         "negotiability": "low"
       }
     },
@@ -4924,7 +4983,79 @@
         "price": null
       }
     ],
-    "stock": "Exterior"
+    "stock": "Exterior",
+    "exitReason": "out-of-scope"
+  },
+  {
+    "id": "api-5tdaaab55ss097583",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.4L 4cyl Turbo 8A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.4L 4Cyl regular unleaded",
+    "year": 2025,
+    "mileage": 12997,
+    "price": 46907,
+    "priceBasis": "listing",
+    "dealer": "Atlantic Toyota",
+    "dealerId": "d_1c153120a11ac714",
+    "distanceMi": 8,
+    "state": "MA",
+    "city": "Lynn",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "5TDAAAB55SS097583",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-grand+highlander#vin=5TDAAAB55SS097583",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDAAAB55SS097583&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5TDAAAB55SS097583-1.jpg",
+    "photoCount": 3,
+    "baseMsrp": 49960,
+    "squishVin": "5TDAAAB5SS",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-08-14",
+    "lastSeen": "2026-08-14",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-08-14",
+        "price": 46907
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States (Usa)",
+    "plantCity": "Princeton",
+    "plantSource": "vpic",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
   },
   {
     "id": "api-5tdaaab55ss10e097",
@@ -4967,7 +5098,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 27,
@@ -4996,7 +5127,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab55ss12g391",
@@ -5039,7 +5171,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 27,
@@ -5068,7 +5200,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab56ss078735",
@@ -5111,7 +5244,7 @@
     "oneOwner": true,
     "usageType": "Lease",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-10",
     "listedDays": 43,
@@ -5195,7 +5328,8 @@
       "Panoramic Moonroof",
       "Power Liftgate",
       "Tow Package"
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab56ss081196",
@@ -5238,7 +5372,7 @@
     "oneOwner": true,
     "usageType": "Rental Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-10",
     "listedDays": 13,
@@ -5281,7 +5415,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 13,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "negotiability": "low"
       }
     },
@@ -5335,7 +5469,8 @@
     ],
     "stock": "SS081196",
     "trimSearch": "XLE",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab56ss083448",
@@ -5354,7 +5489,7 @@
     "engine": "2.4L 4Cyl regular unleaded",
     "year": 2025,
     "mileage": 18490,
-    "price": 46390,
+    "price": 45595,
     "priceBasis": "listing",
     "dealer": "Westboro Toyota",
     "dealerId": "d_73aa8eb28e09a4e4",
@@ -5370,7 +5505,7 @@
     "url": "#8086430433613422537",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDAAAB56SS083448&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5TDAAAB56SS083448-1.jpg",
-    "photoCount": 30,
+    "photoCount": 1,
     "baseMsrp": 49960,
     "squishVin": "5TDAAAB5SS",
     "accidentCount": null,
@@ -5380,8 +5515,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-08-10",
-    "listedDays": 110,
+    "lastSeen": "2026-08-14",
+    "listedDays": 114,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -5394,6 +5529,10 @@
       {
         "date": "2026-08-10",
         "price": 46390
+      },
+      {
+        "date": "2026-08-14",
+        "price": 45595
       }
     ],
     "sellerType": "franchise",
@@ -5458,7 +5597,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 45,
@@ -5516,7 +5655,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdaaab56ss090965",
@@ -5559,7 +5699,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 5,
@@ -5602,7 +5742,8 @@
         "mileage": null,
         "price": 3454
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab56ss104279",
@@ -5645,7 +5786,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-10",
     "listedDays": 21,
@@ -5676,22 +5817,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 47048,
-      "expected": 46993,
+      "marketValue": 47071,
+      "expected": 47016,
       "adjustments": {
         "distance": -54.9
       },
-      "dealDelta": 182,
-      "dealPct": 0.0039,
+      "dealDelta": 159,
+      "dealPct": 0.0034,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.455,
       "basis": "cohort",
       "cohortN": 22,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 21,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "negotiability": "medium"
       }
     },
@@ -5720,7 +5861,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab57ss071809",
@@ -5763,7 +5905,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 1,
@@ -5806,7 +5948,8 @@
         "mileage": 6108,
         "price": 47845
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab57ss074709",
@@ -5825,7 +5968,7 @@
     "engine": "2.4L 4Cyl regular unleaded",
     "year": 2025,
     "mileage": 21962,
-    "price": 44799,
+    "price": 43852,
     "priceBasis": "listing",
     "dealer": "Harr Toyota",
     "dealerId": "d_e3f34aa1ae91af1c",
@@ -5851,8 +5994,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-08-03",
-    "listedDays": 94,
+    "lastSeen": "2026-08-14",
+    "listedDays": 2,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -5865,6 +6008,10 @@
       {
         "date": "2026-08-03",
         "price": 44799
+      },
+      {
+        "date": "2026-08-14",
+        "price": 43852
       }
     ],
     "sellerType": "franchise",
@@ -5884,28 +6031,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46395,
-      "expected": 44076,
+      "marketValue": 46410,
+      "expected": 44089,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": 723,
-      "dealPct": 0.0164,
+      "dealDelta": -237,
+      "dealPct": -0.0054,
       "rating": "fair",
-      "dealScore": 0.318,
+      "dealScore": 0.591,
       "basis": "cohort",
       "cohortN": 22,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 94,
-        "cohortMedianDaysListed": 26,
+        "listedDays": 2,
+        "cohortMedianDaysListed": 19,
         "priceDrop": {
-          "total": 1375,
-          "pct": -0.0298,
-          "drops": 2
+          "total": 2322,
+          "pct": -0.0503,
+          "drops": 3
         },
         "negotiability": "high"
       }
@@ -5968,7 +6115,7 @@
     "oneOwner": false,
     "usageType": "Corporate Fleet",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 12,
@@ -5995,24 +6142,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 45992,
-      "expected": 45761,
+      "marketValue": 46000,
+      "expected": 45770,
       "adjustments": {
         "owners": -0.015,
         "cpo": 0.01,
         "distance": -0.45
       },
-      "dealDelta": 259,
-      "dealPct": 0.0057,
+      "dealDelta": 250,
+      "dealPct": 0.0055,
       "rating": "fair",
-      "dealScore": 0.455,
+      "dealScore": 0.409,
       "basis": "cohort",
       "cohortN": 22,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 12,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "negotiability": "low"
       }
     },
@@ -6041,7 +6188,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab57ss097133",
@@ -6084,7 +6232,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 27,
@@ -6113,7 +6261,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab57ss099609",
@@ -6132,7 +6281,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 4383,
-    "price": 57408,
+    "price": 57908,
     "priceBasis": "listing",
     "dealer": "Grieco Toyota",
     "dealerId": "d_5f0fea6c41be3d31",
@@ -6158,12 +6307,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
+    "lastSeen": "2026-08-14",
     "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-08-10",
         "price": 57408
+      },
+      {
+        "date": "2026-08-14",
+        "price": 57908
       }
     ],
     "sellerType": "franchise",
@@ -6183,23 +6336,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57067,
-      "expected": 53643,
+      "marketValue": 57317,
+      "expected": 53878,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 3765,
-      "dealPct": 0.0702,
+      "dealDelta": 4030,
+      "dealPct": 0.0748,
       "rating": "high",
-      "dealScore": 0.333,
+      "dealScore": 0.167,
       "basis": "cohort",
       "cohortN": 6,
       "confidence": 0.75,
       "ratingConfident": true,
       "signals": {
         "listedDays": 5,
-        "cohortMedianDaysListed": 9,
+        "cohortMedianDaysListed": 8,
         "negotiability": "low"
       }
     },
@@ -6273,7 +6426,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 48,
@@ -6308,14 +6461,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46748,
-      "expected": 47155,
+      "marketValue": 46768,
+      "expected": 47174,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -60.75
       },
-      "dealDelta": 5497,
-      "dealPct": 0.1166,
+      "dealDelta": 5478,
+      "dealPct": 0.1161,
       "rating": "overpriced",
       "dealScore": 0.091,
       "basis": "cohort",
@@ -6324,7 +6477,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 48,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "priceDrop": {
           "total": 217,
           "pct": -0.0041,
@@ -6371,7 +6524,8 @@
       }
     ],
     "stock": "U18343T",
-    "trimSearch": "Platinum"
+    "trimSearch": "Platinum",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab58ss081880",
@@ -6616,8 +6770,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-08-10",
-    "listedDays": 48,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -6641,23 +6795,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49102,
-      "expected": 49593,
+      "marketValue": 49154,
+      "expected": 49645,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 3406,
-      "dealPct": 0.0687,
+      "dealDelta": 3354,
+      "dealPct": 0.0676,
       "rating": "high",
-      "dealScore": 0.227,
+      "dealScore": 0.182,
       "basis": "cohort",
       "cohortN": 22,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 48,
-        "cohortMedianDaysListed": 26,
-        "negotiability": "high"
+        "listedDays": 5,
+        "cohortMedianDaysListed": 19,
+        "negotiability": "low"
       }
     },
     "searchedAt": "2026-07-22",
@@ -6800,7 +6954,7 @@
     "oneOwner": true,
     "usageType": "Rental Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -6837,7 +6991,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab5xss070444",
@@ -6880,7 +7035,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 30,
@@ -6917,7 +7072,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab5xss070735",
@@ -6960,7 +7116,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 22,
@@ -6987,14 +7143,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56051,
-      "expected": 56585,
+      "marketValue": 56301,
+      "expected": 56838,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -26.55
       },
-      "dealDelta": -1036,
-      "dealPct": -0.0183,
+      "dealDelta": -1289,
+      "dealPct": -0.0227,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "cohort",
@@ -7003,7 +7159,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 22,
-        "cohortMedianDaysListed": 9,
+        "cohortMedianDaysListed": 8,
         "negotiability": "high"
       }
     },
@@ -7034,7 +7190,8 @@
       }
     ],
     "stock": "PU3766",
-    "trimSearch": "Platinum"
+    "trimSearch": "Platinum",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab5xss077412",
@@ -7077,7 +7234,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 39,
@@ -7104,15 +7261,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46906,
-      "expected": 44075,
+      "marketValue": 46927,
+      "expected": 44095,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "distance": -16.650000000000002
       },
-      "dealDelta": 3622,
-      "dealPct": 0.0822,
+      "dealDelta": 3602,
+      "dealPct": 0.0817,
       "rating": "high",
       "dealScore": 0.136,
       "basis": "cohort",
@@ -7121,7 +7278,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 39,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "negotiability": "high"
       }
     },
@@ -7152,7 +7309,8 @@
       }
     ],
     "trimSearch": "XLE",
-    "powertrainSearch": "gas"
+    "powertrainSearch": "gas",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab5xss081752",
@@ -7195,7 +7353,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -7230,14 +7388,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 44717,
-      "expected": 45100,
+      "marketValue": 44708,
+      "expected": 45091,
       "adjustments": {
         "cpo": 0.01,
         "distance": -64.35000000000001
       },
-      "dealDelta": -411,
-      "dealPct": -0.0091,
+      "dealDelta": -402,
+      "dealPct": -0.0089,
       "rating": "fair",
       "dealScore": 0.636,
       "basis": "cohort",
@@ -7246,8 +7404,8 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 30,
-        "cohortMedianDaysListed": 26,
-        "negotiability": "medium"
+        "cohortMedianDaysListed": 19,
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-22",
@@ -7287,7 +7445,8 @@
         "price": null
       }
     ],
-    "trimSearch": "LE"
+    "trimSearch": "LE",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab5xss086840",
@@ -7330,7 +7489,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -7365,23 +7524,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 44935,
-      "expected": 45320,
+      "marketValue": 44929,
+      "expected": 45314,
       "adjustments": {
         "cpo": 0.01,
         "distance": -64.35000000000001
       },
-      "dealDelta": 379,
-      "dealPct": 0.0084,
+      "dealDelta": 385,
+      "dealPct": 0.0085,
       "rating": "fair",
-      "dealScore": 0.364,
+      "dealScore": 0.318,
       "basis": "cohort",
       "cohortN": 22,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 30,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 19,
         "priceDrop": {
           "total": 89,
           "pct": -0.0019,
@@ -7427,7 +7586,8 @@
         "price": null
       }
     ],
-    "trimSearch": "LE"
+    "trimSearch": "LE",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab5xss093044",
@@ -7445,7 +7605,7 @@
     "drivetrain": "AWD",
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
-    "mileage": 16669,
+    "mileage": 16670,
     "price": 44924,
     "priceBasis": "listing",
     "dealer": "Bernardi Toyota",
@@ -7472,8 +7632,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 6,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-08-10",
@@ -7544,8 +7704,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-08-10",
-    "listedDays": 22,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-07-22",

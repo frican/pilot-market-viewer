@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-10",
+  "generatedAt": "2026-08-14",
   "models": [
+    {
+      "id": "pilot",
+      "make": "Honda",
+      "model": "Pilot",
+      "label": "Honda Pilot",
+      "powertrains": [
+        {
+          "id": "gas",
+          "label": "Gas"
+        }
+      ],
+      "years": [
+        2019,
+        2026
+      ],
+      "targetPowertrain": "gas"
+    },
     {
       "id": "grand_highlander",
       "make": "Toyota",
@@ -27,10 +44,10 @@
       "targetPowertrain": null
     },
     {
-      "id": "pilot",
-      "make": "Honda",
-      "model": "Pilot",
-      "label": "Honda Pilot",
+      "id": "pathfinder",
+      "make": "Nissan",
+      "model": "Pathfinder",
+      "label": "Nissan Pathfinder",
       "powertrains": [
         {
           "id": "gas",
@@ -38,10 +55,86 @@
         }
       ],
       "years": [
-        2019,
+        2022,
         2026
       ],
       "targetPowertrain": "gas"
+    },
+    {
+      "id": "atlas",
+      "make": "Volkswagen",
+      "model": "Atlas",
+      "label": "Volkswagen Atlas",
+      "powertrains": [
+        {
+          "id": "gas",
+          "label": "Gas"
+        }
+      ],
+      "years": [
+        2018,
+        2026
+      ],
+      "targetPowertrain": "gas"
+    },
+    {
+      "id": "telluride",
+      "make": "Kia",
+      "model": "Telluride",
+      "label": "Kia Telluride",
+      "powertrains": [
+        {
+          "id": "gas",
+          "label": "Gas"
+        }
+      ],
+      "years": [
+        2020,
+        2025
+      ],
+      "targetPowertrain": "gas"
+    },
+    {
+      "id": "palisade",
+      "make": "Hyundai",
+      "model": "Palisade",
+      "label": "Hyundai Palisade",
+      "powertrains": [
+        {
+          "id": "gas",
+          "label": "Gas"
+        },
+        {
+          "id": "hybrid",
+          "label": "Hybrid"
+        }
+      ],
+      "years": [
+        2020,
+        2026
+      ],
+      "targetPowertrain": null
+    },
+    {
+      "id": "carnival",
+      "make": "Kia",
+      "model": "Carnival",
+      "label": "Kia Carnival",
+      "powertrains": [
+        {
+          "id": "gas",
+          "label": "Gas"
+        },
+        {
+          "id": "hybrid",
+          "label": "Hybrid"
+        }
+      ],
+      "years": [
+        2022,
+        2026
+      ],
+      "targetPowertrain": null
     }
   ]
 }

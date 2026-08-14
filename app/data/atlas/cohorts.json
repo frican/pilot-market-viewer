@@ -1,0 +1,1429 @@
+{
+  "generatedAt": "2026-08-14",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2018|S|gas": {
+      "year": 2018,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        33089,
+        115552
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "S|gas",
+      "msrp": 33950
+    },
+    "2018|SE|gas": {
+      "year": 2018,
+      "trim": "SE",
+      "powertrain": "gas",
+      "n": 6,
+      "mileageRange": [
+        68262,
+        156159
+      ],
+      "theilSen": {
+        "slope": -0.058,
+        "intercept": 20111.83
+      },
+      "ols": {
+        "slope": -0.0809,
+        "intercept": 23160.41
+      },
+      "parentKey": "SE|gas",
+      "msrp": 37040
+    },
+    "2018|SEL|gas": {
+      "year": 2018,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 9,
+      "mileageRange": [
+        59773,
+        153000
+      ],
+      "theilSen": {
+        "slope": -0.0927,
+        "intercept": 24849.12
+      },
+      "ols": {
+        "slope": -0.084,
+        "intercept": 23521.58
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 42940
+    },
+    "2018|SEL Premium|gas": {
+      "year": 2018,
+      "trim": "SEL Premium",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        54831,
+        107740
+      ],
+      "theilSen": {
+        "slope": -0.1434,
+        "intercept": 30839.61
+      },
+      "ols": {
+        "slope": -0.1481,
+        "intercept": 31076.86
+      },
+      "parentKey": "SEL Premium|gas",
+      "msrp": 48740
+    },
+    "2019|S|gas": {
+      "year": 2019,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        68414,
+        96924
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "S|gas",
+      "msrp": 34095
+    },
+    "2019|SE|gas": {
+      "year": 2019,
+      "trim": "SE",
+      "powertrain": "gas",
+      "n": 13,
+      "mileageRange": [
+        38195,
+        141500
+      ],
+      "theilSen": {
+        "slope": -0.1553,
+        "intercept": 31831.78
+      },
+      "ols": {
+        "slope": -1.569,
+        "intercept": 193919.44
+      },
+      "parentKey": "SE|gas",
+      "msrp": 37295
+    },
+    "2019|SEL|gas": {
+      "year": 2019,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        79318,
+        123213
+      ],
+      "theilSen": {
+        "slope": -0.1524,
+        "intercept": 33163.18
+      },
+      "ols": {
+        "slope": -0.1359,
+        "intercept": 32058.34
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 43195
+    },
+    "2019|SEL Premium|gas": {
+      "year": 2019,
+      "trim": "SEL Premium",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        48579,
+        96088
+      ],
+      "theilSen": {
+        "slope": -0.0732,
+        "intercept": 27450.26
+      },
+      "ols": {
+        "slope": -0.071,
+        "intercept": 27329.35
+      },
+      "parentKey": "SEL Premium|gas",
+      "msrp": 48395
+    },
+    "2019|SEL R-Line|gas": {
+      "year": 2019,
+      "trim": "SEL R-Line",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        107764,
+        121758
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SEL R-Line|gas",
+      "msrp": 45145
+    },
+    "2019|SE w/Technology|gas": {
+      "year": 2019,
+      "trim": "SE w/Technology",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        104007,
+        104007
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SE w/Technology|gas",
+      "msrp": 39095
+    },
+    "2020|SE|gas": {
+      "year": 2020,
+      "trim": "SE",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        42156,
+        115840
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SE|gas",
+      "msrp": null
+    },
+    "2020|SEL|gas": {
+      "year": 2020,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        91541,
+        91541
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SEL|gas",
+      "msrp": 44395
+    },
+    "2020|SE w/Technology|gas": {
+      "year": 2020,
+      "trim": "SE w/Technology",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        89744,
+        89744
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SE w/Technology|gas",
+      "msrp": 40245
+    },
+    "2021|SEL|gas": {
+      "year": 2021,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 7,
+      "mileageRange": [
+        77199,
+        124682
+      ],
+      "theilSen": {
+        "slope": -0.0912,
+        "intercept": 28940.58
+      },
+      "ols": {
+        "slope": -0.1099,
+        "intercept": 31113.85
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 44225
+    },
+    "2021|S|gas": {
+      "year": 2021,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        103589,
+        103589
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "S|gas",
+      "msrp": 33455
+    },
+    "2021|SE w/Technology|gas": {
+      "year": 2021,
+      "trim": "SE w/Technology",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        57817,
+        98929
+      ],
+      "theilSen": {
+        "slope": -0.1371,
+        "intercept": 32330.22
+      },
+      "ols": {
+        "slope": -0.1384,
+        "intercept": 32434.29
+      },
+      "parentKey": "SE w/Technology|gas",
+      "msrp": 38845
+    },
+    "2021|SE|gas": {
+      "year": 2021,
+      "trim": "SE",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        37186,
+        101307
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SE|gas",
+      "msrp": 36105
+    },
+    "2021|SE w/Technology R-Line|gas": {
+      "year": 2021,
+      "trim": "SE w/Technology R-Line",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        36783,
+        118642
+      ],
+      "theilSen": {
+        "slope": -0.0964,
+        "intercept": 29739.69
+      },
+      "ols": {
+        "slope": -0.1029,
+        "intercept": 30903.47
+      },
+      "parentKey": "SE w/Technology R-Line|gas",
+      "msrp": 41645
+    },
+    "2021|SEL R-Line|gas": {
+      "year": 2021,
+      "trim": "SEL R-Line",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        37413,
+        37413
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SEL R-Line|gas",
+      "msrp": 45925
+    },
+    "2021|SEL Premium|gas": {
+      "year": 2021,
+      "trim": "SEL Premium",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        56410,
+        59674
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SEL Premium|gas",
+      "msrp": 49010
+    },
+    "2022|SEL R-Line|gas": {
+      "year": 2022,
+      "trim": "SEL R-Line",
+      "powertrain": "gas",
+      "n": 6,
+      "mileageRange": [
+        32537,
+        109181
+      ],
+      "theilSen": {
+        "slope": -0.0893,
+        "intercept": 32869.72
+      },
+      "ols": {
+        "slope": -0.1099,
+        "intercept": 34266.47
+      },
+      "parentKey": "SEL R-Line|gas",
+      "msrp": 47255
+    },
+    "2022|SEL|gas": {
+      "year": 2022,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        25856,
+        60817
+      ],
+      "theilSen": {
+        "slope": -0.0996,
+        "intercept": 33658.22
+      },
+      "ols": {
+        "slope": -0.0645,
+        "intercept": 31423.96
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 45855
+    },
+    "2022|SEL Premium R-Line|gas": {
+      "year": 2022,
+      "trim": "SEL Premium R-Line",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        15410,
+        71444
+      ],
+      "theilSen": {
+        "slope": -0.2045,
+        "intercept": 40146.08
+      },
+      "ols": {
+        "slope": -0.1939,
+        "intercept": 40096.59
+      },
+      "parentKey": "SEL Premium R-Line|gas",
+      "msrp": 51505
+    },
+    "2022|SE|gas": {
+      "year": 2022,
+      "trim": "SE",
+      "powertrain": "gas",
+      "n": 12,
+      "mileageRange": [
+        30500,
+        113259
+      ],
+      "theilSen": {
+        "slope": -0.1163,
+        "intercept": 32460.69
+      },
+      "ols": {
+        "slope": -1.5518,
+        "intercept": 158946.63
+      },
+      "parentKey": "SE|gas",
+      "msrp": 36235
+    },
+    "2022|SE w/Technology|gas": {
+      "year": 2022,
+      "trim": "SE w/Technology",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        19847,
+        36354
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SE w/Technology|gas",
+      "msrp": 41280
+    },
+    "2023|SEL|gas": {
+      "year": 2023,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 9,
+      "mileageRange": [
+        17242,
+        59179
+      ],
+      "theilSen": {
+        "slope": -0.0858,
+        "intercept": 34686.88
+      },
+      "ols": {
+        "slope": -0.0885,
+        "intercept": 34696.85
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 46690
+    },
+    "2023|SEL Premium R-Line|gas": {
+      "year": 2023,
+      "trim": "SEL Premium R-Line",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        28988,
+        65832
+      ],
+      "theilSen": {
+        "slope": -0.1407,
+        "intercept": 39705.97
+      },
+      "ols": {
+        "slope": -0.1068,
+        "intercept": 38604.37
+      },
+      "parentKey": "SEL Premium R-Line|gas",
+      "msrp": 52340
+    },
+    "2023|SE|gas": {
+      "year": 2023,
+      "trim": "SE",
+      "powertrain": "gas",
+      "n": 26,
+      "mileageRange": [
+        11123,
+        66228
+      ],
+      "theilSen": {
+        "slope": -0.0829,
+        "intercept": 32150.4
+      },
+      "ols": {
+        "slope": -0.1086,
+        "intercept": 33349.1
+      },
+      "parentKey": "SE|gas",
+      "msrp": 36360
+    },
+    "2023|SE w/Technology|gas": {
+      "year": 2023,
+      "trim": "SE w/Technology",
+      "powertrain": "gas",
+      "n": 17,
+      "mileageRange": [
+        23475,
+        105245
+      ],
+      "theilSen": {
+        "slope": -0.128,
+        "intercept": 35084.97
+      },
+      "ols": {
+        "slope": -0.1355,
+        "intercept": 35163.79
+      },
+      "parentKey": "SE w/Technology|gas",
+      "msrp": 42970
+    },
+    "2023|S|gas": {
+      "year": 2023,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        27546,
+        37021
+      ],
+      "theilSen": {
+        "slope": -0.2116,
+        "intercept": 35624.92
+      },
+      "ols": {
+        "slope": -0.2002,
+        "intercept": 35110.89
+      },
+      "parentKey": "S|gas",
+      "msrp": null
+    },
+    "2023|SEL R-Line|gas": {
+      "year": 2023,
+      "trim": "SEL R-Line",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        27753,
+        52438
+      ],
+      "theilSen": {
+        "slope": -0.1557,
+        "intercept": 40137.65
+      },
+      "ols": {
+        "slope": -0.1147,
+        "intercept": 38881.35
+      },
+      "parentKey": "SEL R-Line|gas",
+      "msrp": 47930
+    },
+    "2024|SEL R-Line|gas": {
+      "year": 2024,
+      "trim": "SEL R-Line",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        38708,
+        55436
+      ],
+      "theilSen": {
+        "slope": -0.0272,
+        "intercept": 33207.97
+      },
+      "ols": {
+        "slope": 0.0039,
+        "intercept": 32040.14
+      },
+      "parentKey": "SEL R-Line|gas",
+      "msrp": 49320
+    },
+    "2024|SEL|gas": {
+      "year": 2024,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 8,
+      "mileageRange": [
+        23967,
+        46866
+      ],
+      "theilSen": {
+        "slope": -0.1256,
+        "intercept": 39934.11
+      },
+      "ols": {
+        "slope": -0.1388,
+        "intercept": 40642.43
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 48880
+    },
+    "2024|Peak Edition SE w/Technology|gas": {
+      "year": 2024,
+      "trim": "Peak Edition SE w/Technology",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        30415,
+        30415
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Peak Edition SE w/Technology|gas",
+      "msrp": 46990
+    },
+    "2024|SEL Premium R-Line|gas": {
+      "year": 2024,
+      "trim": "SEL Premium R-Line",
+      "powertrain": "gas",
+      "n": 15,
+      "mileageRange": [
+        11456,
+        58634
+      ],
+      "theilSen": {
+        "slope": -0.1007,
+        "intercept": 41661.21
+      },
+      "ols": {
+        "slope": -0.0894,
+        "intercept": 41111.97
+      },
+      "parentKey": "SEL Premium R-Line|gas",
+      "msrp": 52890
+    },
+    "2024|Peak Edition SEL|gas": {
+      "year": 2024,
+      "trim": "Peak Edition SEL",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        28189,
+        28189
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Peak Edition SEL|gas",
+      "msrp": 50870
+    },
+    "2024|Peak Edition|gas": {
+      "year": 2024,
+      "trim": "Peak Edition",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        47881,
+        51783
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Peak Edition|gas",
+      "msrp": null
+    },
+    "2024|SE w/Technology|gas": {
+      "year": 2024,
+      "trim": "SE w/Technology",
+      "powertrain": "gas",
+      "n": 16,
+      "mileageRange": [
+        7494,
+        56147
+      ],
+      "theilSen": {
+        "slope": -0.1342,
+        "intercept": 36526.46
+      },
+      "ols": {
+        "slope": -0.1487,
+        "intercept": 37185.78
+      },
+      "parentKey": "SE w/Technology|gas",
+      "msrp": 44000
+    },
+    "2024|SE|gas": {
+      "year": 2024,
+      "trim": "SE",
+      "powertrain": "gas",
+      "n": 14,
+      "mileageRange": [
+        20497,
+        68728
+      ],
+      "theilSen": {
+        "slope": -0.1682,
+        "intercept": 36758.64
+      },
+      "ols": {
+        "slope": -0.1885,
+        "intercept": 37979.66
+      },
+      "parentKey": "SE|gas",
+      "msrp": 39895
+    },
+    "2025|SEL R-Line|gas": {
+      "year": 2025,
+      "trim": "SEL R-Line",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        44899,
+        44899
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SEL R-Line|gas",
+      "msrp": 49140
+    },
+    "2025|SEL|gas": {
+      "year": 2025,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        9749,
+        23255
+      ],
+      "theilSen": {
+        "slope": -0.249,
+        "intercept": 42809.03
+      },
+      "ols": {
+        "slope": -0.2123,
+        "intercept": 42416.52
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 48200
+    },
+    "2025|Peak Edition|gas": {
+      "year": 2025,
+      "trim": "Peak Edition",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        8143,
+        8143
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Peak Edition|gas",
+      "msrp": 46655
+    },
+    "2025|SEL Premium R-Line|gas": {
+      "year": 2025,
+      "trim": "SEL Premium R-Line",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        10703,
+        21186
+      ],
+      "theilSen": {
+        "slope": -0.7813,
+        "intercept": 58241.88
+      },
+      "ols": {
+        "slope": -0.637,
+        "intercept": 55093.02
+      },
+      "parentKey": "SEL Premium R-Line|gas",
+      "msrp": 53205
+    },
+    "2025|SE|gas": {
+      "year": 2025,
+      "trim": "SE",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        22278,
+        40016
+      ],
+      "theilSen": {
+        "slope": -0.1748,
+        "intercept": 38074.02
+      },
+      "ols": {
+        "slope": -0.2142,
+        "intercept": 39444.72
+      },
+      "parentKey": "SE|gas",
+      "msrp": null
+    },
+    "2025|SE w/Technology|gas": {
+      "year": 2025,
+      "trim": "SE w/Technology",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        30735,
+        36010
+      ],
+      "theilSen": {
+        "slope": -0.9118,
+        "intercept": 60367.56
+      },
+      "ols": {
+        "slope": -1.0881,
+        "intercept": 67173.74
+      },
+      "parentKey": "SE w/Technology|gas",
+      "msrp": 44205
+    },
+    "2026|SEL R-Line|gas": {
+      "year": 2026,
+      "trim": "SEL R-Line",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        4030,
+        4030
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SEL R-Line|gas",
+      "msrp": 50560
+    },
+    "2026|SEL|gas": {
+      "year": 2026,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 28,
+      "mileageRange": [
+        0,
+        1892
+      ],
+      "theilSen": {
+        "slope": 2.6514,
+        "intercept": 47837.49
+      },
+      "ols": {
+        "slope": 2.2774,
+        "intercept": 48469.64
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 49620
+    },
+    "2026|Peak Edition|gas": {
+      "year": 2026,
+      "trim": "Peak Edition",
+      "powertrain": "gas",
+      "n": 39,
+      "mileageRange": [
+        0,
+        9184
+      ],
+      "theilSen": {
+        "slope": -0.0514,
+        "intercept": 45906.31
+      },
+      "ols": {
+        "slope": 0.0327,
+        "intercept": 46370.48
+      },
+      "parentKey": "Peak Edition|gas",
+      "msrp": 48060
+    },
+    "2026|SEL Premium R-Line|gas": {
+      "year": 2026,
+      "trim": "SEL Premium R-Line",
+      "powertrain": "gas",
+      "n": 63,
+      "mileageRange": [
+        0,
+        14600
+      ],
+      "theilSen": {
+        "slope": -0.7111,
+        "intercept": 52921.0
+      },
+      "ols": {
+        "slope": -0.5152,
+        "intercept": 53569.02
+      },
+      "parentKey": "SEL Premium R-Line|gas",
+      "msrp": 54630
+    },
+    "2026|SEL Premium|gas": {
+      "year": 2026,
+      "trim": "SEL Premium",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        0,
+        0
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SEL Premium|gas",
+      "msrp": null
+    },
+    "2026|SE w/Technology|gas": {
+      "year": 2026,
+      "trim": "SE w/Technology",
+      "powertrain": "gas",
+      "n": 142,
+      "mileageRange": [
+        0,
+        28413
+      ],
+      "theilSen": {
+        "slope": -0.3876,
+        "intercept": 44979.0
+      },
+      "ols": {
+        "slope": -0.3822,
+        "intercept": 45532.16
+      },
+      "parentKey": "SE w/Technology|gas",
+      "msrp": 45630
+    },
+    "2026|SE|gas": {
+      "year": 2026,
+      "trim": "SE",
+      "powertrain": "gas",
+      "n": 60,
+      "mileageRange": [
+        0,
+        30376
+      ],
+      "theilSen": {
+        "slope": -0.3192,
+        "intercept": 43425.66
+      },
+      "ols": {
+        "slope": -0.2624,
+        "intercept": 42448.96
+      },
+      "parentKey": "SE|gas",
+      "msrp": 41210
+    },
+    "2026|S|gas": {
+      "year": 2026,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        6,
+        6
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "S|gas",
+      "msrp": null
+    }
+  },
+  "parents": {
+    "S|gas": {
+      "slope": -0.2038,
+      "intercept": 35496.91
+    },
+    "SE|gas": {
+      "slope": -0.2623,
+      "intercept": 42015.2
+    },
+    "SEL|gas": {
+      "slope": -0.3246,
+      "intercept": 47430.25
+    },
+    "SEL Premium|gas": {
+      "slope": -0.2435,
+      "intercept": 40702.79
+    },
+    "SEL R-Line|gas": {
+      "slope": -0.1949,
+      "intercept": 41434.94
+    },
+    "SE w/Technology|gas": {
+      "slope": -0.3632,
+      "intercept": 44928.44
+    },
+    "SE w/Technology R-Line|gas": {
+      "slope": -0.0964,
+      "intercept": 29739.69
+    },
+    "SEL Premium R-Line|gas": {
+      "slope": -0.4741,
+      "intercept": 52896.69
+    },
+    "Peak Edition|gas": {
+      "slope": -0.2514,
+      "intercept": 45907.51
+    }
+  },
+  "depreciation": {
+    "S|gas": [
+      {
+        "year": 2018,
+        "age": 8,
+        "medianMileage": 74320,
+        "marketValue": 15244,
+        "msrp": 33950,
+        "retained": 0.449
+      },
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 82669,
+        "marketValue": 16938,
+        "msrp": 34095,
+        "retained": 0.497
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 103589,
+        "marketValue": 12790,
+        "msrp": 33455,
+        "retained": 0.382
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 31350,
+        "marketValue": 28985,
+        "msrp": null,
+        "retained": null
+      }
+    ],
+    "SE|gas": [
+      {
+        "year": 2018,
+        "age": 8,
+        "medianMileage": 96842,
+        "marketValue": 14495,
+        "msrp": 37040,
+        "retained": 0.391
+      },
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 94704,
+        "marketValue": 17121,
+        "msrp": 37295,
+        "retained": 0.459
+      },
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 78998,
+        "marketValue": 19074,
+        "msrp": null,
+        "retained": null
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 69246,
+        "marketValue": 22344,
+        "msrp": 36105,
+        "retained": 0.619
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 77916,
+        "marketValue": 23397,
+        "msrp": 36235,
+        "retained": 0.646
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 37272,
+        "marketValue": 29060,
+        "msrp": 36360,
+        "retained": 0.799
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 38182,
+        "marketValue": 30334,
+        "msrp": 39895,
+        "retained": 0.76
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 38156,
+        "marketValue": 30925,
+        "msrp": null,
+        "retained": null
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 10,
+        "marketValue": 43422,
+        "msrp": 41210,
+        "retained": 1.054
+      }
+    ],
+    "SEL|gas": [
+      {
+        "year": 2018,
+        "age": 8,
+        "medianMileage": 92358,
+        "marketValue": 16290,
+        "msrp": 42940,
+        "retained": 0.379
+      },
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 115391,
+        "marketValue": 16929,
+        "msrp": 43195,
+        "retained": 0.392
+      },
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 91541,
+        "marketValue": 24158,
+        "msrp": 44395,
+        "retained": 0.544
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 80351,
+        "marketValue": 21611,
+        "msrp": 44225,
+        "retained": 0.489
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 39735,
+        "marketValue": 29032,
+        "msrp": 45855,
+        "retained": 0.633
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 33164,
+        "marketValue": 31843,
+        "msrp": 46690,
+        "retained": 0.682
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 35799,
+        "marketValue": 35439,
+        "msrp": 48880,
+        "retained": 0.725
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 20673,
+        "marketValue": 37820,
+        "msrp": 48200,
+        "retained": 0.785
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 6,
+        "marketValue": 47853,
+        "msrp": 49620,
+        "retained": 0.964
+      }
+    ],
+    "SEL Premium|gas": [
+      {
+        "year": 2018,
+        "age": 8,
+        "medianMileage": 103922,
+        "marketValue": 15394,
+        "msrp": 48740,
+        "retained": 0.316
+      },
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 69470,
+        "marketValue": 21995,
+        "msrp": 48395,
+        "retained": 0.454
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 58042,
+        "marketValue": 26238,
+        "msrp": 49010,
+        "retained": 0.535
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 0,
+        "marketValue": 52484,
+        "msrp": null,
+        "retained": null
+      }
+    ],
+    "SEL R-Line|gas": [
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 114761,
+        "marketValue": 19858,
+        "msrp": 45145,
+        "retained": 0.44
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 37413,
+        "marketValue": 43758,
+        "msrp": 45925,
+        "retained": 0.953
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 59491,
+        "marketValue": 27554,
+        "msrp": 47255,
+        "retained": 0.583
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 34379,
+        "marketValue": 34765,
+        "msrp": 47930,
+        "retained": 0.725
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 49582,
+        "marketValue": 32002,
+        "msrp": 49320,
+        "retained": 0.649
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 44899,
+        "marketValue": 32252,
+        "msrp": 49140,
+        "retained": 0.656
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 4030,
+        "marketValue": 48067,
+        "msrp": 50560,
+        "retained": 0.951
+      }
+    ],
+    "SE w/Technology|gas": [
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 104007,
+        "marketValue": 19339,
+        "msrp": 39095,
+        "retained": 0.495
+      },
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 89744,
+        "marketValue": 22523,
+        "msrp": 40245,
+        "retained": 0.56
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 73206,
+        "marketValue": 22282,
+        "msrp": 38845,
+        "retained": 0.574
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 28100,
+        "marketValue": 30405,
+        "msrp": 41280,
+        "retained": 0.737
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 38880,
+        "marketValue": 30109,
+        "msrp": 42970,
+        "retained": 0.701
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 40779,
+        "marketValue": 31055,
+        "msrp": 44000,
+        "retained": 0.706
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 33957,
+        "marketValue": 29857,
+        "msrp": 44205,
+        "retained": 0.675
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 6,
+        "marketValue": 44977,
+        "msrp": 45630,
+        "retained": 0.986
+      }
+    ],
+    "SE w/Technology R-Line|gas": [
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 61382,
+        "marketValue": 23821,
+        "msrp": 41645,
+        "retained": 0.572
+      }
+    ],
+    "SEL Premium R-Line|gas": [
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 63675,
+        "marketValue": 28576,
+        "msrp": 51505,
+        "retained": 0.555
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 47924,
+        "marketValue": 33408,
+        "msrp": 52340,
+        "retained": 0.638
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 31062,
+        "marketValue": 38533,
+        "msrp": 52890,
+        "retained": 0.729
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 20103,
+        "marketValue": 42203,
+        "msrp": 53205,
+        "retained": 0.793
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 7,
+        "marketValue": 52916,
+        "msrp": 54630,
+        "retained": 0.969
+      }
+    ],
+    "Peak Edition SE w/Technology|gas": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 30415,
+        "marketValue": 39433,
+        "msrp": 46990,
+        "retained": 0.839
+      }
+    ],
+    "Peak Edition SEL|gas": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 28189,
+        "marketValue": 43666,
+        "msrp": 50870,
+        "retained": 0.858
+      }
+    ],
+    "Peak Edition|gas": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 49832,
+        "marketValue": 33301,
+        "msrp": null,
+        "retained": null
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 8143,
+        "marketValue": 45405,
+        "msrp": 46655,
+        "retained": 0.973
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 7,
+        "marketValue": 45906,
+        "msrp": 48060,
+        "retained": 0.955
+      }
+    ]
+  }
+}
