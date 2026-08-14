@@ -1,0 +1,879 @@
+{
+  "generatedAt": "2026-08-14",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2020|LX|gas": {
+      "year": 2020,
+      "trim": "LX",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        54121,
+        121340
+      ],
+      "theilSen": {
+        "slope": -0.1057,
+        "intercept": 28314.14
+      },
+      "ols": {
+        "slope": -0.1048,
+        "intercept": 28328.75
+      },
+      "parentKey": "LX|gas",
+      "msrp": 33890
+    },
+    "2020|EX|gas": {
+      "year": 2020,
+      "trim": "EX",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        51732,
+        141450
+      ],
+      "theilSen": {
+        "slope": -0.1376,
+        "intercept": 34457.62
+      },
+      "ols": {
+        "slope": -0.1297,
+        "intercept": 33503.28
+      },
+      "parentKey": "EX|gas",
+      "msrp": 39290
+    },
+    "2020|SX|gas": {
+      "year": 2020,
+      "trim": "SX",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        65035,
+        120417
+      ],
+      "theilSen": {
+        "slope": -4.5409,
+        "intercept": 565798.46
+      },
+      "ols": {
+        "slope": -2.814,
+        "intercept": 345304.68
+      },
+      "parentKey": "SX|gas",
+      "msrp": 43790
+    },
+    "2020|S|gas": {
+      "year": 2020,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 13,
+      "mileageRange": [
+        40593,
+        132609
+      ],
+      "theilSen": {
+        "slope": -0.1184,
+        "intercept": 31446.16
+      },
+      "ols": {
+        "slope": -0.2318,
+        "intercept": 70523.92
+      },
+      "parentKey": "S|gas",
+      "msrp": 36290
+    },
+    "2021|EX|gas": {
+      "year": 2021,
+      "trim": "EX",
+      "powertrain": "gas",
+      "n": 10,
+      "mileageRange": [
+        50579,
+        99630
+      ],
+      "theilSen": {
+        "slope": -0.1394,
+        "intercept": 36389.8
+      },
+      "ols": {
+        "slope": -0.1186,
+        "intercept": 34310.07
+      },
+      "parentKey": "EX|gas",
+      "msrp": 39590
+    },
+    "2021|SX|gas": {
+      "year": 2021,
+      "trim": "SX",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        67924,
+        120513
+      ],
+      "theilSen": {
+        "slope": -0.1806,
+        "intercept": 40362.63
+      },
+      "ols": {
+        "slope": -0.1818,
+        "intercept": 40558.64
+      },
+      "parentKey": "SX|gas",
+      "msrp": 44390
+    },
+    "2021|S|gas": {
+      "year": 2021,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        77680,
+        111888
+      ],
+      "theilSen": {
+        "slope": -0.1107,
+        "intercept": 32382.3
+      },
+      "ols": {
+        "slope": -0.1025,
+        "intercept": 32381.16
+      },
+      "parentKey": "S|gas",
+      "msrp": 36590
+    },
+    "2022|LX|gas": {
+      "year": 2022,
+      "trim": "LX",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        24005,
+        94298
+      ],
+      "theilSen": {
+        "slope": -0.1393,
+        "intercept": 34123.98
+      },
+      "ols": {
+        "slope": -0.138,
+        "intercept": 33784.08
+      },
+      "parentKey": "LX|gas",
+      "msrp": 35390
+    },
+    "2022|EX|gas": {
+      "year": 2022,
+      "trim": "EX",
+      "powertrain": "gas",
+      "n": 8,
+      "mileageRange": [
+        49324,
+        139816
+      ],
+      "theilSen": {
+        "slope": -0.1106,
+        "intercept": 36335.3
+      },
+      "ols": {
+        "slope": -0.1139,
+        "intercept": 36577.34
+      },
+      "parentKey": "EX|gas",
+      "msrp": 40390
+    },
+    "2022|SX|gas": {
+      "year": 2022,
+      "trim": "SX",
+      "powertrain": "gas",
+      "n": 9,
+      "mileageRange": [
+        39531,
+        92308
+      ],
+      "theilSen": {
+        "slope": -0.1109,
+        "intercept": 39279.83
+      },
+      "ols": {
+        "slope": -0.1207,
+        "intercept": 39676.73
+      },
+      "parentKey": "SX|gas",
+      "msrp": 45190
+    },
+    "2022|S|gas": {
+      "year": 2022,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        39989,
+        55196
+      ],
+      "theilSen": {
+        "slope": -0.0914,
+        "intercept": 33527.05
+      },
+      "ols": {
+        "slope": -0.0885,
+        "intercept": 33347.03
+      },
+      "parentKey": "S|gas",
+      "msrp": 37890
+    },
+    "2023|LX|gas": {
+      "year": 2023,
+      "trim": "LX",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        40587,
+        55786
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "LX|gas",
+      "msrp": 37890
+    },
+    "2023|EX|gas": {
+      "year": 2023,
+      "trim": "EX",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        29733,
+        54632
+      ],
+      "theilSen": {
+        "slope": 0.1252,
+        "intercept": 30716.57
+      },
+      "ols": {
+        "slope": 0.0925,
+        "intercept": 31366.04
+      },
+      "parentKey": "EX|gas",
+      "msrp": 41490
+    },
+    "2023|EX X-Line|gas": {
+      "year": 2023,
+      "trim": "EX X-Line",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        17684,
+        48844
+      ],
+      "theilSen": {
+        "slope": -0.1146,
+        "intercept": 40699.37
+      },
+      "ols": {
+        "slope": -0.1107,
+        "intercept": 40689.12
+      },
+      "parentKey": "EX X-Line|gas",
+      "msrp": 45685
+    },
+    "2023|S|gas": {
+      "year": 2023,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 18,
+      "mileageRange": [
+        20257,
+        69302
+      ],
+      "theilSen": {
+        "slope": -0.1368,
+        "intercept": 38238.84
+      },
+      "ols": {
+        "slope": -0.1553,
+        "intercept": 38961.0
+      },
+      "parentKey": "S|gas",
+      "msrp": 39790
+    },
+    "2023|SX|gas": {
+      "year": 2023,
+      "trim": "SX",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        59933,
+        61820
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SX|gas",
+      "msrp": null
+    },
+    "2023|SX-Prestige X-Pro|gas": {
+      "year": 2023,
+      "trim": "SX-Prestige X-Pro",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        44472,
+        44472
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SX-Prestige X-Pro|gas",
+      "msrp": null
+    },
+    "2024|LX|gas": {
+      "year": 2024,
+      "trim": "LX",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        27663,
+        44010
+      ],
+      "theilSen": {
+        "slope": -0.0832,
+        "intercept": 35604.44
+      },
+      "ols": {
+        "slope": -0.1097,
+        "intercept": 35960.03
+      },
+      "parentKey": "LX|gas",
+      "msrp": 37990
+    },
+    "2024|S|gas": {
+      "year": 2024,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 12,
+      "mileageRange": [
+        18435,
+        43444
+      ],
+      "theilSen": {
+        "slope": -0.0773,
+        "intercept": 37856.17
+      },
+      "ols": {
+        "slope": -0.0971,
+        "intercept": 39201.01
+      },
+      "parentKey": "S|gas",
+      "msrp": 39890
+    },
+    "2024|EX X-Line|gas": {
+      "year": 2024,
+      "trim": "EX X-Line",
+      "powertrain": "gas",
+      "n": 11,
+      "mileageRange": [
+        14207,
+        75459
+      ],
+      "theilSen": {
+        "slope": -0.0989,
+        "intercept": 41714.63
+      },
+      "ols": {
+        "slope": -0.1076,
+        "intercept": 42351.38
+      },
+      "parentKey": "EX X-Line|gas",
+      "msrp": 45885
+    },
+    "2024|EX|gas": {
+      "year": 2024,
+      "trim": "EX",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        15581,
+        43155
+      ],
+      "theilSen": {
+        "slope": -0.2553,
+        "intercept": 45417.94
+      },
+      "ols": {
+        "slope": -0.225,
+        "intercept": 44648.82
+      },
+      "parentKey": "EX|gas",
+      "msrp": 43590
+    },
+    "2024|SX-Prestige|gas": {
+      "year": 2024,
+      "trim": "SX-Prestige",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        12594,
+        41380
+      ],
+      "theilSen": {
+        "slope": 0.0049,
+        "intercept": 40030.43
+      },
+      "ols": {
+        "slope": 0.0068,
+        "intercept": 40331.81
+      },
+      "parentKey": "SX-Prestige|gas",
+      "msrp": 50690
+    },
+    "2024|SX X-Line|gas": {
+      "year": 2024,
+      "trim": "SX X-Line",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        15794,
+        32071
+      ],
+      "theilSen": {
+        "slope": 0.0061,
+        "intercept": 41865.38
+      },
+      "ols": {
+        "slope": -0.0291,
+        "intercept": 42416.86
+      },
+      "parentKey": "SX X-Line|gas",
+      "msrp": 49285
+    },
+    "2024|SX-Prestige X-Line|gas": {
+      "year": 2024,
+      "trim": "SX-Prestige X-Line",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        41762,
+        45232
+      ],
+      "theilSen": {
+        "slope": -0.0839,
+        "intercept": 43622.23
+      },
+      "ols": {
+        "slope": 0.065,
+        "intercept": 37555.62
+      },
+      "parentKey": "SX-Prestige X-Line|gas",
+      "msrp": 52185
+    },
+    "2024|SX X-Pro|gas": {
+      "year": 2024,
+      "trim": "SX X-Pro",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        17622,
+        64756
+      ],
+      "theilSen": {
+        "slope": -0.1537,
+        "intercept": 47734.63
+      },
+      "ols": {
+        "slope": -0.1493,
+        "intercept": 47676.89
+      },
+      "parentKey": "SX X-Pro|gas",
+      "msrp": null
+    },
+    "2024|SX|gas": {
+      "year": 2024,
+      "trim": "SX",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        24515,
+        66458
+      ],
+      "theilSen": {
+        "slope": -0.099,
+        "intercept": 44416.19
+      },
+      "ols": {
+        "slope": -0.0757,
+        "intercept": 41211.17
+      },
+      "parentKey": "SX|gas",
+      "msrp": null
+    },
+    "2024|SX-Prestige X-Pro|gas": {
+      "year": 2024,
+      "trim": "SX-Prestige X-Pro",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        66458,
+        66458
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SX-Prestige X-Pro|gas",
+      "msrp": null
+    },
+    "2025|EX X-Line|gas": {
+      "year": 2025,
+      "trim": "EX X-Line",
+      "powertrain": "gas",
+      "n": 7,
+      "mileageRange": [
+        13,
+        46228
+      ],
+      "theilSen": {
+        "slope": -0.2773,
+        "intercept": 47068.86
+      },
+      "ols": {
+        "slope": -0.1421,
+        "intercept": 46887.39
+      },
+      "parentKey": "EX X-Line|gas",
+      "msrp": null
+    },
+    "2025|SX X-Line|gas": {
+      "year": 2025,
+      "trim": "SX X-Line",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        22702,
+        22702
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SX X-Line|gas",
+      "msrp": 49885
+    },
+    "2025|SX-Prestige X-Line|gas": {
+      "year": 2025,
+      "trim": "SX-Prestige X-Line",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        8984,
+        27277
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SX-Prestige X-Line|gas",
+      "msrp": 52785
+    },
+    "2025|S|gas": {
+      "year": 2025,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        18712,
+        18712
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "S|gas",
+      "msrp": 41390
+    }
+  },
+  "parents": {
+    "LX|gas": {
+      "slope": -0.182,
+      "intercept": 37572.39
+    },
+    "EX|gas": {
+      "slope": -0.181,
+      "intercept": 40636.04
+    },
+    "SX|gas": {
+      "slope": -0.2106,
+      "intercept": 44859.32
+    },
+    "S|gas": {
+      "slope": -0.2057,
+      "intercept": 40693.96
+    },
+    "EX X-Line|gas": {
+      "slope": -0.1595,
+      "intercept": 44432.58
+    },
+    "SX-Prestige|gas": {
+      "slope": 0.0049,
+      "intercept": 40030.43
+    },
+    "SX X-Line|gas": {
+      "slope": -0.056,
+      "intercept": 43527.44
+    },
+    "SX-Prestige X-Line|gas": {
+      "slope": -0.1986,
+      "intercept": 49379.28
+    },
+    "SX X-Pro|gas": {
+      "slope": -0.1537,
+      "intercept": 47734.63
+    }
+  },
+  "depreciation": {
+    "LX|gas": [
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 98441,
+        "marketValue": 18183,
+        "msrp": 33890,
+        "retained": 0.537
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 52686,
+        "marketValue": 25995,
+        "msrp": 35390,
+        "retained": 0.735
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 48186,
+        "marketValue": 28759,
+        "msrp": 37890,
+        "retained": 0.759
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 38814,
+        "marketValue": 31274,
+        "msrp": 37990,
+        "retained": 0.823
+      }
+    ],
+    "EX|gas": [
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 124549,
+        "marketValue": 18059,
+        "msrp": 39290,
+        "retained": 0.46
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 66701,
+        "marketValue": 27088,
+        "msrp": 39590,
+        "retained": 0.684
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 82743,
+        "marketValue": 27180,
+        "msrp": 40390,
+        "retained": 0.673
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 38040,
+        "marketValue": 34158,
+        "msrp": 41490,
+        "retained": 0.823
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 26026,
+        "marketValue": 38390,
+        "msrp": 43590,
+        "retained": 0.881
+      }
+    ],
+    "SX|gas": [
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 70787,
+        "marketValue": 29448,
+        "msrp": 43790,
+        "retained": 0.672
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 84415,
+        "marketValue": 25380,
+        "msrp": 44390,
+        "retained": 0.572
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 61076,
+        "marketValue": 32508,
+        "msrp": 45190,
+        "retained": 0.719
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 60876,
+        "marketValue": 35386,
+        "msrp": null,
+        "retained": null
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 32059,
+        "marketValue": 40401,
+        "msrp": null,
+        "retained": null
+      }
+    ],
+    "S|gas": [
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 90696,
+        "marketValue": 20707,
+        "msrp": 36290,
+        "retained": 0.571
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 97875,
+        "marketValue": 22882,
+        "msrp": 36590,
+        "retained": 0.625
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 46315,
+        "marketValue": 29438,
+        "msrp": 37890,
+        "retained": 0.777
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 39760,
+        "marketValue": 32800,
+        "msrp": 39790,
+        "retained": 0.824
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 29598,
+        "marketValue": 35568,
+        "msrp": 39890,
+        "retained": 0.892
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 18712,
+        "marketValue": 29715,
+        "msrp": 41390,
+        "retained": 0.718
+      }
+    ],
+    "EX X-Line|gas": [
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 36708,
+        "marketValue": 36069,
+        "msrp": 45685,
+        "retained": 0.79
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 31491,
+        "marketValue": 38601,
+        "msrp": 45885,
+        "retained": 0.841
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 6169,
+        "marketValue": 45358,
+        "msrp": null,
+        "retained": null
+      }
+    ],
+    "SX-Prestige|gas": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 30602,
+        "marketValue": 40180,
+        "msrp": 50690,
+        "retained": 0.793
+      }
+    ],
+    "SX X-Line|gas": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 28654,
+        "marketValue": 41600,
+        "msrp": 49285,
+        "retained": 0.844
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 22702,
+        "marketValue": 34438,
+        "msrp": 49885,
+        "retained": 0.69
+      }
+    ],
+    "SX-Prestige X-Line|gas": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 44596,
+        "marketValue": 39955,
+        "msrp": 52185,
+        "retained": 0.766
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 18130,
+        "marketValue": 45922,
+        "msrp": 52785,
+        "retained": 0.87
+      }
+    ],
+    "SX X-Pro|gas": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 33897,
+        "marketValue": 42526,
+        "msrp": null,
+        "retained": null
+      }
+    ]
+  }
+}

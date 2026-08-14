@@ -1,0 +1,668 @@
+{
+  "generatedAt": "2026-08-14",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2022|S|gas": {
+      "year": 2022,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        62205,
+        77453
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "S|gas",
+      "msrp": 36540
+    },
+    "2022|SV|gas": {
+      "year": 2022,
+      "trim": "SV",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        51089,
+        119622
+      ],
+      "theilSen": {
+        "slope": -0.0746,
+        "intercept": 28127.34
+      },
+      "ols": {
+        "slope": -0.0817,
+        "intercept": 28798.99
+      },
+      "parentKey": "SV|gas",
+      "msrp": 39360
+    },
+    "2022|SL|gas": {
+      "year": 2022,
+      "trim": "SL",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        54917,
+        80907
+      ],
+      "theilSen": {
+        "slope": -0.2984,
+        "intercept": 45518.24
+      },
+      "ols": {
+        "slope": -0.3074,
+        "intercept": 46023.48
+      },
+      "parentKey": "SL|gas",
+      "msrp": 42440
+    },
+    "2022|Platinum|gas": {
+      "year": 2022,
+      "trim": "Platinum",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        54141,
+        66580
+      ],
+      "theilSen": {
+        "slope": 0.1538,
+        "intercept": 19354.63
+      },
+      "ols": {
+        "slope": 0.1127,
+        "intercept": 22145.37
+      },
+      "parentKey": "Platinum|gas",
+      "msrp": 49040
+    },
+    "2023|SV|gas": {
+      "year": 2023,
+      "trim": "SV",
+      "powertrain": "gas",
+      "n": 9,
+      "mileageRange": [
+        15925,
+        194285
+      ],
+      "theilSen": {
+        "slope": -0.113,
+        "intercept": 35134.1
+      },
+      "ols": {
+        "slope": -0.1041,
+        "intercept": 35218.39
+      },
+      "parentKey": "SV|gas",
+      "msrp": 40040
+    },
+    "2023|Rock Creek|gas": {
+      "year": 2023,
+      "trim": "Rock Creek",
+      "powertrain": "gas",
+      "n": 6,
+      "mileageRange": [
+        18448,
+        47888
+      ],
+      "theilSen": {
+        "slope": -0.113,
+        "intercept": 37821.31
+      },
+      "ols": {
+        "slope": -0.1396,
+        "intercept": 38937.12
+      },
+      "parentKey": "Rock Creek|gas",
+      "msrp": 43140
+    },
+    "2023|SL|gas": {
+      "year": 2023,
+      "trim": "SL",
+      "powertrain": "gas",
+      "n": 27,
+      "mileageRange": [
+        9190,
+        69521
+      ],
+      "theilSen": {
+        "slope": -0.1158,
+        "intercept": 35526.73
+      },
+      "ols": {
+        "slope": -0.1064,
+        "intercept": 35320.42
+      },
+      "parentKey": "SL|gas",
+      "msrp": 43640
+    },
+    "2023|S|gas": {
+      "year": 2023,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        13588,
+        54103
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "S|gas",
+      "msrp": null
+    },
+    "2023|Platinum|gas": {
+      "year": 2023,
+      "trim": "Platinum",
+      "powertrain": "gas",
+      "n": 15,
+      "mileageRange": [
+        14165,
+        78964
+      ],
+      "theilSen": {
+        "slope": -0.0712,
+        "intercept": 37940.32
+      },
+      "ols": {
+        "slope": -0.0726,
+        "intercept": 37895.15
+      },
+      "parentKey": "Platinum|gas",
+      "msrp": 50190
+    },
+    "2024|S|gas": {
+      "year": 2024,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        24973,
+        43413
+      ],
+      "theilSen": {
+        "slope": 0.2218,
+        "intercept": 20360.98
+      },
+      "ols": {
+        "slope": 0.2211,
+        "intercept": 20147.22
+      },
+      "parentKey": "S|gas",
+      "msrp": 37980
+    },
+    "2024|SV|gas": {
+      "year": 2024,
+      "trim": "SV",
+      "powertrain": "gas",
+      "n": 14,
+      "mileageRange": [
+        12528,
+        88367
+      ],
+      "theilSen": {
+        "slope": -0.0664,
+        "intercept": 31727.43
+      },
+      "ols": {
+        "slope": -0.0839,
+        "intercept": 33013.7
+      },
+      "parentKey": "SV|gas",
+      "msrp": 40800
+    },
+    "2024|Rock Creek|gas": {
+      "year": 2024,
+      "trim": "Rock Creek",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        15748,
+        49813
+      ],
+      "theilSen": {
+        "slope": -0.1337,
+        "intercept": 37883.43
+      },
+      "ols": {
+        "slope": -0.1733,
+        "intercept": 39759.38
+      },
+      "parentKey": "Rock Creek|gas",
+      "msrp": null
+    },
+    "2024|SL|gas": {
+      "year": 2024,
+      "trim": "SL",
+      "powertrain": "gas",
+      "n": 19,
+      "mileageRange": [
+        12571,
+        55491
+      ],
+      "theilSen": {
+        "slope": -0.1608,
+        "intercept": 39148.87
+      },
+      "ols": {
+        "slope": -0.1526,
+        "intercept": 38914.38
+      },
+      "parentKey": "SL|gas",
+      "msrp": 44400
+    },
+    "2024|Platinum|gas": {
+      "year": 2024,
+      "trim": "Platinum",
+      "powertrain": "gas",
+      "n": 10,
+      "mileageRange": [
+        15146,
+        57776
+      ],
+      "theilSen": {
+        "slope": -0.1406,
+        "intercept": 41365.96
+      },
+      "ols": {
+        "slope": -0.1422,
+        "intercept": 41435.65
+      },
+      "parentKey": "Platinum|gas",
+      "msrp": 50950
+    },
+    "2025|S|gas": {
+      "year": 2025,
+      "trim": "S",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        5254,
+        12727
+      ],
+      "theilSen": {
+        "slope": 0.5126,
+        "intercept": 27986.62
+      },
+      "ols": {
+        "slope": 0.5682,
+        "intercept": 27378.23
+      },
+      "parentKey": "S|gas",
+      "msrp": 38400
+    },
+    "2025|SV|gas": {
+      "year": 2025,
+      "trim": "SV",
+      "powertrain": "gas",
+      "n": 10,
+      "mileageRange": [
+        18503,
+        46223
+      ],
+      "theilSen": {
+        "slope": -0.0731,
+        "intercept": 32636.94
+      },
+      "ols": {
+        "slope": -0.095,
+        "intercept": 33459.01
+      },
+      "parentKey": "SV|gas",
+      "msrp": 41390
+    },
+    "2025|Rock Creek|gas": {
+      "year": 2025,
+      "trim": "Rock Creek",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        9925,
+        10203
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Rock Creek|gas",
+      "msrp": null
+    },
+    "2025|SL|gas": {
+      "year": 2025,
+      "trim": "SL",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        2697,
+        33641
+      ],
+      "theilSen": {
+        "slope": -0.0694,
+        "intercept": 38537.75
+      },
+      "ols": {
+        "slope": -0.0803,
+        "intercept": 37682.67
+      },
+      "parentKey": "SL|gas",
+      "msrp": 44090
+    },
+    "2025|Platinum|gas": {
+      "year": 2025,
+      "trim": "Platinum",
+      "powertrain": "gas",
+      "n": 6,
+      "mileageRange": [
+        2936,
+        27453
+      ],
+      "theilSen": {
+        "slope": -0.1099,
+        "intercept": 43859.07
+      },
+      "ols": {
+        "slope": -0.102,
+        "intercept": 43877.77
+      },
+      "parentKey": "Platinum|gas",
+      "msrp": 50640
+    },
+    "2026|SV|gas": {
+      "year": 2026,
+      "trim": "SV",
+      "powertrain": "gas",
+      "n": 15,
+      "mileageRange": [
+        0,
+        243
+      ],
+      "theilSen": {
+        "slope": -3.6333,
+        "intercept": 40416.17
+      },
+      "ols": {
+        "slope": -4.4879,
+        "intercept": 41736.42
+      },
+      "parentKey": "SV|gas",
+      "msrp": 41900
+    },
+    "2026|Rock Creek|gas": {
+      "year": 2026,
+      "trim": "Rock Creek",
+      "powertrain": "gas",
+      "n": 6,
+      "mileageRange": [
+        3,
+        50
+      ],
+      "theilSen": null,
+      "ols": {
+        "slope": 91.9762,
+        "intercept": 43553.47
+      },
+      "parentKey": "Rock Creek|gas",
+      "msrp": null
+    },
+    "2026|SL|gas": {
+      "year": 2026,
+      "trim": "SL",
+      "powertrain": "gas",
+      "n": 48,
+      "mileageRange": [
+        0,
+        7520
+      ],
+      "theilSen": {
+        "slope": 0.2367,
+        "intercept": 44971.36
+      },
+      "ols": {
+        "slope": 0.0672,
+        "intercept": 45525.96
+      },
+      "parentKey": "SL|gas",
+      "msrp": 44590
+    },
+    "2026|Platinum|gas": {
+      "year": 2026,
+      "trim": "Platinum",
+      "powertrain": "gas",
+      "n": 55,
+      "mileageRange": [
+        0,
+        2450
+      ],
+      "theilSen": {
+        "slope": -5.3198,
+        "intercept": 50424.6
+      },
+      "ols": {
+        "slope": 1.121,
+        "intercept": 50799.66
+      },
+      "parentKey": "Platinum|gas",
+      "msrp": 51790
+    }
+  },
+  "parents": {
+    "S|gas": {
+      "slope": -0.1133,
+      "intercept": 32647.13
+    },
+    "SV|gas": {
+      "slope": -0.2308,
+      "intercept": 39131.08
+    },
+    "SL|gas": {
+      "slope": -0.3249,
+      "intercept": 44585.96
+    },
+    "Platinum|gas": {
+      "slope": -0.3899,
+      "intercept": 49914.22
+    },
+    "Rock Creek|gas": {
+      "slope": -0.2522,
+      "intercept": 41912.93
+    }
+  },
+  "depreciation": {
+    "S|gas": [
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 69829,
+        "marketValue": 24746,
+        "msrp": 36540,
+        "retained": 0.677
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 33845,
+        "marketValue": 30142,
+        "msrp": null,
+        "retained": null
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 34436,
+        "marketValue": 27288,
+        "msrp": 37980,
+        "retained": 0.718
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 8344,
+        "marketValue": 30412,
+        "msrp": 38400,
+        "retained": 0.792
+      }
+    ],
+    "SV|gas": [
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 70626,
+        "marketValue": 25697,
+        "msrp": 39360,
+        "retained": 0.653
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 34966,
+        "marketValue": 31182,
+        "msrp": 40040,
+        "retained": 0.779
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 35365,
+        "marketValue": 29380,
+        "msrp": 40800,
+        "retained": 0.72
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 27884,
+        "marketValue": 30600,
+        "msrp": 41390,
+        "retained": 0.739
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 5,
+        "marketValue": 40398,
+        "msrp": 41900,
+        "retained": 0.964
+      }
+    ],
+    "SL|gas": [
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 63840,
+        "marketValue": 26231,
+        "msrp": 42440,
+        "retained": 0.618
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 36097,
+        "marketValue": 31345,
+        "msrp": 43640,
+        "retained": 0.718
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 24660,
+        "marketValue": 35183,
+        "msrp": 44400,
+        "retained": 0.792
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 14620,
+        "marketValue": 35787,
+        "msrp": 44090,
+        "retained": 0.812
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 5,
+        "marketValue": 44973,
+        "msrp": 44590,
+        "retained": 1.009
+      }
+    ],
+    "Platinum|gas": [
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 55267,
+        "marketValue": 28999,
+        "msrp": 49040,
+        "retained": 0.591
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 35504,
+        "marketValue": 35413,
+        "msrp": 50190,
+        "retained": 0.706
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 40939,
+        "marketValue": 35612,
+        "msrp": 50950,
+        "retained": 0.699
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 17487,
+        "marketValue": 41936,
+        "msrp": 50640,
+        "retained": 0.828
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 9,
+        "marketValue": 50377,
+        "msrp": 51790,
+        "retained": 0.973
+      }
+    ],
+    "Rock Creek|gas": [
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 31108,
+        "marketValue": 34305,
+        "msrp": 43140,
+        "retained": 0.795
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 26230,
+        "marketValue": 35262,
+        "msrp": null,
+        "retained": null
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 10064,
+        "marketValue": 36494,
+        "msrp": null,
+        "retained": null
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 5,
+        "marketValue": 43804,
+        "msrp": null,
+        "retained": null
+      }
+    ]
+  }
+}

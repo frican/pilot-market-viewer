@@ -1,0 +1,804 @@
+{
+  "generatedAt": "2026-08-14",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2020|SE|gas": {
+      "year": 2020,
+      "trim": "SE",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        69512,
+        69512
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SE|gas",
+      "msrp": 33675
+    },
+    "2020|SEL|gas": {
+      "year": 2020,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 6,
+      "mileageRange": [
+        22000,
+        114245
+      ],
+      "theilSen": {
+        "slope": -0.0781,
+        "intercept": 26913.13
+      },
+      "ols": {
+        "slope": -0.0237,
+        "intercept": 22017.77
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 35625
+    },
+    "2020|Limited|gas": {
+      "year": 2020,
+      "trim": "Limited",
+      "powertrain": "gas",
+      "n": 12,
+      "mileageRange": [
+        64583,
+        159188
+      ],
+      "theilSen": {
+        "slope": -0.0891,
+        "intercept": 30684.47
+      },
+      "ols": {
+        "slope": -0.0499,
+        "intercept": 27592.87
+      },
+      "parentKey": "Limited|gas",
+      "msrp": 46825
+    },
+    "2021|SEL|gas": {
+      "year": 2021,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 7,
+      "mileageRange": [
+        55534,
+        108808
+      ],
+      "theilSen": {
+        "slope": -0.1222,
+        "intercept": 32728.5
+      },
+      "ols": {
+        "slope": 0.783,
+        "intercept": -11115.38
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 37025
+    },
+    "2021|Limited|gas": {
+      "year": 2021,
+      "trim": "Limited",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        104270,
+        104270
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Limited|gas",
+      "msrp": 46975
+    },
+    "2021|Calligraphy|gas": {
+      "year": 2021,
+      "trim": "Calligraphy",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        59198,
+        93315
+      ],
+      "theilSen": {
+        "slope": -0.2253,
+        "intercept": 43015.6
+      },
+      "ols": {
+        "slope": -0.2037,
+        "intercept": 42247.21
+      },
+      "parentKey": "Calligraphy|gas",
+      "msrp": 47900
+    },
+    "2022|SEL|gas": {
+      "year": 2022,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 7,
+      "mileageRange": [
+        29131,
+        105072
+      ],
+      "theilSen": {
+        "slope": -0.1444,
+        "intercept": 37169.13
+      },
+      "ols": {
+        "slope": -0.1294,
+        "intercept": 35489.1
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 37650
+    },
+    "2022|Limited|gas": {
+      "year": 2022,
+      "trim": "Limited",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        39845,
+        123119
+      ],
+      "theilSen": {
+        "slope": -0.1682,
+        "intercept": 39502.04
+      },
+      "ols": {
+        "slope": -0.1802,
+        "intercept": 41235.85
+      },
+      "parentKey": "Limited|gas",
+      "msrp": 47540
+    },
+    "2022|Calligraphy|gas": {
+      "year": 2022,
+      "trim": "Calligraphy",
+      "powertrain": "gas",
+      "n": 7,
+      "mileageRange": [
+        32177,
+        100019
+      ],
+      "theilSen": {
+        "slope": -0.1107,
+        "intercept": 38558.99
+      },
+      "ols": {
+        "slope": -0.1083,
+        "intercept": 37276.73
+      },
+      "parentKey": "Calligraphy|gas",
+      "msrp": 48990
+    },
+    "2023|SEL|gas": {
+      "year": 2023,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        38160,
+        97551
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SEL|gas",
+      "msrp": 40800
+    },
+    "2023|XRT|gas": {
+      "year": 2023,
+      "trim": "XRT",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        48074,
+        56402
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "XRT|gas",
+      "msrp": 43100
+    },
+    "2023|Limited|gas": {
+      "year": 2023,
+      "trim": "Limited",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        27228,
+        104936
+      ],
+      "theilSen": {
+        "slope": -0.1247,
+        "intercept": 40183.5
+      },
+      "ols": {
+        "slope": -0.139,
+        "intercept": 40842.43
+      },
+      "parentKey": "Limited|gas",
+      "msrp": 49350
+    },
+    "2023|Calligraphy|gas": {
+      "year": 2023,
+      "trim": "Calligraphy",
+      "powertrain": "gas",
+      "n": 7,
+      "mileageRange": [
+        12819,
+        65581
+      ],
+      "theilSen": {
+        "slope": -0.1257,
+        "intercept": 41297.36
+      },
+      "ols": {
+        "slope": -0.1018,
+        "intercept": 40730.24
+      },
+      "parentKey": "Calligraphy|gas",
+      "msrp": 51750
+    },
+    "2024|SEL|gas": {
+      "year": 2024,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 7,
+      "mileageRange": [
+        13890,
+        37219
+      ],
+      "theilSen": {
+        "slope": -0.1976,
+        "intercept": 42086.19
+      },
+      "ols": {
+        "slope": -0.2415,
+        "intercept": 42927.29
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 41400
+    },
+    "2024|XRT|gas": {
+      "year": 2024,
+      "trim": "XRT",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        13049,
+        51859
+      ],
+      "theilSen": {
+        "slope": -0.1094,
+        "intercept": 39277.06
+      },
+      "ols": {
+        "slope": -0.1181,
+        "intercept": 39677.65
+      },
+      "parentKey": "XRT|gas",
+      "msrp": 43800
+    },
+    "2024|Limited|gas": {
+      "year": 2024,
+      "trim": "Limited",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        26428,
+        38105
+      ],
+      "theilSen": {
+        "slope": -0.2408,
+        "intercept": 45018.86
+      },
+      "ols": {
+        "slope": -0.2834,
+        "intercept": 46300.69
+      },
+      "parentKey": "Limited|gas",
+      "msrp": 49950
+    },
+    "2024|Calligraphy|gas": {
+      "year": 2024,
+      "trim": "Calligraphy",
+      "powertrain": "gas",
+      "n": 12,
+      "mileageRange": [
+        14824,
+        65250
+      ],
+      "theilSen": {
+        "slope": -0.1271,
+        "intercept": 43480.69
+      },
+      "ols": {
+        "slope": -0.141,
+        "intercept": 44507.9
+      },
+      "parentKey": "Calligraphy|gas",
+      "msrp": 52350
+    },
+    "2025|SEL|gas": {
+      "year": 2025,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 9,
+      "mileageRange": [
+        17947,
+        51960
+      ],
+      "theilSen": {
+        "slope": -0.0776,
+        "intercept": 36649.19
+      },
+      "ols": {
+        "slope": -0.0851,
+        "intercept": 36820.71
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 41950
+    },
+    "2025|XRT|gas": {
+      "year": 2025,
+      "trim": "XRT",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        4855,
+        42730
+      ],
+      "theilSen": {
+        "slope": -0.087,
+        "intercept": 39157.3
+      },
+      "ols": {
+        "slope": -0.034,
+        "intercept": 37487.55
+      },
+      "parentKey": "XRT|gas",
+      "msrp": 45050
+    },
+    "2025|SEL Premium|gas": {
+      "year": 2025,
+      "trim": "SEL Premium",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        19528,
+        21992
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SEL Premium|gas",
+      "msrp": 46550
+    },
+    "2025|Calligraphy|gas": {
+      "year": 2025,
+      "trim": "Calligraphy",
+      "powertrain": "gas",
+      "n": 6,
+      "mileageRange": [
+        1585,
+        27268
+      ],
+      "theilSen": {
+        "slope": -0.0535,
+        "intercept": 46021.03
+      },
+      "ols": {
+        "slope": -0.0599,
+        "intercept": 46210.87
+      },
+      "parentKey": "Calligraphy|gas",
+      "msrp": 53000
+    },
+    "2026|SE|gas": {
+      "year": 2026,
+      "trim": "SE",
+      "powertrain": "gas",
+      "n": 6,
+      "mileageRange": [
+        0,
+        57
+      ],
+      "theilSen": null,
+      "ols": {
+        "slope": -3.3981,
+        "intercept": 41284.34
+      },
+      "parentKey": "SE|gas",
+      "msrp": 41435
+    },
+    "2026|XRT Pro|gas": {
+      "year": 2026,
+      "trim": "XRT Pro",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        15,
+        73
+      ],
+      "theilSen": null,
+      "ols": {
+        "slope": 7.8098,
+        "intercept": 47457.4
+      },
+      "parentKey": "XRT Pro|gas",
+      "msrp": 49870
+    },
+    "2026|Limited|gas": {
+      "year": 2026,
+      "trim": "Limited",
+      "powertrain": "gas",
+      "n": 22,
+      "mileageRange": [
+        0,
+        6145
+      ],
+      "theilSen": {
+        "slope": -0.511,
+        "intercept": 51309.64
+      },
+      "ols": {
+        "slope": -0.5106,
+        "intercept": 51308.61
+      },
+      "parentKey": "Limited|gas",
+      "msrp": 51770
+    },
+    "2026|SEL|gas": {
+      "year": 2026,
+      "trim": "SEL",
+      "powertrain": "gas",
+      "n": 22,
+      "mileageRange": [
+        3,
+        14848
+      ],
+      "theilSen": {
+        "slope": -0.4065,
+        "intercept": 45005.03
+      },
+      "ols": {
+        "slope": -0.4089,
+        "intercept": 45040.12
+      },
+      "parentKey": "SEL|gas",
+      "msrp": 43940
+    },
+    "2026|Calligraphy|gas": {
+      "year": 2026,
+      "trim": "Calligraphy",
+      "powertrain": "gas",
+      "n": 25,
+      "mileageRange": [
+        1,
+        7127
+      ],
+      "theilSen": {
+        "slope": -0.9275,
+        "intercept": 55480.2
+      },
+      "ols": {
+        "slope": -0.7767,
+        "intercept": 55532.43
+      },
+      "parentKey": "Calligraphy|gas",
+      "msrp": 56560
+    },
+    "2026|SEL Premium|gas": {
+      "year": 2026,
+      "trim": "SEL Premium",
+      "powertrain": "gas",
+      "n": 6,
+      "mileageRange": [
+        3,
+        19
+      ],
+      "theilSen": null,
+      "ols": {
+        "slope": -58.9802,
+        "intercept": 48462.28
+      },
+      "parentKey": "SEL Premium|gas",
+      "msrp": 47300
+    },
+    "2026|Calligraphy|hybrid": {
+      "year": 2026,
+      "trim": "Calligraphy",
+      "powertrain": "hybrid",
+      "n": 3,
+      "mileageRange": [
+        7393,
+        15901
+      ],
+      "theilSen": {
+        "slope": 0.0011,
+        "intercept": 55489.18
+      },
+      "ols": {
+        "slope": -0.0782,
+        "intercept": 55600.55
+      },
+      "parentKey": "Calligraphy|hybrid",
+      "msrp": 58780
+    }
+  },
+  "parents": {
+    "SE|gas": {
+      "slope": -0.2942,
+      "intercept": 40947.87
+    },
+    "SEL|gas": {
+      "slope": -0.2631,
+      "intercept": 44531.31
+    },
+    "Limited|gas": {
+      "slope": -0.3007,
+      "intercept": 50436.07
+    },
+    "Calligraphy|gas": {
+      "slope": -0.3679,
+      "intercept": 54550.54
+    },
+    "XRT|gas": {
+      "slope": -0.1134,
+      "intercept": 39475.27
+    },
+    "SEL Premium|gas": {
+      "slope": -0.419,
+      "intercept": 47770.61
+    },
+    "Calligraphy|hybrid": {
+      "slope": 0.0011,
+      "intercept": 55489.18
+    }
+  },
+  "depreciation": {
+    "SE|gas": [
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 69512,
+        "marketValue": 21896,
+        "msrp": 33675,
+        "retained": 0.65
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 7,
+        "marketValue": 40946,
+        "msrp": 41435,
+        "retained": 0.988
+      }
+    ],
+    "SEL|gas": [
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 88304,
+        "marketValue": 20014,
+        "msrp": 35625,
+        "retained": 0.562
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 87163,
+        "marketValue": 22080,
+        "msrp": 37025,
+        "retained": 0.596
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 60532,
+        "marketValue": 28430,
+        "msrp": 37650,
+        "retained": 0.755
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 67855,
+        "marketValue": 26918,
+        "msrp": 40800,
+        "retained": 0.66
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 34434,
+        "marketValue": 35282,
+        "msrp": 41400,
+        "retained": 0.852
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 31599,
+        "marketValue": 34198,
+        "msrp": 41950,
+        "retained": 0.815
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 10,
+        "marketValue": 45001,
+        "msrp": 43940,
+        "retained": 1.024
+      }
+    ],
+    "Limited|gas": [
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 93325,
+        "marketValue": 22370,
+        "msrp": 46825,
+        "retained": 0.478
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 104270,
+        "marketValue": 30813,
+        "msrp": 46975,
+        "retained": 0.656
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 54159,
+        "marketValue": 32995,
+        "msrp": 47540,
+        "retained": 0.694
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 48675,
+        "marketValue": 35798,
+        "msrp": 49350,
+        "retained": 0.725
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 31742,
+        "marketValue": 37195,
+        "msrp": 49950,
+        "retained": 0.745
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 12,
+        "marketValue": 51304,
+        "msrp": 51770,
+        "retained": 0.991
+      }
+    ],
+    "Calligraphy|gas": [
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 83429,
+        "marketValue": 25633,
+        "msrp": 47900,
+        "retained": 0.535
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 63654,
+        "marketValue": 31514,
+        "msrp": 48990,
+        "retained": 0.643
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 54877,
+        "marketValue": 34400,
+        "msrp": 51750,
+        "retained": 0.665
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 28686,
+        "marketValue": 39836,
+        "msrp": 52350,
+        "retained": 0.761
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 6629,
+        "marketValue": 45666,
+        "msrp": 53000,
+        "retained": 0.862
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 15,
+        "marketValue": 55466,
+        "msrp": 56560,
+        "retained": 0.981
+      }
+    ],
+    "XRT|gas": [
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 52238,
+        "marketValue": 34003,
+        "msrp": 43100,
+        "retained": 0.789
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 20214,
+        "marketValue": 37115,
+        "msrp": 43800,
+        "retained": 0.847
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 26198,
+        "marketValue": 37232,
+        "msrp": 45050,
+        "retained": 0.826
+      }
+    ],
+    "SEL Premium|gas": [
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 20760,
+        "marketValue": 20500,
+        "msrp": 46550,
+        "retained": 0.44
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 11,
+        "marketValue": 47766,
+        "msrp": 47300,
+        "retained": 1.01
+      }
+    ],
+    "XRT Pro|gas": [
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 18,
+        "marketValue": 47646,
+        "msrp": 49870,
+        "retained": 0.955
+      }
+    ],
+    "Calligraphy|hybrid": [
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 13414,
+        "marketValue": 55503,
+        "msrp": 58780,
+        "retained": 0.944
+      }
+    ]
+  }
+}

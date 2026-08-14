@@ -1,5 +1,10 @@
 [
  {
+  "name": "John's Auto Sales",
+  "distanceMi": 2,
+  "domain": "johnsautosales.com"
+ },
+ {
   "name": "Land Rover South Atlanta",
   "distanceMi": 3,
   "domain": "jaguarsouthatlanta.com"
@@ -17,6 +22,12 @@
   "platform": "carscommerce"
  },
  {
+  "name": "avis car sales pompano beach",
+  "distanceMi": 3,
+  "domain": "aviscarsales.com",
+  "platform": "carscommerce"
+ },
+ {
   "name": "Herb Chambers Honda",
   "distanceMi": 4,
   "domain": "herbchambersluxurycars.com",
@@ -29,9 +40,24 @@
   "platform": "carscommerce"
  },
  {
+  "name": "Colonial Nissan of Medford",
+  "distanceMi": 4,
+  "domain": "buycolonialnissan.com"
+ },
+ {
+  "name": "Colonial Volkswagen of Medford",
+  "distanceMi": 4,
+  "domain": "vwmedford.com"
+ },
+ {
   "name": "Tasca Toyota Boston",
   "distanceMi": 5,
   "domain": "tascakiasouthshore.com"
+ },
+ {
+  "name": "McGovern Chrysler Dodge Jeep Ram of Boston",
+  "distanceMi": 5,
+  "domain": "mcgoverncjdrofboston.com"
  },
  {
   "name": "Motorvation Atlanta",
@@ -52,6 +78,21 @@
   "name": "Lexus of Watertown",
   "distanceMi": 6,
   "domain": "lexusofwatertown.com"
+ },
+ {
+  "name": "Boston Volkswagen",
+  "distanceMi": 6,
+  "domain": "bostonvw.com"
+ },
+ {
+  "name": "Prestige Motor Sales",
+  "distanceMi": 6,
+  "domain": "prestigedealership.com"
+ },
+ {
+  "name": "McGovern Chrysler Jeep Dodge Ram",
+  "distanceMi": 7,
+  "domain": "mcgoverncjdrofnewton.com"
  },
  {
   "name": "Parkway Toyota of Boston",
@@ -146,6 +187,21 @@
   "domain": "wakefield-autogallery.com"
  },
  {
+  "name": "Kelly Nissan of Woburn",
+  "distanceMi": 10,
+  "domain": "kellynissanofwoburn.com"
+ },
+ {
+  "name": "Nucar Chevrolet Woburn",
+  "distanceMi": 10,
+  "domain": "nucartoyotanorthkingstown.com"
+ },
+ {
+  "name": "Nucar Chevrolet of Woburn",
+  "distanceMi": 10,
+  "domain": "nucarvwtilton.com"
+ },
+ {
   "name": "Peachtree Mitsubishi",
   "domain": "peachtreemitsubishi.com",
   "distanceMi": 11
@@ -221,6 +277,26 @@
   "name": "Route 128 Honda",
   "distanceMi": 11,
   "domain": "route128honda.com"
+ },
+ {
+  "name": "Kelly Nissan of Lynnfield",
+  "distanceMi": 11,
+  "domain": "kellynissanoflynnfield.com"
+ },
+ {
+  "name": "Kelly Jeep Chrysler",
+  "distanceMi": 11,
+  "domain": "kellyauto.com"
+ },
+ {
+  "name": "Autobahn USA Dedham",
+  "distanceMi": 11,
+  "domain": "autobahnusadedham.com"
+ },
+ {
+  "name": "Autobahn USA - Dedham",
+  "distanceMi": 11,
+  "domain": "autobahnusadedham.com"
  },
  {
   "name": "World Toyota",
@@ -330,6 +406,26 @@
   "domain": "nucartoyotanorthkingstown.com"
  },
  {
+  "name": "Nucar Toyota Norwood",
+  "distanceMi": 13,
+  "domain": "nucartoyotanorthkingstown.com"
+ },
+ {
+  "name": "Nucar Nissan of Norwood",
+  "distanceMi": 13,
+  "domain": "nucarhyundainorwood.com"
+ },
+ {
+  "name": "North End Motors",
+  "distanceMi": 13,
+  "domain": "northendmotors.com"
+ },
+ {
+  "name": "Wellesley Volkswagen",
+  "distanceMi": 13,
+  "domain": "buywellesleyvw.com"
+ },
+ {
   "name": "Nalley Lexus Galleria",
   "domain": "nalleyinfinitiatlanta.com",
   "distanceMi": 14
@@ -390,6 +486,57 @@
   "name": "Kelly INFINITI",
   "distanceMi": 14,
   "domain": "kellyinfiniti.com"
+ },
+ {
+  "name": "Michaud Mitsubishi",
+  "distanceMi": 14,
+  "domain": "michaudmitsubishi.com"
+ },
+ {
+  "name": "Independence Nissan of Wellesley",
+  "distanceMi": 14,
+  "domain": "independencenissanofwellesley.com"
+ },
+ {
+  "name": "McGovern Kia of Norwood",
+  "distanceMi": 14,
+  "domain": "mcgovernkiaofnorwood.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "Infiniti of Norwood",
+  "distanceMi": 14,
+  "domain": "infinitiofnorwood.com"
+ },
+ {
+  "name": "Central GMC of Norwood",
+  "distanceMi": 14,
+  "domain": "centralgmcnorwood.com"
+ },
+ {
+  "name": "Nucar Nissan Norwood",
+  "distanceMi": 14,
+  "domain": "nucarnissankeene.com"
+ },
+ {
+  "name": "BMW of Peabody",
+  "distanceMi": 14,
+  "domain": "bmwpeabody.com"
+ },
+ {
+  "name": "Kelly Volkswagen",
+  "distanceMi": 14,
+  "domain": "kelly-vw.com"
+ },
+ {
+  "name": "Nucar Volkswagen of Norwood",
+  "distanceMi": 14,
+  "domain": "nucarnh.com"
+ },
+ {
+  "name": "Nucar Hyundai Norwood",
+  "distanceMi": 14,
+  "domain": "nucarhyundainorwood.com"
  },
  {
   "name": "Sandy Springs Toyota Scion",
@@ -498,6 +645,33 @@
   "domain": "mikerezinissan.com"
  },
  {
+  "name": "Nucar VW of Norwood",
+  "distanceMi": 15,
+  "domain": "nucarfordplymouth.com"
+ },
+ {
+  "name": "Minuteman VW, Inc.",
+  "distanceMi": 15,
+  "domain": "minutemanvw.com",
+  "platform": "dealerdotcom"
+ },
+ {
+  "name": "Nucar Hyundai of Norwood",
+  "distanceMi": 15,
+  "domain": "nucartoyotanorthkingstown.com"
+ },
+ {
+  "name": "McGovern Hyundai Route 93",
+  "distanceMi": 15,
+  "domain": "mcgovernhyundairt93.com"
+ },
+ {
+  "name": "Herb Chambers Lexus Hingham",
+  "distanceMi": 15,
+  "domain": "herbchamberslexusofhingham.com",
+  "platform": "carscommerce"
+ },
+ {
   "name": "1st Choice Autos",
   "domain": "1stchoiceautosga.com",
   "distanceMi": 16
@@ -566,6 +740,12 @@
   "platform": "carscommerce"
  },
  {
+  "name": "Kia North Danvers",
+  "distanceMi": 16,
+  "domain": "kianorthdanvers.com",
+  "platform": "dealerdotcom"
+ },
+ {
   "name": "ALM Hyundai West",
   "domain": "almhyundaiwest.com",
   "distanceMi": 17
@@ -624,6 +804,11 @@
   "name": "Honda North",
   "distanceMi": 17,
   "domain": "hondanorth.com"
+ },
+ {
+  "name": "Alliance Motor Group",
+  "distanceMi": 17,
+  "domain": "alliancemotorgroup.com"
  },
  {
   "name": "Amazing Luxury Cars",
@@ -688,6 +873,23 @@
   "domain": "oceanhondagroton.com"
  },
  {
+  "name": "Herb Chambers Lexus",
+  "distanceMi": 18,
+  "domain": "herbchamberslexus.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "Coastal Volkswagen",
+  "distanceMi": 18,
+  "domain": "coastalvw.com"
+ },
+ {
+  "name": "Herb Chambers Lexus Sharon",
+  "distanceMi": 18,
+  "domain": "herbchamberslexus.com",
+  "platform": "carscommerce"
+ },
+ {
   "name": "Stone Mountain Honda",
   "domain": "stonemountaintoyota.com",
   "distanceMi": 19
@@ -740,6 +942,17 @@
   "platform": "carscommerce"
  },
  {
+  "name": "Icon Mitsubishi - Framingham",
+  "distanceMi": 19,
+  "domain": "iconmitsubishi.com"
+ },
+ {
+  "name": "Midway Automotive",
+  "distanceMi": 19,
+  "domain": "midwayautomotive.com",
+  "platform": "carscommerce"
+ },
+ {
   "name": "Rick Case Mazda",
   "domain": "express.rickcasemazda.com",
   "distanceMi": 20
@@ -784,6 +997,27 @@
   "name": "Automax Framingham",
   "distanceMi": 20,
   "domain": "automaxpreowned.com"
+ },
+ {
+  "name": "McGovern Chrysler Dodge Jeep Ram Acton",
+  "distanceMi": 20,
+  "domain": "mcgoverncjdrofacton.com"
+ },
+ {
+  "name": "Topsfield Motor Company",
+  "distanceMi": 20,
+  "domain": "topsfieldmotorco.com"
+ },
+ {
+  "name": "mcgee toyota of hanover",
+  "distanceMi": 20,
+  "domain": "mcgeecars.com"
+ },
+ {
+  "name": "Herb Connolly Chevrolet",
+  "distanceMi": 20,
+  "domain": "herbconnollychevroletspecials.com",
+  "platform": "carscommerce"
  },
  {
   "name": "BMW of Gwinnett Place",
@@ -886,6 +1120,23 @@
   "domain": "oceanhondahanover.com"
  },
  {
+  "name": "Bourne's Auto Center",
+  "distanceMi": 21,
+  "domain": "bournes.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "McGovern Subaru of Acton",
+  "distanceMi": 21,
+  "domain": "mcgovernsubaruofacton.com"
+ },
+ {
+  "name": "McGovern Hyundai",
+  "distanceMi": 21,
+  "domain": "mcgovernhyundai.com",
+  "platform": "carscommerce"
+ },
+ {
   "name": "Carriage Kia of Alpharetta",
   "domain": "choosecarriage.com",
   "distanceMi": 22
@@ -927,6 +1178,22 @@
  },
  {
   "name": "Gervais Volkswagen",
+  "distanceMi": 22,
+  "domain": "gervaiskia.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "Nissan of Merrimack Valley",
+  "distanceMi": 22,
+  "domain": "nissanofmerrimackvalley.com"
+ },
+ {
+  "name": "Nucar Chevrolet Lowell",
+  "distanceMi": 22,
+  "domain": "nucartoyotanorthkingstown.com"
+ },
+ {
+  "name": "Gervais Kia",
   "distanceMi": 22,
   "domain": "gervaiskia.com"
  },
@@ -999,6 +1266,36 @@
   "domain": "unitedbmw.com"
  },
  {
+  "name": "Drive Max",
+  "distanceMi": 23,
+  "domain": "drivemaxma.com"
+ },
+ {
+  "name": "Marlboro Nissan",
+  "distanceMi": 23,
+  "domain": "marlboronissan.com"
+ },
+ {
+  "name": "Chelmsford Street Auto Sales",
+  "distanceMi": 23,
+  "domain": "cstreetautos.com"
+ },
+ {
+  "name": "McGovern Ford of Lowell",
+  "distanceMi": 23,
+  "domain": "lowell.claz.org"
+ },
+ {
+  "name": "Drivemax",
+  "distanceMi": 23,
+  "domain": "drivemaxma.com"
+ },
+ {
+  "name": "Route 110 Auto, Inc.",
+  "distanceMi": 23,
+  "domain": "route110auto.com"
+ },
+ {
   "name": "Town Center Nissan",
   "domain": "towncenternissan.com",
   "distanceMi": 24
@@ -1059,6 +1356,21 @@
   "domain": "bestpriceautosales.net"
  },
  {
+  "name": "Silko Volkswagen",
+  "distanceMi": 24,
+  "domain": "silkovwofeaston.com"
+ },
+ {
+  "name": "Silko Volkswagen of Easton",
+  "distanceMi": 24,
+  "domain": "silkovwofeaston.com"
+ },
+ {
+  "name": "Station Chrysler Jeep of Mansfield",
+  "distanceMi": 24,
+  "domain": "stationchryslerjeep.com"
+ },
+ {
   "name": "Automax Marlborough",
   "distanceMi": 25,
   "domain": "automaxpreowned.com"
@@ -1080,6 +1392,33 @@
   "domain": "commonwealthhonda.com"
  },
  {
+  "name": "Commonwealth Nissan",
+  "distanceMi": 25,
+  "domain": "commonwealthnissan.com"
+ },
+ {
+  "name": "Metro West Auto",
+  "distanceMi": 25,
+  "domain": "metrowestauto.com"
+ },
+ {
+  "name": "commonwealth motors",
+  "distanceMi": 25,
+  "domain": "commonwealthnissan.com",
+  "platform": "dealereprocess"
+ },
+ {
+  "name": "Commonwealth Volkswagen",
+  "distanceMi": 25,
+  "domain": "commonwealthnissan.com",
+  "platform": "dealereprocess"
+ },
+ {
+  "name": "Commonwealth Kia",
+  "distanceMi": 25,
+  "domain": "commonwealthkia.com"
+ },
+ {
   "name": "Maxie Price Chevrolet",
   "domain": "maxieprice.com",
   "distanceMi": 26,
@@ -1093,7 +1432,8 @@
  {
   "name": "Imperial Toyota",
   "distanceMi": 26,
-  "domain": "imperialcars.com"
+  "domain": "imperialcars.com",
+  "platform": "carscommerce"
  },
  {
   "name": "Atlanta Car Cruiser",
@@ -1105,6 +1445,21 @@
   "distanceMi": 26,
   "domain": "imperialsubaru.com",
   "platform": "carscommerce"
+ },
+ {
+  "name": "imperial chrysler jeep dodge",
+  "distanceMi": 26,
+  "domain": "imperialfordmilford.com"
+ },
+ {
+  "name": "InterAuto Corp",
+  "distanceMi": 26,
+  "domain": "interautomass.com"
+ },
+ {
+  "name": "Franklin Ford",
+  "distanceMi": 26,
+  "domain": "franklinford.com"
  },
  {
   "name": "Auto Gallery Lawrenceville",
@@ -1131,6 +1486,27 @@
   "name": "Aleksa Auto",
   "distanceMi": 27,
   "domain": "aleksaauto.com"
+ },
+ {
+  "name": "Milford Nissan",
+  "distanceMi": 27,
+  "domain": "milfordnissan.com"
+ },
+ {
+  "name": "Drive And Thrive LLC",
+  "distanceMi": 27,
+  "domain": "driveandthrivellc.com"
+ },
+ {
+  "name": "McGovern Hyundai of Milford",
+  "distanceMi": 27,
+  "domain": "mcgovernhyundaiofmilford.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "Grieco Chrysler Dodge Jeep Ram",
+  "distanceMi": 27,
+  "domain": "manahawkinchryslerdodge.net"
  },
  {
   "name": "Hardy Superstore",
@@ -1164,6 +1540,17 @@
   "domain": "canobielaketoyota.com"
  },
  {
+  "name": "Colonial Volkswagen",
+  "distanceMi": 28,
+  "domain": "buycolonial.com"
+ },
+ {
+  "name": "Key Hyundai of Salem",
+  "distanceMi": 28,
+  "domain": "salemhyundai.com",
+  "platform": "carscommerce"
+ },
+ {
   "name": "Star Motors",
   "domain": "starmotorsga.com",
   "distanceMi": 29
@@ -1189,6 +1576,16 @@
   "domain": "zynexmotors.com"
  },
  {
+  "name": "Continental Auto Sales",
+  "distanceMi": 29,
+  "domain": "continentalauto.com"
+ },
+ {
+  "name": "McKay Chevrolet of Raynham",
+  "distanceMi": 29,
+  "domain": "mckaychevrolet.com"
+ },
+ {
   "name": "Elite Automotive LLC",
   "domain": "eliteautoga.com",
   "distanceMi": 30
@@ -1212,6 +1609,27 @@
   "name": "Balise Honda of North Attleboro",
   "distanceMi": 30,
   "domain": "balisehondanorthattleboro.com"
+ },
+ {
+  "name": "Salem Nissan",
+  "distanceMi": 30,
+  "domain": "salemnissan.com"
+ },
+ {
+  "name": "RTE 123 Village Auto Sales Inc.",
+  "distanceMi": 30,
+  "domain": "villageautoma.com"
+ },
+ {
+  "name": "Advanced Auto Sales",
+  "distanceMi": 30,
+  "domain": "advancedautoma.com"
+ },
+ {
+  "name": "First Hyundai",
+  "distanceMi": 30,
+  "domain": "firsthyundai.com",
+  "platform": "carscommerce"
  },
  {
   "name": "Southtowne Hyundai of Newnan Genesis of Newnan",
@@ -1270,6 +1688,39 @@
   "name": "Honda Westborough",
   "distanceMi": 31,
   "domain": "hondawestborough.com"
+ },
+ {
+  "name": "Nucar Nissan of North Attleboro",
+  "distanceMi": 31,
+  "domain": "nucartoyotanorthkingstown.com"
+ },
+ {
+  "name": "Nucar Toyota of North Attleboro",
+  "distanceMi": 31,
+  "domain": "nucartoyotanorthkingstown.com"
+ },
+ {
+  "name": "Imperial Ford",
+  "distanceMi": 31,
+  "domain": "imperialtoyotama.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "imperial toyota",
+  "distanceMi": 31,
+  "domain": "imperialtoyotama.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "Route 44 Hyundai",
+  "distanceMi": 31,
+  "domain": "route44hyundai.com",
+  "platform": "dealerdotcom"
+ },
+ {
+  "name": "Herb Chambers Lincoln Westborough",
+  "distanceMi": 31,
+  "domain": "herbchambershondaofburlington.com"
  },
  {
   "name": "Rick Hendrick Chevrolet of Buford",
@@ -1333,6 +1784,58 @@
   "domain": "mastriamotors.com"
  },
  {
+  "name": "allen mello chrysler dodge jeep ram",
+  "distanceMi": 32,
+  "domain": "allenmellododgenashua.com",
+  "platform": "dealereprocess"
+ },
+ {
+  "name": "Mastria Kia",
+  "distanceMi": 32,
+  "domain": "mastriamotors.com"
+ },
+ {
+  "name": "Mastria Subaru of Raynham",
+  "distanceMi": 32,
+  "domain": "mastriamotors.com"
+ },
+ {
+  "name": "Mastria Volkswagen",
+  "distanceMi": 32,
+  "domain": "mastriahyundaiofplymouth.com"
+ },
+ {
+  "name": "Foley Motorsports",
+  "distanceMi": 32,
+  "domain": "foleymotorsports.com"
+ },
+ {
+  "name": "Mastria Volkswagen of Raynham",
+  "distanceMi": 32,
+  "domain": "mastriavw.com"
+ },
+ {
+  "name": "Nashua Hyundai",
+  "distanceMi": 32,
+  "domain": "nashuahyundai.com"
+ },
+ {
+  "name": "MacMulkin Chevrolet Cadillac",
+  "distanceMi": 32,
+  "domain": "macmulkincadillac.com"
+ },
+ {
+  "name": "Allen Mello Chrysler Dodge Jeep RAM",
+  "distanceMi": 32,
+  "domain": "allenmellododgenashua.com",
+  "platform": "dealereprocess"
+ },
+ {
+  "name": "Marty\u2019s GMC",
+  "distanceMi": 32,
+  "domain": "martys-chevy.com"
+ },
+ {
   "name": "Beaver Toyota Cumming",
   "domain": "beavertoyotacumming.com",
   "distanceMi": 33
@@ -1388,6 +1891,27 @@
   "domain": "ronbouchardhonda.com"
  },
  {
+  "name": "Ron Bouchard's Nissan",
+  "distanceMi": 33,
+  "domain": "ronbouchardsnissan.com"
+ },
+ {
+  "name": "Gesner Auto",
+  "distanceMi": 33,
+  "domain": "gesnerauto.com"
+ },
+ {
+  "name": "Volvo Cars Plymouth",
+  "distanceMi": 33,
+  "domain": "volvocarscapecod.com"
+ },
+ {
+  "name": "Wagner Kia of Shrewsbury",
+  "distanceMi": 33,
+  "domain": "wagnerkiaofshrewsbury.com",
+  "platform": "dealerdotcom"
+ },
+ {
   "name": "Lou Sobh Honda",
   "domain": "lousobhkia.com",
   "distanceMi": 34
@@ -1408,6 +1932,37 @@
   "domain": "kochrt2toyota.com"
  },
  {
+  "name": "Harbro Sales & Service",
+  "distanceMi": 34,
+  "domain": "harbroauto.com"
+ },
+ {
+  "name": "Colonial Ford",
+  "distanceMi": 34,
+  "domain": "buycolonial.com"
+ },
+ {
+  "name": "Anderson Automotive",
+  "distanceMi": 34,
+  "domain": "andersonauto122.com"
+ },
+ {
+  "name": "Freiday's Auto Sales",
+  "distanceMi": 34,
+  "domain": "freidaysautosales.com"
+ },
+ {
+  "name": "Tasca Buick GMC",
+  "distanceMi": 34,
+  "domain": "tasca.com"
+ },
+ {
+  "name": "Kia of Attleboro",
+  "distanceMi": 34,
+  "domain": "kiaofattleboro.com",
+  "platform": "dealerdotcom"
+ },
+ {
   "name": "H and S Auto Group",
   "domain": "handsautogroup.com",
   "distanceMi": 35
@@ -1423,6 +1978,16 @@
   "domain": "ronbouchardsnissan.com"
  },
  {
+  "name": "Uxbridge Auto",
+  "distanceMi": 35,
+  "domain": "uxbridgeauto.com"
+ },
+ {
+  "name": "Ron Bouchard's Kia",
+  "distanceMi": 35,
+  "domain": "ronbouchard.com"
+ },
+ {
   "name": "Cherokee Mitsubishi",
   "domain": "cherokeemitsubishi.com",
   "distanceMi": 36
@@ -1436,6 +2001,11 @@
   "name": "Courtesy Mitsubishi",
   "distanceMi": 36,
   "domain": "courtesymitsubishima.com"
+ },
+ {
+  "name": "Honda of Plymouth",
+  "distanceMi": 36,
+  "domain": "hondaofplymouth.com"
  },
  {
   "name": "Countryside Pre Owned Supercenter",
@@ -1456,6 +2026,31 @@
   "name": "Morris Auto Sales GA",
   "distanceMi": 37,
   "domain": "morrisautosalesinc.net"
+ },
+ {
+  "name": "Lahti's Jeep",
+  "distanceMi": 37,
+  "domain": "lahtisjeep.com"
+ },
+ {
+  "name": "Peters Nissan of Nashua",
+  "distanceMi": 37,
+  "domain": "petershondaofnashua.com"
+ },
+ {
+  "name": "Peters Honda of Nashua",
+  "distanceMi": 37,
+  "domain": "petershondaofnashua.com"
+ },
+ {
+  "name": "Durand Cadillac",
+  "distanceMi": 37,
+  "domain": "durandgmc.com"
+ },
+ {
+  "name": "AutoWright Motor company",
+  "distanceMi": 37,
+  "domain": "autowrightmotorco.com"
  },
  {
   "name": "Shottenkirk Chrysler Dodge Jeep Ram",
@@ -1489,6 +2084,21 @@
   "domain": "shottenkirk.com"
  },
  {
+  "name": "Tasca Mazda",
+  "distanceMi": 38,
+  "domain": "tascatoyotaboston.com"
+ },
+ {
+  "name": "Linder's Inc.",
+  "distanceMi": 38,
+  "domain": "lindersinc.com"
+ },
+ {
+  "name": "Tasca Mazda Seekonk",
+  "distanceMi": 38,
+  "domain": "tascahyundai.com"
+ },
+ {
   "name": "Scott Evans Chrysler Plymouth Dodge Jeep FCA",
   "domain": "scottevanschryslerdodgejeep.com",
   "distanceMi": 39
@@ -1514,6 +2124,45 @@
   "domain": "soniasautosales.com"
  },
  {
+  "name": "D'Agostino Motors LTD",
+  "distanceMi": 39,
+  "domain": "dagostinomotors.com"
+ },
+ {
+  "name": "mcgovern hyundai route 2",
+  "distanceMi": 39,
+  "domain": "mcgovernhyundairt2.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "CarFive of Salem",
+  "distanceMi": 39,
+  "domain": "carfive.com"
+ },
+ {
+  "name": "North End Subaru Mazda",
+  "distanceMi": 39,
+  "domain": "northendsubaru.com",
+  "platform": "dealerdotcom"
+ },
+ {
+  "name": "McGovern Hyundai RT 2",
+  "distanceMi": 39,
+  "domain": "mcgovernhyundairt2.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "McGovern Hyundai Route 2",
+  "distanceMi": 39,
+  "domain": "mcgovernhyundairt2.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "Colonial West Chevrolet",
+  "distanceMi": 39,
+  "domain": "colonial-west.com"
+ },
+ {
   "name": "Shottenkirk Honda of Cartersville",
   "domain": "shottenkirk.com",
   "distanceMi": 40,
@@ -1531,9 +2180,59 @@
   "platform": "carscommerce"
  },
  {
+  "name": "Herb Chambers Honda Seekonk",
+  "distanceMi": 40,
+  "domain": "herbchambersbmw.com"
+ },
+ {
+  "name": "Prestige Mitsubishi",
+  "distanceMi": 40,
+  "domain": "prestigeautomarttaunton.com"
+ },
+ {
+  "name": "Elmwood Auto Group Inc",
+  "distanceMi": 40,
+  "domain": "elmwoodcdjr.com"
+ },
+ {
+  "name": "Scott Volkswagen",
+  "distanceMi": 40,
+  "domain": "scottvw.com"
+ },
+ {
+  "name": "AutoFair Volkswagen of Nashua",
+  "distanceMi": 40,
+  "domain": "autofair.com"
+ },
+ {
+  "name": "Pride Hyundai of Seekonk",
+  "distanceMi": 40,
+  "domain": "hyundaiofseekonk.com"
+ },
+ {
+  "name": "Seacoast Truck & Auto",
+  "distanceMi": 40,
+  "domain": "seacoastusedcars.com"
+ },
+ {
   "name": "Our Local Dealer",
   "distanceMi": 41,
   "domain": "ourlocaldealer.com"
+ },
+ {
+  "name": "Tasca Nissan East Providence",
+  "distanceMi": 41,
+  "domain": "tascanissaneastprovidence.com"
+ },
+ {
+  "name": "Grieco Acura",
+  "distanceMi": 41,
+  "domain": "griecohyundai.com"
+ },
+ {
+  "name": "Ocean State Auto Sales",
+  "distanceMi": 41,
+  "domain": "oceanstateautosales.com"
  },
  {
   "name": "Bristol Toyota",
@@ -1556,10 +2255,41 @@
   "domain": "acuraofauburn.com"
  },
  {
+  "name": "Bertera Nissan",
+  "distanceMi": 42,
+  "domain": "berteranissan.com"
+ },
+ {
+  "name": "Patrick Volkswagen",
+  "distanceMi": 42,
+  "domain": "patrickvw.com"
+ },
+ {
+  "name": "Lewis Motor Sales",
+  "distanceMi": 42,
+  "domain": "lewismotorsales.net"
+ },
+ {
   "name": "Herb Chambers Toyota of Auburn",
   "distanceMi": 43,
   "domain": "herbchamberstoyotaofauburn.com",
   "platform": "dealerdotcom"
+ },
+ {
+  "name": "Herb Chambers Hyundai of Auburn",
+  "distanceMi": 43,
+  "domain": "herbchambershyundaiofauburn.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "Route 6 Auto Mall",
+  "distanceMi": 43,
+  "domain": "route6automall.com"
+ },
+ {
+  "name": "Route 6 Automall Kia",
+  "distanceMi": 43,
+  "domain": "route6automall.com"
  },
  {
   "name": "Krause Family Hyundai",
@@ -1599,6 +2329,26 @@
   "domain": "griecoacura.com"
  },
  {
+  "name": "Foss Motors",
+  "distanceMi": 44,
+  "domain": "fosscars.com"
+ },
+ {
+  "name": "Hurd Auto Mall",
+  "distanceMi": 44,
+  "domain": "hurdchevrolet.com"
+ },
+ {
+  "name": "Tasca Kia",
+  "distanceMi": 44,
+  "domain": "tasca.com"
+ },
+ {
+  "name": "McFarland Ford Sales Inc.",
+  "distanceMi": 44,
+  "domain": "mcfarland-ford.com"
+ },
+ {
   "name": "Ira Toyota of Manchester Group 1 Automotive",
   "distanceMi": 45,
   "domain": "toyotaofmanchesternh.com"
@@ -1619,6 +2369,33 @@
   "domain": "mcfarlandauto.com"
  },
  {
+  "name": "Team Nissan",
+  "distanceMi": 45,
+  "domain": "teamnissannh.com",
+  "platform": "dealereprocess"
+ },
+ {
+  "name": "AutoFair Ford",
+  "distanceMi": 45,
+  "domain": "autofair.com"
+ },
+ {
+  "name": "McFarland Nissan",
+  "distanceMi": 45,
+  "domain": "mcfarlandnissan.com"
+ },
+ {
+  "name": "McFarland Hyundai",
+  "distanceMi": 45,
+  "domain": "mcfarlandhyundai.com"
+ },
+ {
+  "name": "team nissan",
+  "distanceMi": 45,
+  "domain": "teamnissannh.com",
+  "platform": "dealereprocess"
+ },
+ {
   "name": "Jim Shorkey Cadillac",
   "domain": "jimshorkeycadillac.com",
   "distanceMi": 46
@@ -1637,6 +2414,21 @@
   "name": "Mercedes-Benz of Manchester",
   "distanceMi": 46,
   "domain": "manchestermb.com"
+ },
+ {
+  "name": "Empire Pre-Owned Superstore",
+  "distanceMi": 46,
+  "domain": "empirepreownedsuperstore.com"
+ },
+ {
+  "name": "Gary-Jackson Motors",
+  "distanceMi": 46,
+  "domain": "garyjacksonmotors.com"
+ },
+ {
+  "name": "Enterprise Car Sales Manchester",
+  "distanceMi": 46,
+  "domain": "enterprisecarsales.com"
  },
  {
   "name": "Milton Martin Honda",
@@ -1674,6 +2466,21 @@
   "domain": "autoworldofga.com"
  },
  {
+  "name": "Balise Nissan of Warwick",
+  "distanceMi": 47,
+  "domain": "balisenissanri.com"
+ },
+ {
+  "name": "Tasca Ford Cranston",
+  "distanceMi": 47,
+  "domain": "tascabuickgmc.com"
+ },
+ {
+  "name": "Balise Chevrolet of Warwick",
+  "distanceMi": 47,
+  "domain": "baliseauto.com"
+ },
+ {
   "name": "Milton Martin Toyota Scion",
   "domain": "miltonmartintoyota.com",
   "distanceMi": 48
@@ -1699,6 +2506,38 @@
   "domain": "hardychevrolet.com"
  },
  {
+  "name": "Empire Ford Inc. ",
+  "distanceMi": 48,
+  "domain": "empirefordofnewbedford.com"
+ },
+ {
+  "name": "Portsmouth Volkswagen",
+  "distanceMi": 48,
+  "domain": "portsmouthvolkswagen.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "Battles Nissan",
+  "distanceMi": 49,
+  "domain": "battlesnissan.com"
+ },
+ {
+  "name": "Empire Ford of New Bedford",
+  "distanceMi": 49,
+  "domain": "empirefordinc.com"
+ },
+ {
+  "name": "portsmouth chevrolet",
+  "distanceMi": 49,
+  "domain": "portsmouthchevrolet.com",
+  "platform": "carscommerce"
+ },
+ {
+  "name": "State Motors Inc",
+  "distanceMi": 49,
+  "domain": "statemotorslincoln.net"
+ },
+ {
   "name": "Toyota of Dartmouth",
   "distanceMi": 50,
   "domain": "toyotaofdartmouth.com"
@@ -1717,6 +2556,21 @@
   "name": "Bald Hill Kia",
   "distanceMi": 50,
   "domain": "baldhillkia.com"
+ },
+ {
+  "name": "Bonneville and Son Chrysler Dodge Jeep Ram",
+  "distanceMi": 50,
+  "domain": "bonnevilleandson.com"
+ },
+ {
+  "name": "Colonial South Chevrolet",
+  "distanceMi": 50,
+  "domain": "colonialsouthchevy.com"
+ },
+ {
+  "name": "Prestige Auto Mart",
+  "distanceMi": 50,
+  "domain": "prestigeautomart.net"
  },
  {
   "name": "Athens Ford",

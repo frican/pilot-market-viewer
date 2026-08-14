@@ -1,0 +1,142 @@
+[
+  {
+    "id": "api-kndne5ka1s6066924",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SX Prestige",
+    "trimFeed": "SX Prestige",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "SX Prestige 4dr Minivan (1.6L 4cyl Turbo gas/electric hybrid 6A)",
+    "transmission": "Automatic",
+    "drivetrain": "FWD",
+    "engine": "1.6L 4Cyl Gasoline",
+    "year": 2025,
+    "mileage": 3025,
+    "price": 49895,
+    "priceBasis": "listing",
+    "dealer": "Wagner Kia of Shrewsbury",
+    "dealerId": "d_26e37ac6fa374763",
+    "distanceMi": 33,
+    "state": "MA",
+    "city": "Shrewsbury",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Panthera Metal",
+    "interiorColor": "Gray",
+    "vin": "KNDNE5KA1S6066924",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.wagnerkiaofshrewsbury.com/used/Kia/2025-Kia-Carnival-Hybrid-shrewsbury-ma-8c0ed1d4ac1825bc039c15279a983a03.htm?priorityType=spv&srsltid=AfmBOopQxjt2SKuyyAjak4dFkztPOinS-a15lLbnNPfTjvW45BRHax5J",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDNE5KA1S6066924&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KNDNE5KA1S6066924-1.jpg",
+    "photoCount": 16,
+    "baseMsrp": 52900,
+    "squishVin": "KNDNE5KAS6",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Vehicle Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-08-14",
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
+    "priceHistory": [
+      {
+        "date": "2026-08-14",
+        "price": 49895
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.998,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantCity": "Gwangmyeong",
+    "plantSource": "vpic",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 51078,
+      "expected": 51589,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -1694,
+      "dealPct": -0.0328,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 5,
+        "cohortMedianDaysListed": 5,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-08-14",
+    "trimSite": "SX Prestige",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-08-14",
+        "how": "search",
+        "tier": "site",
+        "host": "wagnerkiaofshrewsbury.com",
+        "trim": "SX Prestige",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-14",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "SX Prestige",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 3025,
+        "price": 51595
+      },
+      {
+        "date": "2026-08-14",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "SX Prestige",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 3025,
+        "price": 51595
+      },
+      {
+        "date": "2026-08-14",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "SX Prestige",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "KU256924L",
+    "trimSearch": "SX Prestige",
+    "powertrainSearch": "hybrid"
+  }
+]

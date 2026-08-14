@@ -40,7 +40,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -83,7 +83,8 @@
         "mileage": null,
         "price": 47341
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab50ts119376",
@@ -126,7 +127,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -155,7 +156,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab50ts119491",
@@ -198,7 +200,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -227,7 +229,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab50ts133505",
@@ -297,15 +300,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49716,
+      "marketValue": 49807,
+      "expected": 49745,
       "adjustments": {
         "distance": -62.1
       },
-      "dealDelta": -928,
-      "dealPct": -0.0187,
+      "dealDelta": -957,
+      "dealPct": -0.0192,
       "rating": "fair",
-      "dealScore": 0.787,
+      "dealScore": 0.77,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -1666,15 +1669,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49718,
+      "marketValue": 49807,
+      "expected": 49747,
       "adjustments": {
         "distance": -59.85
       },
-      "dealDelta": -855,
-      "dealPct": -0.0172,
+      "dealDelta": -884,
+      "dealPct": -0.0178,
       "rating": "fair",
-      "dealScore": 0.77,
+      "dealScore": 0.754,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -1936,13 +1939,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49742,
+      "marketValue": 49807,
+      "expected": 49771,
       "adjustments": {
         "distance": -36.45
       },
-      "dealDelta": -1369,
-      "dealPct": -0.0275,
+      "dealDelta": -1398,
+      "dealPct": -0.0281,
       "rating": "fair",
       "dealScore": 0.869,
       "basis": "cohort",
@@ -3065,15 +3068,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49732,
+      "marketValue": 49807,
+      "expected": 49761,
       "adjustments": {
         "distance": -45.9
       },
-      "dealDelta": 1311,
-      "dealPct": 0.0264,
+      "dealDelta": 1282,
+      "dealPct": 0.0258,
       "rating": "fair",
-      "dealScore": 0.164,
+      "dealScore": 0.197,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -3191,13 +3194,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49778,
+      "marketValue": 49807,
+      "expected": 49807,
       "adjustments": {},
-      "dealDelta": 434,
-      "dealPct": 0.0087,
+      "dealDelta": 405,
+      "dealPct": 0.0081,
       "rating": "fair",
-      "dealScore": 0.377,
+      "dealScore": 0.393,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -4088,7 +4091,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -4117,7 +4120,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab51ts113022",
@@ -4187,13 +4191,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 44462,
-      "expected": 44907,
+      "marketValue": 44568,
+      "expected": 45013,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 7060,
-      "dealPct": 0.1572,
+      "dealDelta": 6954,
+      "dealPct": 0.1545,
       "rating": "overpriced",
       "dealScore": 0.021,
       "basis": "pooled",
@@ -4989,13 +4993,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49778,
+      "marketValue": 49807,
+      "expected": 49807,
       "adjustments": {},
-      "dealDelta": -705,
-      "dealPct": -0.0142,
+      "dealDelta": -734,
+      "dealPct": -0.0147,
       "rating": "fair",
-      "dealScore": 0.672,
+      "dealScore": 0.656,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -5104,15 +5108,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49729,
+      "marketValue": 49807,
+      "expected": 49759,
       "adjustments": {
         "distance": -48.6
       },
-      "dealDelta": -803,
-      "dealPct": -0.0162,
+      "dealDelta": -833,
+      "dealPct": -0.0167,
       "rating": "fair",
-      "dealScore": 0.721,
+      "dealScore": 0.705,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -5364,13 +5368,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49712,
+      "marketValue": 49807,
+      "expected": 49741,
       "adjustments": {
         "distance": -66.15
       },
-      "dealDelta": -327,
-      "dealPct": -0.0066,
+      "dealDelta": -356,
+      "dealPct": -0.0072,
       "rating": "fair",
       "dealScore": 0.59,
       "basis": "cohort",
@@ -5524,7 +5528,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-03",
     "lastSeen": "2026-08-03",
     "listedDays": 11,
@@ -5553,7 +5557,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-08-10"
+    "searchedAt": "2026-08-10",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdaaab51ts147929",
@@ -5767,15 +5772,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49718,
+      "marketValue": 49807,
+      "expected": 49747,
       "adjustments": {
         "distance": -59.85
       },
-      "dealDelta": 1000,
-      "dealPct": 0.0201,
+      "dealDelta": 971,
+      "dealPct": 0.0195,
       "rating": "fair",
-      "dealScore": 0.295,
+      "dealScore": 0.311,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -5866,7 +5871,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 32,
@@ -5895,7 +5900,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdaaab51ts148577",
@@ -7106,15 +7112,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49731,
+      "marketValue": 49807,
+      "expected": 49760,
       "adjustments": {
         "distance": -46.800000000000004
       },
-      "dealDelta": 1979,
-      "dealPct": 0.0398,
+      "dealDelta": 1950,
+      "dealPct": 0.0392,
       "rating": "fair",
-      "dealScore": 0.049,
+      "dealScore": 0.066,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -7609,7 +7615,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -7652,7 +7658,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab52ts123610",
@@ -7993,13 +8000,13 @@
     "series": null,
     "transmission": "8-speed Automatic",
     "drivetrain": "AWD",
-    "engine": "2.4L 4-Cylinder",
+    "engine": "2.4L i-4",
     "year": 2026,
     "mileage": 5,
-    "price": 51372,
+    "price": 53977,
     "priceBasis": "listing",
-    "dealer": "imperial subaru",
-    "dealerId": "d_6201b993cd6fc970",
+    "dealer": "imperial toyota",
+    "dealerId": "d_8d65eb82f03862ae",
     "distanceMi": 26,
     "state": "MA",
     "city": "North Attleboro",
@@ -8012,7 +8019,7 @@
     "url": "https://imperialsubaru.com/used/Toyota/2026-Toyota-Grand-Highlander-aa880ff2ac1810ac5033d1c648ede63a.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDAAAB52TS144800&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5TDAAAB52TS144800-1.jpg",
-    "photoCount": 38,
+    "photoCount": 42,
     "baseMsrp": null,
     "squishVin": "5TDAAAB5TS",
     "accidentCount": 0,
@@ -8022,15 +8029,19 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-08-10",
-    "lastSeen": "2026-08-10",
-    "listedDays": 4,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-08-10",
         "price": 51372
+      },
+      {
+        "date": "2026-08-14",
+        "price": 53977
       }
     ],
-    "sellerType": "independent",
+    "sellerType": "franchise",
     "urlOrigin": "stored",
     "powertrainVin": "gas",
     "powertrainConfidence": 0.987,
@@ -8047,22 +8058,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 50773,
+      "marketValue": 49808,
+      "expected": 50804,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": 599,
-      "dealPct": 0.0118,
-      "rating": "fair",
-      "dealScore": 0.328,
+      "dealDelta": 3173,
+      "dealPct": 0.0625,
+      "rating": "high",
+      "dealScore": 0.016,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 4,
+        "listedDays": 5,
         "cohortMedianDaysListed": 18,
         "negotiability": "low"
       }
@@ -8277,15 +8288,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49716,
+      "marketValue": 49807,
+      "expected": 49745,
       "adjustments": {
         "distance": -62.1
       },
-      "dealDelta": 357,
-      "dealPct": 0.0072,
+      "dealDelta": 328,
+      "dealPct": 0.0066,
       "rating": "fair",
-      "dealScore": 0.393,
+      "dealScore": 0.41,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -8506,15 +8517,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49733,
+      "marketValue": 49807,
+      "expected": 49762,
       "adjustments": {
         "distance": -44.550000000000004
       },
-      "dealDelta": 1139,
-      "dealPct": 0.0229,
+      "dealDelta": 1110,
+      "dealPct": 0.0223,
       "rating": "fair",
-      "dealScore": 0.246,
+      "dealScore": 0.262,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -8667,7 +8678,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 19,
@@ -8696,7 +8707,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab52ts146157",
@@ -9049,15 +9061,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49762,
+      "marketValue": 49808,
+      "expected": 49793,
       "adjustments": {
         "distance": -15.3
       },
-      "dealDelta": -3525,
-      "dealPct": -0.0708,
+      "dealDelta": -3556,
+      "dealPct": -0.0714,
       "rating": "good",
-      "dealScore": 1.0,
+      "dealScore": 0.984,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -9232,7 +9244,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 40,
@@ -9276,7 +9288,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab52ts147339",
@@ -11284,7 +11297,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -11313,7 +11326,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab53ts117122",
@@ -11428,7 +11442,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -11457,7 +11471,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab53ts128301",
@@ -11527,16 +11542,16 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49692,
-      "expected": 50187,
+      "marketValue": 50382,
+      "expected": 50884,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -1.35
       },
-      "dealDelta": 1236,
-      "dealPct": 0.0246,
+      "dealDelta": 539,
+      "dealPct": 0.0106,
       "rating": "fair",
-      "dealScore": 0.197,
+      "dealScore": 0.361,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -11983,15 +11998,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49762,
+      "marketValue": 49807,
+      "expected": 49791,
       "adjustments": {
         "distance": -15.75
       },
-      "dealDelta": -1074,
-      "dealPct": -0.0216,
+      "dealDelta": -1103,
+      "dealPct": -0.0222,
       "rating": "fair",
-      "dealScore": 0.82,
+      "dealScore": 0.803,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -12247,13 +12262,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49777,
-      "expected": 49777,
+      "marketValue": 49811,
+      "expected": 49811,
       "adjustments": {},
-      "dealDelta": 2531,
-      "dealPct": 0.0508,
+      "dealDelta": 2497,
+      "dealPct": 0.0501,
       "rating": "high",
-      "dealScore": 0.033,
+      "dealScore": 0.049,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -13177,13 +13192,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49729,
+      "marketValue": 49807,
+      "expected": 49758,
       "adjustments": {
         "distance": -49.050000000000004
       },
-      "dealDelta": -256,
-      "dealPct": -0.0051,
+      "dealDelta": -285,
+      "dealPct": -0.0057,
       "rating": "fair",
       "dealScore": 0.574,
       "basis": "cohort",
@@ -13352,15 +13367,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49729,
+      "marketValue": 49807,
+      "expected": 49758,
       "adjustments": {
         "distance": -49.050000000000004
       },
-      "dealDelta": -671,
-      "dealPct": -0.0135,
+      "dealDelta": -700,
+      "dealPct": -0.0141,
       "rating": "fair",
-      "dealScore": 0.656,
+      "dealScore": 0.639,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -13500,7 +13515,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-31",
     "lastSeen": "2026-08-03",
     "listedDays": 4,
@@ -13529,7 +13544,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-08-10"
+    "searchedAt": "2026-08-10",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab53ts14g656",
@@ -13599,13 +13615,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49759,
+      "marketValue": 49807,
+      "expected": 49788,
       "adjustments": {
         "distance": -18.900000000000002
       },
-      "dealDelta": -1581,
-      "dealPct": -0.0318,
+      "dealDelta": -1610,
+      "dealPct": -0.0323,
       "rating": "fair",
       "dealScore": 0.934,
       "basis": "cohort",
@@ -13944,15 +13960,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49718,
+      "marketValue": 49807,
+      "expected": 49747,
       "adjustments": {
         "distance": -59.85
       },
-      "dealDelta": -825,
-      "dealPct": -0.0166,
+      "dealDelta": -854,
+      "dealPct": -0.0172,
       "rating": "fair",
-      "dealScore": 0.754,
+      "dealScore": 0.738,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -14759,13 +14775,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49778,
+      "marketValue": 49807,
+      "expected": 49807,
       "adjustments": {},
-      "dealDelta": 1159,
-      "dealPct": 0.0233,
+      "dealDelta": 1130,
+      "dealPct": 0.0227,
       "rating": "fair",
-      "dealScore": 0.23,
+      "dealScore": 0.246,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -15221,7 +15237,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -15250,7 +15266,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab54ts124614",
@@ -15651,13 +15668,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49777,
-      "expected": 49777,
+      "marketValue": 49811,
+      "expected": 49811,
       "adjustments": {},
-      "dealDelta": -984,
-      "dealPct": -0.0198,
+      "dealDelta": -1018,
+      "dealPct": -0.0204,
       "rating": "fair",
-      "dealScore": 0.803,
+      "dealScore": 0.787,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -15766,13 +15783,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49720,
+      "marketValue": 49807,
+      "expected": 49749,
       "adjustments": {
         "distance": -57.6
       },
-      "dealDelta": -1507,
-      "dealPct": -0.0303,
+      "dealDelta": -1536,
+      "dealPct": -0.0309,
       "rating": "fair",
       "dealScore": 0.885,
       "basis": "cohort",
@@ -15892,15 +15909,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49724,
+      "marketValue": 49807,
+      "expected": 49753,
       "adjustments": {
         "distance": -54.0
       },
-      "dealDelta": -1088,
-      "dealPct": -0.0219,
+      "dealDelta": -1117,
+      "dealPct": -0.0225,
       "rating": "fair",
-      "dealScore": 0.836,
+      "dealScore": 0.82,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -16018,15 +16035,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49718,
+      "marketValue": 49807,
+      "expected": 49747,
       "adjustments": {
         "distance": -59.85
       },
-      "dealDelta": 435,
-      "dealPct": 0.0087,
+      "dealDelta": 406,
+      "dealPct": 0.0082,
       "rating": "fair",
-      "dealScore": 0.361,
+      "dealScore": 0.377,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -17261,11 +17278,11 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49778,
+      "marketValue": 49807,
+      "expected": 49807,
       "adjustments": {},
-      "dealDelta": 575,
-      "dealPct": 0.0116,
+      "dealDelta": 546,
+      "dealPct": 0.011,
       "rating": "fair",
       "dealScore": 0.344,
       "basis": "cohort",
@@ -17374,13 +17391,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49778,
+      "marketValue": 49807,
+      "expected": 49807,
       "adjustments": {},
-      "dealDelta": 930,
-      "dealPct": 0.0187,
+      "dealDelta": 901,
+      "dealPct": 0.0181,
       "rating": "fair",
-      "dealScore": 0.311,
+      "dealScore": 0.328,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -17475,15 +17492,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49756,
+      "marketValue": 49807,
+      "expected": 49785,
       "adjustments": {
         "distance": -21.6
       },
-      "dealDelta": 1606,
-      "dealPct": 0.0323,
+      "dealDelta": 1577,
+      "dealPct": 0.0317,
       "rating": "fair",
-      "dealScore": 0.148,
+      "dealScore": 0.164,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -18013,7 +18030,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -18042,7 +18059,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab54ts52c121",
@@ -18085,7 +18103,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -18114,7 +18132,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab54ts52c670",
@@ -18157,7 +18176,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -18186,7 +18205,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab55ts01g782",
@@ -18229,7 +18249,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -18272,7 +18292,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab55ts117218",
@@ -18315,7 +18336,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -18344,7 +18365,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab55ts117655",
@@ -18387,7 +18409,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -18416,7 +18438,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab55ts136724",
@@ -18946,15 +18969,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49711,
+      "marketValue": 49807,
+      "expected": 49741,
       "adjustments": {
         "distance": -66.60000000000001
       },
-      "dealDelta": -1213,
-      "dealPct": -0.0244,
+      "dealDelta": -1243,
+      "dealPct": -0.025,
       "rating": "fair",
-      "dealScore": 0.852,
+      "dealScore": 0.836,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -19509,15 +19532,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49737,
+      "marketValue": 49807,
+      "expected": 49766,
       "adjustments": {
         "distance": -40.95
       },
-      "dealDelta": -709,
-      "dealPct": -0.0143,
+      "dealDelta": -738,
+      "dealPct": -0.0148,
       "rating": "fair",
-      "dealScore": 0.689,
+      "dealScore": 0.672,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -19988,6 +20011,77 @@
       "basis": "not-ready"
     },
     "searchedAt": "2026-07-22"
+  },
+  {
+    "id": "api-5tdaaab55ts148744",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "gas",
+    "powertrainFeed": "gas",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.4L 4cyl Turbo 8A)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.4L 4Cyl Gasoline",
+    "year": 2026,
+    "mileage": 7,
+    "price": 52459,
+    "priceBasis": "listing",
+    "dealer": "Woburn Toyota",
+    "dealerId": "d_4addaf21a9d4b7bb",
+    "distanceMi": 10,
+    "state": "MA",
+    "city": "Woburn",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Wind Chill Pearl",
+    "interiorColor": "Light Gray leather",
+    "vin": "5TDAAAB55TS148744",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-grand+highlander#vin=5TDAAAB55TS148744",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5TDAAAB55TS148744&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5TDAAAB55TS148744-1.jpg",
+    "photoCount": 8,
+    "baseMsrp": 51360,
+    "squishVin": "5TDAAAB5TS",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-08-14",
+    "lastSeen": "2026-08-14",
+    "listedDays": 7,
+    "priceHistory": [
+      {
+        "date": "2026-08-14",
+        "price": 52459
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "gas",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States (Usa)",
+    "plantCity": "Princeton",
+    "plantSource": "vpic",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
   },
   {
     "id": "api-5tdaaab55ts29p137",
@@ -20636,13 +20730,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49717,
+      "marketValue": 49807,
+      "expected": 49746,
       "adjustments": {
         "distance": -60.75
       },
-      "dealDelta": 61,
-      "dealPct": 0.0012,
+      "dealDelta": 32,
+      "dealPct": 0.0006,
       "rating": "fair",
       "dealScore": 0.492,
       "basis": "cohort",
@@ -20773,15 +20867,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49718,
+      "marketValue": 49807,
+      "expected": 49747,
       "adjustments": {
         "distance": -59.85
       },
-      "dealDelta": -825,
-      "dealPct": -0.0166,
+      "dealDelta": -854,
+      "dealPct": -0.0172,
       "rating": "fair",
-      "dealScore": 0.754,
+      "dealScore": 0.738,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -21241,7 +21335,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -21270,7 +21364,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab55ts33f843",
@@ -21817,7 +21912,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -21846,7 +21941,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab56ts118779",
@@ -21961,7 +22057,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -22004,7 +22100,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab56ts133993",
@@ -22074,15 +22171,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49767,
-      "expected": 49705,
+      "marketValue": 49878,
+      "expected": 49816,
       "adjustments": {
         "distance": -62.1
       },
-      "dealDelta": -152,
-      "dealPct": -0.0031,
+      "dealDelta": -263,
+      "dealPct": -0.0053,
       "rating": "fair",
-      "dealScore": 0.541,
+      "dealScore": 0.557,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -22161,7 +22258,7 @@
     "oneOwner": true,
     "usageType": "Commercial Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 48,
@@ -22194,7 +22291,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab56ts140121",
@@ -22450,15 +22548,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49729,
+      "marketValue": 49807,
+      "expected": 49759,
       "adjustments": {
         "distance": -48.6
       },
-      "dealDelta": 239,
-      "dealPct": 0.0048,
+      "dealDelta": 209,
+      "dealPct": 0.0042,
       "rating": "fair",
-      "dealScore": 0.459,
+      "dealScore": 0.475,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -23149,15 +23247,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49756,
+      "marketValue": 49808,
+      "expected": 49786,
       "adjustments": {
         "distance": -22.05
       },
-      "dealDelta": 1056,
-      "dealPct": 0.0212,
+      "dealDelta": 1026,
+      "dealPct": 0.0206,
       "rating": "fair",
-      "dealScore": 0.262,
+      "dealScore": 0.279,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -23400,13 +23498,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49729,
+      "marketValue": 49807,
+      "expected": 49759,
       "adjustments": {
         "distance": -48.6
       },
-      "dealDelta": -1516,
-      "dealPct": -0.0305,
+      "dealDelta": -1546,
+      "dealPct": -0.0311,
       "rating": "fair",
       "dealScore": 0.918,
       "basis": "cohort",
@@ -23516,13 +23614,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49729,
+      "marketValue": 49807,
+      "expected": 49759,
       "adjustments": {
         "distance": -48.6
       },
-      "dealDelta": -1516,
-      "dealPct": -0.0305,
+      "dealDelta": -1546,
+      "dealPct": -0.0311,
       "rating": "fair",
       "dealScore": 0.918,
       "basis": "cohort",
@@ -24150,15 +24248,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49729,
+      "marketValue": 49807,
+      "expected": 49758,
       "adjustments": {
         "distance": -49.050000000000004
       },
-      "dealDelta": 1209,
-      "dealPct": 0.0243,
+      "dealDelta": 1180,
+      "dealPct": 0.0237,
       "rating": "fair",
-      "dealScore": 0.213,
+      "dealScore": 0.23,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -24442,7 +24540,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 6,
@@ -24470,7 +24568,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab56ts148607",
@@ -24585,7 +24684,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-27",
     "lastSeen": "2026-08-03",
     "listedDays": 12,
@@ -24618,7 +24717,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-27"
+    "searchedAt": "2026-07-27",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab56ts29m733",
@@ -24760,15 +24860,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49731,
+      "marketValue": 49807,
+      "expected": 49760,
       "adjustments": {
         "distance": -46.800000000000004
       },
-      "dealDelta": 2601,
-      "dealPct": 0.0523,
+      "dealDelta": 2572,
+      "dealPct": 0.0517,
       "rating": "high",
-      "dealScore": 0.016,
+      "dealScore": 0.033,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -24979,15 +25079,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49734,
+      "marketValue": 49807,
+      "expected": 49763,
       "adjustments": {
         "distance": -43.65
       },
-      "dealDelta": 1809,
-      "dealPct": 0.0364,
+      "dealDelta": 1780,
+      "dealPct": 0.0358,
       "rating": "fair",
-      "dealScore": 0.066,
+      "dealScore": 0.082,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -25515,13 +25615,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49778,
+      "marketValue": 49807,
+      "expected": 49807,
       "adjustments": {},
-      "dealDelta": 1690,
-      "dealPct": 0.034,
+      "dealDelta": 1661,
+      "dealPct": 0.0333,
       "rating": "fair",
-      "dealScore": 0.115,
+      "dealScore": 0.131,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -25718,13 +25818,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 50276,
+      "marketValue": 49807,
+      "expected": 50305,
       "adjustments": {
         "cpo": 0.01
       },
-      "dealDelta": -469,
-      "dealPct": -0.0093,
+      "dealDelta": -498,
+      "dealPct": -0.0099,
       "rating": "fair",
       "dealScore": 0.607,
       "basis": "cohort",
@@ -26105,7 +26205,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -26148,7 +26248,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab57ts143139",
@@ -26489,13 +26590,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49716,
+      "marketValue": 49807,
+      "expected": 49745,
       "adjustments": {
         "distance": -62.1
       },
-      "dealDelta": -143,
-      "dealPct": -0.0029,
+      "dealDelta": -172,
+      "dealPct": -0.0035,
       "rating": "fair",
       "dealScore": 0.525,
       "basis": "cohort",
@@ -26702,13 +26803,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49778,
+      "marketValue": 49807,
+      "expected": 49807,
       "adjustments": {},
-      "dealDelta": 1715,
-      "dealPct": 0.0345,
+      "dealDelta": 1686,
+      "dealPct": 0.0338,
       "rating": "fair",
-      "dealScore": 0.082,
+      "dealScore": 0.098,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -27312,15 +27413,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 51209,
+      "marketValue": 49807,
+      "expected": 51239,
       "adjustments": {
         "cpo": 0.03,
         "distance": -62.1
       },
-      "dealDelta": -2547,
-      "dealPct": -0.0497,
-      "rating": "fair",
+      "dealDelta": -2577,
+      "dealPct": -0.0503,
+      "rating": "good",
       "dealScore": 0.951,
       "basis": "cohort",
       "cohortN": 61,
@@ -27426,13 +27527,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49723,
+      "marketValue": 49807,
+      "expected": 49752,
       "adjustments": {
         "distance": -54.9
       },
-      "dealDelta": -2835,
-      "dealPct": -0.057,
+      "dealDelta": -2864,
+      "dealPct": -0.0576,
       "rating": "good",
       "dealScore": 0.967,
       "basis": "cohort",
@@ -28082,15 +28183,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49763,
+      "marketValue": 49807,
+      "expected": 49792,
       "adjustments": {
         "distance": -15.3
       },
-      "dealDelta": 1240,
-      "dealPct": 0.0249,
+      "dealDelta": 1211,
+      "dealPct": 0.0243,
       "rating": "fair",
-      "dealScore": 0.18,
+      "dealScore": 0.213,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -28283,13 +28384,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49778,
+      "marketValue": 49807,
+      "expected": 49807,
       "adjustments": {},
-      "dealDelta": 1710,
-      "dealPct": 0.0344,
+      "dealDelta": 1681,
+      "dealPct": 0.0338,
       "rating": "fair",
-      "dealScore": 0.098,
+      "dealScore": 0.115,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -29042,7 +29143,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -29085,7 +29186,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab58ts01g470",
@@ -29128,7 +29230,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -29171,7 +29273,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab58ts104348",
@@ -29214,7 +29317,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 4,
@@ -29242,7 +29345,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab58ts105225",
@@ -29312,16 +29416,16 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49139,
-      "expected": 49576,
+      "marketValue": 54072,
+      "expected": 54558,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -54.45
       },
-      "dealDelta": -3278,
-      "dealPct": -0.0661,
-      "rating": "good",
-      "dealScore": 0.984,
+      "dealDelta": -8260,
+      "dealPct": -0.1514,
+      "rating": "great",
+      "dealScore": 1.0,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -29450,16 +29554,16 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49677,
-      "expected": 51103,
+      "marketValue": 50483,
+      "expected": 51933,
       "adjustments": {
         "cpo": 0.03,
         "distance": -64.35000000000001
       },
-      "dealDelta": -504,
-      "dealPct": -0.0099,
+      "dealDelta": -1334,
+      "dealPct": -0.0257,
       "rating": "fair",
-      "dealScore": 0.623,
+      "dealScore": 0.852,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -29606,7 +29710,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 46,
@@ -29688,7 +29792,8 @@
       }
     ],
     "stock": "U40309A",
-    "trimSearch": "LE"
+    "trimSearch": "LE",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab58ts111767",
@@ -29828,7 +29933,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -29857,7 +29962,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab58ts133347",
@@ -30355,15 +30461,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49723,
+      "marketValue": 49807,
+      "expected": 49752,
       "adjustments": {
         "distance": -54.9
       },
-      "dealDelta": 1665,
-      "dealPct": 0.0335,
+      "dealDelta": 1636,
+      "dealPct": 0.0329,
       "rating": "fair",
-      "dealScore": 0.131,
+      "dealScore": 0.148,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -31638,13 +31744,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49729,
+      "marketValue": 49807,
+      "expected": 49758,
       "adjustments": {
         "distance": -49.050000000000004
       },
-      "dealDelta": -36,
-      "dealPct": -0.0007,
+      "dealDelta": -65,
+      "dealPct": -0.0013,
       "rating": "fair",
       "dealScore": 0.508,
       "basis": "cohort",
@@ -31860,8 +31966,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-08-03",
-    "lastSeen": "2026-08-10",
-    "listedDays": 12,
+    "lastSeen": "2026-08-14",
+    "listedDays": 16,
     "priceHistory": [
       {
         "date": "2026-08-03",
@@ -31956,15 +32062,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49737,
+      "marketValue": 49807,
+      "expected": 49766,
       "adjustments": {
         "distance": -40.95
       },
-      "dealDelta": 321,
-      "dealPct": 0.0065,
+      "dealDelta": 292,
+      "dealPct": 0.0059,
       "rating": "fair",
-      "dealScore": 0.426,
+      "dealScore": 0.443,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -32414,15 +32520,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49720,
+      "marketValue": 49807,
+      "expected": 49749,
       "adjustments": {
         "distance": -58.050000000000004
       },
-      "dealDelta": -233,
-      "dealPct": -0.0047,
+      "dealDelta": -262,
+      "dealPct": -0.0053,
       "rating": "fair",
-      "dealScore": 0.557,
+      "dealScore": 0.541,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -33238,15 +33344,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49716,
+      "marketValue": 49807,
+      "expected": 49745,
       "adjustments": {
         "distance": -62.1
       },
-      "dealDelta": 312,
-      "dealPct": 0.0063,
+      "dealDelta": 283,
+      "dealPct": 0.0057,
       "rating": "fair",
-      "dealScore": 0.443,
+      "dealScore": 0.459,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -34180,15 +34286,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49714,
+      "marketValue": 49807,
+      "expected": 49743,
       "adjustments": {
         "distance": -64.35000000000001
       },
-      "dealDelta": -791,
-      "dealPct": -0.0159,
+      "dealDelta": -820,
+      "dealPct": -0.0165,
       "rating": "fair",
-      "dealScore": 0.705,
+      "dealScore": 0.689,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -35458,7 +35564,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -35487,7 +35593,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab5xts02h292",
@@ -35530,7 +35637,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -35559,7 +35666,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab5xts110149",
@@ -35719,13 +35827,13 @@
     "series": "LE 4dr SUV AWD (2.4L 4cyl Turbo 8A)",
     "transmission": "8-speed Automatic",
     "drivetrain": "AWD",
-    "engine": "2.4L 4-Cylinder",
+    "engine": "2.4L i-4",
     "year": 2026,
     "mileage": 13063,
-    "price": 49372,
+    "price": 52977,
     "priceBasis": "listing",
-    "dealer": "imperial subaru",
-    "dealerId": "d_6201b993cd6fc970",
+    "dealer": "imperial toyota",
+    "dealerId": "d_8d65eb82f03862ae",
     "distanceMi": 26,
     "state": "MA",
     "city": "Milford",
@@ -35748,8 +35856,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-08-10",
-    "listedDays": 39,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -35758,9 +35866,13 @@
       {
         "date": "2026-08-10",
         "price": 49372
+      },
+      {
+        "date": "2026-08-14",
+        "price": 52977
       }
     ],
-    "sellerType": "independent",
+    "sellerType": "franchise",
     "urlOrigin": "stored",
     "powertrainVin": "gas",
     "powertrainConfidence": 0.87,
@@ -35777,29 +35889,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49500,
-      "expected": 49252,
+      "marketValue": 51664,
+      "expected": 51406,
       "adjustments": {
         "owners": -0.015,
         "cpo": 0.01
       },
-      "dealDelta": 120,
-      "dealPct": 0.0024,
+      "dealDelta": 1571,
+      "dealPct": 0.0306,
       "rating": "fair",
-      "dealScore": 0.475,
+      "dealScore": 0.18,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 39,
+        "listedDays": 5,
         "cohortMedianDaysListed": 18,
-        "priceDrop": {
-          "total": 1095,
-          "pct": -0.0217,
-          "drops": 1
-        },
-        "negotiability": "high"
+        "negotiability": "low"
       }
     },
     "searchedAt": "2026-07-22",
@@ -35882,7 +35989,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -35911,7 +36018,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab5xts137108",
@@ -36602,7 +36710,7 @@
     "oneOwner": true,
     "usageType": "Lease Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 16,
@@ -36630,7 +36738,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab5xts145807",
@@ -37359,15 +37468,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49720,
+      "marketValue": 49807,
+      "expected": 49749,
       "adjustments": {
         "distance": -57.6
       },
-      "dealDelta": -632,
-      "dealPct": -0.0127,
+      "dealDelta": -661,
+      "dealPct": -0.0133,
       "rating": "fair",
-      "dealScore": 0.639,
+      "dealScore": 0.623,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -37462,15 +37571,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49737,
+      "marketValue": 49807,
+      "expected": 49766,
       "adjustments": {
         "distance": -40.95
       },
-      "dealDelta": 321,
-      "dealPct": 0.0065,
+      "dealDelta": 292,
+      "dealPct": 0.0059,
       "rating": "fair",
-      "dealScore": 0.426,
+      "dealScore": 0.443,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -37539,7 +37648,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-08-10",
     "lastSeen": "2026-08-10",
     "listedDays": 5,
@@ -37567,7 +37676,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdaaab5xts29n528",
@@ -38584,13 +38694,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 49778,
-      "expected": 49778,
+      "marketValue": 49807,
+      "expected": 49807,
       "adjustments": {},
-      "dealDelta": 1045,
-      "dealPct": 0.021,
+      "dealDelta": 1016,
+      "dealPct": 0.0204,
       "rating": "fair",
-      "dealScore": 0.279,
+      "dealScore": 0.295,
       "basis": "cohort",
       "cohortN": 61,
       "confidence": 1.0,
@@ -39073,7 +39183,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -39102,6 +39212,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   }
 ]

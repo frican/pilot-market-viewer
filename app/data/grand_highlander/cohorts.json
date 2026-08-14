@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10",
+  "generatedAt": "2026-08-14",
   "bands": {
     "great": -0.1,
     "good": -0.05,
@@ -17,15 +17,15 @@
         101805
       ],
       "theilSen": {
-        "slope": -0.0684,
-        "intercept": 45826.2
+        "slope": -0.0638,
+        "intercept": 45599.95
       },
       "ols": {
-        "slope": -0.0885,
-        "intercept": 46560.85
+        "slope": -0.0114,
+        "intercept": 49606.76
       },
       "parentKey": "XLE|gas",
-      "msrp": 47315
+      "msrp": 49710
     },
     "2024|Platinum|gas": {
       "year": 2024,
@@ -37,15 +37,15 @@
         55389
       ],
       "theilSen": {
-        "slope": -0.1634,
-        "intercept": 53748.39
+        "slope": -0.1635,
+        "intercept": 53700.54
       },
       "ols": {
-        "slope": -0.1545,
-        "intercept": 53695.43
+        "slope": -0.6146,
+        "intercept": 84734.2
       },
       "parentKey": "Platinum|gas",
-      "msrp": 53795
+      "msrp": 49358
     },
     "2024|Limited|gas": {
       "year": 2024,
@@ -57,12 +57,12 @@
         61851
       ],
       "theilSen": {
-        "slope": -0.1364,
-        "intercept": 50651.06
+        "slope": -0.1423,
+        "intercept": 50710.56
       },
       "ols": {
-        "slope": -0.1331,
-        "intercept": 50718.33
+        "slope": -0.1361,
+        "intercept": 50793.36
       },
       "parentKey": "Limited|gas",
       "msrp": 49710
@@ -77,12 +77,12 @@
         85420
       ],
       "theilSen": {
-        "slope": -0.1368,
-        "intercept": 56274.05
+        "slope": -0.1438,
+        "intercept": 56672.48
       },
       "ols": {
-        "slope": -0.1444,
-        "intercept": 56827.34
+        "slope": -0.1441,
+        "intercept": 56787.65
       },
       "parentKey": "Limited|hybrid",
       "msrp": null
@@ -97,12 +97,12 @@
         89857
       ],
       "theilSen": {
-        "slope": -0.0979,
-        "intercept": 52191.1
+        "slope": -0.0925,
+        "intercept": 51989.85
       },
       "ols": {
-        "slope": -0.0966,
-        "intercept": 52430.54
+        "slope": -0.0943,
+        "intercept": 52264.95
       },
       "parentKey": "XLE|hybrid",
       "msrp": 46620
@@ -151,12 +151,12 @@
         43836
       ],
       "theilSen": {
-        "slope": -0.1233,
-        "intercept": 49103.29
+        "slope": -0.125,
+        "intercept": 49155.0
       },
       "ols": {
-        "slope": -0.1132,
-        "intercept": 48333.78
+        "slope": -0.1142,
+        "intercept": 48289.09
       },
       "parentKey": "XLE|gas",
       "msrp": 44430
@@ -175,8 +175,8 @@
         "intercept": 53713.3
       },
       "ols": {
-        "slope": -0.0506,
-        "intercept": 53489.44
+        "slope": -0.0495,
+        "intercept": 53358.38
       },
       "parentKey": "Limited|gas",
       "msrp": 48360
@@ -188,15 +188,15 @@
       "n": 6,
       "mileageRange": [
         0,
-        77622
+        77625
       ],
       "theilSen": {
         "slope": -0.1166,
-        "intercept": 57577.76
+        "intercept": 57827.76
       },
       "ols": {
-        "slope": -0.0642,
-        "intercept": 57383.69
+        "slope": -0.0725,
+        "intercept": 57549.7
       },
       "parentKey": "Platinum|gas",
       "msrp": null
@@ -231,12 +231,12 @@
         47447
       ],
       "theilSen": {
-        "slope": 0.0495,
-        "intercept": 48960.74
+        "slope": 0.0541,
+        "intercept": 48853.38
       },
       "ols": {
-        "slope": 0.009,
-        "intercept": 50340.93
+        "slope": 0.0103,
+        "intercept": 50162.61
       },
       "parentKey": "XLE|hybrid",
       "msrp": null
@@ -291,12 +291,12 @@
         30000
       ],
       "theilSen": {
-        "slope": -0.0213,
-        "intercept": 49778.0
+        "slope": 0.1422,
+        "intercept": 49807.0
       },
       "ols": {
-        "slope": -0.0935,
-        "intercept": 49863.78
+        "slope": -0.0543,
+        "intercept": 49931.85
       },
       "parentKey": "XLE|gas",
       "msrp": 43860
@@ -424,24 +424,24 @@
   },
   "parents": {
     "XLE|gas": {
-      "slope": -0.1581,
-      "intercept": 49619.4
+      "slope": -0.1587,
+      "intercept": 49629.58
     },
     "Platinum|gas": {
-      "slope": -0.278,
-      "intercept": 58010.42
+      "slope": -0.2758,
+      "intercept": 58010.41
     },
     "Limited|gas": {
-      "slope": -0.2894,
-      "intercept": 56985.0
+      "slope": -0.2908,
+      "intercept": 56988.08
     },
     "Limited|hybrid": {
       "slope": -0.1852,
       "intercept": 58196.56
     },
     "XLE|hybrid": {
-      "slope": -0.0546,
-      "intercept": 51381.81
+      "slope": -0.0552,
+      "intercept": 51410.42
     },
     "Platinum|hybrid_max": {
       "slope": -0.2279,
@@ -458,25 +458,25 @@
         "year": 2024,
         "age": 2,
         "medianMileage": 32543,
-        "marketValue": 43601,
-        "msrp": 47315,
-        "retained": 0.922
+        "marketValue": 43524,
+        "msrp": 49710,
+        "retained": 0.876
       },
       {
         "year": 2025,
         "age": 1,
         "medianMileage": 20531,
-        "marketValue": 46572,
+        "marketValue": 46589,
         "msrp": 44430,
-        "retained": 1.048
+        "retained": 1.049
       },
       {
         "year": 2026,
         "age": 0,
         "medianMileage": 0,
-        "marketValue": 49778,
+        "marketValue": 49807,
         "msrp": 43860,
-        "retained": 1.135
+        "retained": 1.136
       }
     ],
     "Platinum|gas": [
@@ -484,15 +484,15 @@
         "year": 2024,
         "age": 2,
         "medianMileage": 28975,
-        "marketValue": 49012,
-        "msrp": 53795,
-        "retained": 0.911
+        "marketValue": 48962,
+        "msrp": 49358,
+        "retained": 0.992
       },
       {
         "year": 2025,
         "age": 1,
         "medianMileage": 8740,
-        "marketValue": 56559,
+        "marketValue": 56809,
         "msrp": null,
         "retained": null
       },
@@ -510,9 +510,9 @@
         "year": 2024,
         "age": 2,
         "medianMileage": 35045,
-        "marketValue": 45871,
+        "marketValue": 45723,
         "msrp": 49710,
-        "retained": 0.923
+        "retained": 0.92
       },
       {
         "year": 2025,
@@ -536,7 +536,7 @@
         "year": 2024,
         "age": 2,
         "medianMileage": 29604,
-        "marketValue": 52224,
+        "marketValue": 52415,
         "msrp": null,
         "retained": null
       },
@@ -561,7 +561,7 @@
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 36991,
+        "medianMileage": 36993,
         "marketValue": 48568,
         "msrp": 46620,
         "retained": 1.042

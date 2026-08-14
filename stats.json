@@ -2,33 +2,33 @@
   "region": "Greater Boston",
   "metroMi": 50,
   "totals": {
-    "listings": 2292,
-    "live": 1630,
-    "scored": 1324,
-    "cohortReady": 1326
+    "listings": 3924,
+    "live": 2037,
+    "scored": 2619,
+    "cohortReady": 2627
   },
   "metro": {
-    "liveCount": 505,
-    "aggregateMispricing": 433075,
-    "medianLotMoneyOnTable": 7185,
-    "dealersScored": 25,
-    "medianListedDays": 21
+    "liveCount": 2037,
+    "aggregateMispricing": 3908915,
+    "medianLotMoneyOnTable": 6736,
+    "dealersScored": 91,
+    "medianListedDays": 22
   },
-  "generatedAt": "2026-08-10",
+  "generatedAt": "2026-08-14",
   "vignettes": {
     "profit": [
+      {
+        "year": 2026,
+        "trim": "XLE",
+        "powertrain": "gas",
+        "underBy": 8300,
+        "daysToGone": 0
+      },
       {
         "year": 2026,
         "trim": "Platinum",
         "powertrain": "gas",
         "underBy": 4200,
-        "daysToGone": 0
-      },
-      {
-        "year": 2025,
-        "trim": "XLE",
-        "powertrain": "gas",
-        "underBy": 4100,
         "daysToGone": 0
       }
     ],
@@ -37,10 +37,10 @@
         "year": 2024,
         "trim": "XLE",
         "powertrain": "gas",
-        "listedDays": 31,
+        "listedDays": 35,
         "cuts": 2,
         "markdownTotal": 2600,
-        "stillOverBy": 2000,
+        "stillOverBy": 2100,
         "dropSeries": [
           {
             "day": 0,
@@ -53,6 +53,29 @@
           {
             "day": 19,
             "price": 45900
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "trim": "XLE",
+        "powertrain": "gas",
+        "listedDays": 5,
+        "cuts": 2,
+        "markdownTotal": 2500,
+        "stillOverBy": 3300,
+        "dropSeries": [
+          {
+            "day": 0,
+            "price": 50000
+          },
+          {
+            "day": 19,
+            "price": 47700
+          },
+          {
+            "day": 23,
+            "price": 47500
           }
         ]
       }

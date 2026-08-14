@@ -40,7 +40,7 @@
     "oneOwner": true,
     "usageType": "Corporate Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 30,
@@ -87,7 +87,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 30,
-        "cohortMedianDaysListed": 46,
+        "cohortMedianDaysListed": 30,
         "priceDrop": {
           "total": 250,
           "pct": -0.0042,
@@ -136,7 +136,8 @@
     ],
     "stock": "Number",
     "trimSearch": "Platinum",
-    "powertrainSearch": "hybrid_max"
+    "powertrainSearch": "hybrid_max",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdadab50ss020272",
@@ -181,8 +182,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-08-10",
-    "listedDays": 46,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -232,9 +233,9 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 46,
-        "cohortMedianDaysListed": 46,
-        "negotiability": "medium"
+        "listedDays": 5,
+        "cohortMedianDaysListed": 30,
+        "negotiability": "low"
       }
     },
     "searchedAt": "2026-07-22",
@@ -446,7 +447,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 21,
@@ -483,7 +484,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdadab51ss012813",
@@ -526,7 +528,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -555,7 +557,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdadab51ss024217",
@@ -598,7 +601,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 30,
@@ -627,7 +630,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdadab52ss014196",
@@ -670,7 +674,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 48,
@@ -785,7 +789,8 @@
     ],
     "stock": "U20388",
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid_max"
+    "powertrainSearch": "hybrid_max",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdadab52ss022542",
@@ -828,7 +833,7 @@
     "oneOwner": true,
     "usageType": "Commercial Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 48,
@@ -914,7 +919,8 @@
       }
     ],
     "trimSearch": "Limited",
-    "powertrainSearch": "hybrid_max"
+    "powertrainSearch": "hybrid_max",
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdadab53ss023523",
@@ -957,7 +963,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 25,
@@ -1044,7 +1050,8 @@
         "price": null
       }
     ],
-    "powertrainSearch": "hybrid_max"
+    "powertrainSearch": "hybrid_max",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdadab55ss025029",
@@ -1087,7 +1094,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 16,
@@ -1120,7 +1127,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5tdadab56ss023712",
@@ -1139,7 +1147,7 @@
     "engine": "2.4L 4Cyl Gasoline",
     "year": 2025,
     "mileage": 8466,
-    "price": 57492,
+    "price": 57092,
     "priceBasis": "listing",
     "dealer": "Ira Toyota of Danvers",
     "dealerId": "d_5c00fd3d925b1300",
@@ -1165,8 +1173,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-07-22",
-    "lastSeen": "2026-08-10",
-    "listedDays": 44,
+    "lastSeen": "2026-08-14",
+    "listedDays": 5,
     "priceHistory": [
       {
         "date": "2026-07-22",
@@ -1175,6 +1183,10 @@
       {
         "date": "2026-08-03",
         "price": 57492
+      },
+      {
+        "date": "2026-08-14",
+        "price": 57092
       }
     ],
     "sellerType": "franchise",
@@ -1239,7 +1251,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-10",
     "listedDays": 48,
@@ -1282,8 +1294,8 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 48,
-        "cohortMedianDaysListed": 46,
-        "negotiability": "medium"
+        "cohortMedianDaysListed": 30,
+        "negotiability": "high"
       }
     },
     "searchedAt": "2026-07-22",
@@ -1323,7 +1335,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "out-of-scope"
   },
   {
     "id": "api-5tdadab58ss34g082",
@@ -1366,7 +1379,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-22",
     "lastSeen": "2026-08-03",
     "listedDays": 27,
@@ -1395,6 +1408,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-22"
+    "searchedAt": "2026-07-22",
+    "exitReason": "out-of-scope"
   }
 ]

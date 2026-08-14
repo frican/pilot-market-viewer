@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10",
+  "generatedAt": "2026-08-14",
   "bands": {
     "great": -0.1,
     "good": -0.05,
@@ -77,12 +77,12 @@
         127201
       ],
       "theilSen": {
-        "slope": -0.0279,
-        "intercept": 23267.5
+        "slope": -0.0203,
+        "intercept": 22481.32
       },
       "ols": {
-        "slope": -0.0351,
-        "intercept": 24079.5
+        "slope": -0.0263,
+        "intercept": 23341.94
       },
       "parentKey": "Sport|gas",
       "msrp": null
@@ -98,11 +98,11 @@
       ],
       "theilSen": {
         "slope": -0.1008,
-        "intercept": 31209.73
+        "intercept": 31138.71
       },
       "ols": {
-        "slope": -0.1063,
-        "intercept": 31612.77
+        "slope": -0.1058,
+        "intercept": 31534.21
       },
       "parentKey": "EX-L|gas",
       "msrp": 39660
@@ -118,11 +118,11 @@
       ],
       "theilSen": {
         "slope": -0.1055,
-        "intercept": 33487.17
+        "intercept": 33088.76
       },
       "ols": {
-        "slope": -0.1026,
-        "intercept": 33073.14
+        "slope": -0.1016,
+        "intercept": 32895.55
       },
       "parentKey": "Touring|gas",
       "msrp": 44720
@@ -211,12 +211,12 @@
         150395
       ],
       "theilSen": {
-        "slope": -0.1019,
-        "intercept": 32369.14
+        "slope": -0.1014,
+        "intercept": 32324.23
       },
       "ols": {
-        "slope": -0.0795,
-        "intercept": 29945.95
+        "slope": -0.0788,
+        "intercept": 29871.27
       },
       "parentKey": "EX-L|gas",
       "msrp": 39860
@@ -231,12 +231,12 @@
         144132
       ],
       "theilSen": {
-        "slope": -0.0906,
-        "intercept": 33006.97
+        "slope": -0.0903,
+        "intercept": 32966.01
       },
       "ols": {
-        "slope": -0.098,
-        "intercept": 33412.89
+        "slope": -0.0962,
+        "intercept": 33077.54
       },
       "parentKey": "Touring|gas",
       "msrp": 44620
@@ -363,8 +363,8 @@
         "intercept": 33712.84
       },
       "ols": {
-        "slope": -0.0985,
-        "intercept": 33087.23
+        "slope": -0.0991,
+        "intercept": 33028.15
       },
       "parentKey": "EX-L|gas",
       "msrp": 40660
@@ -383,8 +383,8 @@
         "intercept": 46480.81
       },
       "ols": {
-        "slope": -0.2595,
-        "intercept": 46048.66
+        "slope": -0.2619,
+        "intercept": 46300.0
       },
       "parentKey": "Black Edition|gas",
       "msrp": 50220
@@ -399,12 +399,12 @@
         180149
       ],
       "theilSen": {
-        "slope": -0.1023,
-        "intercept": 37419.82
+        "slope": -0.1011,
+        "intercept": 37210.56
       },
       "ols": {
-        "slope": -0.1066,
-        "intercept": 37825.82
+        "slope": -0.1047,
+        "intercept": 37565.47
       },
       "parentKey": "Touring|gas",
       "msrp": 47170
@@ -447,12 +447,12 @@
         92814
       ],
       "theilSen": {
-        "slope": -0.0526,
-        "intercept": 31389.0
+        "slope": -0.0543,
+        "intercept": 31439.58
       },
       "ols": {
-        "slope": -0.044,
-        "intercept": 30377.84
+        "slope": -0.0643,
+        "intercept": 31907.39
       },
       "parentKey": "Sport|gas",
       "msrp": 40080
@@ -547,12 +547,12 @@
         81602
       ],
       "theilSen": {
-        "slope": -0.0534,
-        "intercept": 37253.96
+        "slope": -0.0588,
+        "intercept": 37699.47
       },
       "ols": {
-        "slope": -0.0667,
-        "intercept": 38699.98
+        "slope": -0.0689,
+        "intercept": 38766.3
       },
       "parentKey": "Sport|gas",
       "msrp": 41250
@@ -567,12 +567,12 @@
         75459
       ],
       "theilSen": {
-        "slope": -0.0433,
-        "intercept": 37723.3
+        "slope": -0.0411,
+        "intercept": 37585.79
       },
       "ols": {
-        "slope": -0.0488,
-        "intercept": 38011.78
+        "slope": -0.041,
+        "intercept": 37773.22
       },
       "parentKey": "EX-L|gas",
       "msrp": 44350
@@ -607,12 +607,12 @@
         118392
       ],
       "theilSen": {
-        "slope": -0.0806,
-        "intercept": 41735.14
+        "slope": -0.0843,
+        "intercept": 41761.16
       },
       "ols": {
-        "slope": -0.0905,
-        "intercept": 42109.23
+        "slope": -0.0934,
+        "intercept": 42172.48
       },
       "parentKey": "Touring|gas",
       "msrp": 48550
@@ -627,12 +627,12 @@
         81540
       ],
       "theilSen": {
-        "slope": -0.1131,
-        "intercept": 45949.48
+        "slope": -0.1186,
+        "intercept": 46322.63
       },
       "ols": {
-        "slope": -0.114,
-        "intercept": 45991.24
+        "slope": -0.1169,
+        "intercept": 46032.9
       },
       "parentKey": "Elite|gas",
       "msrp": 52030
@@ -651,8 +651,8 @@
         "intercept": 39085.4
       },
       "ols": {
-        "slope": -0.027,
-        "intercept": 39464.45
+        "slope": -0.0277,
+        "intercept": 39457.46
       },
       "parentKey": "EX-L|gas",
       "msrp": 44500
@@ -667,12 +667,12 @@
         57511
       ],
       "theilSen": {
-        "slope": -0.0708,
-        "intercept": 44150.87
+        "slope": -0.072,
+        "intercept": 44132.84
       },
       "ols": {
-        "slope": -0.0713,
-        "intercept": 43863.53
+        "slope": -0.0753,
+        "intercept": 43837.87
       },
       "parentKey": "TrailSport|gas",
       "msrp": 48800
@@ -687,12 +687,12 @@
         79273
       ],
       "theilSen": {
-        "slope": -0.0435,
-        "intercept": 43118.77
+        "slope": -0.0431,
+        "intercept": 43096.93
       },
       "ols": {
-        "slope": -0.0724,
-        "intercept": 43962.77
+        "slope": -0.0721,
+        "intercept": 43938.33
       },
       "parentKey": "Touring|gas",
       "msrp": 49000
@@ -711,8 +711,8 @@
         "intercept": 44495.63
       },
       "ols": {
-        "slope": -0.081,
-        "intercept": 44544.75
+        "slope": -0.0803,
+        "intercept": 44504.72
       },
       "parentKey": "Elite|gas",
       "msrp": 52480
@@ -727,12 +727,12 @@
         76297
       ],
       "theilSen": {
-        "slope": -0.0897,
-        "intercept": 41249.1
+        "slope": -0.0929,
+        "intercept": 41437.17
       },
       "ols": {
-        "slope": -0.1124,
-        "intercept": 42488.07
+        "slope": -0.114,
+        "intercept": 42502.75
       },
       "parentKey": "Sport|gas",
       "msrp": 42300
@@ -747,12 +747,12 @@
         68826
       ],
       "theilSen": {
-        "slope": -0.1599,
-        "intercept": 48681.66
+        "slope": -0.1541,
+        "intercept": 48579.34
       },
       "ols": {
-        "slope": -0.1512,
-        "intercept": 48150.36
+        "slope": -0.1495,
+        "intercept": 48144.18
       },
       "parentKey": "Touring|gas",
       "msrp": 51500
@@ -787,12 +787,12 @@
         63527
       ],
       "theilSen": {
-        "slope": -0.1456,
-        "intercept": 47226.67
+        "slope": -0.1448,
+        "intercept": 47194.57
       },
       "ols": {
-        "slope": -0.1433,
-        "intercept": 47413.31
+        "slope": -0.1439,
+        "intercept": 47403.66
       },
       "parentKey": "TrailSport|gas",
       "msrp": 49400
@@ -804,15 +804,15 @@
       "n": 17,
       "mileageRange": [
         0,
-        60352
+        60360
       ],
       "theilSen": {
-        "slope": -0.1804,
-        "intercept": 49676.19
+        "slope": -0.1671,
+        "intercept": 49401.2
       },
       "ols": {
-        "slope": -0.2225,
-        "intercept": 52157.67
+        "slope": -0.2158,
+        "intercept": 51988.93
       },
       "parentKey": "Elite|gas",
       "msrp": 53080
@@ -831,8 +831,8 @@
         "intercept": 50974.51
       },
       "ols": {
-        "slope": -0.1075,
-        "intercept": 49950.22
+        "slope": -0.1061,
+        "intercept": 49879.04
       },
       "parentKey": "Black Edition|gas",
       "msrp": 54580
@@ -851,8 +851,8 @@
         "intercept": 48469.4
       },
       "ols": {
-        "slope": -1.0999,
-        "intercept": 50096.38
+        "slope": -1.0967,
+        "intercept": 50078.51
       },
       "parentKey": "Sport|gas",
       "msrp": 44495
@@ -871,8 +871,8 @@
         "intercept": 49323.09
       },
       "ols": {
-        "slope": -0.5893,
-        "intercept": 49516.09
+        "slope": -0.5892,
+        "intercept": 49516.13
       },
       "parentKey": "EX-L|gas",
       "msrp": 46795
@@ -887,12 +887,12 @@
         9615
       ],
       "theilSen": {
-        "slope": -0.3218,
-        "intercept": 53085.0
+        "slope": -0.3219,
+        "intercept": 53094.93
       },
       "ols": {
-        "slope": -0.2807,
-        "intercept": 52784.51
+        "slope": -0.2828,
+        "intercept": 52801.37
       },
       "parentKey": "TrailSport|gas",
       "msrp": 50595
@@ -907,12 +907,12 @@
         5755
       ],
       "theilSen": {
-        "slope": -0.4115,
-        "intercept": 54749.0
+        "slope": -0.5232,
+        "intercept": 54852.85
       },
       "ols": {
-        "slope": -0.403,
-        "intercept": 54378.63
+        "slope": -0.4912,
+        "intercept": 54390.18
       },
       "parentKey": "Touring|gas",
       "msrp": 51295
@@ -948,8 +948,8 @@
         "intercept": 56201.91
       },
       "ols": {
-        "slope": -1.3964,
-        "intercept": 56505.82
+        "slope": -1.3994,
+        "intercept": 56512.28
       },
       "parentKey": "Elite|gas",
       "msrp": 53695
@@ -981,32 +981,32 @@
       "intercept": 36960.08
     },
     "Elite|gas": {
-      "slope": -0.3238,
-      "intercept": 55756.44
+      "slope": -0.3258,
+      "intercept": 55774.89
     },
     "LX|gas": {
-      "slope": -0.1945,
-      "intercept": 38651.58
+      "slope": -0.197,
+      "intercept": 38934.42
     },
     "Sport|gas": {
-      "slope": -0.3058,
+      "slope": -0.3054,
       "intercept": 48090.0
     },
     "EX-L|gas": {
-      "slope": -0.2619,
-      "intercept": 48170.87
+      "slope": -0.2627,
+      "intercept": 48144.26
     },
     "Touring|gas": {
-      "slope": -0.2799,
-      "intercept": 52435.34
+      "slope": -0.2812,
+      "intercept": 52432.41
     },
     "Black Edition|gas": {
-      "slope": -0.4124,
+      "slope": -0.4123,
       "intercept": 57554.41
     },
     "TrailSport|gas": {
-      "slope": -0.3043,
-      "intercept": 52234.36
+      "slope": -0.3074,
+      "intercept": 52224.74
     }
   },
   "depreciation": {
@@ -1065,17 +1065,17 @@
         "year": 2022,
         "age": 4,
         "medianMileage": 122743,
-        "marketValue": 25687,
+        "marketValue": 25484,
         "msrp": 50370,
-        "retained": 0.51
+        "retained": 0.506
       },
       {
         "year": 2023,
         "age": 3,
         "medianMileage": 37252,
-        "marketValue": 41737,
+        "marketValue": 41905,
         "msrp": 52030,
-        "retained": 0.802
+        "retained": 0.805
       },
       {
         "year": 2024,
@@ -1089,9 +1089,9 @@
         "year": 2025,
         "age": 1,
         "medianMileage": 25466,
-        "marketValue": 45082,
+        "marketValue": 45146,
         "msrp": 53080,
-        "retained": 0.849
+        "retained": 0.851
       },
       {
         "year": 2026,
@@ -1115,9 +1115,9 @@
         "year": 2020,
         "age": 6,
         "medianMileage": 105515,
-        "marketValue": 16999,
+        "marketValue": 16978,
         "msrp": 33550,
-        "retained": 0.507
+        "retained": 0.506
       },
       {
         "year": 2023,
@@ -1133,7 +1133,7 @@
         "year": 2019,
         "age": 7,
         "medianMileage": 92823,
-        "marketValue": 20679,
+        "marketValue": 20597,
         "msrp": null,
         "retained": null
       },
@@ -1157,25 +1157,25 @@
         "year": 2022,
         "age": 4,
         "medianMileage": 36910,
-        "marketValue": 29449,
+        "marketValue": 29435,
         "msrp": 40080,
-        "retained": 0.735
+        "retained": 0.734
       },
       {
         "year": 2023,
         "age": 3,
         "medianMileage": 38147,
-        "marketValue": 35218,
+        "marketValue": 35455,
         "msrp": 41250,
-        "retained": 0.854
+        "retained": 0.86
       },
       {
         "year": 2025,
         "age": 1,
         "medianMileage": 21085,
-        "marketValue": 39358,
+        "marketValue": 39478,
         "msrp": 42300,
-        "retained": 0.93
+        "retained": 0.933
       },
       {
         "year": 2026,
@@ -1191,9 +1191,9 @@
         "year": 2019,
         "age": 7,
         "medianMileage": 91280,
-        "marketValue": 22011,
+        "marketValue": 21940,
         "msrp": 39660,
-        "retained": 0.555
+        "retained": 0.553
       },
       {
         "year": 2020,
@@ -1223,9 +1223,9 @@
         "year": 2023,
         "age": 3,
         "medianMileage": 34752,
-        "marketValue": 36218,
+        "marketValue": 36157,
         "msrp": 44350,
-        "retained": 0.817
+        "retained": 0.815
       },
       {
         "year": 2024,
@@ -1247,7 +1247,7 @@
         "year": 2026,
         "age": 0,
         "medianMileage": 4,
-        "marketValue": 49321,
+        "marketValue": 49320,
         "msrp": 46795,
         "retained": 1.054
       }
@@ -1257,15 +1257,15 @@
         "year": 2019,
         "age": 7,
         "medianMileage": 100368,
-        "marketValue": 22900,
+        "marketValue": 22501,
         "msrp": 44720,
-        "retained": 0.512
+        "retained": 0.503
       },
       {
         "year": 2020,
         "age": 6,
         "medianMileage": 109913,
-        "marketValue": 23045,
+        "marketValue": 23046,
         "msrp": 44620,
         "retained": 0.516
       },
@@ -1281,23 +1281,23 @@
         "year": 2022,
         "age": 4,
         "medianMileage": 79434,
-        "marketValue": 29296,
+        "marketValue": 29179,
         "msrp": 47170,
-        "retained": 0.621
+        "retained": 0.619
       },
       {
         "year": 2023,
         "age": 3,
         "medianMileage": 34750,
-        "marketValue": 38934,
+        "marketValue": 38830,
         "msrp": 48550,
-        "retained": 0.802
+        "retained": 0.8
       },
       {
         "year": 2024,
         "age": 2,
         "medianMileage": 29115,
-        "marketValue": 41851,
+        "marketValue": 41841,
         "msrp": 49000,
         "retained": 0.854
       },
@@ -1305,17 +1305,17 @@
         "year": 2025,
         "age": 1,
         "medianMileage": 28643,
-        "marketValue": 44101,
+        "marketValue": 44166,
         "msrp": 51500,
-        "retained": 0.856
+        "retained": 0.858
       },
       {
         "year": 2026,
         "age": 0,
-        "medianMileage": 3,
-        "marketValue": 54748,
+        "medianMileage": 4,
+        "marketValue": 54851,
         "msrp": 51295,
-        "retained": 1.067
+        "retained": 1.069
       }
     ],
     "Black Edition|gas": [
@@ -1323,7 +1323,7 @@
         "year": 2020,
         "age": 6,
         "medianMileage": 86119,
-        "marketValue": 27634,
+        "marketValue": 27616,
         "msrp": 49620,
         "retained": 0.557
       },
@@ -1331,9 +1331,9 @@
         "year": 2021,
         "age": 5,
         "medianMileage": 53991,
-        "marketValue": 33245,
+        "marketValue": 33477,
         "msrp": 50220,
-        "retained": 0.662
+        "retained": 0.667
       },
       {
         "year": 2022,
@@ -1381,15 +1381,15 @@
         "year": 2024,
         "age": 2,
         "medianMileage": 27741,
-        "marketValue": 42187,
+        "marketValue": 42134,
         "msrp": 48800,
-        "retained": 0.864
+        "retained": 0.863
       },
       {
         "year": 2025,
         "age": 1,
         "medianMileage": 16815,
-        "marketValue": 44778,
+        "marketValue": 44760,
         "msrp": 49400,
         "retained": 0.906
       },
@@ -1397,7 +1397,7 @@
         "year": 2026,
         "age": 0,
         "medianMileage": 3,
-        "marketValue": 53084,
+        "marketValue": 53094,
         "msrp": 50595,
         "retained": 1.049
       }
@@ -1407,7 +1407,7 @@
         "year": 2026,
         "age": 0,
         "medianMileage": 2,
-        "marketValue": 54470,
+        "marketValue": 54468,
         "msrp": 52295,
         "retained": 1.042
       }

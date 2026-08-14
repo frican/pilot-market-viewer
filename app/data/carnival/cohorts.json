@@ -1,0 +1,434 @@
+{
+  "generatedAt": "2026-08-14",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2022|LXS|gas": {
+      "year": 2022,
+      "trim": "LXS",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        66149,
+        66149
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "LXS|gas",
+      "msrp": null
+    },
+    "2023|EX|gas": {
+      "year": 2023,
+      "trim": "EX",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        70015,
+        70015
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "EX|gas",
+      "msrp": 38600
+    },
+    "2023|SX|gas": {
+      "year": 2023,
+      "trim": "SX",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        32186,
+        32186
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SX|gas",
+      "msrp": null
+    },
+    "2024|LX|gas": {
+      "year": 2024,
+      "trim": "LX",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        44368,
+        44368
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "LX|gas",
+      "msrp": 35600
+    },
+    "2024|EX|gas": {
+      "year": 2024,
+      "trim": "EX",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        21755,
+        90930
+      ],
+      "theilSen": {
+        "slope": -0.1054,
+        "intercept": 37483.97
+      },
+      "ols": {
+        "slope": -0.0892,
+        "intercept": 36505.48
+      },
+      "parentKey": "EX|gas",
+      "msrp": 39100
+    },
+    "2024|SX|gas": {
+      "year": 2024,
+      "trim": "SX",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        23555,
+        23555
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SX|gas",
+      "msrp": 42300
+    },
+    "2024|SX Prestige|gas": {
+      "year": 2024,
+      "trim": "SX Prestige",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        13039,
+        38164
+      ],
+      "theilSen": {
+        "slope": 0.0093,
+        "intercept": 38885.01
+      },
+      "ols": {
+        "slope": 0.0107,
+        "intercept": 38840.63
+      },
+      "parentKey": "SX Prestige|gas",
+      "msrp": 46700
+    },
+    "2025|LXS|gas": {
+      "year": 2025,
+      "trim": "LXS",
+      "powertrain": "gas",
+      "n": 3,
+      "mileageRange": [
+        5040,
+        31809
+      ],
+      "theilSen": {
+        "slope": -0.2392,
+        "intercept": 42795.54
+      },
+      "ols": {
+        "slope": -0.2789,
+        "intercept": 42649.0
+      },
+      "parentKey": "LXS|gas",
+      "msrp": null
+    },
+    "2025|SX Prestige|gas": {
+      "year": 2025,
+      "trim": "SX Prestige",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        48,
+        48
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SX Prestige|gas",
+      "msrp": null
+    },
+    "2025|SX Prestige|hybrid": {
+      "year": 2025,
+      "trim": "SX Prestige",
+      "powertrain": "hybrid",
+      "n": 1,
+      "mileageRange": [
+        3025,
+        3025
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SX Prestige|hybrid",
+      "msrp": 52900
+    },
+    "2026|LX|gas": {
+      "year": 2026,
+      "trim": "LX",
+      "powertrain": "gas",
+      "n": 7,
+      "mileageRange": [
+        0,
+        18
+      ],
+      "theilSen": null,
+      "ols": {
+        "slope": 33.8148,
+        "intercept": 37312.28
+      },
+      "parentKey": "LX|gas",
+      "msrp": null
+    },
+    "2026|LXS|gas": {
+      "year": 2026,
+      "trim": "LXS",
+      "powertrain": "gas",
+      "n": 44,
+      "mileageRange": [
+        0,
+        90
+      ],
+      "theilSen": null,
+      "ols": {
+        "slope": -1.753,
+        "intercept": 40647.22
+      },
+      "parentKey": "LXS|gas",
+      "msrp": 39390
+    },
+    "2026|EX|gas": {
+      "year": 2026,
+      "trim": "EX",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        5,
+        12340
+      ],
+      "theilSen": {
+        "slope": 0.0421,
+        "intercept": 42457.66
+      },
+      "ols": {
+        "slope": 0.0147,
+        "intercept": 42792.55
+      },
+      "parentKey": "EX|gas",
+      "msrp": 41590
+    },
+    "2026|SX Prestige|gas": {
+      "year": 2026,
+      "trim": "SX Prestige",
+      "powertrain": "gas",
+      "n": 6,
+      "mileageRange": [
+        10,
+        57
+      ],
+      "theilSen": null,
+      "ols": {
+        "slope": -66.0523,
+        "intercept": 55950.02
+      },
+      "parentKey": "SX Prestige|gas",
+      "msrp": 51490
+    },
+    "2026|SX|gas": {
+      "year": 2026,
+      "trim": "SX",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        11,
+        12
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SX|gas",
+      "msrp": null
+    },
+    "2026|LXS|hybrid": {
+      "year": 2026,
+      "trim": "LXS",
+      "powertrain": "hybrid",
+      "n": 2,
+      "mileageRange": [
+        1003,
+        21133
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "LXS|hybrid",
+      "msrp": 41390
+    },
+    "2026|SX|hybrid": {
+      "year": 2026,
+      "trim": "SX",
+      "powertrain": "hybrid",
+      "n": 1,
+      "mileageRange": [
+        8083,
+        8083
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SX|hybrid",
+      "msrp": 48490
+    }
+  },
+  "parents": {
+    "LXS|gas": {
+      "slope": -0.209,
+      "intercept": 41044.59
+    },
+    "EX|gas": {
+      "slope": -0.2019,
+      "intercept": 42459.41
+    },
+    "SX|gas": {
+      "slope": -0.3857,
+      "intercept": 47699.94
+    },
+    "LX|gas": {
+      "slope": -0.2372,
+      "intercept": 38121.61
+    },
+    "SX Prestige|gas": {
+      "slope": -0.4201,
+      "intercept": 53943.82
+    }
+  },
+  "depreciation": {
+    "EX|gas": [
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 70015,
+        "marketValue": 26578,
+        "msrp": 38600,
+        "retained": 0.689
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 43063,
+        "marketValue": 32598,
+        "msrp": 39100,
+        "retained": 0.834
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 16,
+        "marketValue": 42752,
+        "msrp": 41590,
+        "retained": 1.028
+      }
+    ],
+    "LX|gas": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 44368,
+        "marketValue": 28737,
+        "msrp": 35600,
+        "retained": 0.807
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 7,
+        "marketValue": 38120,
+        "msrp": null,
+        "retained": null
+      }
+    ],
+    "SX|gas": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 23555,
+        "marketValue": 36370,
+        "msrp": 42300,
+        "retained": 0.86
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 11,
+        "marketValue": 47696,
+        "msrp": null,
+        "retained": null
+      }
+    ],
+    "SX Prestige|gas": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 36205,
+        "marketValue": 38424,
+        "msrp": 46700,
+        "retained": 0.823
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 30,
+        "marketValue": 53931,
+        "msrp": 51490,
+        "retained": 1.047
+      }
+    ],
+    "LXS|gas": [
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 26525,
+        "marketValue": 36291,
+        "msrp": null,
+        "retained": null
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 10,
+        "marketValue": 41042,
+        "msrp": 39390,
+        "retained": 1.042
+      }
+    ],
+    "SX Prestige|hybrid": [
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 3025,
+        "marketValue": 51078,
+        "msrp": 52900,
+        "retained": 0.966
+      }
+    ],
+    "LXS|hybrid": [
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 11068,
+        "marketValue": 41354,
+        "msrp": 41390,
+        "retained": 0.999
+      }
+    ],
+    "SX|hybrid": [
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 8083,
+        "marketValue": 48813,
+        "msrp": 48490,
+        "retained": 1.007
+      }
+    ]
+  }
+}
